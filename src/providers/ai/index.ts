@@ -11,12 +11,7 @@ function buildProvider(providerName: string, model: string | null): AiProvider {
   }
 }
 
-/**
- * Resolves the AI provider to use for this call, checking the DB override
- * (set via PATCH /api/settings/ai) before falling back to env config.
- * Providers are cheap, stateless wrappers, so building one per call is fine —
- * this is what lets the active model be changed at runtime without a restart.
- */
+
 
 /**
  * Resolves the AI provider to use for this call, checking the DB override
