@@ -1,0 +1,26 @@
+[
+  {
+    "id": "greeting",
+    "intent": "greeting",
+    "patterns": ["hi", "hello", "hey"],
+    "approved_answer": "Hey! Thanks for reaching out — how can I help?",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "about_developer",
+    "intent": "about_me",
+    "patterns": ["are you a developer", "are you a programmer"],
+    "approved_answer": "Yes, I'm a full-stack developer.",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "pricing_inquiry",
+    "intent": "pricing",
+    "patterns": ["price", "how much", "cost", "rate"],
+    "approved_answer": "",
+    "auto_reply": false,
+    "risk": "high"
+  }
+]
