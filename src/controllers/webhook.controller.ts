@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { logger } from "../config/logger";
 import { whatsAppProvider } from "../providers/whatsapp/metaWhatsAppProvider";
-import { processInboundMessage } from "../services/messageService";
+import { processInboundMessage } from "../services/message.service";
 
 export function verifyWebhook(req: Request, res: Response): void {
   const mode = req.query["hub.mode"] as string;
