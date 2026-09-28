@@ -82,7 +82,7 @@
     ],
     "approved_answer": "আপনি এই লিংকের মাধ্যমে সরাসরি সুবিধাজনক সময়ে মিটিং বুক করতে পারেন: https://calendly.com/example 📅",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f27b9d631e54a08c6f3d72b195e840a7c29d61f5b83e4a0d",

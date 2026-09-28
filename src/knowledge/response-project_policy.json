@@ -11,7 +11,7 @@
     ],
     "approved_answer": "সাধারণত প্রজেক্টের ফিচার অনুযায়ী ৭ থেকে ১৫ দিন সময় লাগে। ⌛",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "d94b7e205a631f8c42e9a750b16c53f7e8042d19a6c35b8e",
@@ -64,7 +64,7 @@
     ],
     "approved_answer": "হ্যাঁ, উভয় পক্ষের নিরাপত্তার স্বার্থে আমরা অফিশিয়াল চুক্তিপত্র বা NDA স্বাক্ষর করি। 📜",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "b730e5a216d948c07f52a63e8914bc5d0a76f139e24c8b1",
@@ -78,7 +78,7 @@
     ],
     "approved_answer": "আমরা সেরা সিকিউরিটি স্ট্যান্ডার্ড মেনে কোড করি যেন ডেটা সম্পূর্ণ নিরাপদ থাকে। 🛡️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "4e96c1a703d85f2b617a940ce5297bd84f1306e2a758b9d",

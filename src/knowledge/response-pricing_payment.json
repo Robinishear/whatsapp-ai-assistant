@@ -58,7 +58,7 @@
     ],
     "approved_answer": "সাধারণত প্রজেক্ট শুরুর আগে 38% এডভান্স পেমেন্ট করতে হয়। 🔒",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f26b9d83c417e50a6d72f908b5314e69c085a27f1d6439b8",
@@ -72,7 +72,7 @@
     ],
     "approved_answer": "পেমেন্টের ট্রানজেকশন আইডি বা স্ক্রিনশট শেয়ার করুন, আমরা ভেরিফাই করছি। 🧾",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "b85e2c719a46d038f1c95e672d804ab3c7f2195e8d0634a1",
@@ -100,7 +100,7 @@
     ],
     "approved_answer": "আপনার বর্তমান বাকির হিসাব চেক করে বিস্তারিত তথ্য জানানো হচ্ছে। 📊",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "e17c5b904a62f831d7e49c2056f3a8b1c927d540e68f2a73",
@@ -135,7 +135,7 @@
     "patterns": ["kom bajet e hobe", "small budget", "কম বাজেটে হবে কি"],
     "approved_answer": "আপনার বাজেট কত আমাদের জানান, বাজেটের মধ্যে সেরা অপশনটি দেওয়ার চেষ্টা করব। 💡",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "8b52e6d4179c03fa6a84d125e7309c61f2b5478d095e3a24",
@@ -144,6 +144,6 @@
     "patterns": ["monthly charge", "maintenance cost", "মাসে মাসে কত দিতে হবে"],
     "approved_answer": "কোনো হিডেন বা মান্থলি চার্জ নেই, শুধুমাত্র  ডোমেইন ও হোস্টিং রিনিউয়াল ফি লাগবে। 💵",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   }
 ]

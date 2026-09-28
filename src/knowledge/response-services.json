@@ -42,7 +42,7 @@
     "patterns": ["custom feature add kora jabe", "এই ফিচারটা দেওয়া যাবে"],
     "approved_answer": "হ্যাঁ, যেকোনো কাস্টম ফিচার ডেভেলপ করা সম্ভব। আপনার রিকোয়ারমেন্ট বিস্তারিত বলুন। ⚙️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "c39f84e11d69c5aa93f71a2bb65a09fbec77bd60e9184603",
@@ -104,7 +104,7 @@
     ],
     "approved_answer": "আমরা WhatsApp, Facebook ও Web-এর জন্য কাস্টম AI চ্যাটবট তৈরি করি। বিস্তারিত জানার জন্য মিটিং বুক করুন। 🤖",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "5f5afc77a299b39542acca0af32ab592f48fb213afdfa65c",
@@ -199,7 +199,7 @@
     ],
     "approved_answer": "লোগো ও ব্র্যান্ডিংয়ের সুযোগ আছে কি না অ্যাডমিন নিশ্চিত করে জানাবে। আপনার ব্র্যান্ডের ধারণা শেয়ার করুন। 🎨",
     "auto_reply": false,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "593e51e6e71c9318c7f600fbd5c1da6692ffe8a35d229c6d",
@@ -214,7 +214,7 @@
     ],
     "approved_answer": "বিজ্ঞাপন পরিচালনার বিষয়ে অ্যাডমিন আপনাকে জানাবে। ওয়েবসাইটে Facebook Pixel ও ট্র্যাকিং আমরা সেটআপ করে দিতে পারি। 🎯",
     "auto_reply": false,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "582073f812d3eb80ce0526b1e5c8dc161a7a8065d330b275",
@@ -223,7 +223,7 @@
     "patterns": ["e-signature pad draw", "ডিজিটাল দস্তখত বা সাইন বোর্ড"],
     "approved_answer": "মোবাইল বা পিসির স্ক্রিনে আঙুল দিয়ে স্বাক্ষর বা ই-সিগনেচার দেওয়ার প্যাড থাকবে। ✍️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "8e355127cbadc2406bab0b7ece110e365399215b2d9bdad9",
@@ -250,7 +250,7 @@
     "patterns": ["kitchen order screen", "রেস্টুরেন্ট কিচেন ডিসপ্লে"],
     "approved_answer": "রেস্টুরেন্টের বাবুর্চিদের জন্য কিচেনে অর্ডার দেখার KDS স্ক্রিন ডেভেলপ করব। 🍳",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "347331a711466813aaba95c6c24e1065ed6fb6c067e01ad9",
@@ -259,7 +259,7 @@
     "patterns": ["waiter order tab app", "ওয়েটারদের টেবিল অর্ডার অ্যাপ"],
     "approved_answer": "ওয়েটাররা যেন ট্যাবলেটে টেবিলে বসেই অর্ডার নিতে পারে সেই অ্যাপ করা যাবে। 🍽️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "495f4beb629da02aed1bc73632b467d2441a6fac3730ce37",
@@ -289,7 +289,7 @@
     "patterns": ["diagnostic report download", "ডায়াগনস্টিক রিপোর্ট ডাউনলোড"],
     "approved_answer": "রোগীরা তাদের ল্যাব টেস্টের রিপোর্ট ফোন নম্বর দিয়ে ডাউনলোড করতে পারবে। 🧪",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f39aa2237e2f43b3c24d9fec029df49d164945fccc7a897e",
@@ -298,7 +298,7 @@
     "patterns": ["digital doctor prescription", "ডিজিটাল প্রেসক্রিপশন তৈরি"],
     "approved_answer": "ডাক্তারদের সহজে এক ক্লিকে প্যাডে প্রেসক্রিপশন লেখার সফটওয়্যার করব। 💊",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "493faeb3f7348b7fee2b42982f54e3f1a4e4dc5e0a0ca99b",
@@ -307,7 +307,7 @@
     "patterns": ["serial token display", "সিরিয়াল টোকেন ডিসপ্লে"],
     "approved_answer": "ব্যাংক বা হাসপাতালে লাইন এড়াতে ডিজিটাল টোকেন ও কিউ ম্যানেজমেন্ট সিস্টেম। 🎟️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "830fa17ae01602eb5864df0c93f37746324b9618fa505c48",
@@ -328,7 +328,7 @@
     "patterns": ["mcq test online exam", "অনলাইন পরীক্ষা ও কুইজ টেস্ট"],
     "approved_answer": "টাইমার সহ MCQ পরীক্ষা দেওয়া এবং অটোমেটিক নম্বর পাওয়ার সিস্টেম বানিয়ে দেব। 📝",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "6d069d8cc413be61cfd36fa93fb11fd7c6d43f0673dca3bd",
@@ -349,7 +349,7 @@
     "patterns": ["360 degree virtual tour", "৩৬০ ডিগ্রি প্রোপার্টি ভিউ"],
     "approved_answer": "ফ্ল্যাট বা জমির ৩৬০ ডিগ্রি ভার্চুয়াল ট্যুর ইন্টিগ্রেশন করে দিতে পারব। 🏠",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "3c1adda8cc834f48c5c4ae832d15b3b7a41c4ea8a843e824",
@@ -379,7 +379,7 @@
     "patterns": ["fleet fuel calculation", "জ্বালানি তেল খরচ হিসাব"],
     "approved_answer": "গাড়ি বা ফ্লিটের জ্বালানি খরচ ও মাইলেজ ট্র্যাকিং করার সফটওয়্যার করা সম্ভব। ⛽",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "9c9755492e06f4415adf2b9d51de95f03585d582e3a11a2a",
@@ -388,7 +388,7 @@
     "patterns": ["gps attendance app", "জিপিএস লোকেশন দিয়ে হাজিরা"],
     "approved_answer": "মাঠ পর্যায়ের কর্মীরা তাদের জিপিএস লোকেশন থেকে হাজিরা দিতে পারবে। 📍",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "4b547881512126aec5599efbd29570bd93d679d2a5c6c80a",
@@ -397,7 +397,7 @@
     "patterns": ["salary slip payroll system", "বেতন ও পে-রোল হিসাব"],
     "approved_answer": "কর্মচারীদের ওভারটাইম, বোনাস ও ডিডাকশন হিসাব করে পে-রোল তৈরি করা যাবে। 💵",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "4228949d31983d682e5e9e7c64fbb43d777d11141ddcb4a7",
@@ -433,7 +433,7 @@
     "patterns": ["po requisitions system", "পারচেজ অর্ডার বা রিকুইজিশন"],
     "approved_answer": "সাপ্লায়ারদের পারচেজ অর্ডার দেওয়া ও রিসিভ কনফার্ম করার প্রসিডিউর মডিউল। 📦",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "e028cc14f05940f4aabd26a28d25af826cf7e2b8fa34da01",
@@ -442,7 +442,7 @@
     "patterns": ["vendor login dashboard", "সাপ্লায়ারদের আলাদা ড্যাশবোর্ড"],
     "approved_answer": "সাপ্লায়াররা লগইন করে তাদের বিল ও ইনভেন্টরি আপডেট দেখতে পারবে। 🏬",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "ddcb08118d360b6da58a295ae051e8079c97411a1109a697",
@@ -463,7 +463,7 @@
     ],
     "approved_answer": "লাইভ চ্যাটে একাধিক সাপোর্ট এজেন্টের মধ্যে কাস্টমার চ্যাট হ্যান্ডওভার সিস্টেম। 💬",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "20570b7b03c45475dd5b8f668b74e24b0aabf05a28c25bf6",
@@ -564,7 +564,7 @@
     "patterns": ["windows desktop app .exe", "উইন্ডোজ পিসির সফটওয়্যার"],
     "approved_answer": "আমরা Electron.js দিয়ে Windows ও Mac এর জন্য ডেক্সটপ অ্যাপও বানাই। 🖥️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "ca0395d259c9a4e0b656b941a4f5d8b782b0770b2c929ca6",
@@ -576,7 +576,7 @@
     ],
     "approved_answer": "আপনার কাজের সুবিধার্থে কাস্টম Chrome Extension বানিয়ে দেওয়া সম্ভব। 🧩",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "ef4004373ea7d4ed3801fec9607a9d15d851bb5be3cdaf17",
@@ -621,7 +621,7 @@
     "patterns": ["linkedin automation data tool", "লিঙ্কডইন লিড সংগ্রহ টুল"],
     "approved_answer": "লিঙ্কডইন থেকে ডেটা ও বিটুবি লিড সংগ্রহের কাস্টম টুল তৈরি করা যাবে। 💼",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "b4af26e09362328a72186648d8c5d2cfb6b2f0a91de2bd8c",
@@ -633,7 +633,7 @@
     ],
     "approved_answer": "Python BeautifulSoup/Selenium দিয়ে যেকোনো পাবলিক সাইটের ডেটা স্ক্র্যাপ করতে পারি। 🕷️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "8eb936edadf1559cb0cbb6bc468f153c05bc76e39f33041e",
@@ -651,7 +651,7 @@
     "patterns": ["n8n workflow setup", "n8n অটোমেশন ওয়ার্কফ্লো"],
     "approved_answer": "সম্পূর্ণ বিনামূল্যে ও সেকিউর n8n অটোমেশন সার্ভার সেটআপ করে দেব। 🔄",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "8803d0d6dac9603ffe12897e8d9632522d0637ad1935d314",
@@ -663,7 +663,7 @@
     ],
     "approved_answer": "আপনার সকল পুরনো ইউজার, প্রোডাক্ট ও অর্ডারের ডেটা অক্ষত রেখে নতুন সাইটে মাইগ্রেট করব। 📦",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "9ae887bb829dd2e70f2b7e7882e2f6ae43e7df86da8e67bc",
@@ -681,7 +681,7 @@
     "patterns": ["meta whatsapp cloud api", "হোয়াটসঅ্যাপ ক্লাউড এপিআই"],
     "approved_answer": "Official WhatsApp Cloud API অ্যাকাউন্ট তৈরি ও টেমপ্লেট অনুমোদন করে দেওয়া হবে। 📲",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "0c658a53f3599c2cc293c290408c996277757e823d6dda2e",
@@ -762,7 +762,7 @@
     "patterns": ["saas application", "সাস প্ল্যাটফর্ম তৈরি"],
     "approved_answer": "মাল্টি-টেন্যান্ট SaaS সফটওয়্যার ডেভেলপ করার পূর্ণ অভিজ্ঞতা আমাদের রয়েছে। 💻",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "cdd1b7e4cb4745e90c524cb01b7efd6963adf6126e1129ba",
@@ -771,7 +771,7 @@
     "patterns": ["multivendor website", "মাল্টি ভেন্ডর সাইট"],
     "approved_answer": "দারাজ বা অ্যামাজনের মতো মাল্টি-ভেন্ডর ই-কমার্স প্ল্যাটফর্ম আমরা বানিয়ে দিই। 🏬",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "e3702ee0208de089ae56fce26cb3ceb5e6d8c97c5a08ba61",
@@ -780,7 +780,7 @@
     "patterns": ["uber like app", "রাইড শেয়ারিং অ্যাপ"],
     "approved_answer": "রাইডার ও ড্রাইভার অ্যাপসহ সম্পূর্ণ রাইড শেয়ারিং সল্যুশন ডেভেলপ করতে পারি। 🚗",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f8e781a021d313be3f5dfeb9facb1608025cc86b1007cfc1",
@@ -789,7 +789,7 @@
     "patterns": ["foodpanda like app", "ফুড ডেলিভারি অ্যাপ"],
     "approved_answer": "কাস্টমার, রেস্টুরেন্ট এবং ডেলিভারিম্যান ট্র্যাকিং সহ ফুড অ্যাপ বানিয়ে দেব। 🍕",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "132b4c55dc712831c8b515bb1c15c6abbbd088866868e028",
@@ -798,7 +798,7 @@
     "patterns": ["doctor appointment app", "ডাক্তার অ্যাপয়েন্টমেন্ট অ্যাপ"],
     "approved_answer": "ডাক্তার প্রেসক্রিপশন ও রোগী অ্যাপয়েন্টমেন্টের টেলিমেডিসিন প্ল্যাটফর্ম করা সম্ভব। 🩺",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "bcd97b9c5fcf952ea75530de5df37c2eb9d5626b4f834780",
@@ -807,7 +807,7 @@
     "patterns": ["hotel room booking site", "হোটেল বুকিং সাইট"],
     "approved_answer": "রুম এভেলিবিলিটি ও পেমেন্টসহ প্রফেশনাল হোটেল বুকিং সিস্টেম বানানো যাবে। 🏨",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "5c924648f3e0463168ded8f71a6d7959a8817e154d39b744",
@@ -816,7 +816,7 @@
     "patterns": ["bus ticket booking site", "টিকিট কাটার ওয়েবসাইট"],
     "approved_answer": "বাস, লঞ্চ বা ইভেন্ট টিকিট বুকিং প্ল্যাটফর্ম ডেভেলপমেন্ট সার্ভিস দিচ্ছি। 🎟️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "7eddd87dd5345899195ae37ee6a3feca27c28684bc773ed3",
@@ -825,7 +825,7 @@
     "patterns": ["school college software", "স্কুল ম্যানেজমেন্ট সফটওয়্যার"],
     "approved_answer": "ছাত্রছাত্রীদের রেজাল্ট, ফি এবং এটেন্ডেন্সসহ স্কুল সফটওয়্যার বানিয়ে থাকি। 🏫",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "d2b8db767a210e966b04451ed4e0183b985b0d62e96d6c87",
@@ -834,7 +834,7 @@
     "patterns": ["hospital er software", "হাসপাতাল ম্যানেজমেন্ট"],
     "approved_answer": "ইনডোর/আউটডোর ও প্যাথলজি বিলিং সহ কমপ্লিট হসপিটাল সফটওয়্যার রয়েছে। 🏥",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "dd13efd1a0b8dd6e707217f435d15327866afb6103c21e9b",
@@ -870,7 +870,7 @@
     "patterns": ["matrimony site make", "ম্যারেজ মিডিয়া সাইট"],
     "approved_answer": "বায়োডেটা ম্যাচমেকিং ও প্রোফাইল ফিল্টার সহ ম্যাট্রিমোনিয়াল সাইট করা যাবে। 💍",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "facef10279b9f4654742e68bfde5750e8655ae218d1b673b",
@@ -879,7 +879,7 @@
     "patterns": ["bdjobs like site", "জব পোর্টাল ওয়েবসাইট"],
     "approved_answer": "এমপ্লয়ার ও ক্যান্ডিডেটদের জন্য ফুল-ফিচারড জব পোর্টাল তৈরি করে দিতে পারব। 💼",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f56ba1d4e0819c8adc6865075cad3896f4b52c4611cc954c",
@@ -888,7 +888,7 @@
     "patterns": ["bikroy like site", "ক্লাসিফাইড বিজ্ঞাপন সাইট"],
     "approved_answer": "পণ্য কেনাবেচা ও বিজ্ঞাপন পোস্ট করার ক্লাসিফাইড ওয়েবসাইট তৈরি করা যাবে। 📢",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "2a1ab137068bcc9044101237f2df4c75e1b9a27a119da0c4",
@@ -897,7 +897,7 @@
     "patterns": ["donation website", "ডোনেশন বা ফান্ড তোলার সাইট"],
     "approved_answer": "ডোনেশন সংগ্রহ ও ক্রাউডফান্ডিং ক্যাম্পেইন চালানোর ওয়েবসাইট করা সম্ভব। 🤲",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "21c312367f5a54f5a57c14ec5a82fa40577921f7884ce490",
@@ -987,7 +987,7 @@
     "patterns": ["auto deployment cicd", "সিআই সিডি পাইপলাইন"],
     "approved_answer": "অটোমেটিক বিল্ড ও ডেপ্লয়মেন্টের জন্য GitHub Actions/GitLab CI সেটআপ করা হবে। 🔄",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "2fc64e9d0bc70925f23bfe421a631eecb79bad2df9a915e2",
@@ -996,7 +996,7 @@
     "patterns": ["dockerize project", "ডকার কনটেইনার"],
     "approved_answer": "আপনার অ্যাপ্লিকেশন ডকার দিয়ে কনটেইনারাইজ করে সার্ভারে রান করে দেওয়া হবে। 🐳",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "270712123b7bb8fd47d10eca0ecd98a72320c13236b7da31",
@@ -1023,7 +1023,7 @@
     "patterns": ["webrtc setup", "ওয়েব আরটিসি কলিং"],
     "approved_answer": "WebRTC প্রযুক্তি ব্যবহার করে ব্রাউজার টু ব্রাউজার সরাসরি কলিং সিস্টেম করা সম্ভব। 📹",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
 
  
@@ -1079,7 +1079,7 @@
     "patterns": ["ocr system", "ছবি থেকে লেখা পড়া"],
     "approved_answer": "এনআইডি বা ডকুমেন্টের ছবি থেকে তথ্য রিড করার OCR সিস্টেম করতে পারি। 🔍",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "33de1cfafdc3f4055c05583dc9366f75dc4630479ea2637c",
@@ -1088,7 +1088,7 @@
     "patterns": ["face detection app", "ফেস ডিটেকশন এটেন্ডেন্স"],
     "approved_answer": "AI দিয়ে ফেস ডিটেকশন ও অ্যাটেনডেন্স ট্র্যাকিং অ্যাপ বানানো যাবে। 👤",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "0d93f14b2421b40a2a11136bc07a491f521bc0d4d5d3544a",
@@ -1178,7 +1178,7 @@
     "patterns": ["block bad ip", "আইপি ব্লক করা"],
     "approved_answer": "ক্ষতিকর বা স্প্যামারদের আইপি সিস্টেম থেকে ব্লক করার সুবিধা রাখা যাবে। 🚫",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "af8699ca2206020cef9fd10b7f2d28abed6fdebe7f08c149",
@@ -1217,7 +1217,7 @@
     ],
     "approved_answer": "ইউজারদের জন্য লিংক শেয়ার করে কমিশন পাওয়ার রেফারেল সিস্টেম বানাব। 🔗",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "656e34ffcc95bfc85980bb3ad0903e113adbc663f92011dc",
@@ -1235,7 +1235,7 @@
     "patterns": ["recurring payment", "মাসিক সাবস্ক্রিপশন ফি আদায়"],
     "approved_answer": "অটোমেটিক মান্থলি বা বাৎসরিক সাবস্ক্রিপশন বিলিং সিস্টেম ডেভেলপ করব। 🔄",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "5dc79317270a0b595ce4bff0448c98cb8a358f22c118365e",
@@ -1325,7 +1325,7 @@
     "patterns": ["vimeo aws s3 video player", "ভিডিও স্ট্রিম করা সাইট"],
     "approved_answer": "কোর্স বা মুভির সেকিউর ভিডিও স্ট্রিমিং প্লেয়ার কনফিগার করে দেব। 🎬",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "e7cdfdb43dd76c3e9c4be2d7f797fec407162c1103e19c3d",
@@ -1370,7 +1370,7 @@
     "patterns": ["nearby store search", "কাছের দোকান খোঁজার ফিচার"],
     "approved_answer": "ইউজারের কারেন্ট লোকেশন অনুযায়ী নিকটস্থ স্টোর খুঁজে বের করার ম্যাপ ফিচার করা যাবে। 📍",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "62d610598bbb8f405a3307351866c73c38231dcd5a981073",
@@ -1424,7 +1424,7 @@
     "patterns": ["sendgrid transactional mail", "সেন্ডগ্রিড সেটআপ"],
     "approved_answer": "ইনবক্সে ইমেইল ১০০% পৌঁছানোর জন্য SendGrid SMTP কনফিগার করব। 📧",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "8f92ee9fed13490f1fe0e931f1c58d9f89bd91087622afe3",
@@ -1912,7 +1912,7 @@
     "patterns": ["work without internet PWA", "ইন্টারনেট ছাড়াও সাইট চলা"],
     "approved_answer": "সার্ভিস ওয়ার্কার দিয়ে অফলাইনেও আগের লোড হওয়া পেজ দেখার ব্যবস্থা করা যাবে। 📶",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "7d8f83be12ed1ff415a443dfe0b2d6a1acea356c051f3615",
@@ -1921,7 +1921,7 @@
     "patterns": ["device tracking security", "ডিভাইস আইডি ট্র্যাকিং"],
     "approved_answer": "নিরাপত্তার স্বার্থে ইউজারের ইউনিক ডিভাইস আইডি ট্র্যাক করার সিস্টেম করা যাবে। 📱",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "5427d988e8d80987f55414898655dffe593e10430ab467fe",
@@ -2121,7 +2121,7 @@
     "patterns": ["vps server manage", "ভিপিএস সার্ভার ম্যানেজমেন্ট"],
     "approved_answer": "আমরা Linux/Ubuntu VPS সার্ভার সেটআপ, সিকিউরিটি ও মেইনটেনেন্স করে থাকি। 🖥️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "3e8a17c5d94b602f71c3e0a8469d52b7f1a6c438e05d29f1",
@@ -2268,7 +2268,7 @@
     "patterns": ["site slow", "website fast korte chai", "সাইট স্লো কাজ করছে"],
     "approved_answer": "আমরা আপনার ওয়েবসাইটের কোড ও ইমেজ অপটিমাইজ করে স্পিড বাড়িয়ে দেব। ⚡",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "68e31f7a025c94d6b18e53a907f42cbd6e10a85f39c72104",
@@ -2308,7 +2308,7 @@
     "patterns": ["crm banate chai", "কাস্টমার ম্যানেজমেন্ট সফটওয়্যার"],
     "approved_answer": "আমরা বিজনেসের প্রয়োজন অনুযায়ী কাস্টম CRM তৈরি করে থাকি। 📊",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "f184b3c6097e52a1d63f0c948b275e86a419d70c3e56b92f",
@@ -2317,7 +2317,7 @@
     "patterns": ["inventory software", "স্টক ম্যানেজমেন্ট সাইট"],
     "approved_answer": "ইনভেন্টরি ও স্টক ট্র্যাকিং সফটওয়্যার ডেভেলপ করার সুবিধা রয়েছে। 📦",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "72e5c1a90f4638bd15a7e2c604f9b531d86c40a7e2159f3b",
@@ -2371,7 +2371,7 @@
     "patterns": ["long term maintenance", "দীর্ঘমেয়াদী মেইনটেনেন্স"],
     "approved_answer": "আমরা প্রজেক্টভিত্তিক ও মাসিক চুক্তিতে দীর্ঘমেয়াদী মেইনটেনেন্স সার্ভিস দিই। 🔄",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "3b7f1e94c052d86a15e9b43067c2f581a604d7e93f18c25b",
@@ -2389,7 +2389,7 @@
     "patterns": ["aws deploy", "vps setup", "ক্লাউড হোস্ট বা ভিপিএস সেটআপ"],
     "approved_answer": "AWS, DigitalOcean বা VPS সার্ভারে সাইট ও ডেটাবেজ ডেপ্লয় করে দেওয়ার অভিজ্ঞতা আছে। ☁️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "84d2e5c71a0396bf15c8e470b261f953a7d40c9e6821b35f",
@@ -2407,7 +2407,7 @@
     "patterns": ["k"],
     "approved_answer": "ku",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "6c04e8f217a93d5b71e60c4289f35a0dcb64e1753a82f91e",
@@ -2475,7 +2475,7 @@
     ],
     "approved_answer": "অডিও কলে কথা বলতে চাইলে সুবিধাজনক একটি সময় জানান, অথবা সরাসরি কল করুন। 📞",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "e62a5c903f174bd81e0a739c46d251f8b57c92a6041d3e75",
@@ -2489,7 +2489,7 @@
     ],
     "approved_answer": "ভিডিও কলের জন্য গুগল মিট বা জুম লিংক শেয়ার করে কথা বলা যাবে। 📹",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "97c1e54a208d63fb15a0e72c8469b531d4f87a6092e35c1b",
@@ -2503,6 +2503,6 @@
     ],
     "approved_answer": "আপনার AnyDesk বা TeamViewer আইডি শেয়ার করুন, সংযোগ দিচ্ছি। 🖥️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   }
 ]

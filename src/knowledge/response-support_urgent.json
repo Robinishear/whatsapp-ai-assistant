@@ -81,7 +81,7 @@
     ],
     "approved_answer": "হ্যাঁ, মনে আছে! আপনি বিষয়টির আপডেট জানতে চাচ্ছেন? আমি বিস্তারিত চেক করে জানাচ্ছি। 💬",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "4dd55b481dfce56d7a5b287f2aa739740ab50dccaf5a4d25",
@@ -96,7 +96,7 @@
     ],
     "approved_answer": "আপনার দেওয়া কাজটি নিয়ে কাজ চলছে। শেষ হওয়া মাত্রই আপনাকে নিশ্চিত করব! 🛠️",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "3ef694418f692b40df82ca6ca1d90107b4c8329fa5347b90",
@@ -111,7 +111,7 @@
     ],
     "approved_answer": "কাজটির একদম শেষ পর্যায়ে আছি, অল্প কিছুক্ষণ পরেই আপনাকে ফাইনাল রেজাল্ট পাঠাচ্ছি। ✅",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "a9cd30de59f36355f3b146117c4cc52d26e46bfb351382af",
@@ -120,7 +120,7 @@
     "patterns": ["not secure dekhatse", "ssl renew", "এসএসএল এরর দেখাচ্ছে"],
     "approved_answer": "আপনার সাইটের SSL এক্সপায়ার হয়েছে। আমরা এটি আবার বিনামূল্যে রিনিউ করে দিচ্ছি। 🔒",
     "auto_reply": true,
-    "risk": "medium"
+    "risk": "low"
   },
   {
     "id": "33c3b8d435b402de9c7052c95f0317aac8875e4c21362f5a",

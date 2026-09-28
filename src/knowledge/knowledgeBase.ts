@@ -3,7 +3,7 @@ import path from "node:path";
 import { KnowledgeMatch, RiskLevel } from "../types/providers";
 
 interface ResponseRule {
-  id: number;
+  id: string;
   intent: string;
   patterns: string[];
   approved_answer: string;
