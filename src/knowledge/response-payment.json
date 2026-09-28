@@ -1,7 +1,6 @@
-
-  [
+[
   {
-    "id": "456",
+    "id": "7479f1a0787671db63a409ef86db931a80013e7b970f5d86",
     "category": "payment",
     "intent": "payment_installment",
     "patterns": [
@@ -16,7 +15,7 @@
     "risk": "high"
   },
   {
-    "id": "457",
+    "id": "e78d6a115a2497454b69581e1d6948e9952fb560e1c34431",
     "category": "payment",
     "intent": "wrong_number_payment",
     "patterns": [
@@ -30,7 +29,7 @@
     "risk": "high"
   },
   {
-    "id": "458",
+    "id": "ef87ceef0cdca1b2b0e44e44a0563cb4de24d06af696a36f",
     "category": "payment",
     "intent": "payment_failed",
     "patterns": [
@@ -45,7 +44,7 @@
     "risk": "high"
   },
   {
-    "id": "459",
+    "id": "cdd022a8558cd43ac43b4f877d6b094d20acc67739504f4a",
     "category": "payment",
     "intent": "refund_request_now",
     "patterns": [
@@ -59,7 +58,7 @@
     "risk": "high"
   },
   {
-    "id": "460",
+    "id": "425bd81c1922f812b6f13561fb6032f93fa02ee4dd5bc9df",
     "category": "payment",
     "intent": "hosting_renewal_query",
     "patterns": [

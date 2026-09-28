@@ -1,8 +1,6 @@
-
-
-  [
+[
   {
-    "id": "439",
+    "id": "e6a91c74b2058d3f19f47a6c8205e1b93d75f042c681a9",
     "category": "trust",
     "intent": "fake_company_doubt",
     "patterns": [
@@ -18,7 +16,7 @@
     "risk": "medium"
   },
   {
-    "id": "440",
+    "id": "7b3f92d1a6480ce574e21f9c3058a6d42b7e150936c84fa",
     "category": "trust",
     "intent": "advance_fear",
     "patterns": [
@@ -33,7 +31,7 @@
     "risk": "medium"
   },
   {
-    "id": "441",
+    "id": "c51e8a7264d903bf17f5c2e948a61d730b9e45c8162fa7",
     "category": "trust",
     "intent": "cheaper_elsewhere",
     "patterns": [
@@ -48,7 +46,7 @@
     "risk": "high"
   },
   {
-    "id": "442",
+    "id": "a94d61f3c8275be209e68a1475c30f926b71d8450ac63e",
     "category": "trust",
     "intent": "company_experience",
     "patterns": [
@@ -62,7 +60,7 @@
     "risk": "low"
   },
   {
-    "id": "443",
+    "id": "d28c75a104e936bf8a51c703e2d649f17b835a0c4269de",
     "category": "trust",
     "intent": "team_size",
     "patterns": [
@@ -77,7 +75,7 @@
     "risk": "low"
   },
   {
-    "id": "444",
+    "id": "4f82a6c913e57bd0219c45a7680de3f51b926a704c8d1e",
     "category": "trust",
     "intent": "client_reviews",
     "patterns": [
@@ -92,7 +90,7 @@
     "risk": "low"
   },
   {
-    "id": "445",
+    "id": "b73e19d642a80cf517d95e3c6812f4a907c56b8e31da2f",
     "category": "trust",
     "intent": "freelancer_vs_agency",
     "patterns": [
@@ -106,7 +104,7 @@
     "risk": "medium"
   },
   {
-    "id": "446",
+    "id": "f16b83e295c704ad61e92f5a0378bc4d710e6c82a49d35",
     "category": "trust",
     "intent": "result_guarantee",
     "patterns": [
@@ -121,7 +119,7 @@
     "risk": "medium"
   },
   {
-    "id": "447",
+    "id": "82c5f1a709e346bd27d68a5c9130ef4b76a24d9c5801e3",
     "category": "trust",
     "intent": "owner_contact",
     "patterns": [
@@ -136,7 +134,7 @@
     "risk": "medium"
   },
   {
-    "id": "448",
+    "id": "e47a21c936d805bf519e63a7482c90d17b56f4a8e31c72",
     "category": "trust",
     "intent": "domain_ownership",
     "patterns": [
@@ -150,7 +148,7 @@
     "risk": "medium"
   },
   {
-    "id": "449",
+    "id": "91d6c8a374e50bf2169a83c7054d21f68b93e47a0c52d1",
     "category": "trust",
     "intent": "admin_access_handover",
     "patterns": [

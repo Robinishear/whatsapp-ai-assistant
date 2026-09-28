@@ -1,7 +1,6 @@
-
 [
   {
-    "id": "491",
+    "id": "f3d1c9a6142dfd7b128b97cef21890921c321f40e3c744e7",
     "category": "fun_chat",
     "intent": "cricket_fever",
     "patterns": [
@@ -16,7 +15,7 @@
     "risk": "low"
   },
   {
-    "id": "492",
+    "id": "1f992a57ffd27cea2630d6c1c0251916e8cf4aafaf743eb5",
     "category": "fun_chat",
     "intent": "football_fan",
     "patterns": [
@@ -30,7 +29,7 @@
     "risk": "low"
   },
   {
-    "id": "493",
+    "id": "d0210e3b8bcae419f206e9f05876943f36bb20fdae886f6d",
     "category": "fun_chat",
     "intent": "cricket_loss",
     "patterns": [
@@ -44,7 +43,7 @@
     "risk": "low"
   },
   {
-    "id": "494",
+    "id": "82809cd97b2bbbe13fcedb2cd9386fb86da43496ba022545",
     "category": "fun_chat",
     "intent": "eid_salami",
     "patterns": ["সালামি দাও", "ঈদের সালামি", "salami koto pelam", "ঈদ সালামি"],
@@ -53,7 +52,7 @@
     "risk": "low"
   },
   {
-    "id": "495",
+    "id": "346a6bc295b202d9b0147e83064cb3f045445480b537fdf0",
     "category": "fun_chat",
     "intent": "iftar_menu",
     "patterns": [
@@ -67,7 +66,7 @@
     "risk": "low"
   },
   {
-    "id": "496",
+    "id": "37893f9283c7c0763c5687f9cae43e1c5b9c50224de3437c",
     "category": "fun_chat",
     "intent": "pohela_boishakh",
     "patterns": [
@@ -81,7 +80,7 @@
     "risk": "low"
   },
   {
-    "id": "497",
+    "id": "f6a74bd2e042ecf60996984829bded9739c6a47f6a1d6b67",
     "category": "fun_chat",
     "intent": "bazar_price",
     "patterns": ["পেঁয়াজের দাম", "বাজারে আগুন", "বাজার দর", "bazar dor"],
@@ -90,7 +89,7 @@
     "risk": "low"
   },
   {
-    "id": "498",
+    "id": "fc8c84e96e8c7b8fd4b0e10d7cc88843955436dd37b5d075",
     "category": "fun_chat",
     "intent": "hilsa_price",
     "patterns": ["ইলিশ মাছের দাম", "ইলিশ কিনব", "ilish koto", "ইলিশ খাব"],
@@ -99,7 +98,7 @@
     "risk": "low"
   },
   {
-    "id": "499",
+    "id": "3bf53bb403aafd2801251932c5e0f5c9ac2fe82de5a56acd",
     "category": "fun_chat",
     "intent": "gas_crisis",
     "patterns": ["গ্যাস নাই", "চুলা জ্বলে না", "গ্যাসের সমস্যা", "gas nai"],
@@ -108,7 +107,7 @@
     "risk": "low"
   },
   {
-    "id": "500",
+    "id": "bd443c5eea3fe3873066f120c0b875cbc013762628a63e69",
     "category": "fun_chat",
     "intent": "cng_fare",
     "patterns": [
@@ -122,7 +121,7 @@
     "risk": "low"
   },
   {
-    "id": "501",
+    "id": "3cb540bbba80fa4a373b53174b4f8719fb61059f1e1c1136",
     "category": "fun_chat",
     "intent": "metro_rail",
     "patterns": ["মেট্রোরেল", "মেট্রো ভিড়", "metro te uthbo", "মেট্রো টিকিট"],
@@ -131,7 +130,7 @@
     "risk": "low"
   },
   {
-    "id": "502",
+    "id": "0761a10aa0f48c8461db5a1f03b557387f94dc6ec6a00786",
     "category": "fun_chat",
     "intent": "traffic_signal",
     "patterns": [
@@ -145,7 +144,7 @@
     "risk": "low"
   },
   {
-    "id": "503",
+    "id": "090b06a35000cb503a377d7ab47288a848804651a82876b2",
     "category": "fun_chat",
     "intent": "petrol_price",
     "patterns": [
@@ -159,7 +158,7 @@
     "risk": "low"
   },
   {
-    "id": "504",
+    "id": "cf4ca392cb958ea1114f7a5697d143c3e7f45fb2faae1088",
     "category": "fun_chat",
     "intent": "whatsapp_last_seen",
     "patterns": [
@@ -173,7 +172,7 @@
     "risk": "low"
   },
   {
-    "id": "505",
+    "id": "6e40eccca7a70a6f9cce99b25b313ba05a3d2217206dba3c",
     "category": "fun_chat",
     "intent": "blue_tick_zone",
     "patterns": ["ব্লু টিক", "blue tick", "seen zone", "সিন জোনে আছি"],
@@ -182,7 +181,7 @@
     "risk": "low"
   },
   {
-    "id": "506",
+    "id": "7bc3a2e79aa8a9594e2b1592597f9de2b2567735b63631bd",
     "category": "fun_chat",
     "intent": "long_voice_message",
     "patterns": [
@@ -196,7 +195,7 @@
     "risk": "low"
   },
   {
-    "id": "507",
+    "id": "dbc629337ca6cbe6e238f6bfcf290aa7d8deb98672b76518",
     "category": "fun_chat",
     "intent": "group_chat_spam",
     "patterns": [
@@ -210,7 +209,7 @@
     "risk": "low"
   },
   {
-    "id": "508",
+    "id": "4946e8e37ce10a1a1a095c94ab85c2f80e9403b83b83a31d",
     "category": "fun_chat",
     "intent": "data_pack_end",
     "patterns": [
@@ -224,7 +223,7 @@
     "risk": "low"
   },
   {
-    "id": "509",
+    "id": "2af5412a504398c8e57d02fa3c737099aa5550b0459bc626",
     "category": "fun_chat",
     "intent": "mobile_recharge",
     "patterns": [
@@ -238,7 +237,7 @@
     "risk": "low"
   },
   {
-    "id": "510",
+    "id": "0aa994358f6307f8483a2bcf98fee3914c24f33dd342124a",
     "category": "fun_chat",
     "intent": "phone_screen_crack",
     "patterns": [
@@ -252,7 +251,7 @@
     "risk": "low"
   },
   {
-    "id": "511",
+    "id": "2a2ed5f45900955a89437c1e024a7e971fdb8853239a07e2",
     "category": "fun_chat",
     "intent": "phone_lost_search",
     "patterns": [
@@ -266,7 +265,7 @@
     "risk": "low"
   },
   {
-    "id": "512",
+    "id": "3965ca9c4ce6c84d5fa8d18040e4cb5a84082cde22e64cef",
     "category": "fun_chat",
     "intent": "glasses_lost",
     "patterns": [
@@ -280,7 +279,7 @@
     "risk": "low"
   },
   {
-    "id": "513",
+    "id": "31c52636a3949aa6f621a2d8611241e5fdb353f721b39134",
     "category": "fun_chat",
     "intent": "keys_lost",
     "patterns": [
@@ -294,7 +293,7 @@
     "risk": "low"
   },
   {
-    "id": "514",
+    "id": "008a85d5aa0cb8b2b1411c3479b951f8396220fd523437ff",
     "category": "fun_chat",
     "intent": "umbrella_lost",
     "patterns": [
@@ -308,7 +307,7 @@
     "risk": "low"
   },
   {
-    "id": "515",
+    "id": "62844b4a643d85fc71e0e0d3f2e845846d121e96d82c18d2",
     "category": "fun_chat",
     "intent": "netflix_binge",
     "patterns": ["নেটফ্লিক্স", "ওয়েব সিরিজ", "সিরিজ দেখব", "binge watch"],
@@ -317,7 +316,7 @@
     "risk": "low"
   },
   {
-    "id": "516",
+    "id": "720dbfdb93bd1177d6f8d0e63ad5c2075f0efc5d0decf3e8",
     "category": "fun_chat",
     "intent": "bangla_natok",
     "patterns": ["নাটক দেখি", "ঈদের নাটক", "bangla natok", "ধারাবাহিক নাটক"],
@@ -326,7 +325,7 @@
     "risk": "low"
   },
   {
-    "id": "517",
+    "id": "aff6197962cf586f884f288d774a060d435b4383416fabd9",
     "category": "fun_chat",
     "intent": "crying_at_movie",
     "patterns": [
@@ -340,7 +339,7 @@
     "risk": "low"
   },
   {
-    "id": "518",
+    "id": "6735a4c9de25676e5eeb71194f21ff3949b9cf0029decd1d",
     "category": "fun_chat",
     "intent": "ai_job_joke",
     "patterns": [
@@ -354,7 +353,7 @@
     "risk": "low"
   },
   {
-    "id": "519",
+    "id": "2be44cfc017aa0920c1cef27e5f61b4372ecb40397efedcb",
     "category": "fun_chat",
     "intent": "works_on_my_machine",
     "patterns": [
@@ -368,7 +367,7 @@
     "risk": "low"
   },
   {
-    "id": "520",
+    "id": "15bc92d4b048f34e4ea37e753f0e69019febc5a2a5e5d0c6",
     "category": "fun_chat",
     "intent": "copy_paste_coding",
     "patterns": [
@@ -382,7 +381,7 @@
     "risk": "low"
   },
   {
-    "id": "521",
+    "id": "24c087d7fb81c7c5b64b4394925b5362d740bc8322d40a5e",
     "category": "fun_chat",
     "intent": "git_conflict",
     "patterns": [
@@ -396,7 +395,7 @@
     "risk": "low"
   },
   {
-    "id": "522",
+    "id": "7c20abb49a47b9b0c93cfd937bd91c1bca1d1ea735712d27",
     "category": "fun_chat",
     "intent": "client_small_change",
     "patterns": [
@@ -410,7 +409,7 @@
     "risk": "low"
   },
   {
-    "id": "523",
+    "id": "c25f20219a0cd8ed130898e687b4da6027286d761c2c23ff",
     "category": "fun_chat",
     "intent": "deadline_panic",
     "patterns": [
@@ -424,7 +423,7 @@
     "risk": "low"
   },
   {
-    "id": "524",
+    "id": "d140ed2e7dd791e5dd18afb303620f4e614d3b63f83802b5",
     "category": "fun_chat",
     "intent": "sunday_office",
     "patterns": [
@@ -438,7 +437,7 @@
     "risk": "low"
   },
   {
-    "id": "525",
+    "id": "280348cdc2b9a5bc33ded4b53d719299378f0bfb5fcda4a0",
     "category": "fun_chat",
     "intent": "sleepy_in_meeting",
     "patterns": [
@@ -452,7 +451,7 @@
     "risk": "low"
   },
   {
-    "id": "526",
+    "id": "0dacc31fd60887e1b60689ec08eba82cfdf132ce54bc544d",
     "category": "fun_chat",
     "intent": "lunch_sleep",
     "patterns": ["ভাত ঘুম", "lunch er por ghum", "দুপুরে ঘুম", "ভাতঘুম"],
@@ -461,7 +460,7 @@
     "risk": "low"
   },
   {
-    "id": "527",
+    "id": "4f92f126d6fe1b35e82d67b8539cccf77c03d4731c381f54",
     "category": "fun_chat",
     "intent": "mango_season",
     "patterns": ["আম খাব", "আমের সিজন", "aam khabo", "ল্যাংড়া আম"],
@@ -470,7 +469,7 @@
     "risk": "low"
   },
   {
-    "id": "528",
+    "id": "9a50929f3ab9186ca9b8716a3ec2f1bdb814e0338f1acc88",
     "category": "fun_chat",
     "intent": "pitha_winter",
     "patterns": ["পিঠা খাব", "শীতের পিঠা", "pitha", "ভাপা পিঠা"],
@@ -479,7 +478,7 @@
     "risk": "low"
   },
   {
-    "id": "529",
+    "id": "f44a012ded67c853364c565e640bbcad8e43c02f57d38092",
     "category": "fun_chat",
     "intent": "wedding_food",
     "patterns": ["বিয়ের দাওয়াত", "বিয়ের খাবার", "biyer daowat", "বউভাত"],
@@ -488,7 +487,7 @@
     "risk": "low"
   },
   {
-    "id": "530",
+    "id": "e94328073716c2624a757da56d812c0bacce8b2c25702395",
     "category": "fun_chat",
     "intent": "gaye_holud",
     "patterns": ["গায়ে হলুদ", "হলুদের অনুষ্ঠান", "holud", "মেহেদি অনুষ্ঠান"],
@@ -497,7 +496,7 @@
     "risk": "low"
   },
   {
-    "id": "531",
+    "id": "2642d0ca02fb0ac499d01ae3b61414010826d6d54271e513",
     "category": "fun_chat",
     "intent": "running_late",
     "patterns": [
@@ -511,7 +510,7 @@
     "risk": "low"
   },
   {
-    "id": "532",
+    "id": "c0acbbe15d3627ee5475f2c381d98a9f092b7feaddb197db",
     "category": "fun_chat",
     "intent": "ki_korcho",
     "patterns": ["কি করতেছ", "ki korcho", "কী করছো", "এখন কী করছ"],
@@ -520,7 +519,7 @@
     "risk": "low"
   },
   {
-    "id": "533",
+    "id": "ead34e36d5c6b61994d468c03d43247b22c7ab9d9ab1d25f",
     "category": "fun_chat",
     "intent": "ghum_e_naki",
     "patterns": ["ঘুমাইছো", "ghum e", "ঘুমিয়ে গেছ", "জেগে আছো"],
@@ -529,7 +528,7 @@
     "risk": "low"
   },
   {
-    "id": "534",
+    "id": "9e83314f9fbf614c712f6d171894a2f322ed27e194a016d9",
     "category": "fun_chat",
     "intent": "dental_fear",
     "patterns": ["দাঁতের ডাক্তার", "দাঁতে ব্যথা", "dat er dactar", "দাঁত তুলব"],
@@ -538,7 +537,7 @@
     "risk": "low"
   },
   {
-    "id": "535",
+    "id": "7eac9dc7c07ba9b3ab28f00068e336d9e670b73ca36b0cac",
     "category": "fun_chat",
     "intent": "injection_fear",
     "patterns": ["ইনজেকশন ভয়", "injection", "টিকা দিতে ভয়", "সুই দেখলে"],
@@ -547,7 +546,7 @@
     "risk": "low"
   },
   {
-    "id": "536",
+    "id": "db2a455b6c749030d79cc46831649f9cf8d963ffa66ee039",
     "category": "fun_chat",
     "intent": "back_pain_desk",
     "patterns": [
@@ -561,7 +560,7 @@
     "risk": "low"
   },
   {
-    "id": "537",
+    "id": "0328d756caeb062088dda340ea5ffa071e3922637afb2007",
     "category": "fun_chat",
     "intent": "screen_time_eyes",
     "patterns": [
@@ -575,7 +574,7 @@
     "risk": "low"
   },
   {
-    "id": "538",
+    "id": "01461a3a22a9a345ff9b88627a1e486e5960441a2a958541",
     "category": "fun_chat",
     "intent": "late_night_phone",
     "patterns": [
@@ -589,7 +588,7 @@
     "risk": "low"
   },
   {
-    "id": "539",
+    "id": "05d9dfac6aa5c38da97c4acf9950329768c69bfea7dc2bca",
     "category": "fun_chat",
     "intent": "ac_temperature",
     "patterns": [
@@ -603,7 +602,7 @@
     "risk": "low"
   },
   {
-    "id": "540",
+    "id": "c4e6c8024562381ba44032676a748abf76792a54a29cfb2d",
     "category": "fun_chat",
     "intent": "lift_waiting",
     "patterns": [
@@ -617,7 +616,7 @@
     "risk": "low"
   },
   {
-    "id": "541",
+    "id": "a7d1c8426ce8f3c0edea99b28fd6fbfa0a2bc40abb3987ef",
     "category": "fun_chat",
     "intent": "neighbor_wifi",
     "patterns": [
@@ -631,7 +630,7 @@
     "risk": "low"
   },
   {
-    "id": "542",
+    "id": "b78343264144cebfb9b35fb99a08e8830e5f88ebf6854985",
     "category": "fun_chat",
     "intent": "hostel_mess_food",
     "patterns": ["হোস্টেল লাইফ", "মেসের খাবার", "mess food", "হোস্টেলে থাকি"],
@@ -640,7 +639,7 @@
     "risk": "low"
   },
   {
-    "id": "543",
+    "id": "f23638aa1df22a720c6299de3ca40d8dcde84f0c03f6929b",
     "category": "fun_chat",
     "intent": "roommate_drama",
     "patterns": ["রুমমেট", "roommate", "রুমমেট প্যারা", "আমার রুমমেট"],
@@ -649,7 +648,7 @@
     "risk": "low"
   },
   {
-    "id": "544",
+    "id": "d1a413f639edb9e90d7671c1c3a82e942627f449d115a2ec",
     "category": "fun_chat",
     "intent": "tuition_teacher",
     "patterns": ["টিউশন", "coaching class", "স্যার বকা দিছে", "টিচার বকছে"],
@@ -658,7 +657,7 @@
     "risk": "low"
   },
   {
-    "id": "545",
+    "id": "bbe67c38e9b6719de85b624c8389bbbb20c2cf41dc2849a5",
     "category": "fun_chat",
     "intent": "pen_lending",
     "patterns": ["কলম নাই", "pen nai", "পরীক্ষায় কলম", "কলম ধার দে"],
@@ -667,7 +666,7 @@
     "risk": "low"
   },
   {
-    "id": "546",
+    "id": "c95296505a83ad9eb4b1d169cb8e584bb9d545cfbad8b1aa",
     "category": "fun_chat",
     "intent": "school_life_memory",
     "patterns": [
@@ -681,7 +680,7 @@
     "risk": "low"
   },
   {
-    "id": "547",
+    "id": "1cbf6d5bf6e32ac10f9d4d5ff0d4f50283c32f70b1676329",
     "category": "fun_chat",
     "intent": "friends_reunion",
     "patterns": [
@@ -695,7 +694,7 @@
     "risk": "low"
   },
   {
-    "id": "548",
+    "id": "a7f59a6908617f1622a44c4ec7a1cf20cae0f7d41417b072",
     "category": "fun_chat",
     "intent": "profile_pic_change",
     "patterns": ["প্রোফাইল পিক", "dp change", "নতুন ডিপি", "ডিপি দিছি"],
@@ -704,7 +703,7 @@
     "risk": "low"
   },
   {
-    "id": "549",
+    "id": "165a8eb251789d0b5d6d95e496c6e4985a6013e176b2f3d8",
     "category": "fun_chat",
     "intent": "facebook_memories",
     "patterns": [
@@ -718,7 +717,7 @@
     "risk": "low"
   },
   {
-    "id": "550",
+    "id": "df42e5603776432179976afc1a011d37e318f58e294a01b3",
     "category": "fun_chat",
     "intent": "unfriend_block",
     "patterns": [
@@ -732,7 +731,7 @@
     "risk": "low"
   },
   {
-    "id": "551",
+    "id": "364374fca6d4bb255a998c1da029e282eb9c4d1f5cd3ba38",
     "category": "fun_chat",
     "intent": "insta_filter",
     "patterns": [
@@ -746,7 +745,7 @@
     "risk": "low"
   },
   {
-    "id": "552",
+    "id": "415f77d6d36585eb8f1c169002f28350f9c45d687da94a70",
     "category": "fun_chat",
     "intent": "meme_culture",
     "patterns": ["মিম", "meme", "মিম পেজ", "ট্রল করব"],
@@ -755,7 +754,7 @@
     "risk": "low"
   },
   {
-    "id": "553",
+    "id": "7e2a3c37e8dd85f6d55671d0e13f3840cd6a49bb205de782",
     "category": "fun_chat",
     "intent": "tell_another_joke",
     "patterns": ["আরেকটা জোক বলো", "আরও হাসাও", "ar ekta joke", "আরেকটা কৌতুক"],
@@ -764,7 +763,7 @@
     "risk": "low"
   },
   {
-    "id": "554",
+    "id": "5afc0f817cddd12918c8c2e26ca1a1a89cba98f367675b36",
     "category": "fun_chat",
     "intent": "bad_joke_reaction",
     "patterns": ["খারাপ জোক", "bad joke", "পচা জোক", "ধুর কী জোক"],
@@ -773,7 +772,7 @@
     "risk": "low"
   },
   {
-    "id": "555",
+    "id": "c1be8ed768a5f2459770d92a51086f30b34791d422b48fea",
     "category": "fun_chat",
     "intent": "riddle_request",
     "patterns": ["ধাঁধা বলো", "dhadha", "একটা ধাঁধা", "riddle"],
@@ -782,7 +781,7 @@
     "risk": "low"
   },
   {
-    "id": "556",
+    "id": "e8cb14cc4d096ce419f5d5fcc803afb034a5d3f6ce8b933a",
     "category": "fun_chat",
     "intent": "fun_fact_request",
     "patterns": ["মজার তথ্য", "fun fact", "অদ্ভুত তথ্য", "মজার কিছু বলো"],
@@ -790,9 +789,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-  
   {
-    "id": "323",
+    "id": "84beb22e6c0ca6f7d14026e9fc41250bc88e6e299ebc5df1",
     "category": "fun_chat",
     "intent": "salary_ask",
     "patterns": ["কত বেতন পান?", "বেতন কত?", "মাস শেষে কত থাকে?", "ইনকাম কত?"],
@@ -801,7 +799,7 @@
     "risk": "medium"
   },
   {
-    "id": "324",
+    "id": "e9d32841c4053738c11294d9dfc986b4847a9f1ba4e88cef",
     "category": "fun_chat",
     "intent": "relationship_status",
     "patterns": [
@@ -815,7 +813,7 @@
     "risk": "low"
   },
   {
-    "id": "325",
+    "id": "0e1a039389f295f3f9a78b47aa54b7eb5146cbe7fb49f919",
     "category": "fun_chat",
     "intent": "boss_criticism",
     "patterns": [
@@ -829,7 +827,7 @@
     "risk": "high"
   },
   {
-    "id": "326",
+    "id": "ff436ef6b38b3925278bee24885df7e21ebeb7e7424a80b1",
     "category": "fun_chat",
     "intent": "diet_plan",
     "patterns": [
@@ -843,7 +841,7 @@
     "risk": "low"
   },
   {
-    "id": "327",
+    "id": "44a76e17bd4ee38f4a6262dfaaea9af8b86ddaa03a4c6551",
     "category": "fun_chat",
     "intent": "sleeping_schedule",
     "patterns": [
@@ -857,7 +855,7 @@
     "risk": "low"
   },
   {
-    "id": "328",
+    "id": "39b13eab1d11b9c94d9581f0457116b95a40a999da188ba2",
     "category": "fun_chat",
     "intent": "crush_problem",
     "patterns": [
@@ -871,7 +869,7 @@
     "risk": "medium"
   },
   {
-    "id": "329",
+    "id": "7b8caf618f0ca14feaae9e51567f29b7c0453578c30ea448",
     "category": "fun_chat",
     "intent": "weather_feeling",
     "patterns": ["অনেক গরম", "প্রচুর গরম রে ভাই", "গরমে শেষ", "ওয়েদার কেমন?"],
@@ -880,7 +878,7 @@
     "risk": "low"
   },
   {
-    "id": "330",
+    "id": "bc8b6f1dfea131ca08c9684781a75d2ce6bf31f556cdb8bf",
     "category": "fun_chat",
     "intent": "lend_money",
     "patterns": [
@@ -894,7 +892,7 @@
     "risk": "high"
   },
   {
-    "id": "331",
+    "id": "ddd4a9212832ab7b6c53e4526bfa9fe91bd164db4e8b49c6",
     "category": "fun_chat",
     "intent": "exam_preparation",
     "patterns": [
@@ -908,7 +906,7 @@
     "risk": "low"
   },
   {
-    "id": "332",
+    "id": "932e00ed012fe87521bfa07c425ac632df9999e953141bef",
     "category": "fun_chat",
     "intent": "programming_bug",
     "patterns": [
@@ -922,7 +920,7 @@
     "risk": "low"
   },
   {
-    "id": "333",
+    "id": "e2bda58f9068a0dd046f428181571fbdfbfada0eac05a7fb",
     "category": "fun_chat",
     "intent": "wifi_issues",
     "patterns": [
@@ -936,7 +934,7 @@
     "risk": "low"
   },
   {
-    "id": "334",
+    "id": "3c8dadb9babd714fc9b95a39af9b0b7f9e13480665a77cd0",
     "category": "fun_chat",
     "intent": "morning_person",
     "patterns": [
@@ -950,7 +948,7 @@
     "risk": "low"
   },
   {
-    "id": "335",
+    "id": "277090154c15c2b49159921aa6367d58fe159cb9e362a41f",
     "category": "fun_chat",
     "intent": "gym_motivation",
     "patterns": ["জিম করব", "জিমে যাই না", "বডি বানাব", "জিম মেম্বারশিপ"],
@@ -959,7 +957,7 @@
     "risk": "low"
   },
   {
-    "id": "336",
+    "id": "67c1a6a21c4fadb0c92fcab650836879d03ba07a7e85906f",
     "category": "fun_chat",
     "intent": "traffic_jam",
     "patterns": [
@@ -973,7 +971,7 @@
     "risk": "low"
   },
   {
-    "id": "337",
+    "id": "d2c37675532856a5df25ba76d46d53a39690cd05681fce24",
     "category": "fun_chat",
     "intent": "cooking_skills",
     "patterns": [
@@ -987,7 +985,7 @@
     "risk": "low"
   },
   {
-    "id": "338",
+    "id": "bcca47343f5cffa855104370c2bbd141b10482884d3add34",
     "category": "fun_chat",
     "intent": "coffee_addiction",
     "patterns": ["কফি খাই", "কফি ছাড়া চলে না", "কফি লাগবে", "চা নাকি কফি?"],
@@ -996,7 +994,7 @@
     "risk": "low"
   },
   {
-    "id": "339",
+    "id": "2a3f58f356115c7ab7d9bf946a6c05fd8b0288bb3e3434d5",
     "category": "fun_chat",
     "intent": "marriage_pressure",
     "patterns": [
@@ -1010,7 +1008,7 @@
     "risk": "medium"
   },
   {
-    "id": "340",
+    "id": "676e83f9b635821385a808a2b3832e449f19c57bdcd7b362",
     "category": "fun_chat",
     "intent": "monday_blues",
     "patterns": [
@@ -1024,7 +1022,7 @@
     "risk": "low"
   },
   {
-    "id": "341",
+    "id": "4c8e2970943499205ab0a1fef9142fc9f39c1fd6d3cf45fe",
     "category": "fun_chat",
     "intent": "online_shopping",
     "patterns": [
@@ -1038,7 +1036,7 @@
     "risk": "low"
   },
   {
-    "id": "342",
+    "id": "063fcd81031787c2323f4406918ef21cb14a08dbbf1807a1",
     "category": "fun_chat",
     "intent": "battery_low",
     "patterns": [
@@ -1052,7 +1050,7 @@
     "risk": "low"
   },
   {
-    "id": "343",
+    "id": "e4700aca4f532f124365154ac56488237e5397a7041252b0",
     "category": "fun_chat",
     "intent": "freelancing_life",
     "patterns": [
@@ -1066,7 +1064,7 @@
     "risk": "low"
   },
   {
-    "id": "344",
+    "id": "6a46aec6658f86d0ebbbd3530e72e127ee9f67cb7e91c2a1",
     "category": "fun_chat",
     "intent": "gaming_addiction",
     "patterns": [
@@ -1080,7 +1078,7 @@
     "risk": "low"
   },
   {
-    "id": "345",
+    "id": "b417aea6517019c7227cb24fb6048197564247ce95f82288",
     "category": "fun_chat",
     "intent": "motivation_talk",
     "patterns": [
@@ -1094,7 +1092,7 @@
     "risk": "low"
   },
   {
-    "id": "346",
+    "id": "28d3db1f66c14f7459fd28693677736d985398ccb0fb100a",
     "category": "fun_chat",
     "intent": "memory_power",
     "patterns": [
@@ -1108,7 +1106,7 @@
     "risk": "low"
   },
   {
-    "id": "347",
+    "id": "1abcb61da931bdd7a5e94a49f1b674f6ca7bfe790c75b8f9",
     "category": "fun_chat",
     "intent": "rich_aspirations",
     "patterns": [
@@ -1122,7 +1120,7 @@
     "risk": "low"
   },
   {
-    "id": "348",
+    "id": "3b42e9f4ceb929934b1b85caf1519bd469ed839fd1e28390",
     "category": "fun_chat",
     "intent": "overthinking_night",
     "patterns": [
@@ -1136,7 +1134,7 @@
     "risk": "medium"
   },
   {
-    "id": "349",
+    "id": "6be2d6bdcb8118e5c93146a44b4ffe0f1a5f12f0357c20e3",
     "category": "fun_chat",
     "intent": "rickshaw_mama",
     "patterns": [
@@ -1150,7 +1148,7 @@
     "risk": "low"
   },
   {
-    "id": "350",
+    "id": "544952586ceafdf3183712c010366027eeacdfb59d7a644a",
     "category": "fun_chat",
     "intent": "birthday_gifts",
     "patterns": [
@@ -1164,7 +1162,7 @@
     "risk": "low"
   },
   {
-    "id": "351",
+    "id": "f39ce272e7edcc7ee0c958c9ef1d8ccd0a6b0206ec629b63",
     "category": "fun_chat",
     "intent": "bunk_class",
     "patterns": [
@@ -1178,7 +1176,7 @@
     "risk": "low"
   },
   {
-    "id": "352",
+    "id": "dbf043037f12c9f5fc9fd1cb92eb76fdf8bd2e459c424ef8",
     "category": "fun_chat",
     "intent": "winter_shower",
     "patterns": [
@@ -1192,7 +1190,7 @@
     "risk": "low"
   },
   {
-    "id": "353",
+    "id": "97739577bd0ba7c1a29c56cd7cb1d99614733eb29d2ce290",
     "category": "fun_chat",
     "intent": "study_routine",
     "patterns": [
@@ -1206,7 +1204,7 @@
     "risk": "low"
   },
   {
-    "id": "354",
+    "id": "09823187fa17c8f580a04f8208099d7484271e0d6ba219af",
     "category": "fun_chat",
     "intent": "social_media_addiction",
     "patterns": [
@@ -1220,7 +1218,7 @@
     "risk": "low"
   },
   {
-    "id": "355",
+    "id": "305b4988beb564c04fc937861a930bebf522326c334d17f6",
     "category": "fun_chat",
     "intent": "height_complaint",
     "patterns": [
@@ -1234,7 +1232,7 @@
     "risk": "low"
   },
   {
-    "id": "356",
+    "id": "765f112fb4422d218c1132ad0f2ca747ec6e76adbbfe813c",
     "category": "fun_chat",
     "intent": "crush_marriage",
     "patterns": [
@@ -1248,7 +1246,7 @@
     "risk": "medium"
   },
   {
-    "id": "357",
+    "id": "036a670f1adf3d8f5ea49c16bc1a8e4a8e69c9cb15cc872d",
     "category": "fun_chat",
     "intent": "chai_lover",
     "patterns": [
@@ -1262,7 +1260,7 @@
     "risk": "low"
   },
   {
-    "id": "358",
+    "id": "a072780476d9ef4120a4296d6e6bfefeea1b59efe66a60a3",
     "category": "fun_chat",
     "intent": "laptop_lag",
     "patterns": [
@@ -1276,7 +1274,7 @@
     "risk": "low"
   },
   {
-    "id": "359",
+    "id": "ae70190949e74d63610f76aaae6a6025783c23c4193a2da3",
     "category": "fun_chat",
     "intent": "shopping_budget",
     "patterns": ["বাজেট নাই", "টাকা শেষ", "পকেটে টান", "কেনাকাটা করব না"],
@@ -1285,7 +1283,7 @@
     "risk": "low"
   },
   {
-    "id": "360",
+    "id": "7b0c9719e52c38df64dc62d20d46e3c1fc5bb36223802242",
     "category": "fun_chat",
     "intent": "ghost_story",
     "patterns": [
@@ -1299,7 +1297,7 @@
     "risk": "low"
   },
   {
-    "id": "361",
+    "id": "44cad5a8273573454b225a12beb1ff3ccb6ba17b780cfd9b",
     "category": "fun_chat",
     "intent": "singing_talent",
     "patterns": [
@@ -1313,7 +1311,7 @@
     "risk": "low"
   },
   {
-    "id": "362",
+    "id": "638ffdb64f28dd83f593a47cc67dbf61468ba05d0d750db7",
     "category": "fun_chat",
     "intent": "fast_food",
     "patterns": [
@@ -1327,7 +1325,7 @@
     "risk": "low"
   },
   {
-    "id": "363",
+    "id": "da608e60bb5f2219e831ff4c22eb80ff1b5b0eb2f272cd19",
     "category": "fun_chat",
     "intent": "introvert_life",
     "patterns": [
@@ -1341,7 +1339,7 @@
     "risk": "low"
   },
   {
-    "id": "364",
+    "id": "4faa7e8116f03f2f0fbae49efeeb33553aa71fe82ffee7f1",
     "category": "fun_chat",
     "intent": "group_study",
     "patterns": [
@@ -1355,7 +1353,7 @@
     "risk": "low"
   },
   {
-    "id": "365",
+    "id": "8349db65ff49d5424c42278d67260c368e6e6f241971fd30",
     "category": "fun_chat",
     "intent": "gym_trainer",
     "patterns": [
@@ -1369,7 +1367,7 @@
     "risk": "low"
   },
   {
-    "id": "366",
+    "id": "b5a1d4e21b6e8d349344105f2c0a8b81626df87180de732b",
     "category": "fun_chat",
     "intent": "rainy_day",
     "patterns": [
@@ -1383,7 +1381,7 @@
     "risk": "low"
   },
   {
-    "id": "367",
+    "id": "4ad7ac2a973165ec4a283f9b62778e895ccee733411f6b2a",
     "category": "fun_chat",
     "intent": "ex_lover",
     "patterns": [
@@ -1397,7 +1395,7 @@
     "risk": "medium"
   },
   {
-    "id": "368",
+    "id": "11ecd79ff2ca2933eafdc3ddd10c739db30503a42cce9de4",
     "category": "fun_chat",
     "intent": "tailor_problem",
     "patterns": [
@@ -1411,7 +1409,7 @@
     "risk": "low"
   },
   {
-    "id": "369",
+    "id": "df8ea681aa82892ad8681e273a3aab5b947b52830510dc5b",
     "category": "fun_chat",
     "intent": "photogenic_face",
     "patterns": [
@@ -1425,7 +1423,7 @@
     "risk": "low"
   },
   {
-    "id": "370",
+    "id": "dd0e50a781846feb1989cb154156b4237e255f7132e278f9",
     "category": "fun_chat",
     "intent": "hair_fall",
     "patterns": [
@@ -1439,7 +1437,7 @@
     "risk": "low"
   },
   {
-    "id": "371",
+    "id": "5a36ec0ce6818bdb5de8fc93edde9adc557f086d4b4bd1a5",
     "category": "fun_chat",
     "intent": "alarm_snooze",
     "patterns": [
@@ -1453,7 +1451,7 @@
     "risk": "low"
   },
   {
-    "id": "372",
+    "id": "3bf71670489bdf98c9c871ea01da42b556168d005ce66f60",
     "category": "fun_chat",
     "intent": "haircut_disaster",
     "patterns": [
@@ -1467,7 +1465,7 @@
     "risk": "low"
   },
   {
-    "id": "373",
+    "id": "da9689c9ef632327c57c287fb7092ef39f093f86e37d033e",
     "category": "fun_chat",
     "intent": "salary_day",
     "patterns": [
@@ -1481,7 +1479,7 @@
     "risk": "low"
   },
   {
-    "id": "374",
+    "id": "90c6cfc40dced83ed805c2392c6e2e99057d2634d78b67ec",
     "category": "fun_chat",
     "intent": "power_cut",
     "patterns": [
@@ -1495,7 +1493,7 @@
     "risk": "low"
   },
   {
-    "id": "375",
+    "id": "48e98f163f93b1f0ceb1a2956a91761116d8e6fa77fa9042",
     "category": "fun_chat",
     "intent": "weight_gain",
     "patterns": [
@@ -1509,7 +1507,7 @@
     "risk": "low"
   },
   {
-    "id": "376",
+    "id": "ba595e0b98331114b60f029f30ad1a26c510802cc4c61f02",
     "category": "fun_chat",
     "intent": "password_forgot",
     "patterns": [
@@ -1523,7 +1521,7 @@
     "risk": "low"
   },
   {
-    "id": "377",
+    "id": "f203fae26e95829708f82c93f5995cb7ab1e2ba6bc1db853",
     "category": "fun_chat",
     "intent": "fake_friends",
     "patterns": [
@@ -1537,7 +1535,7 @@
     "risk": "medium"
   },
   {
-    "id": "378",
+    "id": "2d8f145634746ffc79d2976a21781961da6e2931b6953778",
     "category": "fun_chat",
     "intent": "online_class",
     "patterns": [
@@ -1551,7 +1549,7 @@
     "risk": "low"
   },
   {
-    "id": "379",
+    "id": "e340918b69cae2b299eded324a905908d049ed956efffe95",
     "category": "fun_chat",
     "intent": "travel_plan",
     "patterns": [
@@ -1565,7 +1563,7 @@
     "risk": "low"
   },
   {
-    "id": "380",
+    "id": "bd626ef542c2d0b0fd9780195f01a7cd5f94bd75ea2d98b1",
     "category": "fun_chat",
     "intent": "mosquito_attack",
     "patterns": [
@@ -1579,7 +1577,7 @@
     "risk": "low"
   },
   {
-    "id": "381",
+    "id": "5494447eb305bfe554dc6def36aa627d10206f980e50eacf",
     "category": "fun_chat",
     "intent": "exam_result",
     "patterns": ["রেজাল্ট দিছে", "পরীক্ষার ফল", "রেজাল্ট খারাপ", "পাস করছি"],
@@ -1588,7 +1586,7 @@
     "risk": "low"
   },
   {
-    "id": "382",
+    "id": "d4df748ef743e676946eae4730fecf08766d52837ae42094",
     "category": "fun_chat",
     "intent": "relatives_nosy",
     "patterns": [
@@ -1602,7 +1600,7 @@
     "risk": "medium"
   },
   {
-    "id": "383",
+    "id": "74648698445d08faf57e2de4698deac13ed7b30b8399b591",
     "category": "fun_chat",
     "intent": "makeup_disaster",
     "patterns": [
@@ -1616,7 +1614,7 @@
     "risk": "low"
   },
   {
-    "id": "384",
+    "id": "4976c8eaa4c2eee7ac26f7620e0d979c43a5e34bddce068a",
     "category": "fun_chat",
     "intent": "earphones_tangled",
     "patterns": [
@@ -1630,7 +1628,7 @@
     "risk": "low"
   },
   {
-    "id": "385",
+    "id": "be84e8243ed937dbfc85467eb33002c5e46c7660ece38155",
     "category": "fun_chat",
     "intent": "sleeping_in_bus",
     "patterns": [
@@ -1644,7 +1642,7 @@
     "risk": "low"
   },
   {
-    "id": "386",
+    "id": "b5e441fd3fef1aef151433bcfad62a1d7590b920b96b539e",
     "category": "fun_chat",
     "intent": "movie_spoiler",
     "patterns": [
@@ -1658,7 +1656,7 @@
     "risk": "low"
   },
   {
-    "id": "387",
+    "id": "d889de951d10aa2c325f4d7775760ba9c7f1c2b3259a1cb4",
     "category": "fun_chat",
     "intent": "crush_story_status",
     "patterns": [
@@ -1672,7 +1670,7 @@
     "risk": "low"
   },
   {
-    "id": "388",
+    "id": "08d2d5f251115d01c8570dd661c61d7b75588ae53d1009ec",
     "category": "fun_chat",
     "intent": "math_fear",
     "patterns": ["গণিত পারি না", "ম্যাথ বুঝি না", "ম্যাথের ভয়", "বীজগণিত"],
@@ -1681,7 +1679,7 @@
     "risk": "low"
   },
   {
-    "id": "389",
+    "id": "1267e8eade6c95f96d4a9421a74a4fd449ed58a4b95c6c0c",
     "category": "fun_chat",
     "intent": "food_sharing",
     "patterns": [
@@ -1695,7 +1693,7 @@
     "risk": "low"
   },
   {
-    "id": "390",
+    "id": "ba42ac1bd60dd4f88887b66a77616132cfed004aa7a2fdd5",
     "category": "fun_chat",
     "intent": "stomach_upset",
     "patterns": [
@@ -1709,7 +1707,7 @@
     "risk": "low"
   },
   {
-    "id": "391",
+    "id": "289ff0e6b989e50f7c705ac61bdee233a10a2b891b8ab179",
     "category": "fun_chat",
     "intent": "typing_speed",
     "patterns": [
@@ -1723,7 +1721,7 @@
     "risk": "low"
   },
   {
-    "id": "392",
+    "id": "e35c82a5c797d202a654631cf714d334fbc964adc2611ff4",
     "category": "fun_chat",
     "intent": "autocorrect_fail",
     "patterns": [
@@ -1737,7 +1735,7 @@
     "risk": "low"
   },
   {
-    "id": "393",
+    "id": "81740dc03c70063412166673f132b0ae002f9cd22e575ec8",
     "category": "fun_chat",
     "intent": "chilling_at_home",
     "patterns": [
@@ -1751,7 +1749,7 @@
     "risk": "low"
   },
   {
-    "id": "394",
+    "id": "1eff27d0b7fc351791fb989deb52cc4adcb72541f949d287",
     "category": "fun_chat",
     "intent": "tea_time_gossip",
     "patterns": [
@@ -1765,7 +1763,7 @@
     "risk": "low"
   },
   {
-    "id": "395",
+    "id": "3b1dbc10245d81deeb30aacc9d60d24bc467efcad73eb74e",
     "category": "fun_chat",
     "intent": "shopping_sales",
     "patterns": ["ডিসকাউন্ট সেল", "ছাড় দিছে", "অফার চলছে", "কেনাকাটা করব"],
@@ -1774,7 +1772,7 @@
     "risk": "low"
   },
   {
-    "id": "396",
+    "id": "3890072dc46aa377becdf09ab378664234fc87ef06827230",
     "category": "fun_chat",
     "intent": "cold_water_winter",
     "patterns": [
@@ -1788,7 +1786,7 @@
     "risk": "low"
   },
   {
-    "id": "397",
+    "id": "5995bb478e6a169bb9df1e0ad326811972a8df0681294e9c",
     "category": "fun_chat",
     "intent": "unwanted_calls",
     "patterns": [
@@ -1802,7 +1800,7 @@
     "risk": "low"
   },
   {
-    "id": "398",
+    "id": "89e63f40ab61f3e6dab508c7999e0ffd799a79b6badcf88c",
     "category": "fun_chat",
     "intent": "boredom_max",
     "patterns": ["বোরিং লাগতেছে", "বোর হচ্ছি", "সময় কাটে না", "কি করব?"],
@@ -1811,7 +1809,7 @@
     "risk": "low"
   },
   {
-    "id": "399",
+    "id": "aaa9cdabd4445a7e67392328375ca71f21a891b9ad174cc2",
     "category": "fun_chat",
     "intent": "old_memories",
     "patterns": [
@@ -1825,7 +1823,7 @@
     "risk": "low"
   },
   {
-    "id": "400",
+    "id": "f66ca208d0a03ccdd6becb0959f64500eb902c7478790b1e",
     "category": "fun_chat",
     "intent": "group_photo",
     "patterns": ["গ্রুপ ছবি তুলব", "সবাই পোজ দাও", "ছবি তোল", "সবাই একসাথে"],
@@ -1834,7 +1832,7 @@
     "risk": "low"
   },
   {
-    "id": "401",
+    "id": "dd45ff2437ea8dcec769e2de21e7f78db5e5282f53753e3f",
     "category": "fun_chat",
     "intent": "dirty_room",
     "patterns": [
@@ -1848,7 +1846,7 @@
     "risk": "low"
   },
   {
-    "id": "402",
+    "id": "a6be68b7b0543b2d858a681c0df87539d1ea1749c3094bc9",
     "category": "fun_chat",
     "intent": "exam_hall_cheating",
     "patterns": [
@@ -1862,7 +1860,7 @@
     "risk": "medium"
   },
   {
-    "id": "403",
+    "id": "2827a18c0b0de5753fc513854af7e17d668a5f609216b174",
     "category": "fun_chat",
     "intent": "biryani_love",
     "patterns": [
@@ -1876,7 +1874,7 @@
     "risk": "low"
   },
   {
-    "id": "404",
+    "id": "c8d750591f89c1df707b910bce8e5a7ea0a4e71d085cb9d2",
     "category": "fun_chat",
     "intent": "mirror_selfie",
     "patterns": ["মিরর সেলফি", "আয়নায় ছবি", "সেলফি তুলি", "পোজ সেলফি"],
@@ -1885,7 +1883,7 @@
     "risk": "low"
   },
   {
-    "id": "405",
+    "id": "fd19f0a7125be8c59bbf42c095bb28dd09fa1b0fbcfb1e46",
     "category": "fun_chat",
     "intent": "weekend_plans",
     "patterns": [
@@ -1899,7 +1897,7 @@
     "risk": "low"
   },
   {
-    "id": "406",
+    "id": "638dabee09e14f168c7baa875b996767c7db7ff01e9fb577",
     "category": "fun_chat",
     "intent": "study_notes",
     "patterns": [
@@ -1913,7 +1911,7 @@
     "risk": "low"
   },
   {
-    "id": "407",
+    "id": "124c572fcf8eafd19975ed4f3af00b46d753100b56e8f2b6",
     "category": "fun_chat",
     "intent": "online_delivery_wait",
     "patterns": [
@@ -1927,7 +1925,7 @@
     "risk": "low"
   },
   {
-    "id": "408",
+    "id": "ecb6fbe831d3d4ce616988e8631e9dddcb6da76972b439dc",
     "category": "fun_chat",
     "intent": "shoe_pinch",
     "patterns": [
@@ -1941,7 +1939,7 @@
     "risk": "low"
   },
   {
-    "id": "409",
+    "id": "8fd5827a39fb4eb2f41db52a1026fd8d2848bfb78c908792",
     "category": "fun_chat",
     "intent": "late_night_maggi",
     "patterns": [
@@ -1955,7 +1953,7 @@
     "risk": "low"
   },
   {
-    "id": "410",
+    "id": "f45b3befde90b18c1a26c6eb504fb134d7b5698310a9c58f",
     "category": "fun_chat",
     "intent": "forgot_name",
     "patterns": [
@@ -1969,7 +1967,7 @@
     "risk": "low"
   },
   {
-    "id": "411",
+    "id": "b8683956ba07a3a6eaff563d774485cc55b31adcec3e7144",
     "category": "fun_chat",
     "intent": "hair_dryer_heat",
     "patterns": [
@@ -1983,7 +1981,7 @@
     "risk": "low"
   },
   {
-    "id": "412",
+    "id": "bb7be140b9779c0683b43d3e0375cb873e7aff733dedddfc",
     "category": "fun_chat",
     "intent": "funny_laughter",
     "patterns": ["হাহা", "LOL", "মজা পাইলাম", "খুব হাসি পাচ্ছে"],
@@ -1992,7 +1990,7 @@
     "risk": "low"
   },
   {
-    "id": "413",
+    "id": "f3e053b8f06689ead9ea2ebca9b13a7c6eca7f47f0f09801",
     "category": "fun_chat",
     "intent": "sleeping_during_movie",
     "patterns": [
@@ -2006,7 +2004,7 @@
     "risk": "low"
   },
   {
-    "id": "414",
+    "id": "5cefe9e8692dbedda965ab5438652f7eb8dc8280e935f783",
     "category": "fun_chat",
     "intent": "parent_scolding",
     "patterns": [
@@ -2020,7 +2018,7 @@
     "risk": "medium"
   },
   {
-    "id": "415",
+    "id": "bc17c7391f8c42db14c3ff60adc7f4784d0f886911d52664",
     "category": "fun_chat",
     "intent": "crush_ignoring",
     "patterns": [
@@ -2034,7 +2032,7 @@
     "risk": "low"
   },
   {
-    "id": "416",
+    "id": "2128af9e65de6b7d877de06598ca274272601c242607ca47",
     "category": "fun_chat",
     "intent": "pet_cat_attitude",
     "patterns": [
@@ -2048,7 +2046,7 @@
     "risk": "low"
   },
   {
-    "id": "417",
+    "id": "42232ec2cbbaf982a07bc6fe82700b9799619143269edda2",
     "category": "fun_chat",
     "intent": "heavy_traffic_rain",
     "patterns": [
@@ -2062,7 +2060,7 @@
     "risk": "low"
   },
   {
-    "id": "418",
+    "id": "3d0c7c459b1ebb488d08956c99d5dd9b648ae2f2d60b3491",
     "category": "fun_chat",
     "intent": "gym_protein_shake",
     "patterns": [
@@ -2076,7 +2074,7 @@
     "risk": "low"
   },
   {
-    "id": "419",
+    "id": "73301ab00d62ba87ba27665bb037301fe0ab69b98cbae6b3",
     "category": "fun_chat",
     "intent": "bad_wifi_password",
     "patterns": [
@@ -2090,7 +2088,7 @@
     "risk": "low"
   },
   {
-    "id": "420",
+    "id": "3aec950f9748a718b11f93f02a22177ba82dcbb836e1a7c1",
     "category": "fun_chat",
     "intent": "shopping_bargain",
     "patterns": [
@@ -2104,7 +2102,7 @@
     "risk": "low"
   },
   {
-    "id": "421",
+    "id": "995741480f53e1162b3cb6dc8fd702ae37f05b4ae9570e03",
     "category": "fun_chat",
     "intent": "crush_reply_fast",
     "patterns": [
@@ -2118,7 +2116,7 @@
     "risk": "low"
   },
   {
-    "id": "422",
+    "id": "7cc92395cd170f1874720cbe85e11edc39efe4b8501543ca",
     "category": "fun_chat",
     "intent": "final_goodbye_fun",
     "patterns": ["বাই বাই", "আজকের মতো শেষ", "টাটা ভাই", "অফ গেলাম"],
@@ -2126,6 +2124,4 @@
     "auto_reply": true,
     "risk": "low"
   }
-
 ]
-  

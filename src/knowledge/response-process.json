@@ -1,7 +1,6 @@
-
-  [
+[
   {
-    "id": "424",
+    "id": "6a4f9c2e7b813d05f62a948c1e5730ab84d9f165c2073e8b",
     "category": "process",
     "intent": "project_process_steps",
     "patterns": [
@@ -17,7 +16,7 @@
     "risk": "medium"
   },
   {
-    "id": "425",
+    "id": "b81d5e7a2c940f63d1748a5e9063bc21f7a259d4e680c132",
     "category": "process",
     "intent": "start_requirements",
     "patterns": [
@@ -31,7 +30,7 @@
     "risk": "low"
   },
   {
-    "id": "426",
+    "id": "e3957c1a6f0248d9b7315e60ac9472bf83d1657c409e2a54",
     "category": "process",
     "intent": "quotation_request",
     "patterns": [
@@ -47,7 +46,7 @@
     "risk": "medium"
   },
   {
-    "id": "427",
+    "id": "4d92f6b1a7385c0e97e24d651f8b309a62c147e5d8309fa1",
     "category": "process",
     "intent": "package_details",
     "patterns": [
@@ -62,7 +61,7 @@
     "risk": "medium"
   },
   {
-    "id": "428",
+    "id": "f0a63e9c217d548b82f7316a5e094cd7b3602f19e845ac23",
     "category": "process",
     "intent": "project_scope_unclear",
     "patterns": [
@@ -78,7 +77,7 @@
     "risk": "low"
   },
   {
-    "id": "429",
+    "id": "7c51e8a3049f2d6b15b73e96c8204fa1d65a938e2170cb54",
     "category": "process",
     "intent": "reference_site_request",
     "patterns": [
@@ -94,7 +93,7 @@
     "risk": "low"
   },
   {
-    "id": "430",
+    "id": "a27f5d913c684e0b7392fa156d8c4702e51b96f8430ad725",
     "category": "process",
     "intent": "content_provision",
     "patterns": [
@@ -108,7 +107,7 @@
     "risk": "low"
   },
   {
-    "id": "431",
+    "id": "d64b2e809c1735fa41a96d7e0284cb35f7190e6a852c4d91",
     "category": "process",
     "intent": "change_requirement_midway",
     "patterns": [
@@ -123,7 +122,7 @@
     "risk": "medium"
   },
   {
-    "id": "432",
+    "id": "935e1a7c604b2f89d1536e470a8c91f2b76405d3e219cf68",
     "category": "process",
     "intent": "extra_revision_charge",
     "patterns": [
@@ -137,7 +136,7 @@
     "risk": "medium"
   },
   {
-    "id": "433",
+    "id": "2f8c61a493e705bd1762d9f84a50ce37b815e6942a3fd028",
     "category": "process",
     "intent": "rush_delivery",
     "patterns": [
@@ -153,7 +152,7 @@
     "risk": "medium"
   },
   {
-    "id": "434",
+    "id": "c7059e2a8f3164db72a0e6519c843bf5d1672a904e38c6f1",
     "category": "process",
     "intent": "demo_request",
     "patterns": [
@@ -168,7 +167,7 @@
     "risk": "low"
   },
   {
-    "id": "435",
+    "id": "58e3c9a7140f6b2d936d51a8c470fe25b1697d4e8023ac91",
     "category": "process",
     "intent": "meeting_now",
     "patterns": [
@@ -183,7 +182,7 @@
     "risk": "medium"
   },
   {
-    "id": "436",
+    "id": "f16a8d3c5207e94b61d2f7350ac849e6b3175d208c496fa2",
     "category": "process",
     "intent": "timezone_meeting",
     "patterns": [
@@ -197,7 +196,7 @@
     "risk": "low"
   },
   {
-    "id": "437",
+    "id": "81b6e4d2093f57ac624e1d8f0b7359c2416a50d7e892fc35",
     "category": "process",
     "intent": "international_client",
     "patterns": [
@@ -212,7 +211,7 @@
     "risk": "medium"
   },
   {
-    "id": "438",
+    "id": "b39f6a105c8274de91e3b75a2608cf14d9471a583e60b2f7",
     "category": "process",
     "intent": "upgrade_existing_project",
     "patterns": [

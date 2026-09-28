@@ -1,6 +1,6 @@
 [
   {
-    "id": "041",
+    "id": "b785760ce8697881d46533900505f8d6a77e6b01e605ff0f",
     "category": "support_urgent",
     "intent": "voice_message_acknowledgment",
     "patterns": ["voice disi", "voice sono", "ভয়েস দিছি", "ভয়েস শুনেন"],
@@ -9,7 +9,7 @@
     "risk": "low"
   },
   {
-    "id": "042",
+    "id": "1bbb58f4a8d0f56ca00e229ecaadde09fe8cbdc572512354",
     "category": "support_urgent",
     "intent": "document_received",
     "patterns": ["file disi", "pdf disi", "ফাইল পাঠিয়েছি", "ডকুমেন্ট দেখেন"],
@@ -18,7 +18,7 @@
     "risk": "low"
   },
   {
-    "id": "043",
+    "id": "b4dbb49f9e3ddf29ea013aa137508813f632079e4321cdd5",
     "category": "support_urgent",
     "intent": "busy_notice",
     "patterns": ["busy naki", "busy achen", "ব্যস্ত আছেন নাকি"],
@@ -26,9 +26,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-
   {
-    "id": "031",
+    "id": "da8a0412cf86e3d2b80618c53ee18d026466991edc928346",
     "category": "support_urgent",
     "intent": "bug_report",
     "patterns": [
@@ -43,7 +42,7 @@
     "risk": "high"
   },
   {
-    "id": "032",
+    "id": "2540a1af9f65967d780fa04d71480bd034640ecf6b6f30a7",
     "category": "support_urgent",
     "intent": "human_agent_request",
     "patterns": [
@@ -57,7 +56,7 @@
     "risk": "high"
   },
   {
-    "id": "022",
+    "id": "507990374845b50ad160727136720e22eaa86b97c26f72b4",
     "category": "support_urgent",
     "intent": "urgent_matter",
     "patterns": [
@@ -71,7 +70,7 @@
     "risk": "high"
   },
   {
-    "id": "005",
+    "id": "026815a93f30d0008ce9cb72dab0cf67f73b4421e23fbf78",
     "category": "support_urgent",
     "intent": "previous_talk_followup",
     "patterns": [
@@ -85,7 +84,7 @@
     "risk": "medium"
   },
   {
-    "id": "006",
+    "id": "4dd55b481dfce56d7a5b287f2aa739740ab50dccaf5a4d25",
     "category": "support_urgent",
     "intent": "task_status_check",
     "patterns": [
@@ -100,7 +99,7 @@
     "risk": "medium"
   },
   {
-    "id": "007",
+    "id": "3ef694418f692b40df82ca6ca1d90107b4c8329fa5347b90",
     "category": "support_urgent",
     "intent": "task_completion_query",
     "patterns": [
@@ -115,7 +114,7 @@
     "risk": "medium"
   },
   {
-    "id": "123",
+    "id": "a9cd30de59f36355f3b146117c4cc52d26e46bfb351382af",
     "category": "support_urgent",
     "intent": "ssl_expired_issue",
     "patterns": ["not secure dekhatse", "ssl renew", "এসএসএল এরর দেখাচ্ছে"],
@@ -124,7 +123,7 @@
     "risk": "medium"
   },
   {
-    "id": "124",
+    "id": "33c3b8d435b402de9c7052c95f0317aac8875e4c21362f5a",
     "category": "support_urgent",
     "intent": "hacked_site_recovery",
     "patterns": [
@@ -138,7 +137,7 @@
     "risk": "high"
   },
   {
-    "id": "125",
+    "id": "3916fa0f05b9233b4ef32844fb529ad36b7d5c2d7872ea6c",
     "category": "support_urgent",
     "intent": "server_down_alert",
     "patterns": [
@@ -152,7 +151,7 @@
     "risk": "high"
   },
   {
-    "id": "059",
+    "id": "53828f830baa1222b09320c363bb048416c689e0dfed50fd",
     "category": "support_urgent",
     "intent": "cancel_order",
     "patterns": [
@@ -166,7 +165,7 @@
     "risk": "high"
   },
   {
-    "id": "051",
+    "id": "1356c636f50c051b373800dd0ea2655687faa246308da0fc",
     "category": "support_urgent",
     "intent": "angry_customer",
     "patterns": [

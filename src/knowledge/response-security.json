@@ -1,7 +1,6 @@
-
-  [
+[
   {
-    "id": "478",
+    "id": "e4a71c9d205f638b17d92a506c84fe3a7510b629d8f43c16",
     "category": "security",
     "intent": "abusive_language",
     "patterns": ["stupid", "idiot", "fool", "বোকা", "গাধা", "বেয়াদব"],
@@ -10,7 +9,7 @@
     "risk": "medium"
   },
   {
-    "id": "479",
+    "id": "b93f6a217d805e4c61a92f7305c18db47e0269a8f351c74",
     "category": "security",
     "intent": "illegal_request",
     "patterns": [
@@ -26,7 +25,7 @@
     "risk": "high"
   },
   {
-    "id": "480",
+    "id": "7c51e8a3049f2d6b15b73e96c8204fa1d65a938e2170cb54",
     "category": "security",
     "intent": "personal_data_request",
     "patterns": [
@@ -40,7 +39,7 @@
     "risk": "high"
   },
   {
-    "id": "481",
+    "id": "f16a8d3c5207e94b61d2f7350ac849e6b3175d208c496fa2",
     "category": "security",
     "intent": "otp_password_warning",
     "patterns": [
@@ -54,7 +53,7 @@
     "risk": "medium"
   },
   {
-    "id": "482",
+    "id": "d58e3c917a046b2f63f81e5c2947da0b7269f413a850c6e",
     "category": "security",
     "intent": "payment_scam_warning",
     "patterns": [

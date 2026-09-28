@@ -1,6 +1,6 @@
-  [
+[
   {
-    "id": "483",
+    "id": "c8f31a7e205d694b12e5f8309a4761dc58b2047f6e9135a",
     "category": "safety",
     "intent": "safe_support_distress",
     "patterns": [
@@ -17,7 +17,7 @@
     "risk": "high"
   },
   {
-    "id": "484",
+    "id": "7e42b9d615c083fa26a741e9b530d8c4176f295a0e8631b",
     "category": "safety",
     "intent": "emotional_low",
     "patterns": [
@@ -32,7 +32,7 @@
     "risk": "medium"
   },
   {
-    "id": "485",
+    "id": "f06d3a91b527e84c16a9507d2e638fb49c175a0d8632e4",
     "category": "safety",
     "intent": "health_emergency",
     "patterns": [

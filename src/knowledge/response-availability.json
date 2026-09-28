@@ -1,8 +1,8 @@
 [
   {
-    "id": "450",
+    "id": "c34f6b3f7efc10a55072397ec4ecec8145d2b3d1daa6e6ef",
     "category": "availability",
-    "intent": "offline_hours",
+    "intent": "after_hours_availability",
     "patterns": [
       "raat e reply pabo",
       "ekhon online achen",
@@ -15,9 +15,9 @@
     "risk": "low"
   },
   {
-    "id": "451",
+    "id": "acf0918b9a3a6297d92236aba8033c65e979aff71fc3372e",
     "category": "availability",
-    "intent": "holiday_notice",
+    "intent": "holiday_support_availability",
     "patterns": [
       "eid chuti",
       "friday open",
@@ -30,9 +30,9 @@
     "risk": "medium"
   },
   {
-    "id": "452",
+    "id": "bb53349b63587e5f8ab442f58259b8842067d63ba6f66776",
     "category": "availability",
-    "intent": "update_followup",
+    "intent": "status_update_request",
     "patterns": [
       "ki holo",
       "update din",
@@ -46,9 +46,9 @@
     "risk": "medium"
   },
   {
-    "id": "453",
+    "id": "095e75158b69779e5755641b4c8e4e7b1522a2bd144e9b3c",
     "category": "availability",
-    "intent": "reply_delay_complaint",
+    "intent": "delayed_reply_complaint",
     "patterns": [
       "reply dicho na",
       "keno reply dao na",
@@ -61,18 +61,18 @@
     "risk": "medium"
   },
   {
-    "id": "454",
+    "id": "4d4e96d06aa6b53ea3a0a785728f7e3a3781ab858c2600ae",
     "category": "availability",
-    "intent": "not_interested",
+    "intent": "service_not_needed",
     "patterns": ["lagbe na", "ekhon dorkar nai", "এখন লাগবে না", "দরকার নেই"],
     "approved_answer": "ঠিক আছে, কোনো সমস্যা নেই। ভবিষ্যতে দরকার হলে নির্দ্বিধায় জানাবেন। 🙌",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "455",
+    "id": "ac9cdb51285a51c6cfa90bebc8ccd7800ceff637ae8bf457",
     "category": "availability",
-    "intent": "think_about_it",
+    "intent": "decision_pending",
     "patterns": [
       "vebe dekhi",
       "pore bolbo",

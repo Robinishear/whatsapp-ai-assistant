@@ -1,6 +1,7 @@
 [
+
   {
-    "id": "053",
+    "id": "1726cbecbba70916f8e5d4720fdaee4517849639d39f5014",
     "category": "services",
     "intent": "api_integration",
     "patterns": [
@@ -13,7 +14,7 @@
     "risk": "low"
   },
   {
-    "id": "054",
+    "id": "e2abecdda766319c396cc19debb82f02e222db14a6520915",
     "category": "services",
     "intent": "ui_ux_design",
     "patterns": ["figma design", "ui ux design", "ডিজাইন কি সুন্দর হবে"],
@@ -21,9 +22,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-
   {
-    "id": "056",
+    "id": "7b197e715ee422ffd90706644990d9fd9b8771b98233c5b4",
     "category": "services",
     "intent": "database_choice",
     "patterns": [
@@ -35,9 +35,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-
   {
-    "id": "061",
+    "id": "6db31e5b4b148fa093c458254a14f73fa4324280fbd74cd5",
     "category": "services",
     "intent": "custom_feature",
     "patterns": ["custom feature add kora jabe", "এই ফিচারটা দেওয়া যাবে"],
@@ -45,9 +44,8 @@
     "auto_reply": true,
     "risk": "medium"
   },
-
   {
-    "id": "063",
+    "id": "c39f84e11d69c5aa93f71a2bb65a09fbec77bd60e9184603",
     "category": "services",
     "intent": "mobile_responsiveness",
     "patterns": [
@@ -60,7 +58,7 @@
     "risk": "low"
   },
   {
-    "id": "064",
+    "id": "e729175ed01cecefaff97d7745de9dc72c150a5672e952f2",
     "category": "services",
     "intent": "page_speed_optimization",
     "patterns": ["speed kemon hobe", "fast hobe site", "স্পিড কেমন হবে"],
@@ -69,7 +67,7 @@
     "risk": "low"
   },
   {
-    "id": "065",
+    "id": "adaa1af7ca20f623b4158bcda16ff808ef2c3bad4823a53b",
     "category": "services",
     "intent": "payment_gateway_integration",
     "patterns": [
@@ -82,7 +80,7 @@
     "risk": "low"
   },
   {
-    "id": "066",
+    "id": "3fe233a91c15bb24a196c6fe39e28ab37baab7b922405337",
     "category": "services",
     "intent": "admin_panel_queries",
     "patterns": [
@@ -95,7 +93,7 @@
     "risk": "low"
   },
   {
-    "id": "034",
+    "id": "1102f2600929b65624418c1fd94e392c51c0529b5914963e",
     "category": "services",
     "intent": "custom_bot_development",
     "patterns": [
@@ -109,7 +107,7 @@
     "risk": "medium"
   },
   {
-    "id": "035",
+    "id": "5f5afc77a299b39542acca0af32ab592f48fb213afdfa65c",
     "category": "services",
     "intent": "ecommerce_solution",
     "patterns": [
@@ -123,7 +121,7 @@
     "risk": "low"
   },
   {
-    "id": "036",
+    "id": "235fb8c6ca1a94b43a3a3a6ac01b3c3dfc5055e0b03e241e",
     "category": "services",
     "intent": "hosting_domain_query",
     "patterns": [
@@ -136,7 +134,7 @@
     "risk": "low"
   },
   {
-    "id": "037",
+    "id": "f2255330982d1491709f5051b4149bffb6aa89776059ae95",
     "category": "services",
     "intent": "seo_services",
     "patterns": ["seo korben", "google ranking", "এসইও সার্ভিস আছে"],
@@ -145,7 +143,7 @@
     "risk": "low"
   },
   {
-    "id": "015",
+    "id": "9bed53b9bb7ac1db22b0dbd809106900648108bfa6077d96",
     "category": "services",
     "intent": "app_development",
     "patterns": [
@@ -159,7 +157,7 @@
     "risk": "low"
   },
   {
-    "id": "014",
+    "id": "96741b074c30487459373b55775ec600f68f02ee0d43041e",
     "category": "services",
     "intent": "website_development",
     "patterns": [
@@ -173,7 +171,7 @@
     "risk": "low"
   },
   {
-    "id": "013",
+    "id": "e14fa10c3271e4cd7366874583487d748e031836c886c5d2",
     "category": "company_info",
     "intent": "services_list",
     "patterns": [
@@ -189,9 +187,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-
   {
-    "id": "476",
+    "id": "83a4df4c6b327328450c256df5b39e95a674184a4d870dd2",
     "category": "services",
     "intent": "logo_branding_query",
     "patterns": [
@@ -205,7 +202,7 @@
     "risk": "medium"
   },
   {
-    "id": "477",
+    "id": "593e51e6e71c9318c7f600fbd5c1da6692ffe8a35d229c6d",
     "category": "services",
     "intent": "ads_management_query",
     "patterns": [
@@ -220,7 +217,7 @@
     "risk": "medium"
   },
   {
-    "id": "276",
+    "id": "582073f812d3eb80ce0526b1e5c8dc161a7a8065d330b275",
     "category": "services",
     "intent": "digital_signature_pad",
     "patterns": ["e-signature pad draw", "ডিজিটাল দস্তখত বা সাইন বোর্ড"],
@@ -229,7 +226,7 @@
     "risk": "medium"
   },
   {
-    "id": "277",
+    "id": "8e355127cbadc2406bab0b7ece110e365399215b2d9bdad9",
     "category": "services",
     "intent": "print_receipt_thermal",
     "patterns": ["pos printer receipt format", "থার্মাল প্রিন্টার মেমো"],
@@ -238,7 +235,7 @@
     "risk": "low"
   },
   {
-    "id": "278",
+    "id": "bccf7d208bea06a89e5a578e98c627599acf168a04fe0707",
     "category": "services",
     "intent": "barcode_label_printing",
     "patterns": ["barcode sticker print", "বারকোড স্টিকার প্রিন্ট করা"],
@@ -247,7 +244,7 @@
     "risk": "low"
   },
   {
-    "id": "279",
+    "id": "55096ffb66fe476008dff3c772eb1e36cadb18e9d449c2ca",
     "category": "services",
     "intent": "kds_kitchen_display",
     "patterns": ["kitchen order screen", "রেস্টুরেন্ট কিচেন ডিসপ্লে"],
@@ -256,7 +253,7 @@
     "risk": "medium"
   },
   {
-    "id": "280",
+    "id": "347331a711466813aaba95c6c24e1065ed6fb6c067e01ad9",
     "category": "services",
     "intent": "waiter_ordering_app",
     "patterns": ["waiter order tab app", "ওয়েটারদের টেবিল অর্ডার অ্যাপ"],
@@ -265,7 +262,7 @@
     "risk": "medium"
   },
   {
-    "id": "281",
+    "id": "495f4beb629da02aed1bc73632b467d2441a6fac3730ce37",
     "category": "services",
     "intent": "table_qr_ordering",
     "patterns": [
@@ -277,7 +274,7 @@
     "risk": "low"
   },
   {
-    "id": "282",
+    "id": "630719ca5f67750ed86aa7ef72f6aef5f1454b9c5076ea0b",
     "category": "services",
     "intent": "hotel_room_service_app",
     "patterns": ["hotel guest service request", "রুম সার্ভিস অর্ডার অ্যাপ"],
@@ -286,7 +283,7 @@
     "risk": "low"
   },
   {
-    "id": "283",
+    "id": "5aa56bfd1e74e516c86265ef34c4e024cca6d5f684faacb3",
     "category": "services",
     "intent": "patient_portal_reports",
     "patterns": ["diagnostic report download", "ডায়াগনস্টিক রিপোর্ট ডাউনলোড"],
@@ -295,7 +292,7 @@
     "risk": "medium"
   },
   {
-    "id": "284",
+    "id": "f39aa2237e2f43b3c24d9fec029df49d164945fccc7a897e",
     "category": "services",
     "intent": "prescription_builder_doctor",
     "patterns": ["digital doctor prescription", "ডিজিটাল প্রেসক্রিপশন তৈরি"],
@@ -304,7 +301,7 @@
     "risk": "medium"
   },
   {
-    "id": "285",
+    "id": "493faeb3f7348b7fee2b42982f54e3f1a4e4dc5e0a0ca99b",
     "category": "services",
     "intent": "token_queue_system",
     "patterns": ["serial token display", "সিরিয়াল টোকেন ডিসপ্লে"],
@@ -313,7 +310,7 @@
     "risk": "medium"
   },
   {
-    "id": "286",
+    "id": "830fa17ae01602eb5864df0c93f37746324b9618fa505c48",
     "category": "services",
     "intent": "student_result_portal",
     "patterns": [
@@ -325,7 +322,7 @@
     "risk": "low"
   },
   {
-    "id": "287",
+    "id": "6c90c47534ba14fd7f4f183a25a65af559c2824cc32cf66f",
     "category": "services",
     "intent": "online_exam_quiz_system",
     "patterns": ["mcq test online exam", "অনলাইন পরীক্ষা ও কুইজ টেস্ট"],
@@ -334,7 +331,7 @@
     "risk": "medium"
   },
   {
-    "id": "288",
+    "id": "6d069d8cc413be61cfd36fa93fb11fd7c6d43f0673dca3bd",
     "category": "services",
     "intent": "certificate_generator_auto",
     "patterns": [
@@ -346,7 +343,7 @@
     "risk": "low"
   },
   {
-    "id": "289",
+    "id": "0da05ab2d20ac58807e7b8c073d468bef9a9a7964083895b",
     "category": "services",
     "intent": "property_virtual_tour",
     "patterns": ["360 degree virtual tour", "৩৬০ ডিগ্রি প্রোপার্টি ভিউ"],
@@ -355,7 +352,7 @@
     "risk": "medium"
   },
   {
-    "id": "290",
+    "id": "3c1adda8cc834f48c5c4ae832d15b3b7a41c4ea8a843e824",
     "category": "services",
     "intent": "mortgage_emi_calculator",
     "patterns": ["home loan emi calculator", "লোন কিস্তি ক্যালকুলেটর"],
@@ -364,7 +361,7 @@
     "risk": "low"
   },
   {
-    "id": "291",
+    "id": "9618e1739a318a1201cd9fd1e0f3e5158f25e13cc20945bf",
     "category": "services",
     "intent": "vehicle_tracking_gps_ui",
     "patterns": [
@@ -376,7 +373,7 @@
     "risk": "high"
   },
   {
-    "id": "292",
+    "id": "1b93fb0f3b77f7779a9a003f118fc57507af065a3ed1b825",
     "category": "services",
     "intent": "fuel_management_system",
     "patterns": ["fleet fuel calculation", "জ্বালানি তেল খরচ হিসাব"],
@@ -385,7 +382,7 @@
     "risk": "medium"
   },
   {
-    "id": "293",
+    "id": "9c9755492e06f4415adf2b9d51de95f03585d582e3a11a2a",
     "category": "services",
     "intent": "employee_attendance_geo",
     "patterns": ["gps attendance app", "জিপিএস লোকেশন দিয়ে হাজিরা"],
@@ -394,7 +391,7 @@
     "risk": "medium"
   },
   {
-    "id": "294",
+    "id": "4b547881512126aec5599efbd29570bd93d679d2a5c6c80a",
     "category": "services",
     "intent": "payroll_salary_sheet",
     "patterns": ["salary slip payroll system", "বেতন ও পে-রোল হিসাব"],
@@ -403,7 +400,7 @@
     "risk": "medium"
   },
   {
-    "id": "295",
+    "id": "4228949d31983d682e5e9e7c64fbb43d777d11141ddcb4a7",
     "category": "services",
     "intent": "leave_management_portal",
     "patterns": ["apply for leave app", "ছুটির আবেদন সফটওয়্যার"],
@@ -412,7 +409,7 @@
     "risk": "low"
   },
   {
-    "id": "296",
+    "id": "77db098e95ca569764345a1f5b66ece83c7dc9b4e48d1026",
     "category": "services",
     "intent": "expense_tracker_business",
     "patterns": ["company daily expense tracking", "দৈনন্দিন খরচ ও জমার হিসাব"],
@@ -421,7 +418,7 @@
     "risk": "low"
   },
   {
-    "id": "297",
+    "id": "2992cac1a87f4f2e1df7eff4d507427bea1499cafd7878df",
     "category": "services",
     "intent": "asset_management_software",
     "patterns": ["company equipment tracking", "কোম্পানির মালামাল ট্র্যাকিং"],
@@ -430,7 +427,7 @@
     "risk": "low"
   },
   {
-    "id": "298",
+    "id": "eb98848d44b3e8942d2bc3ea3ffe02275aa851fa973c0246",
     "category": "services",
     "intent": "procurement_purchase_order",
     "patterns": ["po requisitions system", "পারচেজ অর্ডার বা রিকুইজিশন"],
@@ -439,7 +436,7 @@
     "risk": "medium"
   },
   {
-    "id": "299",
+    "id": "e028cc14f05940f4aabd26a28d25af826cf7e2b8fa34da01",
     "category": "services",
     "intent": "vendor_supplier_portal",
     "patterns": ["vendor login dashboard", "সাপ্লায়ারদের আলাদা ড্যাশবোর্ড"],
@@ -448,7 +445,7 @@
     "risk": "medium"
   },
   {
-    "id": "300",
+    "id": "ddcb08118d360b6da58a295ae051e8079c97411a1109a697",
     "category": "services",
     "intent": "ticket_helpdesk_support",
     "patterns": ["support ticket system", "হেল্পডেস্ক টিকিট সিস্টেম"],
@@ -457,7 +454,7 @@
     "risk": "low"
   },
   {
-    "id": "301",
+    "id": "e84923bf2db172160044ae5189cf1adb11c16ce92ea28038",
     "category": "services",
     "intent": "live_chat_agent_transfer",
     "patterns": [
@@ -469,7 +466,7 @@
     "risk": "medium"
   },
   {
-    "id": "302",
+    "id": "20570b7b03c45475dd5b8f668b74e24b0aabf05a28c25bf6",
     "category": "services",
     "intent": "knowledgebase_wiki_system",
     "patterns": ["help doc article wiki", "হেল্প ডকুমেন্ট ও গাইড পেইজ"],
@@ -478,7 +475,7 @@
     "risk": "low"
   },
   {
-    "id": "303",
+    "id": "feb2e9d3cd426587eec092c375e7d87f70c81e4201f31982",
     "category": "services",
     "intent": "community_ideas_upvote",
     "patterns": ["feature request upvote board", "ইউজার আইডিয়া ও ভোট বোর্ড"],
@@ -487,7 +484,7 @@
     "risk": "low"
   },
   {
-    "id": "304",
+    "id": "f986349e23770b5e081d978645806351f026e4c2314d5bc4",
     "category": "services",
     "intent": "bug_bounty_reporting",
     "patterns": [
@@ -499,7 +496,7 @@
     "risk": "high"
   },
   {
-    "id": "305",
+    "id": "11fedc238e2355808c14a64a2f63759503e3ea850d1e927e",
     "category": "services",
     "intent": "changelog_product_updates",
     "patterns": ["what is new in update changelog", "নতুন কি কি আপডেট আসলো"],
@@ -508,7 +505,7 @@
     "risk": "low"
   },
   {
-    "id": "306",
+    "id": "80ca97af949fdb718d5b8d692add4ab19972a331fe8c8174",
     "category": "services",
     "intent": "roadmap_future_features",
     "patterns": ["product development roadmap", "ভবিষ্যতে কি ফিচার আসবে"],
@@ -516,8 +513,16 @@
     "auto_reply": true,
     "risk": "low"
   },
+
+
+
+
+
+
+
+
   {
-    "id": "307",
+    "id": "79f6dd58d8009825cf613b52b1ca9568775497b48de6d918",
     "category": "services",
     "intent": "beta_testing_invite",
     "patterns": ["join beta program", "বেটা টেস্টিংয়ে যুক্ত হওয়া"],
@@ -526,7 +531,7 @@
     "risk": "low"
   },
   {
-    "id": "308",
+    "id": "723230f88d12955af61e10f466ec5eaa6f81837aadfc5b7e",
     "category": "services",
     "intent": "app_release_notes",
     "patterns": ["version release notes", "ভার্সন রিলিজ নোট"],
@@ -535,7 +540,7 @@
     "risk": "low"
   },
   {
-    "id": "309",
+    "id": "e02c1f61cb3d69bf200b2ab22b0505f735ad95e58de4ce51",
     "category": "services",
     "intent": "apk_direct_download",
     "patterns": ["download apk file direct", "সরাসরি এপিকে ফাইল ডাউনলোড"],
@@ -544,7 +549,7 @@
     "risk": "low"
   },
   {
-    "id": "310",
+    "id": "2752123b003a4da0e7d33374e6fa0dc98bb05fb3b25e7f57",
     "category": "services",
     "intent": "testflight_ios_invite",
     "patterns": ["ios testflight link", "আইওএস টেস্টফ্লাইট লিংক"],
@@ -553,7 +558,7 @@
     "risk": "low"
   },
   {
-    "id": "311",
+    "id": "f0d489c911d4605da93f1db182095ae12b67883e74fc7c3e",
     "category": "services",
     "intent": "desktop_electron_app",
     "patterns": ["windows desktop app .exe", "উইন্ডোজ পিসির সফটওয়্যার"],
@@ -562,7 +567,7 @@
     "risk": "medium"
   },
   {
-    "id": "312",
+    "id": "ca0395d259c9a4e0b656b941a4f5d8b782b0770b2c929ca6",
     "category": "services",
     "intent": "chrome_extension_dev",
     "patterns": [
@@ -574,7 +579,7 @@
     "risk": "medium"
   },
   {
-    "id": "313",
+    "id": "ef4004373ea7d4ed3801fec9607a9d15d851bb5be3cdaf17",
     "category": "services",
     "intent": "telegram_bot_dev",
     "patterns": ["telegram bot create", "টেলিগ্রাম বট তৈরি"],
@@ -583,7 +588,7 @@
     "risk": "low"
   },
   {
-    "id": "314",
+    "id": "0a1cbbb885a48967a20ec0fee82e388700a81c5489c48b50",
     "category": "services",
     "intent": "discord_bot_dev",
     "patterns": ["discord bot dev", "ডিসকর্ড বট বানিয়ে দেওয়া"],
@@ -592,7 +597,7 @@
     "risk": "low"
   },
   {
-    "id": "315",
+    "id": "9139af181eef7c015818f4d6275d3928cfc50bf08acfdbf3",
     "category": "services",
     "intent": "facebook_messenger_bot",
     "patterns": ["manychat messenger bot", "ফেসবুক মেসেঞ্জার বট"],
@@ -601,7 +606,7 @@
     "risk": "low"
   },
   {
-    "id": "316",
+    "id": "9099d14f005e4e827a75d5d5c66beb8a2a3896b37755eedf",
     "category": "services",
     "intent": "instagram_auto_dm",
     "patterns": ["instagram dm automation", "ইনস্টাগ্রাম অটো ডিএম"],
@@ -610,7 +615,7 @@
     "risk": "low"
   },
   {
-    "id": "317",
+    "id": "588a4d4179e320e2979a87561e7798bba8d47f930ca77c3c",
     "category": "services",
     "intent": "linkedin_lead_scraper",
     "patterns": ["linkedin automation data tool", "লিঙ্কডইন লিড সংগ্রহ টুল"],
@@ -619,7 +624,7 @@
     "risk": "medium"
   },
   {
-    "id": "318",
+    "id": "b4af26e09362328a72186648d8c5d2cfb6b2f0a91de2bd8c",
     "category": "services",
     "intent": "web_scraping_service",
     "patterns": [
@@ -631,7 +636,7 @@
     "risk": "medium"
   },
   {
-    "id": "319",
+    "id": "8eb936edadf1559cb0cbb6bc468f153c05bc76e39f33041e",
     "category": "services",
     "intent": "automation_zapier_make",
     "patterns": ["zapier automation setup", "জেপিয়ার বা মেক অটোমেশন"],
@@ -640,7 +645,7 @@
     "risk": "low"
   },
   {
-    "id": "320",
+    "id": "60043857d1227600e621cd62021bc28edcf20ec219db0ad2",
     "category": "services",
     "intent": "n8n_self_hosted_automation",
     "patterns": ["n8n workflow setup", "n8n অটোমেশন ওয়ার্কফ্লো"],
@@ -649,7 +654,7 @@
     "risk": "medium"
   },
   {
-    "id": "321",
+    "id": "8803d0d6dac9603ffe12897e8d9632522d0637ad1935d314",
     "category": "services",
     "intent": "data_migration_service",
     "patterns": [
@@ -660,9 +665,8 @@
     "auto_reply": true,
     "risk": "medium"
   },
-
   {
-    "id": "126",
+    "id": "9ae887bb829dd2e70f2b7e7882e2f6ae43e7df86da8e67bc",
     "category": "services",
     "intent": "whatsapp_catalog_setup",
     "patterns": ["whatsapp catalog add", "হোয়াটসঅ্যাপ ক্যাটালগ সেটআপ"],
@@ -671,7 +675,7 @@
     "risk": "low"
   },
   {
-    "id": "127",
+    "id": "c7356c3e6dafa6ae5aab275f0433338f55c4f2fdddf48109",
     "category": "services",
     "intent": "whatsapp_cloud_api",
     "patterns": ["meta whatsapp cloud api", "হোয়াটসঅ্যাপ ক্লাউড এপিআই"],
@@ -680,7 +684,7 @@
     "risk": "medium"
   },
   {
-    "id": "128",
+    "id": "0c658a53f3599c2cc293c290408c996277757e823d6dda2e",
     "category": "services",
     "intent": "bulk_sms_service",
     "patterns": ["bulk sms system", "বাল্ক এসএমএস সার্ভিস"],
@@ -689,7 +693,7 @@
     "risk": "low"
   },
   {
-    "id": "129",
+    "id": "34860aad0baccc10b7602250b256ca3c3e6786385f55b703",
     "category": "services",
     "intent": "payment_gateway_sslcommerz",
     "patterns": ["sslcommerz setup", "এসএসএলকমার্জ সেটআপ"],
@@ -698,7 +702,7 @@
     "risk": "low"
   },
   {
-    "id": "130",
+    "id": "0e5dfdad20568fc8982850e5b5a77467698837d63bc889a7",
     "category": "services",
     "intent": "payment_gateway_bkash_merchant",
     "patterns": ["bkash merchant api", "বিকাশ মার্চেন্ট এপিআই"],
@@ -707,7 +711,7 @@
     "risk": "low"
   },
   {
-    "id": "131",
+    "id": "37a3b881136a4bcee32d1a737fedd7ca2c3eee15bf62cee8",
     "category": "services",
     "intent": "stripe_gateway_setup",
     "patterns": ["stripe payment connect", "স্ট্রাইপ সেটআপ"],
@@ -716,7 +720,7 @@
     "risk": "low"
   },
   {
-    "id": "132",
+    "id": "f516e27d70af5a6e931dd5ab222c74ab8bea31d7ddec38dd",
     "category": "services",
     "intent": "paypal_gateway_setup",
     "patterns": ["paypal add", "পেপ্যাল কানেক্ট করতে হবে"],
@@ -725,7 +729,7 @@
     "risk": "low"
   },
   {
-    "id": "133",
+    "id": "5ee7219549ad72038822970c5b93d811d7a639d0ae6a9e0f",
     "category": "services",
     "intent": "courier_api_steadfast",
     "patterns": ["steadfast api", "স্টেডফাস্ট এপিআই যুক্ত করা"],
@@ -734,7 +738,7 @@
     "risk": "low"
   },
   {
-    "id": "134",
+    "id": "db2217e97e40af5bdc847ee12969eec8b6a3f1308eae5521",
     "category": "services",
     "intent": "courier_api_pathao",
     "patterns": ["pathao courier api", "পাঠাও কুরিয়ার এপিআই"],
@@ -743,7 +747,7 @@
     "risk": "low"
   },
   {
-    "id": "135",
+    "id": "89ad5a4e58174207c5730822a76f733723b8ed77bf0e07a4",
     "category": "services",
     "intent": "courier_api_redx",
     "patterns": ["redx api connect", "রেডেক্স এপিআই সেটআপ"],
@@ -752,7 +756,7 @@
     "risk": "low"
   },
   {
-    "id": "136",
+    "id": "d7aa59f1152112b2122bf0b57ce3ab0e658725d1a01d75b6",
     "category": "services",
     "intent": "saas_platform_dev",
     "patterns": ["saas application", "সাস প্ল্যাটফর্ম তৈরি"],
@@ -761,7 +765,7 @@
     "risk": "medium"
   },
   {
-    "id": "137",
+    "id": "cdd1b7e4cb4745e90c524cb01b7efd6963adf6126e1129ba",
     "category": "services",
     "intent": "multi_vendor_ecommerce",
     "patterns": ["multivendor website", "মাল্টি ভেন্ডর সাইট"],
@@ -770,7 +774,7 @@
     "risk": "medium"
   },
   {
-    "id": "138",
+    "id": "e3702ee0208de089ae56fce26cb3ceb5e6d8c97c5a08ba61",
     "category": "services",
     "intent": "ride_sharing_app",
     "patterns": ["uber like app", "রাইড শেয়ারিং অ্যাপ"],
@@ -779,7 +783,7 @@
     "risk": "medium"
   },
   {
-    "id": "139",
+    "id": "f8e781a021d313be3f5dfeb9facb1608025cc86b1007cfc1",
     "category": "services",
     "intent": "food_delivery_app",
     "patterns": ["foodpanda like app", "ফুড ডেলিভারি অ্যাপ"],
@@ -788,7 +792,7 @@
     "risk": "medium"
   },
   {
-    "id": "140",
+    "id": "132b4c55dc712831c8b515bb1c15c6abbbd088866868e028",
     "category": "services",
     "intent": "telemedicine_app",
     "patterns": ["doctor appointment app", "ডাক্তার অ্যাপয়েন্টমেন্ট অ্যাপ"],
@@ -797,7 +801,7 @@
     "risk": "medium"
   },
   {
-    "id": "141",
+    "id": "bcd97b9c5fcf952ea75530de5df37c2eb9d5626b4f834780",
     "category": "services",
     "intent": "hotel_booking_system",
     "patterns": ["hotel room booking site", "হোটেল বুকিং সাইট"],
@@ -806,7 +810,7 @@
     "risk": "medium"
   },
   {
-    "id": "142",
+    "id": "5c924648f3e0463168ded8f71a6d7959a8817e154d39b744",
     "category": "services",
     "intent": "ticketing_system",
     "patterns": ["bus ticket booking site", "টিকিট কাটার ওয়েবসাইট"],
@@ -815,7 +819,7 @@
     "risk": "medium"
   },
   {
-    "id": "143",
+    "id": "7eddd87dd5345899195ae37ee6a3feca27c28684bc773ed3",
     "category": "services",
     "intent": "school_management_software",
     "patterns": ["school college software", "স্কুল ম্যানেজমেন্ট সফটওয়্যার"],
@@ -824,7 +828,7 @@
     "risk": "medium"
   },
   {
-    "id": "144",
+    "id": "d2b8db767a210e966b04451ed4e0183b985b0d62e96d6c87",
     "category": "services",
     "intent": "hospital_management_system",
     "patterns": ["hospital er software", "হাসপাতাল ম্যানেজমেন্ট"],
@@ -833,7 +837,7 @@
     "risk": "medium"
   },
   {
-    "id": "145",
+    "id": "dd13efd1a0b8dd6e707217f435d15327866afb6103c21e9b",
     "category": "services",
     "intent": "pharmacy_pos_software",
     "patterns": ["pharmacy pos", "ফার্মেসি স্টক সফটওয়্যার"],
@@ -842,7 +846,7 @@
     "risk": "low"
   },
   {
-    "id": "146",
+    "id": "cfd6a13200175b1d42dee39abd1436b07cda4087fcd0b40c",
     "category": "services",
     "intent": "gym_membership_software",
     "patterns": ["gym management app", "জিম মেম্বারশিপ অ্যাপ"],
@@ -851,7 +855,7 @@
     "risk": "low"
   },
   {
-    "id": "147",
+    "id": "7102899fb925f5267e587149571167392d0e50974e032dc6",
     "category": "services",
     "intent": "library_management",
     "patterns": ["library software", "লাইব্রেরি সফটওয়্যার"],
@@ -860,7 +864,7 @@
     "risk": "low"
   },
   {
-    "id": "148",
+    "id": "c841659b24a66fb259ad5756b9a72cb68f2c80ca79b8c2ce",
     "category": "services",
     "intent": "matrimonial_site",
     "patterns": ["matrimony site make", "ম্যারেজ মিডিয়া সাইট"],
@@ -869,7 +873,7 @@
     "risk": "medium"
   },
   {
-    "id": "149",
+    "id": "facef10279b9f4654742e68bfde5750e8655ae218d1b673b",
     "category": "services",
     "intent": "job_portal_development",
     "patterns": ["bdjobs like site", "জব পোর্টাল ওয়েবসাইট"],
@@ -878,7 +882,7 @@
     "risk": "medium"
   },
   {
-    "id": "150",
+    "id": "f56ba1d4e0819c8adc6865075cad3896f4b52c4611cc954c",
     "category": "services",
     "intent": "classified_ads_site",
     "patterns": ["bikroy like site", "ক্লাসিফাইড বিজ্ঞাপন সাইট"],
@@ -887,7 +891,7 @@
     "risk": "medium"
   },
   {
-    "id": "151",
+    "id": "2a1ab137068bcc9044101237f2df4c75e1b9a27a119da0c4",
     "category": "services",
     "intent": "crowdfunding_platform",
     "patterns": ["donation website", "ডোনেশন বা ফান্ড তোলার সাইট"],
@@ -896,7 +900,7 @@
     "risk": "medium"
   },
   {
-    "id": "152",
+    "id": "21c312367f5a54f5a57c14ec5a82fa40577921f7884ce490",
     "category": "services",
     "intent": "forum_community_site",
     "patterns": ["online community forum", "ফোরাম ওয়েবসাইট"],
@@ -905,7 +909,7 @@
     "risk": "low"
   },
   {
-    "id": "153",
+    "id": "363bf374b32bd0405c41c36bc5a8848226cc01d4e33a4392",
     "category": "services",
     "intent": "blog_site_spec",
     "patterns": ["blog site banabo", "ব্লগ ওয়েবসাইট বানাবো"],
@@ -914,7 +918,7 @@
     "risk": "low"
   },
   {
-    "id": "154",
+    "id": "54e030aff5817bf80c107591022a73788b43f4d4bcf8f2d0",
     "category": "services",
     "intent": "google_adsense_setup",
     "patterns": ["adsense approval help", "এডসেন্স সেটআপ"],
@@ -923,7 +927,7 @@
     "risk": "low"
   },
   {
-    "id": "155",
+    "id": "0dcf857f27b9b3f2f755a73058c3a8db2430530258a95056",
     "category": "services",
     "intent": "pwa_web_app",
     "patterns": ["pwa conversion", "প্রোগ্রেসিভ ওয়েব অ্যাপ"],
@@ -932,7 +936,7 @@
     "risk": "low"
   },
   {
-    "id": "156",
+    "id": "6686694d1f7c81a8d13a8f32c486ba76d10c4248b4c050e1",
     "category": "services",
     "intent": "headless_cms",
     "patterns": ["strapi cms", "sanity cms", "হেডলেস সিএমএস"],
@@ -941,7 +945,7 @@
     "risk": "low"
   },
   {
-    "id": "157",
+    "id": "80def8f9d3d9eabdb4aa2e7d66a8b4b91f2925036b0c100b",
     "category": "services",
     "intent": "graphql_api_spec",
     "patterns": ["graphql api dev", "গ্রাফকিউএল এপিআই"],
@@ -950,7 +954,7 @@
     "risk": "low"
   },
   {
-    "id": "158",
+    "id": "2cbe0f8c2171dfc362e39bedb3b79dbcc16f36b95ec9461a",
     "category": "services",
     "intent": "rest_api_spec",
     "patterns": ["restful api dev", "রেস্ট এপিআই তৈরি"],
@@ -959,7 +963,7 @@
     "risk": "low"
   },
   {
-    "id": "159",
+    "id": "4f473a6a1bd0ca5ba16144e67cf2626f85a23d39e287aca0",
     "category": "services",
     "intent": "swagger_api_doc",
     "patterns": ["swagger documentation", "এপিআই ডকুমেন্টেশন"],
@@ -968,7 +972,7 @@
     "risk": "low"
   },
   {
-    "id": "160",
+    "id": "b3dea267ddc0961ccfdc6396db6f1dedfe772b74cdf6f5aa",
     "category": "services",
     "intent": "github_gitlab_setup",
     "patterns": ["git repository setup", "গিটহাব রিপোজিটরি"],
@@ -977,7 +981,7 @@
     "risk": "low"
   },
   {
-    "id": "161",
+    "id": "0b7e61015dab1fa25dd39c97629821070967d7101e0cd57e",
     "category": "services",
     "intent": "ci_cd_pipeline",
     "patterns": ["auto deployment cicd", "সিআই সিডি পাইপলাইন"],
@@ -986,7 +990,7 @@
     "risk": "medium"
   },
   {
-    "id": "162",
+    "id": "2fc64e9d0bc70925f23bfe421a631eecb79bad2df9a915e2",
     "category": "services",
     "intent": "docker_containerization",
     "patterns": ["dockerize project", "ডকার কনটেইনার"],
@@ -995,7 +999,7 @@
     "risk": "medium"
   },
   {
-    "id": "163",
+    "id": "270712123b7bb8fd47d10eca0ecd98a72320c13236b7da31",
     "category": "services",
     "intent": "redis_caching",
     "patterns": ["redis cache setup", "রেডিস ক্যাশিং"],
@@ -1004,7 +1008,7 @@
     "risk": "low"
   },
   {
-    "id": "164",
+    "id": "4151875bb2638f72b01c8a8b77004bc17f46426234d78ad4",
     "category": "services",
     "intent": "socket_realtime_chat",
     "patterns": ["socket.io setup", "রিয়েলটাইম চ্যাট ব্যবস্থা"],
@@ -1013,7 +1017,7 @@
     "risk": "low"
   },
   {
-    "id": "165",
+    "id": "c7ecedc95a43e080a4852cc457e21321884c86b4caa9a704",
     "category": "services",
     "intent": "webrtc_video_calling",
     "patterns": ["webrtc setup", "ওয়েব আরটিসি কলিং"],
@@ -1021,8 +1025,10 @@
     "auto_reply": true,
     "risk": "medium"
   },
+
+ 
   {
-    "id": "166",
+    "id": "10090db3bd38576aae80a318f417fabbe34a0bb18ce3713b",
     "category": "services",
     "intent": "ai_openai_integration",
     "patterns": ["chatgpt api connect", "ওপেনএআই এপিআই"],
@@ -1031,7 +1037,7 @@
     "risk": "low"
   },
   {
-    "id": "167",
+    "id": "43dac2d375c65cce739bb3b456336601e3d16b0a44f3b92c",
     "category": "services",
     "intent": "ai_gemini_integration",
     "patterns": ["gemini ai connect", "জেমিনাই এপিআই"],
@@ -1040,7 +1046,7 @@
     "risk": "low"
   },
   {
-    "id": "168",
+    "id": "49bdca50a55ace8c66415cef7fa42c017a16cefbc73d240d",
     "category": "services",
     "intent": "ai_image_generation",
     "patterns": ["midjourney stable diffusion api", "এআই দিয়ে ছবি তৈরি"],
@@ -1049,7 +1055,7 @@
     "risk": "low"
   },
   {
-    "id": "169",
+    "id": "8ffe80032354da4337e7dbd14a44e98885366658c1516e67",
     "category": "services",
     "intent": "speech_to_text_spec",
     "patterns": ["voice recognition api", "কথা থেকে টেক্সট হওয়া"],
@@ -1058,7 +1064,7 @@
     "risk": "low"
   },
   {
-    "id": "170",
+    "id": "e11f77cd9ddcac632c64288a9bd6980f0065114db44acba0",
     "category": "services",
     "intent": "text_to_speech_spec",
     "patterns": ["text to audio api", "লেখা থেকে ভয়েস হওয়া"],
@@ -1067,7 +1073,7 @@
     "risk": "low"
   },
   {
-    "id": "171",
+    "id": "2dd8135ca00f7b9a619653024ce7de9ba157c7402676ba2f",
     "category": "services",
     "intent": "ocr_document_scanner",
     "patterns": ["ocr system", "ছবি থেকে লেখা পড়া"],
@@ -1076,7 +1082,7 @@
     "risk": "medium"
   },
   {
-    "id": "172",
+    "id": "33de1cfafdc3f4055c05583dc9366f75dc4630479ea2637c",
     "category": "services",
     "intent": "face_recognition_check",
     "patterns": ["face detection app", "ফেস ডিটেকশন এটেন্ডেন্স"],
@@ -1085,7 +1091,7 @@
     "risk": "medium"
   },
   {
-    "id": "173",
+    "id": "0d93f14b2421b40a2a11136bc07a491f521bc0d4d5d3544a",
     "category": "services",
     "intent": "barcode_qr_generator",
     "patterns": ["qr code generate", "বারকোড তৈরি ও স্ক্যান"],
@@ -1094,7 +1100,7 @@
     "risk": "low"
   },
   {
-    "id": "174",
+    "id": "662ae35fb75e5f1e54e34328f3e41ec28bca53b89a884c54",
     "category": "services",
     "intent": "pdf_invoice_generator",
     "patterns": ["pdf download feature", "পিডিএফ ডাউনলোড ফিচার"],
@@ -1103,7 +1109,7 @@
     "risk": "low"
   },
   {
-    "id": "175",
+    "id": "327381f739b390bcf1f01a06318ccae08a639c88010fa7df",
     "category": "services",
     "intent": "excel_csv_export_import",
     "patterns": ["excel import export", "এক্সেল ফাইল আপলোড ও ডাউনলোড"],
@@ -1112,7 +1118,7 @@
     "risk": "low"
   },
   {
-    "id": "176",
+    "id": "121d2e74439e404340c3967e7a6878fd0934e32f07ca7a0d",
     "category": "services",
     "intent": "google_sheets_sync",
     "patterns": ["google sheet sync", "গুগল শিট কানেক্ট করা"],
@@ -1121,7 +1127,7 @@
     "risk": "low"
   },
   {
-    "id": "177",
+    "id": "04b19ee0c07ac079fb995d19330f8396746587502b4ac132",
     "category": "services",
     "intent": "chart_analytics_dashboard",
     "patterns": ["sales graph dashboard", "গ্রাফ ও চার্ট ড্যাশবোর্ড"],
@@ -1130,7 +1136,7 @@
     "risk": "low"
   },
   {
-    "id": "178",
+    "id": "165b9e4c7c46db250eed4f813d646ea0fe0cafa3486c5dc7",
     "category": "services",
     "intent": "role_based_access_control",
     "patterns": ["role permission system", "এডমিন ও ইউজার রোল"],
@@ -1139,7 +1145,7 @@
     "risk": "low"
   },
   {
-    "id": "179",
+    "id": "15c91455b39ea8b15303dea6aa189e13a04ce489f626487c",
     "category": "services",
     "intent": "two_factor_auth_2fa",
     "patterns": ["2fa security", "টু ফ্যাক্টর অথেন্টিকেশন"],
@@ -1148,7 +1154,7 @@
     "risk": "low"
   },
   {
-    "id": "180",
+    "id": "3445bffb818828ed6abf34eac10acc3b6588086d00e25494",
     "category": "services",
     "intent": "forgot_password_reset",
     "patterns": ["password reset system", "পাসওয়ার্ড ভুলে গেলে কি হবে"],
@@ -1157,7 +1163,7 @@
     "risk": "low"
   },
   {
-    "id": "181",
+    "id": "a393fb4bc05704156986caf0152035754661b3887bdc15be",
     "category": "services",
     "intent": "session_timeout_security",
     "patterns": ["auto logout", "অটো লগআউট ফিচার"],
@@ -1166,7 +1172,7 @@
     "risk": "low"
   },
   {
-    "id": "182",
+    "id": "08d6ad4ef1592b762f92a6452972110e222a9d4c4c0f35c3",
     "category": "services",
     "intent": "ip_blocking_security",
     "patterns": ["block bad ip", "আইপি ব্লক করা"],
@@ -1175,7 +1181,7 @@
     "risk": "medium"
   },
   {
-    "id": "183",
+    "id": "af8699ca2206020cef9fd10b7f2d28abed6fdebe7f08c149",
     "category": "services",
     "intent": "recaptcha_integration",
     "patterns": ["google recaptcha setup", "ক্যাপচা কোড রাখা"],
@@ -1184,7 +1190,7 @@
     "risk": "low"
   },
   {
-    "id": "184",
+    "id": "7f0d3749cdaf361e12a8fedeb2ed0638e2a5a9b866fa1bc2",
     "category": "services",
     "intent": "cookie_consent_banner",
     "patterns": ["gdpr cookie banner", "কুকি পারমিশন ব্যানার"],
@@ -1193,7 +1199,7 @@
     "risk": "low"
   },
   {
-    "id": "185",
+    "id": "73cd516e25573470d2bf2882c43e85c3c63c1635c7825efa",
     "category": "services",
     "intent": "terms_and_conditions_page",
     "patterns": ["privacy policy generate", "শর্তাবলী ও প্রাইভেসী পলিসি"],
@@ -1202,7 +1208,7 @@
     "risk": "low"
   },
   {
-    "id": "186",
+    "id": "5ac3cd1523e48de06e2369d92e9871202b2cb0713a3226ee",
     "category": "services",
     "intent": "affiliate_marketing_system",
     "patterns": [
@@ -1214,7 +1220,7 @@
     "risk": "medium"
   },
   {
-    "id": "187",
+    "id": "656e34ffcc95bfc85980bb3ad0903e113adbc663f92011dc",
     "category": "services",
     "intent": "coupon_discount_engine",
     "patterns": ["promo code system", "কুপন কোড ও ছাড় ব্যবস্থা"],
@@ -1223,7 +1229,7 @@
     "risk": "low"
   },
   {
-    "id": "188",
+    "id": "37d84e0cd0b27fe9baaa71c169136c3e8686886621d6046f",
     "category": "services",
     "intent": "subscription_billing_system",
     "patterns": ["recurring payment", "মাসিক সাবস্ক্রিপশন ফি আদায়"],
@@ -1232,7 +1238,7 @@
     "risk": "medium"
   },
   {
-    "id": "189",
+    "id": "5dc79317270a0b595ce4bff0448c98cb8a358f22c118365e",
     "category": "services",
     "intent": "loyalty_points_reward",
     "patterns": ["reward points system", "রিওয়ার্ড পয়েন্ট ব্যবস্থা"],
@@ -1241,7 +1247,7 @@
     "risk": "low"
   },
   {
-    "id": "190",
+    "id": "b0c50c396cba626b8986e78dc5db7c367b388b1438c389f0",
     "category": "services",
     "intent": "wishlist_cart_feature",
     "patterns": ["add to wishlist", "উইশলিস্ট ও কার্ট অপশন"],
@@ -1250,7 +1256,7 @@
     "risk": "low"
   },
   {
-    "id": "191",
+    "id": "a0eb66cab299e5cd0f25436787f5136f5cc5721dfb202df3",
     "category": "services",
     "intent": "product_variant_management",
     "patterns": ["color size variant", "সাইজ ও কালার অপশন রাখা"],
@@ -1259,7 +1265,7 @@
     "risk": "low"
   },
   {
-    "id": "192",
+    "id": "00c796d5babfe26138cbd392ff03b18a8bbb3b0d5deba9f9",
     "category": "services",
     "intent": "stock_out_alert",
     "patterns": ["inventory low warning", "স্টক শেষ হলে সংকেত"],
@@ -1268,7 +1274,7 @@
     "risk": "low"
   },
   {
-    "id": "193",
+    "id": "3fe93b7645e54c90cec2b0a9a1266cfd8e396ccc76b79002",
     "category": "services",
     "intent": "abandoned_cart_recovery",
     "patterns": ["abandoned cart reminder", "অসম্পূর্ণ কেনাকাটার রিমাইন্ডার"],
@@ -1277,7 +1283,7 @@
     "risk": "low"
   },
   {
-    "id": "194",
+    "id": "4a851fe9d40e596a509bb9d3b37604f7f6262fb520aa85fb",
     "category": "services",
     "intent": "order_tracking_page",
     "patterns": ["track my order status", "অর্ডার ট্র্যাকিং পেজ"],
@@ -1286,7 +1292,7 @@
     "risk": "low"
   },
   {
-    "id": "195",
+    "id": "3705ab4509c48737755ffa7d76767f3758c9831e7ee81baf",
     "category": "services",
     "intent": "product_compare_tool",
     "patterns": ["compare products feature", "পণ্য তুলনা করার সুবিধা"],
@@ -1295,7 +1301,7 @@
     "risk": "low"
   },
   {
-    "id": "196",
+    "id": "bd703c96af49467023c24541edcbb4755457d2667ba5f2b9",
     "category": "services",
     "intent": "guest_checkout_feature",
     "patterns": ["without account buy", "একাউন্ট না খুলে কেনা"],
@@ -1304,7 +1310,7 @@
     "risk": "low"
   },
   {
-    "id": "197",
+    "id": "4f1f40f865f5e9e9ac559002d4f690b11621a89af510cf98",
     "category": "services",
     "intent": "digital_product_selling",
     "patterns": ["sell pdf software ebook", "ডিজিটাল ফাইল ডাউনলোড বিক্রি"],
@@ -1313,7 +1319,7 @@
     "risk": "low"
   },
   {
-    "id": "198",
+    "id": "1b96e14fd430f5a1835c09be9583b414d851daf8379a829d",
     "category": "services",
     "intent": "video_streaming_integration",
     "patterns": ["vimeo aws s3 video player", "ভিডিও স্ট্রিম করা সাইট"],
@@ -1322,7 +1328,7 @@
     "risk": "medium"
   },
   {
-    "id": "199",
+    "id": "e7cdfdb43dd76c3e9c4be2d7f797fec407162c1103e19c3d",
     "category": "services",
     "intent": "audio_podcast_player",
     "patterns": ["mp3 podcast stream", "অডিও প্লেয়ার সার্ভিস"],
@@ -1331,7 +1337,7 @@
     "risk": "low"
   },
   {
-    "id": "200",
+    "id": "20bc71dd8d8636b9233a1242243dc8b5bbfb20f74e1fff89",
     "category": "services",
     "intent": "event_registration_ticket",
     "patterns": ["event signup ticket", "ইভেন্ট রেজিস্ট্রেশন সিস্টেম"],
@@ -1340,7 +1346,7 @@
     "risk": "low"
   },
   {
-    "id": "201",
+    "id": "495dc477ce804b64d53091d2fb4d557cce5131724adbf62e",
     "category": "services",
     "intent": "voting_polling_feature",
     "patterns": ["online vote poll", "অনলাইন ভোট বা পোল ব্যবস্থা"],
@@ -1349,7 +1355,7 @@
     "risk": "low"
   },
   {
-    "id": "202",
+    "id": "f94beefbcc0cc13a4593dc5ce14b9143b8e0c78fcafcb037",
     "category": "services",
     "intent": "calculator_tool_dev",
     "patterns": ["custom calculator dev", "কাস্টম ক্যালকুলেটর তৈরি"],
@@ -1358,7 +1364,7 @@
     "risk": "low"
   },
   {
-    "id": "203",
+    "id": "de620bb83f08352166032f9064541cf71186e92f81d137e2",
     "category": "services",
     "intent": "map_radius_search",
     "patterns": ["nearby store search", "কাছের দোকান খোঁজার ফিচার"],
@@ -1367,7 +1373,7 @@
     "risk": "medium"
   },
   {
-    "id": "204",
+    "id": "62d610598bbb8f405a3307351866c73c38231dcd5a981073",
     "category": "services",
     "intent": "weather_api_connect",
     "patterns": ["weather forecast data", "আবহাওয়ার আপডেট অপশন"],
@@ -1376,7 +1382,7 @@
     "risk": "low"
   },
   {
-    "id": "205",
+    "id": "b05065fb3b282d35425cc85dc67a61eb8bf558895dcd99fc",
     "category": "services",
     "intent": "currency_converter_tool",
     "patterns": ["multi currency exchange rate", "টাকা থেকে ডলার কনভার্টার"],
@@ -1385,7 +1391,7 @@
     "risk": "low"
   },
   {
-    "id": "206",
+    "id": "05404c9e4ed6bd3978e0f4c28643df0d74ba3076e224a0bb",
     "category": "services",
     "intent": "time_zone_converter",
     "patterns": ["convert time zone", "টাইমজোন অটো অ্যাডজাস্ট"],
@@ -1394,7 +1400,7 @@
     "risk": "low"
   },
   {
-    "id": "207",
+    "id": "46d0cd1b1dad40da616197a8edd38bbf7f2cce8aa6c1ddb7",
     "category": "services",
     "intent": "popup_lead_generation",
     "patterns": ["newsletter popup box", "পপআপ ফর্ম সেটআপ"],
@@ -1403,7 +1409,7 @@
     "risk": "low"
   },
   {
-    "id": "208",
+    "id": "feb1eedbd1354195490ae3272d3a0888a190fa0e7730f19b",
     "category": "services",
     "intent": "mailchimp_email_marketing",
     "patterns": ["mailchimp connect", "মেইলচিম্প সেটআপ"],
@@ -1412,7 +1418,7 @@
     "risk": "low"
   },
   {
-    "id": "209",
+    "id": "bb92037535a7a971e3be8a0167b0d484533f64278206258f",
     "category": "services",
     "intent": "sendgrid_smtp_setup",
     "patterns": ["sendgrid transactional mail", "সেন্ডগ্রিড সেটআপ"],
@@ -1421,7 +1427,7 @@
     "risk": "medium"
   },
   {
-    "id": "210",
+    "id": "8f92ee9fed13490f1fe0e931f1c58d9f89bd91087622afe3",
     "category": "services",
     "intent": "custom_404_error_page",
     "patterns": ["404 page design", "৪০৪ এরর পেজ ডিজাইন"],
@@ -1430,7 +1436,7 @@
     "risk": "low"
   },
   {
-    "id": "211",
+    "id": "f0bbb450ae6d19af57ae9a708ec9cbd4a14094720891422b",
     "category": "services",
     "intent": "maintenance_mode_page",
     "patterns": ["coming soon page", "সাইট মেনটেইনেন্স পেজ"],
@@ -1439,7 +1445,7 @@
     "risk": "low"
   },
   {
-    "id": "212",
+    "id": "b245d0782071d879bcb6bfc7332d41930761c43c757a8b3f",
     "category": "services",
     "intent": "infinite_scroll_pagination",
     "patterns": ["load more button", "আনলিমিটেড স্ক্রলিং"],
@@ -1448,7 +1454,7 @@
     "risk": "low"
   },
   {
-    "id": "213",
+    "id": "bfeb4603f9209201a4aad6ed84df80679ece1a7fefa559d6",
     "category": "services",
     "intent": "skeleton_loading_screen",
     "patterns": ["skeleton loader", "লোডিং কঙ্কাল এফেক্ট"],
@@ -1457,7 +1463,7 @@
     "risk": "low"
   },
   {
-    "id": "214",
+    "id": "0a74745b6c5d46a808ae70e3246a3a42508a7a581bf7054c",
     "category": "services",
     "intent": "toast_notifications",
     "patterns": ["toast alert box", "পপআপ টোস্ট মেসেজ"],
@@ -1466,7 +1472,7 @@
     "risk": "low"
   },
   {
-    "id": "215",
+    "id": "ef88d871c592ff60752cc5beb926d2de584e4a3145684f29",
     "category": "services",
     "intent": "drag_and_drop_upload",
     "patterns": ["drag drop file upload", "টেনে এনে ফাইল আপলোড"],
@@ -1475,7 +1481,7 @@
     "risk": "low"
   },
   {
-    "id": "216",
+    "id": "b632961b17a7dc960aa567d83dabb3a7a4e7ba5c5de2ae4c",
     "category": "services",
     "intent": "image_crop_resize",
     "patterns": ["crop image before upload", "ছবি ক্রপ করার অপশন"],
@@ -1484,7 +1490,7 @@
     "risk": "low"
   },
   {
-    "id": "217",
+    "id": "05a62864fee1d73e662a53464aee8a1f02f6519ee74d3a8e",
     "category": "services",
     "intent": "lazy_loading_images",
     "patterns": ["lazy load image", "ধীরে ছবি লোড হওয়া"],
@@ -1493,7 +1499,7 @@
     "risk": "low"
   },
   {
-    "id": "218",
+    "id": "93c93e0ea3aa589cb1da4b21d6a62d9711bbeae2cb9cacc2",
     "category": "services",
     "intent": "webp_image_conversion",
     "patterns": ["convert webp image", "ওয়েবপি ফরম্যাট পিকচার"],
@@ -1502,7 +1508,7 @@
     "risk": "low"
   },
   {
-    "id": "219",
+    "id": "dbeb19f8533461242c1b8ab853c6ae5061a22a73b167ba09",
     "category": "services",
     "intent": "cdn_cloudflare_setup",
     "patterns": ["cloudflare setup", "ক্লাউডফ্লেয়ার সেটআপ"],
@@ -1511,7 +1517,7 @@
     "risk": "low"
   },
   {
-    "id": "220",
+    "id": "86b34c9c4f702b4f342473bc1250fa840a6898785d069a9d",
     "category": "services",
     "intent": "sitemap_xml_generation",
     "patterns": ["sitemap submit google", "সাইটম্যাপ জমা দেওয়া"],
@@ -1520,7 +1526,7 @@
     "risk": "low"
   },
   {
-    "id": "221",
+    "id": "9d93d86123deca0e9f8417cbb2bf7d784512400253ba9fed",
     "category": "services",
     "intent": "robots_txt_configuration",
     "patterns": ["robots txt setup", "রোবট ফাইলে পারমিশন"],
@@ -1528,8 +1534,10 @@
     "auto_reply": true,
     "risk": "low"
   },
+
+ 
   {
-    "id": "222",
+    "id": "a2a4f2ab7a68f1e0f39837f9b4069e66e6257f942f35a1cb",
     "category": "services",
     "intent": "schema_markup_seo",
     "patterns": ["structured data schema", "স্কিমা মার্কআপ সেটআপ"],
@@ -1538,7 +1546,7 @@
     "risk": "low"
   },
   {
-    "id": "223",
+    "id": "0181b3ab0a4c3597df44ef76c0eafabf836a749cdd0d44c1",
     "category": "services",
     "intent": "open_graph_social_share",
     "patterns": ["og meta tags", "ফেসবুকে লিংক দিলে ছবি আসা"],
@@ -1547,7 +1555,7 @@
     "risk": "low"
   },
   {
-    "id": "224",
+    "id": "230f775f17a3fe4b9e9732e9b70754009a90185c724fc67f",
     "category": "services",
     "intent": "canonical_tag_duplicate_issue",
     "patterns": ["canonical url setup", "ক্যানোনিকাল ট্যাগ অ্যাড"],
@@ -1556,7 +1564,7 @@
     "risk": "low"
   },
   {
-    "id": "225",
+    "id": "6fff6fcda1ebcac89c7c930a6403dbbd2f3aff27b000cc70",
     "category": "services",
     "intent": "breadcrumbs_navigation",
     "patterns": ["breadcrumb links", "ব্রেডক্রাম্বস নেভিগেশন"],
@@ -1565,7 +1573,7 @@
     "risk": "low"
   },
   {
-    "id": "226",
+    "id": "d52ced58bc55a3366168b1e7f626d4953132e82635f9cd4a",
     "category": "services",
     "intent": "sticky_header_navbar",
     "patterns": ["sticky menu bar", "মেনু বার আটকে থাকা"],
@@ -1574,7 +1582,7 @@
     "risk": "low"
   },
   {
-    "id": "227",
+    "id": "5b8013ee539a6e7583441d851317d13bf866de12215dbe8b",
     "category": "services",
     "intent": "back_to_top_button",
     "patterns": ["scroll to top button", "উপরে ওঠার বাটন"],
@@ -1583,7 +1591,7 @@
     "risk": "low"
   },
   {
-    "id": "228",
+    "id": "072c9bf19bede51f770ae554ce649f149e592bce6041bf4e",
     "category": "services",
     "intent": "print_style_css",
     "patterns": ["printable page layout", "প্রিন্ট করার উপযোগী লেআউট"],
@@ -1592,7 +1600,7 @@
     "risk": "low"
   },
   {
-    "id": "229",
+    "id": "5ea8d14dfc78f953e1b36c9628d50c6c6c9ec26a5009eaf1",
     "category": "services",
     "intent": "custom_font_typography",
     "patterns": ["bangla google font setup", "কাস্টম ফন্ট বসানো"],
@@ -1601,7 +1609,7 @@
     "risk": "low"
   },
   {
-    "id": "230",
+    "id": "0dc514995fc0ba99f77dfab1e66b39c89089f52526bf873f",
     "category": "services",
     "intent": "lottie_animations",
     "patterns": ["lottie json animation", "লটি অ্যানিমেশন বসানো"],
@@ -1610,7 +1618,7 @@
     "risk": "low"
   },
   {
-    "id": "231",
+    "id": "0b9f361a891f4b98528a25350785547a65329e6adb073ea6",
     "category": "services",
     "intent": "parallax_scrolling_effect",
     "patterns": ["parallax background", "প্যারালাক্স স্ক্রোল এফেক্ট"],
@@ -1619,7 +1627,7 @@
     "risk": "low"
   },
   {
-    "id": "232",
+    "id": "4e00852f73ca90368f565d055e60ed4474de4b6c29978cde",
     "category": "services",
     "intent": "accordion_faq_section",
     "patterns": ["faq drop down collapsible", "প্রশ্ন ও উত্তরের ড্রপডাউন"],
@@ -1628,7 +1636,7 @@
     "risk": "low"
   },
   {
-    "id": "233",
+    "id": "f55adcc82b1dbffd80c2e46c7454b0185b09f25cf2e159a7",
     "category": "services",
     "intent": "tabs_content_switcher",
     "patterns": ["tab layout switcher", "ট্যাবভিত্তিক কন্টেন্ট প্রদর্শন"],
@@ -1637,7 +1645,7 @@
     "risk": "low"
   },
   {
-    "id": "234",
+    "id": "451b0a727a84fd65f3cf11957ef7832355933b59ba7cdb52",
     "category": "services",
     "intent": "modal_popup_box",
     "patterns": ["click for modal box", "ক্লিক করলে পপআপ বক্স আসা"],
@@ -1646,7 +1654,7 @@
     "risk": "low"
   },
   {
-    "id": "235",
+    "id": "319b62f9b34e027a06c54971005c2f5b8c5ab7fb038de3a2",
     "category": "services",
     "intent": "tooltip_helper_text",
     "patterns": ["hover text tooltip", "মাউস ধরলে ছোট টেক্সট লেখা"],
@@ -1655,7 +1663,7 @@
     "risk": "low"
   },
   {
-    "id": "236",
+    "id": "5c3534ebb3ed230c59cb1004138c62d6b8dffc9f20123731",
     "category": "services",
     "intent": "countdown_timer_widget",
     "patterns": ["offer deal timer", "অফার শেষ হওয়ার টাইম গণনা"],
@@ -1664,7 +1672,7 @@
     "risk": "low"
   },
   {
-    "id": "237",
+    "id": "53aff363db89af43cbcafa18224a80c07ca67c48a4847230",
     "category": "services",
     "intent": "progress_bar_indicator",
     "patterns": ["step progress bar", "কাজের অগ্রগতি বার"],
@@ -1673,7 +1681,7 @@
     "risk": "low"
   },
   {
-    "id": "238",
+    "id": "9840e98d5d9973d6a5952cacb71a0d0cb350537d7446b44c",
     "category": "services",
     "intent": "step_by_step_wizard_form",
     "patterns": ["multi step form", "ধাপে ধাপে ফরম পূরণ"],
@@ -1682,7 +1690,7 @@
     "risk": "low"
   },
   {
-    "id": "239",
+    "id": "513137bd6ad688a23678fbfecc8c83ddb33b8708682be0bd",
     "category": "services",
     "intent": "form_validation_realtime",
     "patterns": ["instant form error check", "সাথে সাথে ফর্ম ভুল ধরা"],
@@ -1691,7 +1699,7 @@
     "risk": "low"
   },
   {
-    "id": "240",
+    "id": "30b3f83092381d1cd6005fa839fc85a184ad183be2fe28f9",
     "category": "services",
     "intent": "auto_complete_search_input",
     "patterns": ["search prediction suggestion", "সার্চ করার সময় অটো পরামর্শ"],
@@ -1700,7 +1708,7 @@
     "risk": "low"
   },
   {
-    "id": "241",
+    "id": "fdddd8e8edfc1d495fbec0ad90fdc8385c317a3136e26a7e",
     "category": "services",
     "intent": "filter_and_sort_products",
     "patterns": ["filter price category", "ক্যাটাগরি ও দাম দিয়ে ফিল্টার"],
@@ -1709,7 +1717,7 @@
     "risk": "low"
   },
   {
-    "id": "242",
+    "id": "f531899f769b7b3516db97d6fedc9202950566ba4fc4f913",
     "category": "services",
     "intent": "grid_list_view_toggle",
     "patterns": ["grid view list view change", "গ্রিড ও লিস্ট ভিউ পরিবর্তন"],
@@ -1718,7 +1726,7 @@
     "risk": "low"
   },
   {
-    "id": "243",
+    "id": "80e0d08d01569611ceea96265aa495640c2fb254e0fe0339",
     "category": "services",
     "intent": "image_lightbox_gallery",
     "patterns": ["zoom picture gallery", "ছবিতে ক্লিক করলে বড় হওয়া"],
@@ -1727,19 +1735,16 @@
     "risk": "low"
   },
   {
-    "id": "244",
+    "id": "ea5cd20dc195e3545c90dcc5152179a42c70976f9ec6a906",
     "category": "services",
     "intent": "carousel_slider_widget",
-    "patterns": [
-      "banner slider touch swipe",
-      "ব্যানার স্লাইডার ও মোবাইল সোয়াইপ"
-    ],
+    "patterns": ["banner slider touch swipe", "ব্যানার স্লাইডার ও মোবাইল সোয়াইপ"],
     "approved_answer": "স্মার্টফোন দিয়ে সহজে টাচ-সোয়াইপ করা যায় এমন প্রফেশনাল স্লাইডার করব। 🎠",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "245",
+    "id": "10e8cd4f5e60a9c1dc20d132e739157420a3e5be6ba8f894",
     "category": "services",
     "intent": "testimonial_reviews_slider",
     "patterns": ["client review box slider", "কাস্টমার রিভিউ স্লাইডার"],
@@ -1748,7 +1753,7 @@
     "risk": "low"
   },
   {
-    "id": "246",
+    "id": "80577250a7cba44c7c27ae1bf00a2b13142739689510931c",
     "category": "services",
     "intent": "partner_logos_showcase",
     "patterns": ["brand logo slider", "ব্র্যান্ড লোগো প্রদর্শন"],
@@ -1757,7 +1762,7 @@
     "risk": "low"
   },
   {
-    "id": "247",
+    "id": "8e8484f698165e6c22ad5835a9574524640102eba964a2d4",
     "category": "services",
     "intent": "pricing_table_comparison",
     "patterns": ["pricing package table", "প্যাকেজ মূল্যের তুলনা টেবিল"],
@@ -1766,7 +1771,7 @@
     "risk": "low"
   },
   {
-    "id": "248",
+    "id": "733e40ad661aa56cb532bf3b697d9df1318014507edfe48c",
     "category": "services",
     "intent": "team_members_section",
     "patterns": ["our team info grid", "টিম মেম্বারদের পরিচিতি"],
@@ -1775,7 +1780,7 @@
     "risk": "low"
   },
   {
-    "id": "249",
+    "id": "91cd110881aa737e098599fd859c338031b2798cd2367b59",
     "category": "services",
     "intent": "statistics_counter_animation",
     "patterns": ["animated number counter", "সংখ্যা গণনার এনিমেশন"],
@@ -1784,7 +1789,7 @@
     "risk": "low"
   },
   {
-    "id": "250",
+    "id": "103c0ee5ac9f710f2198401f7a79c1c5e9090c8c55772fcd",
     "category": "services",
     "intent": "timeline_history_section",
     "patterns": ["company history timeline", "কোম্পানির ইতিহাস টাইমলাইন"],
@@ -1793,7 +1798,7 @@
     "risk": "low"
   },
   {
-    "id": "251",
+    "id": "2e51413f332b7855e6c5bcbddf4d951fab00709527c7659a",
     "category": "services",
     "intent": "audio_waveform_player",
     "patterns": ["wavesurfer audio player", "ওয়েভফর্ম অডিও প্লেয়ার"],
@@ -1802,7 +1807,7 @@
     "risk": "low"
   },
   {
-    "id": "252",
+    "id": "0f6c10621b418dcf22cdbe52d072e38f9e3c367f94058bfe",
     "category": "services",
     "intent": "video_background_hero",
     "patterns": ["hero section video background", "ব্যাকগ্রাউন্ডে ভিডিও চলা"],
@@ -1811,7 +1816,7 @@
     "risk": "low"
   },
   {
-    "id": "253",
+    "id": "077c8065388a8e1a64657eacfed3f53267d76e14b9f0924f",
     "category": "services",
     "intent": "embed_youtube_vimeo",
     "patterns": ["youtube video embed", "ইউটিউব ভিডিও প্লেয়ার বসানো"],
@@ -1820,7 +1825,7 @@
     "risk": "low"
   },
   {
-    "id": "254",
+    "id": "6087ec729733f1de8e0382bf0fa1302a82c3582a3e56583b",
     "category": "services",
     "intent": "social_share_buttons",
     "patterns": ["facebook share button", "সোশ্যাল মিডিয়ায় শেয়ার বাটন"],
@@ -1829,7 +1834,7 @@
     "risk": "low"
   },
   {
-    "id": "255",
+    "id": "bbaff305669349718d02d8988d175a3041256125db008c25",
     "category": "services",
     "intent": "comment_disqus_system",
     "patterns": ["comment box setup", "কমেন্ট করার অপশন দেওয়া"],
@@ -1838,7 +1843,7 @@
     "risk": "low"
   },
   {
-    "id": "256",
+    "id": "d52c3413d6c0c796265da17fdc6f9345dfdcc99e828dd368",
     "category": "services",
     "intent": "like_bookmark_feature",
     "patterns": ["save for later bookmark", "পছন্দ বা বুকমার্ক করা"],
@@ -1847,7 +1852,7 @@
     "risk": "low"
   },
   {
-    "id": "257",
+    "id": "09b0bb74a5c794e06eb51aaa9cc8460313633e5546109340",
     "category": "services",
     "intent": "read_time_calculator",
     "patterns": ["reading time min", "পড়তে কত সময় লাগবে"],
@@ -1856,7 +1861,7 @@
     "risk": "low"
   },
   {
-    "id": "258",
+    "id": "af8463b68655da5f44b99ce74752d6a6c7888188d77c94a1",
     "category": "services",
     "intent": "font_size_resizer",
     "patterns": ["increase font size button", "টেক্সট ছোট বড় করার বাটন"],
@@ -1865,7 +1870,7 @@
     "risk": "low"
   },
   {
-    "id": "259",
+    "id": "1a0e2e893a5589f0aec1bf297ee42d8dd8be5c690ca44adb",
     "category": "services",
     "intent": "copy_to_clipboard_button",
     "patterns": ["click to copy text", "কপি বাটন সেটআপ"],
@@ -1874,7 +1879,7 @@
     "risk": "low"
   },
   {
-    "id": "260",
+    "id": "e7f24b74701da6817396129d924f8a718bc7466ce5aabcd1",
     "category": "services",
     "intent": "keyboard_shortcuts_support",
     "patterns": ["hotkeys shortcut key", "কিবোর্ড শর্টকাট রাখা"],
@@ -1883,7 +1888,7 @@
     "risk": "low"
   },
   {
-    "id": "261",
+    "id": "353a01180886fde7d138082cc4fe81b00cf84cc85dd2fae9",
     "category": "services",
     "intent": "voice_search_input",
     "patterns": ["speak to search", "মুখে বলে সার্চ করার ফিচার"],
@@ -1892,7 +1897,7 @@
     "risk": "low"
   },
   {
-    "id": "262",
+    "id": "161fbfc0c37249f52c91fd8fa5c00fe8e073dfd4917a5598",
     "category": "services",
     "intent": "web_push_onesignal",
     "patterns": ["onesignal setup", "ওয়ানসিগন্যাল নোটিফিকেশন"],
@@ -1901,7 +1906,7 @@
     "risk": "low"
   },
   {
-    "id": "263",
+    "id": "f259126fc4d349cd5f791951db71c62223e8b9ee6493f410",
     "category": "services",
     "intent": "pwa_offline_support",
     "patterns": ["work without internet PWA", "ইন্টারনেট ছাড়াও সাইট চলা"],
@@ -1910,7 +1915,7 @@
     "risk": "medium"
   },
   {
-    "id": "264",
+    "id": "7d8f83be12ed1ff415a443dfe0b2d6a1acea356c051f3615",
     "category": "services",
     "intent": "device_fingerprinting",
     "patterns": ["device tracking security", "ডিভাইস আইডি ট্র্যাকিং"],
@@ -1919,7 +1924,7 @@
     "risk": "medium"
   },
   {
-    "id": "265",
+    "id": "5427d988e8d80987f55414898655dffe593e10430ab467fe",
     "category": "services",
     "intent": "geo_ip_location_detect",
     "patterns": ["country detect from ip", "ইউজারের দেশ অটো চেনা"],
@@ -1928,7 +1933,7 @@
     "risk": "low"
   },
   {
-    "id": "266",
+    "id": "2daee42e564ab9428020eb31a6f77cd00e9a743e1f5cf112",
     "category": "services",
     "intent": "adblock_detector",
     "patterns": ["anti adblock popup", "এডব্লকার বন্ধের নোটিশ"],
@@ -1937,7 +1942,7 @@
     "risk": "low"
   },
   {
-    "id": "267",
+    "id": "20698723f2cf48061d016b6f4cbc328406f2c1dbad814fda",
     "category": "services",
     "intent": "anti_copy_protect",
     "patterns": ["disable right click copy", "লেখা বা ছবি কপি বন্ধ করা"],
@@ -1946,7 +1951,7 @@
     "risk": "low"
   },
   {
-    "id": "268",
+    "id": "8a06863012937ea4d8de1f7910853f910ca655a501c44671",
     "category": "services",
     "intent": "watermark_on_image",
     "patterns": ["auto watermark logo", "ছবির ওপর ওয়াটারমার্ক লোগো"],
@@ -1955,7 +1960,7 @@
     "risk": "low"
   },
   {
-    "id": "269",
+    "id": "f5cc4daaa1a2e707d34dea785d998f02eb31b5f0e19d0421",
     "category": "services",
     "intent": "auto_translate_widget",
     "patterns": ["google translate box", "অটো অনুবাদ বাটন"],
@@ -1964,7 +1969,7 @@
     "risk": "low"
   },
   {
-    "id": "270",
+    "id": "d305c93cd29e5e98824ef84bb51749bb1b45ef0829f3e5a6",
     "category": "services",
     "intent": "currency_auto_symbol",
     "patterns": ["taka dollar icon display", "টাকা বা ডলারের আইকন"],
@@ -1973,7 +1978,7 @@
     "risk": "low"
   },
   {
-    "id": "271",
+    "id": "cb174ac00c74548476e3b968a33fb4c7ca0eb31e67729a7c",
     "category": "services",
     "intent": "tax_vat_calculation",
     "patterns": ["vat tax auto calculate", "ভ্যাট ও ট্যাক্স হিসাব করা"],
@@ -1982,31 +1987,25 @@
     "risk": "low"
   },
   {
-    "id": "272",
+    "id": "abc1f853d23e1d0861d1f04b7e594ef2f6a7c96b00e8f4c2",
     "category": "services",
     "intent": "shipping_charge_by_city",
-    "patterns": [
-      "dhaka outside delivery charge",
-      "ঢাকার ভেতরে ও বাইরে ডেলিভারি চার্জ"
-    ],
+    "patterns": ["dhaka outside delivery charge", "ঢাকার ভেতরে ও বাইরে ডেলিভারি চার্জ"],
     "approved_answer": "ঢাকা ও ঢাকার বাইরের জেলার জন্য আলাদা কুরিয়ার চার্জ অটো সেট হবে। 🚚",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "273",
+    "id": "805ccc22cc060189f27a14bd7a0ea56a3eee66f295e9a014",
     "category": "services",
     "intent": "free_shipping_threshold",
-    "patterns": [
-      "free shipping over 1000",
-      "নির্দিষ্ট টাকার কেনাকাটায় ডেলিভারি ফ্রি"
-    ],
+    "patterns": ["free shipping over 1000", "নির্দিষ্ট টাকার কেনাকাটায় ডেলিভারি ফ্রি"],
     "approved_answer": "যেমন: ১৫০০ টাকার বেশি কেনাকাটা করলে ডেলিভারি চার্জ অটোমেটিক জিরো হবে। 🎁",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "274",
+    "id": "4f4993c10c53a903c8906326faaec46771ba42497af9227e",
     "category": "services",
     "intent": "weight_based_shipping",
     "patterns": ["weight wise courier charge", "ওজন অনুযায়ী ডেলিভারি খরচ"],
@@ -2015,20 +2014,16 @@
     "risk": "low"
   },
   {
-    "id": "107",
+    "id": "22160ef7e973b8b28e16b1d2022835df2e5c3c09be235ad6",
     "category": "services",
     "intent": "flutter_app_spec",
-    "patterns": [
-      "flutter app lagbe",
-      "flutter dev",
-      "ফ্লাটার অ্যাপ বানিয়ে দিবেন"
-    ],
+    "patterns": ["flutter app lagbe", "flutter dev", "ফ্লাটার অ্যাপ বানিয়ে দিবেন"],
     "approved_answer": "হ্যাঁ, ফ্লাটার দিয়ে একই সাথে অ্যান্ড্রয়েড ও আইওএস অ্যাপ তৈরি করে দেওয়া যাবে। 📱",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "108",
+    "id": "3294742aa1db9d02c2f852d20f5c3662db1712aa7206eaff",
     "category": "services",
     "intent": "react_native_spec",
     "patterns": ["react native application", "রিয়্যাক্ট নেটিভ অ্যাপ"],
@@ -2037,20 +2032,16 @@
     "risk": "low"
   },
   {
-    "id": "109",
+    "id": "3069dfc62661f4d014fdf7b3d31a5f31069aa35beb295e8e",
     "category": "services",
     "intent": "wordpress_site_spec",
-    "patterns": [
-      "wordpress website",
-      "wp site make",
-      "ওয়ার্ডপ্রেস সাইট বানিয়ে দেবেন"
-    ],
+    "patterns": ["wordpress website", "wp site make", "ওয়ার্ডপ্রেস সাইট বানিয়ে দেবেন"],
     "approved_answer": "হ্যাঁ, খুব দ্রুত ও কাস্টমাইজড ওয়ার্ডপ্রেস ওয়েবসাইট তৈরি করে দেওয়া যাবে। 🌐",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "110",
+    "id": "abb3addac02441953b9efe03623347308787d86c8ce3a962",
     "category": "services",
     "intent": "shopify_store_spec",
     "patterns": ["shopify store build", "শপিফাই স্টোর বানাবো"],
@@ -2059,7 +2050,7 @@
     "risk": "low"
   },
   {
-    "id": "111",
+    "id": "6fcdd639f6f7e41f462c9785c84e820f33fb387f02f49fd4",
     "category": "services",
     "intent": "laravel_backend_spec",
     "patterns": ["laravel project", "ল্যারাভেল ব্যাকএন্ড"],
@@ -2068,7 +2059,7 @@
     "risk": "low"
   },
   {
-    "id": "112",
+    "id": "4015b913087af9d747dfb365eb8686afb3fadc48a7c03685",
     "category": "services",
     "intent": "python_django_spec",
     "patterns": ["python django dev", "পাইথন জ্যাঙ্গো সাইট"],
@@ -2077,7 +2068,7 @@
     "risk": "low"
   },
   {
-    "id": "113",
+    "id": "a5784e190990e986dc1f8f9e18de69adadab7725fdb7971a",
     "category": "services",
     "intent": "nextjs_frontend_spec",
     "patterns": ["nextjs frontend", "নেক্সট জেএস দিয়ে বানাবেন"],
@@ -2086,7 +2077,7 @@
     "risk": "low"
   },
   {
-    "id": "114",
+    "id": "cff522866687a25d45e0199ebe6f5e61a7f7f3617a14a134",
     "category": "services",
     "intent": "play_store_publish",
     "patterns": ["play store app upload", "প্লে স্টোরে অ্যাপ আপলোড"],
@@ -2095,7 +2086,7 @@
     "risk": "low"
   },
   {
-    "id": "115",
+    "id": "657fe67c8bb13eb1ea9e3cd5432ab2d44b4b32bc8ec556e1",
     "category": "services",
     "intent": "app_store_publish",
     "patterns": ["app store ios publish", "অ্যাপল স্টোরে পাবলিশ"],
@@ -2103,8 +2094,10 @@
     "auto_reply": true,
     "risk": "low"
   },
+
+
   {
-    "id": "116",
+    "id": "f2c7a91e4d6b803a15e9c2f748b136d0a5e87c41b92f6a3d",
     "category": "services",
     "intent": "domain_buy_assistance",
     "patterns": ["domain kinte chai", "ডোমেইন কিনতে সাহায্য করবেন"],
@@ -2113,7 +2106,7 @@
     "risk": "low"
   },
   {
-    "id": "117",
+    "id": "8a5d3e71c9f204b6e17a8d53f0c96e42b751d8f3a6e0c924",
     "category": "services",
     "intent": "hosting_setup_assistance",
     "patterns": ["hosting kinte chai", "হোস্টিং কনফিগার করে দিবেন"],
@@ -2122,7 +2115,7 @@
     "risk": "low"
   },
   {
-    "id": "118",
+    "id": "c61e9f2a7b405d38e94f016ac752b83d6e19f4a0c527d861",
     "category": "services",
     "intent": "vps_server_management",
     "patterns": ["vps server manage", "ভিপিএস সার্ভার ম্যানেজমেন্ট"],
@@ -2131,7 +2124,7 @@
     "risk": "medium"
   },
   {
-    "id": "119",
+    "id": "3e8a17c5d94b602f71c3e0a8469d52b7f1a6c438e05d29f1",
     "category": "services",
     "intent": "facebook_pixel_setup",
     "patterns": ["meta pixel setup", "ফেসবুক পিক্সেল সেটআপ"],
@@ -2140,7 +2133,7 @@
     "risk": "low"
   },
   {
-    "id": "120",
+    "id": "a47c91e6f2038d5b7a10c94f6e2d8531b9c047a5f618e32d",
     "category": "services",
     "intent": "google_tag_manager",
     "patterns": ["gtm setup", "গুগল ট্যাগ ম্যানেজার সেটআপ"],
@@ -2149,7 +2142,7 @@
     "risk": "low"
   },
   {
-    "id": "121",
+    "id": "d93f5a21b7c604e89a16f3d052c7b841e65a90f4c238d7b6",
     "category": "services",
     "intent": "domain_email_setup",
     "patterns": [
@@ -2162,7 +2155,7 @@
     "risk": "low"
   },
   {
-    "id": "122",
+    "id": "5b8e2c71f409d63a17c95e0b842f6d39a6e103c7d58b924f",
     "category": "services",
     "intent": "google_workspace_setup",
     "patterns": ["gsuite setup", "google workspace", "গুগল ওয়ার্কস্পেস সেটআপ"],
@@ -2171,7 +2164,7 @@
     "risk": "low"
   },
   {
-    "id": "069",
+    "id": "e04c7a92d15f683b9e21a507c34d8f6a71b5e9032c64f18d",
     "category": "services",
     "intent": "portfolio_website_spec",
     "patterns": ["personal portfolio chai", "পোর্টফোলিও ওয়েবসাইট প্রয়োজন"],
@@ -2180,7 +2173,7 @@
     "risk": "low"
   },
   {
-    "id": "070",
+    "id": "7f31a8c5e209d64b13f7a92c580e41d6b9c35a074e168f2a",
     "category": "services",
     "intent": "news_portal_spec",
     "patterns": ["news site chai", "নিউজ পোর্টাল বানাতে চাই"],
@@ -2189,7 +2182,7 @@
     "risk": "low"
   },
   {
-    "id": "071",
+    "id": "b8d402e71f6a935c20e9d47b51c863fa7a024d95e18c6b3f",
     "category": "services",
     "intent": "lms_education_platform",
     "patterns": ["coaching website", "lms site", "কোচিং সেন্টারের সাইট"],
@@ -2198,7 +2191,7 @@
     "risk": "low"
   },
   {
-    "id": "072",
+    "id": "1c7e5a93d406b82f69a1e35c704d9f26b8c51a07e63f4d92",
     "category": "services",
     "intent": "restaurant_pos_system",
     "patterns": [
@@ -2211,7 +2204,7 @@
     "risk": "low"
   },
   {
-    "id": "073",
+    "id": "f6a038d21e7c594b83f15a96d4207e8c2b51c63a907d4f1e",
     "category": "services",
     "intent": "real_estate_site",
     "patterns": ["real estate website", "জমি বিক্রির সাইট"],
@@ -2220,7 +2213,7 @@
     "risk": "low"
   },
   {
-    "id": "074",
+    "id": "4a91e7c35f026d8b13c54e70a6f29b81d3e5c907b146fa2e",
     "category": "services",
     "intent": "social_media_integration",
     "patterns": [
@@ -2233,7 +2226,7 @@
     "risk": "low"
   },
   {
-    "id": "075",
+    "id": "c3e718a90d5462f1b85a4e93c027d6f9e51b83a7046c2d15",
     "category": "services",
     "intent": "google_maps_integration",
     "patterns": ["google map add", "ম্যাপ লোকেশন দেওয়া যাবে"],
@@ -2242,7 +2235,7 @@
     "risk": "low"
   },
   {
-    "id": "076",
+    "id": "91d6f3a82e507c14b69a0f35e724c8d5a13e96f047b2c651",
     "category": "services",
     "intent": "multilingual_support",
     "patterns": ["multi language website", "একাধিক ভাষা সাপোর্ট"],
@@ -2251,7 +2244,7 @@
     "risk": "low"
   },
   {
-    "id": "077",
+    "id": "e5b209c71a64f38d02c9e571b836a4f15d70c92e6a4813bf",
     "category": "services",
     "intent": "ssl_certificate",
     "patterns": ["ssl lagbe", "https thakbe", "এসএসএল সার্টিফিকেট"],
@@ -2260,7 +2253,7 @@
     "risk": "low"
   },
   {
-    "id": "078",
+    "id": "2f84c6a17e903d5b71a9e42c068f35b9d614e7a0c5821f36",
     "category": "services",
     "intent": "backup_facility",
     "patterns": ["backup thakbe", "data harabe na to", "ব্যাকআপ ব্যবস্থা"],
@@ -2269,7 +2262,7 @@
     "risk": "low"
   },
   {
-    "id": "079",
+    "id": "b5c71e308a42f69d15e0c937b6a8f241d953c70e1642a8fb",
     "category": "services",
     "intent": "slow_website_issue",
     "patterns": ["site slow", "website fast korte chai", "সাইট স্লো কাজ করছে"],
@@ -2278,7 +2271,7 @@
     "risk": "medium"
   },
   {
-    "id": "080",
+    "id": "68e31f7a025c94d6b18e53a907f42cbd6e10a85f39c72104",
     "category": "services",
     "intent": "redesign_existing_site",
     "patterns": [
@@ -2291,7 +2284,7 @@
     "risk": "low"
   },
   {
-    "id": "081",
+    "id": "a9f306e7c52b184d63a0e79f415c8b2d97e51a630c4f826b",
     "category": "services",
     "intent": "push_notifications",
     "patterns": ["push notification", "নোটিফিকেশন পাঠানো যাবে"],
@@ -2300,7 +2293,7 @@
     "risk": "low"
   },
   {
-    "id": "082",
+    "id": "d71a5c92e604f38b17e9a05c6b42f81d3e760a94c2518f6b",
     "category": "services",
     "intent": "chatbot_integration",
     "patterns": ["bot integrate korbo", "চ্যাটবট যুক্ত করা"],
@@ -2309,7 +2302,7 @@
     "risk": "low"
   },
   {
-    "id": "083",
+    "id": "36c8f1e95a027d64b83e51c70f492a18d605f9b3e247c8a1",
     "category": "services",
     "intent": "custom_crm",
     "patterns": ["crm banate chai", "কাস্টমার ম্যানেজমেন্ট সফটওয়্যার"],
@@ -2318,7 +2311,7 @@
     "risk": "medium"
   },
   {
-    "id": "084",
+    "id": "f184b3c6097e52a1d63f0c948b275e86a419d70c3e56b92f",
     "category": "services",
     "intent": "inventory_software",
     "patterns": ["inventory software", "স্টক ম্যানেজমেন্ট সাইট"],
@@ -2327,7 +2320,7 @@
     "risk": "medium"
   },
   {
-    "id": "085",
+    "id": "72e5c1a90f4638bd15a7e2c604f9b531d86c40a7e2159f3b",
     "category": "services",
     "intent": "dark_mode_feature",
     "patterns": ["dark mode thakbe", "ডার্ক মোড অপশন"],
@@ -2336,7 +2329,7 @@
     "risk": "low"
   },
   {
-    "id": "086",
+    "id": "e8a417c62d903f5b71e0a946c35d82f6b194c7e5036a21d9",
     "category": "services",
     "intent": "social_login",
     "patterns": ["google login", "facebook login option", "সোশ্যাল লগইন"],
@@ -2345,7 +2338,7 @@
     "risk": "low"
   },
   {
-    "id": "087",
+    "id": "c04f79a215e6d38b91a0f5627e34c8d6b507e19f43a6c2b8",
     "category": "services",
     "intent": "sms_notification",
     "patterns": ["sms alert", "otp system", "ওটিপি বা এসএমএস সিস্টেম"],
@@ -2354,7 +2347,7 @@
     "risk": "low"
   },
   {
-    "id": "088",
+    "id": "5e92d7a41c608fb3e15a9d2647f038c6b81e54a2039d76f1",
     "category": "services",
     "intent": "seo_friendly_code",
     "patterns": ["seo friendly hobe", "এসইও ফ্রেন্ডলি কোড"],
@@ -2363,7 +2356,7 @@
     "risk": "low"
   },
   {
-    "id": "089",
+    "id": "a16f4c82e705b39d61e0a54f7c928b3d5e41c6079f2a83e6",
     "category": "services",
     "intent": "cross_browser_support",
     "patterns": ["all browser cholbe", "সব ব্রাউজারে চলবে তো"],
@@ -2372,7 +2365,7 @@
     "risk": "low"
   },
   {
-    "id": "090",
+    "id": "d68a203f91c754be06e39a72c5184fbd3a0e65c9271b48f6",
     "category": "services",
     "intent": "ongoing_maintenance_contract",
     "patterns": ["long term maintenance", "দীর্ঘমেয়াদী মেইনটেনেন্স"],
@@ -2381,7 +2374,7 @@
     "risk": "medium"
   },
   {
-    "id": "091",
+    "id": "3b7f1e94c052d86a15e9b43067c2f581a604d7e93f18c25b",
     "category": "services",
     "intent": "domain_transfer",
     "patterns": ["domain transfer", "ডোমেইন ট্রান্সফার করবো"],
@@ -2390,7 +2383,7 @@
     "risk": "low"
   },
   {
-    "id": "092",
+    "id": "f50c83a617e294bd09a5d762c4318ef6b207c95a38d14e7f",
     "category": "services",
     "intent": "cloud_deployment",
     "patterns": ["aws deploy", "vps setup", "ক্লাউড হোস্ট বা ভিপিএস সেটআপ"],
@@ -2399,7 +2392,7 @@
     "risk": "medium"
   },
   {
-    "id": "093",
+    "id": "84d2e5c71a0396bf15c8e470b261f953a7d40c9e6821b35f",
     "category": "services",
     "intent": "testing_qa",
     "patterns": ["testing করবেন", "qa check"],
@@ -2408,7 +2401,7 @@
     "risk": "low"
   },
   {
-    "id": "094",
+    "id": "b31f7a90e5c462d18a6f03e974c5b821d6079a43f25e8c6b",
     "category": "services",
     "intent": "nda_agreement",
     "patterns": ["k"],
@@ -2417,7 +2410,7 @@
     "risk": "medium"
   },
   {
-    "id": "095",
+    "id": "6c04e8f217a93d5b71e60c4289f35a0dcb64e1753a82f91e",
     "category": "services",
     "intent": "live_chat_integration",
     "patterns": ["live chat add", "লাইভ চ্যাট উইজেট"],
@@ -2426,7 +2419,7 @@
     "risk": "low"
   },
   {
-    "id": "096",
+    "id": "e71a5c309f8246bd13e0a957c2648d5f7b41d6039e52f18a",
     "category": "services",
     "intent": "file_upload_feature",
     "patterns": ["file upload option", "ফাইল আপলোড সুবিধা"],
@@ -2435,7 +2428,7 @@
     "risk": "low"
   },
   {
-    "id": "097",
+    "id": "29f6b3c814e075ad61a92e537c40f8b6d15e739a024c6f91",
     "category": "services",
     "intent": "analytics_integration",
     "patterns": ["google analytics add", "অ্যানালিটিক্স যুক্ত করা"],
@@ -2444,7 +2437,7 @@
     "risk": "low"
   },
   {
-    "id": "098",
+    "id": "c57e91a304f628bd16a0e53c749d2f8b61e935a2074c9d5f",
     "category": "services",
     "intent": "invoice_generation",
     "patterns": ["auto invoice system", "ইনভয়েস তৈরির ফিচার"],
@@ -2453,7 +2446,7 @@
     "risk": "low"
   },
   {
-    "id": "099",
+    "id": "a83c6f205e9174bd19d0e562c7483f9b61a45c7028d3e1f6",
     "category": "services",
     "intent": "review_rating_system",
     "patterns": ["review system", "রেটিং বা রিভিউ অপশন"],
@@ -2462,7 +2455,7 @@
     "risk": "low"
   },
   {
-    "id": "100",
+    "id": "d14f8a639b205e71c46a0f923d7b51e8f35c604a92e176bc",
     "category": "services",
     "intent": "closing_thanks",
     "patterns": ["i"],
@@ -2471,7 +2464,7 @@
     "risk": "low"
   },
   {
-    "id": "101",
+    "id": "4f71c9a203e85bd61a0f347e92c658b7d14e5a6390c82f16",
     "category": "services",
     "intent": "audio_call_request",
     "patterns": [
@@ -2485,7 +2478,7 @@
     "risk": "medium"
   },
   {
-    "id": "102",
+    "id": "e62a5c903f174bd81e0a739c46d251f8b57c92a6041d3e75",
     "category": "services",
     "intent": "video_call_request",
     "patterns": [
@@ -2499,7 +2492,7 @@
     "risk": "medium"
   },
   {
-    "id": "103",
+    "id": "97c1e54a208d63fb15a0e72c8469b531d4f87a6092e35c1b",
     "category": "services",
     "intent": "screen_share_session",
     "patterns": [

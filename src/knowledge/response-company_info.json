@@ -1,6 +1,6 @@
 [
   {
-    "id": "016",
+    "id": "6f3a8c21d94e507b1a6c2f8e35d7904cba16e82f59d3c7a1",
     "category": "company_info",
     "intent": "portfolio_request",
     "patterns": [
@@ -14,7 +14,7 @@
     "risk": "low"
   },
   {
-    "id": "017",
+    "id": "a84d1f639b27e5c0427a9d8f61c35be7049a2f16d8c5b3e7",
     "category": "company_info",
     "intent": "working_hours",
     "patterns": [
@@ -28,7 +28,7 @@
     "risk": "low"
   },
   {
-    "id": "018",
+    "id": "d72e4a9c51f803b6e28d7c145a96f3e0b57c19d4a862e5f7",
     "category": "company_info",
     "intent": "location_address",
     "patterns": [
@@ -42,7 +42,7 @@
     "risk": "low"
   },
   {
-    "id": "019",
+    "id": "3b9e72f5c1a6048d7e35b0f29c816a47d5e93f2b6c04a871",
     "category": "company_info",
     "intent": "contact_number",
     "patterns": [
@@ -56,7 +56,7 @@
     "risk": "low"
   },
   {
-    "id": "020",
+    "id": "e15c8a4f72d903b6c91e57a28f04d639b7c25a1e84f6d390",
     "category": "company_info",
     "intent": "email_address",
     "patterns": [
@@ -70,7 +70,7 @@
     "risk": "low"
   },
   {
-    "id": "021",
+    "id": "9c6f2a74e81d503b7a15c9e46d2f80a1c53b7e92f604d8a5",
     "category": "company_info",
     "intent": "schedule_call",
     "patterns": [
@@ -84,12 +84,8 @@
     "auto_reply": true,
     "risk": "medium"
   },
- 
- 
-  
- 
   {
-    "id": "033",
+    "id": "f27b9d631e54a08c6f3d72b195e840a7c29d61f5b83e4a0d",
     "category": "company_info",
     "intent": "tech_stack_query",
     "patterns": [
@@ -102,10 +98,8 @@
     "auto_reply": true,
     "risk": "low"
   },
-  
-
   {
-    "id": "044",
+    "id": "b53e8f217c96d40a5e72f1b839c064d7a91e35c6f28b4a70",
     "category": "company_info",
     "intent": "free_consultation",
     "patterns": [
@@ -119,7 +113,7 @@
     "risk": "low"
   },
   {
-    "id": "045",
+    "id": "7e41c9a52d806f3b18a75c94e260d1f8b63a907e45c2f1d6",
     "category": "company_info",
     "intent": "job_inquiry",
     "patterns": [
@@ -133,7 +127,7 @@
     "risk": "low"
   },
   {
-    "id": "046",
+    "id": "c91d5e72a403f8b6e15c9a27d6401f53b82e7c49a06d3f18",
     "category": "company_info",
     "intent": "internship_query",
     "patterns": ["internship ache", "intern neo", "ইন্টার্নশিপ দেওয়া যাবে"],
@@ -142,7 +136,7 @@
     "risk": "low"
   },
   {
-    "id": "047",
+    "id": "5a8e31d7c46f902b73e15c8a29d604f1b97c35e6a82d41f0",
     "category": "company_info",
     "intent": "partnership_proposal",
     "patterns": [

@@ -1,6 +1,6 @@
 [
   {
-    "id": "028",
+    "id": "a61e9f3c7502d84b17f6a9205c438de2e809b1457f36ca1",
     "category": "project_policy",
     "intent": "project_timeline",
     "patterns": [
@@ -14,7 +14,7 @@
     "risk": "medium"
   },
   {
-    "id": "067",
+    "id": "d94b7e205a631f8c42e9a750b16c53f7e8042d19a6c35b8e",
     "category": "project_policy",
     "intent": "training_provided",
     "patterns": [
@@ -27,7 +27,7 @@
     "risk": "low"
   },
   {
-    "id": "029",
+    "id": "3f82c6a914e750bd61a539d8c2074ef95b16a3d7e8420c6",
     "category": "project_policy",
     "intent": "revision_policy",
     "patterns": [
@@ -41,7 +41,7 @@
     "risk": "low"
   },
   {
-    "id": "030",
+    "id": "e507a2c8391f64bd75d206e9a41853f0c627b14d8e9305a1",
     "category": "project_policy",
     "intent": "support_after_delivery",
     "patterns": [
@@ -54,7 +54,7 @@
     "risk": "low"
   },
   {
-    "id": "060",
+    "id": "8c41d7e2509a63f1b586e3d74a20c9b15f6e824d37a051c",
     "category": "project_policy",
     "intent": "contract_agreement",
     "patterns": [
@@ -67,7 +67,7 @@
     "risk": "medium"
   },
   {
-    "id": "055",
+    "id": "b730e5a216d948c07f52a63e8914bc5d0a76f139e24c8b1",
     "category": "project_policy",
     "intent": "security_concerns",
     "patterns": [
@@ -80,9 +80,8 @@
     "auto_reply": true,
     "risk": "medium"
   },
-
   {
-    "id": "040",
+    "id": "4e96c1a703d85f2b617a940ce5297bd84f1306e2a758b9d",
     "category": "project_policy",
     "intent": "requirements_submission",
     "patterns": [
@@ -95,7 +94,7 @@
     "risk": "low"
   },
   {
-    "id": "062",
+    "id": "f25a8d631c7049be38e167d0a5924fc7b816e35a2049d6c",
     "category": "project_policy",
     "intent": "source_code_ownership",
     "patterns": ["source code pabo", "code amak diben", "সোর্স কোড দিবেন তো"],

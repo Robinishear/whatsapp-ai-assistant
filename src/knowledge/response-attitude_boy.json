@@ -1,8 +1,8 @@
 [
   {
-    "id": "701",
+    "id": "9c29df962d2b25afd6385f0f706cb9e6c37a0192c423f512",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_level_comparison",
     "patterns": [
       "তোর সেই লেভেল নাই",
       "তোর কোনো লেভেল নাই",
@@ -13,9 +13,9 @@
     "risk": "low"
   },
   {
-    "id": "702",
+    "id": "17c2818531160035228070abf0b82104bd8a2bd26ffcad37",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_ability_challenge",
     "patterns": [
       "তুই এটা পারবি না",
       "তোর দ্বারা হবে না",
@@ -26,9 +26,9 @@
     "risk": "low"
   },
   {
-    "id": "703",
+    "id": "73d83fc6a77a82397aa75300b01b1cec73de8b963c1701e9",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_social_exclusion",
     "patterns": [
       "তুই আমাদের সমাজে আসার যোগ্য না",
       "তুই আমার সোসাইটির লোক না",
@@ -39,9 +39,9 @@
     "risk": "low"
   },
   {
-    "id": "704",
+    "id": "93c25b6ebf8fbaf580e384b617901cfcf13de93e92509ca0",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_confrontation_confidence",
     "patterns": [
       "আমার সামনে আসার সাহস কীভাবে হলো",
       "তুই আমার সামনে দাঁড়াবি",
@@ -52,9 +52,9 @@
     "risk": "low"
   },
   {
-    "id": "705",
+    "id": "26c61e4a0802355fd3b95a458694e31f5c2a5562f3d2db2f",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_background_status",
     "patterns": [
       "তোর ব্যাকগ্রাউন্ড কি",
       "তোর কোনো ব্যাকগ্রাউন্ড নাই",
@@ -65,9 +65,9 @@
     "risk": "low"
   },
   {
-    "id": "706",
+    "id": "c52ddf844e2f0fb43d1c696598d2178cc7a144e59020fcde",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_identity_power",
     "patterns": [
       "তুই আমাকে চিনিস",
       "আমি কে জানিস তুই",
@@ -78,9 +78,9 @@
     "risk": "low"
   },
   {
-    "id": "707",
+    "id": "02cb5cf68b8f06a1b82fde5874d88f0a39eda42564f5288d",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_dignity_devaluation",
     "patterns": [
       "তুই আমার জুতার যোগ্য না",
       "তুই আমার জুতার পায়ের ধুলা",
@@ -91,9 +91,9 @@
     "risk": "low"
   },
   {
-    "id": "708",
+    "id": "fb5410875e168d16c5608a43150c5c7f501670df178f91bf",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_class_standard",
     "patterns": [
       "তোর কোনো স্ট্যান্ডার্ড নাই",
       "একদম লো স্ট্যান্ডার্ড তুই",
@@ -104,18 +104,18 @@
     "risk": "low"
   },
   {
-    "id": "709",
+    "id": "c8b92ffc6fa98e6178c518366770497ea7e061fb41520cbf",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_money_status",
     "patterns": ["তোর পকেটে টাকা নাই", "তুই তো ফকিন্নি", "তুই কি বড়লোক"],
     "approved_answer": "ব্যাংক ব্যালেন্স দিয়ে মানুষের ক্যারেক্টার মাপা তোর মতো ছোটলোকেরই কাজ! 💰 তোর তো আবার পকেটে টাকা থাকলে মাথায় বুদ্ধির আকাল পড়ে! 🧠❌",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "710",
+    "id": "ef440b0a2e2675c9d594c2650a8ca3f4b4f3be0c37bae511",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_equal_competition",
     "patterns": [
       "তুই আমার সমকক্ষ না",
       "তুই আমার সমান হবি কোনোদিন",
@@ -126,18 +126,18 @@
     "risk": "low"
   },
   {
-    "id": "711",
+    "id": "e73e372652264617be4e227646b625d880a872ec4a1b0774",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_class_insult",
     "patterns": ["তুই একটা থার্ড ক্লাস", "থার্ড ক্লাস লোক", "তুই ৩য় শ্রেণীর"],
     "approved_answer": "অন্তত তোর মতো নো-ক্লাস তো না ভাই! 🚫 কোনো ক্লাসেই তো তোর ভর্তি হওয়ার যোগ্যতা হয় নাই! 🎓😂",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "712",
+    "id": "ab5ff2da0750a76909db499c27d8548e902008f7e4fa07a8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_competition_dominance",
     "patterns": [
       "আমাকে টেক্কা দিতে পারবি না",
       "আমার সাথে কম্পিটিশন করবি না",
@@ -148,18 +148,18 @@
     "risk": "low"
   },
   {
-    "id": "713",
+    "id": "90c42265bf13ad425492d2859e52244188c516655c6d039f",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_life_achievement",
     "patterns": ["তোর গাড়ি নাই বাড়ি নাই", "তুই কী করছিস লাইফে", "তোর কি আছে"],
     "approved_answer": "আমার যা আছে ওটা কিনার ক্ষমতা তোর বাপ-দাদারও নাই—ওটাকে বলে আসল 'স্বাভিমান' আর 'ব্রেন'! 🧠🔥 তোর মতো ভাড়ায় চলা ব্র্যান্ড না! 😎",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "714",
+    "id": "2103243ca0e0283f4b4a65d70f4add1bd977774dd93fa89f",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_language_mockery",
     "patterns": [
       "তুই ইংরেজি পারিস না",
       "ইংলিশ বলতে পারিস না",
@@ -170,9 +170,9 @@
     "risk": "low"
   },
   {
-    "id": "715",
+    "id": "3159367899b2c9b636597add294a5bd99643c9a4aaed2589",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_brand_style_status",
     "patterns": [
       "আমার জামাকাপড়ের দাম কত জানিস",
       "আমার ব্র্যান্ড জানিস",
@@ -183,27 +183,27 @@
     "risk": "low"
   },
   {
-    "id": "716",
+    "id": "7ac2d002cac51e8caf9493cee56b4c65820bf2769ab3aeac",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_behavior_showoff",
     "patterns": ["তোর ভাব কিসের", "এত ভাব কিসের তোর", "তুই ভাব নিচ্ছিস"],
     "approved_answer": "ভাব নিচ্ছি না ভাই, তোদের মতো ফালতু পাবলিকদের অ্যাভয়েড করার ফিল্টার অন করে রেখেছি! 🚫 ইগনোরিং ইজ অ্যান আর্ট! 😎✨",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "717",
+    "id": "53ca590380d5cab223ca9b853aa52e619286a09ea17c76d4",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_education_qualification",
     "patterns": ["তুই অশিক্ষিত", "তোর পড়াশোনা নাই", "তুই ডিগ্রি ছাড়া"],
     "approved_answer": "কাগজের টুকরায় ডিগ্রি নিয়ে যদি ভদ্রতা আর কমন সেন্স না শেখা যায়, তাহলে ওই ডিগ্রি দিয়ে তো ঝালমুড়ি খাওয়া ছাড়া আর কোনো কাজ নাই! 🗞️সংগেই থাক! 😂",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "718",
+    "id": "066cddf1f2ad79e96d3a41fd006657491291670f0bfb7b81",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_purchase_value",
     "patterns": [
       "আমি চাইলে তোকে কিনে নিতে পারি",
       "তোকে তো কিনে ফেলব",
@@ -214,9 +214,9 @@
     "risk": "low"
   },
   {
-    "id": "719",
+    "id": "b8e5743603db8501219e50ba472cd908100e47bf0a53ca1a",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_following_popularity",
     "patterns": [
       "আমার ফ্যান ফলোয়িং জানিস",
       "আমার অনেক ফলোয়ার",
@@ -227,9 +227,9 @@
     "risk": "low"
   },
   {
-    "id": "720",
+    "id": "9795fa75e4ba8f55771176ec20f8b68677e8991a81e96fb8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_argument_dismissal",
     "patterns": [
       "আমার সাথে তর্ক করবি না",
       "আমার মুখ খোলাবি না",
@@ -240,9 +240,9 @@
     "risk": "low"
   },
   {
-    "id": "721",
+    "id": "de02a6d37f02bf291fef965973d53d61726939cc579c1127",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_threat_dismissal",
     "patterns": [
       "তুই আমার হাতের খেলনা",
       "তোকে এক মিনিটে নামায়ে দেব",
@@ -253,9 +253,9 @@
     "risk": "low"
   },
   {
-    "id": "722",
+    "id": "bea33c7e96243de87c7f9be87b56447944fef1cc4a56b8a1",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_submission_refusal",
     "patterns": [
       "তুই আমার পা চাটার যোগ্য না",
       "তুই চাটার লোক",
@@ -266,18 +266,18 @@
     "risk": "low"
   },
   {
-    "id": "723",
+    "id": "898c5822099d27cefd3347c176593ab5a92b2130ce7194ef",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_social_background_mockery",
     "patterns": ["তুই তো ক্ষেত", "ক্ষেত কোথাকার", "একদম ক্ষেত টাইপ তুই"],
     "approved_answer": "ক্ষেতেই তো ধান ফলে ভাই, যা খেয়ে তোর পেটটা আজ মোটা হইছে! 🌾 অকৃতজ্ঞ ছাগলের মতো কথা বলিস না তো! 🐐💥",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "724",
+    "id": "19b07230ad99a29a1aa90973de7fcb03276e5433b49e8ae8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_style_personality",
     "patterns": [
       "তোর স্টাইল ভালো না",
       "স্মার্ট হতে পারলি না",
@@ -288,18 +288,18 @@
     "risk": "low"
   },
   {
-    "id": "725",
+    "id": "791b9f12577b16cd0ecdc95ab7a2ae33ee0c06399617e21c",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_success_comeback",
     "patterns": ["তুই তো ফ্লপ", "তোর কোনো সাকসেস নাই", "তুই ফেইল করবি"],
     "approved_answer": "আমার শুরুটা দেখে বিচার করিস না ভাই! 🎬 যখন পিকচারে ক্লাইম্যাক্স আসবে, তোর চোখের পানি মোছার জন্য টিস্যু শেষ হয়ে যাবে! 🧻🔥",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "726",
+    "id": "a7a55ca5c763a2d5efb8badcfc6d3bc22a2bcbd962f0c5e8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_territory_claim",
     "patterns": [
       "তুই আমার এরিয়ায় আসবি না",
       "আমার এলাকায় ঢোকার সাহস নাই",
@@ -310,9 +310,9 @@
     "risk": "low"
   },
   {
-    "id": "727",
+    "id": "c6b29276c6c298d7ccfc26dd0100e6bd4263a846806f40ea",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_value_comparison",
     "patterns": [
       "তোর চেয়ে আমার দাম বেশি",
       "আমার ভ্যালু অনেক বেশি",
@@ -323,9 +323,9 @@
     "risk": "low"
   },
   {
-    "id": "728",
+    "id": "ce1a49824a56ba9fa9414468e6a99205f18411454fec7499",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_photo_status",
     "patterns": [
       "তুই আমার সাথে ছবি তোলার যোগ্য না",
       "আমার সাথে পিক তোলার লেভেল নাই",
@@ -336,9 +336,9 @@
     "risk": "low"
   },
   {
-    "id": "729",
+    "id": "fba33db8e64ba15b53cceee1fd1b4be44b396537ab543c70",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_sudden_courage",
     "patterns": [
       "তুই কার সাথে কথা বলছিস খেয়াল আছে",
       "তোর সাহস দেখে অবাক হচ্ছি",
@@ -349,18 +349,18 @@
     "risk": "low"
   },
   {
-    "id": "730",
+    "id": "b42c3a3473c873c298e081fde500c9023c2e70469dd881e5",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_zero_value",
     "patterns": ["তুই কিছু না", "তুই জিরো", "তোর কোনো ভ্যালু নাই"],
     "approved_answer": "জিরোর পাশেই যখন আরেকটা জিরো বসে, তখন ওটার ভ্যালু ১০ গুণ হয়ে যায়! 🔢 তুই তো জিরোর বাম পাশে বসে থাকা এক অকেজো ডট! 🟢🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "731",
+    "id": "ec7d285fd1fb4e74bf9d0af602aa5f0a7eea8fee5d23196a",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_future_prediction",
     "patterns": [
       "তোর কোনো ফিউচার নাই",
       "তুই ভবিষ্যতে কি করবি",
@@ -371,9 +371,9 @@
     "risk": "low"
   },
   {
-    "id": "732",
+    "id": "fcea49d2ac4c9b5baa47719135f14e8d11ff5d41308dba40",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_network_connections",
     "patterns": [
       "আমার নেটওয়ার্ক কত বড় জানিস",
       "আমার হাই কন্টাক্টস আছে",
@@ -384,18 +384,18 @@
     "risk": "low"
   },
   {
-    "id": "733",
+    "id": "bd17093a50c2695aadeb686dc3cb106decce13c151aaff8e",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_fame_recognition",
     "patterns": ["তুই তো একটা অখ্যাত", "তোকে কেউ চেনে না", "তুই পপুলার না"],
     "approved_answer": "সবাইকে চেনাটা আমার স্বভাব না ভাই, আর ফালতু পাবলিসিটি পাওয়ার কোনো শখও আমার নাই! 🕶️ পরিচিতি অল্প, কিন্তু রাজকীয়! 👑🔥",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "734",
+    "id": "1c3272b875e7a1b37b2322617cf9b23879c589ae95cc5af1",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_property_status",
     "patterns": [
       "আমার বাড়ি কত বড় জানিস",
       "আমার ফ্ল্যাট কতগুলো",
@@ -406,9 +406,9 @@
     "risk": "low"
   },
   {
-    "id": "735",
+    "id": "7d282d97fca18d07a886dcdd362096f49fef21b85c01dff2",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_comparison_dust",
     "patterns": [
       "তুই আমার ধুলার সমান না",
       "তুই কিসের সাথে তুলনা করিস",
@@ -419,9 +419,9 @@
     "risk": "low"
   },
   {
-    "id": "736",
+    "id": "af22669385fc3ca00ce50dcbcd2df50acdcb2d1e235d2839",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_victory_dominance",
     "patterns": [
       "তুই আমার সাথে পারবি না",
       "আমার কাছে তোকে হারতেই হবে",
@@ -432,18 +432,18 @@
     "risk": "low"
   },
   {
-    "id": "737",
+    "id": "93189d4a087cc23c4c8c515a13011840409fde34fdd9e18d",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_copycat_accusation",
     "patterns": ["তুই আমাকে ফলো করিস", "তুই আমাকে নকল করিস", "আমার কপি তুই"],
     "approved_answer": "তোকে কপি করব? 🤦‍♂️ অরিজিনাল সোনা কখনো নকল পিতলকে কপি করে না ভাই! 🪙 তোকে দেখে একটু হাসি পায়, তাই খেয়াল রাখি! 🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "738",
+    "id": "8e26b2073cb93de6670dd05391330e71e24400786f485959",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_style_imitation",
     "patterns": [
       "আমার মতো স্টাইল কর",
       "স্টাইল শিখবি আমার কাছে",
@@ -454,9 +454,9 @@
     "risk": "low"
   },
   {
-    "id": "739",
+    "id": "e49db55e3736ecd91c50495a4a5fc20354623bcf02e8a094",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_physical_threat",
     "patterns": [
       "তুই তো এক থাপ্পড়ের লোক",
       "থাপ্পড় দিলে উরে যাবি",
@@ -467,36 +467,36 @@
     "risk": "low"
   },
   {
-    "id": "740",
+    "id": "ee7902b3b5b83f1520b2bd943b3b8ef6ca77e9081a1213ad",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_qualification_challenge",
     "patterns": ["তোর যোগ্যতা কি", "যোগ্যতা দেখা", "কিসের যোগ্য তুই"],
     "approved_answer": "আমার যোগ্যতা দেখার মতো চোখ আর ব্রেন দুইটারই বিশাল ঘাটতি আছে তোর! 🧠 চোখ খুলে দেখ, পুরো দুনিয়া আমার নামে কাঁপছে! 🔥👑",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "741",
+    "id": "441f26b53156376934a1ef7b833d57b7a374682bea836fc5",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_income_comparison",
     "patterns": ["তুই কত টাকা ইনকাম করিস", "তোর ইনকাম কত", "তোর কামাই কত"],
     "approved_answer": "ইনকাম দিয়ে যোগ্যতা মাপা বন্ধ কর ভাই! 💸 তোর পুরো বছরের কামাই দিয়ে আমার এক সপ্তাহের খরচের হিসাবও মিলবে না! 📊😎",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "742",
+    "id": "d703802f22e83d4020aa469fff5428a7ab83b8cf5bb67f26",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_uniqueness_normality",
     "patterns": ["তুই তো ছা পোষা", "তুই তো একদম নরমাল", "তুই সাধারণ"],
     "approved_answer": "সাধারণ হওয়ার ভিড়েই অরিজিনাল ইউনিকনেস থাকে! 🌟 তোদের মতো বানাওটি ভাব মারা ফেক স্মার্টদের কোনো ভ্যালু নাই! 🎭❌",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "743",
+    "id": "66bf99666ea7509e4e29e7bd4ffdfb662be2cf9eea9fb741",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_friendship_rejection",
     "patterns": [
       "তোর সাথে ফ্রেন্ডশিপ করা বোকামি",
       "তোর সাথে চলা যায় না",
@@ -507,9 +507,9 @@
     "risk": "low"
   },
   {
-    "id": "744",
+    "id": "da7718337f921b1f96c52623e51fa8f817003303e1f1783b",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_family_background",
     "patterns": [
       "তুই তো অখ্যাত ফ্যামিলির",
       "তোর বংশের কি নাম",
@@ -520,9 +520,9 @@
     "risk": "low"
   },
   {
-    "id": "745",
+    "id": "d52c397d049d7ef4806df8e116ec9f5c7b5225078bd9cec8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_big_talk_criticism",
     "patterns": [
       "তুই বড় বড় কথা বলিস",
       "তোর কথার কোনো দাম নাই",
@@ -533,9 +533,9 @@
     "risk": "low"
   },
   {
-    "id": "746",
+    "id": "11b33e41de8893a66d4f62bfb66042181a2ecdea26a6b068",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_failure_comeback",
     "patterns": [
       "তুই তো অলওয়েজ ফেলুদা",
       "তুই জিরো ম্যান",
@@ -546,9 +546,9 @@
     "risk": "low"
   },
   {
-    "id": "747",
+    "id": "c1af94d10c6a85c4a5942b6fa514805b627c8d13523e91ed",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_ignore_message",
     "patterns": [
       "তুই আমাকে ইগনোর করিস",
       "আমার মেসেজ সিন করিস না",
@@ -559,9 +559,9 @@
     "risk": "low"
   },
   {
-    "id": "748",
+    "id": "457572693b0141b588629925737e914cda6ed7fee9bb169f",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_eye_contact_mockery",
     "patterns": [
       "তুই আমার দিকে তাকাবি না",
       "চোখ নিচু করে কথা বলবি",
@@ -572,9 +572,9 @@
     "risk": "low"
   },
   {
-    "id": "749",
+    "id": "4bb53ab34822e48737b22d11370d856ab0cc47e3aadd39d5",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_showoff_reaction",
     "patterns": [
       "আমার এটিটিউড কেমন লাগলো",
       "আমার অ্যাটিটিউড দেখলি",
@@ -585,9 +585,9 @@
     "risk": "low"
   },
   {
-    "id": "750",
+    "id": "feb17b63e7edc1e6b3f33af64708c7c39d063ff76f344234",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_future_destruction",
     "patterns": [
       "তুই তো রাস্তায় থাকবি",
       "তোর কোনো ভবিষ্যত নাই",
@@ -598,9 +598,9 @@
     "risk": "low"
   },
   {
-    "id": "751",
+    "id": "648fe20b9bfbbbeeac4bd025cddbcbf112dafa8e9058f6b7",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_personality_body_language",
     "patterns": [
       "তোর বডি ল্যাঙ্গুয়েজ বাজে",
       "স্মার্টলি দাঁড়াতে পারিস না",
@@ -611,9 +611,9 @@
     "risk": "low"
   },
   {
-    "id": "752",
+    "id": "73c0174ac8a631ebe5cd35974c05d5cacb2501e99ffe276a",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_luxury_possession",
     "patterns": [
       "আমার ঘড়ির দাম তোর সমান",
       "আমার আইফোনের দাম জানিস",
@@ -624,9 +624,9 @@
     "risk": "low"
   },
   {
-    "id": "753",
+    "id": "2b64346a24b3702ca6bf39dd844a07603713f4b25808e8a3",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_servant_submission",
     "patterns": [
       "তুই আমার জুতা পরিষ্কার করাবি",
       "তুই আমার চাকর হবি",
@@ -637,9 +637,9 @@
     "risk": "low"
   },
   {
-    "id": "754",
+    "id": "a5fae0e080ee301c0b8e2752f0a6ea3c303c9779741c446e",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_social_seating_exclusion",
     "patterns": [
       "তুই আমার সাথে বসবি না",
       "আমার টেবিলে তোর জায়গা নাই",
@@ -650,9 +650,9 @@
     "risk": "low"
   },
   {
-    "id": "755",
+    "id": "0d1a364dae4d1ea27b5d8f3c6bf5b970c78a530bdf1c2802",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_time_waste_rejection",
     "patterns": [
       "তোর সাথে কথা বলাটাই লস",
       "তোর সাথে টাইম ওয়েস্ট",
@@ -663,9 +663,9 @@
     "risk": "low"
   },
   {
-    "id": "756",
+    "id": "5f40ad6c533112318f40a25e025efe800496f316ab3f622e",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_level_gap",
     "patterns": [
       "আমার লেভেলে আসতে সময় লাগবে",
       "আমার মতো হতে পারবি না",
@@ -676,9 +676,9 @@
     "risk": "low"
   },
   {
-    "id": "757",
+    "id": "70f987487516775991e92ec4532a718c758ffe8aa7c946b9",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_group_belonging",
     "patterns": [
       "তুই আমাদের সাথে মানাস না",
       "আমাদের গ্রুপে তুই বেমানান",
@@ -689,9 +689,9 @@
     "risk": "low"
   },
   {
-    "id": "758",
+    "id": "a4ae27686414a2f351520ef1645725b544cc45410fa55a31",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_power_warning",
     "patterns": [
       "আমার পাওয়ার কতটুকু তুই জানিস না",
       "আমার ক্ষমতা দেখবি",
@@ -702,18 +702,18 @@
     "risk": "low"
   },
   {
-    "id": "759",
+    "id": "3b0de0269709c7ca0da6ef74fe920481534974e759cd167a",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_worthless_insult",
     "patterns": ["তুই এক গাদা জিরো", "তোর কোনো মান নাই", "তুই একজন ভ্যালুলেস"],
     "approved_answer": "আমার মান যা-ই হোক, তোর মতো অন্যের নামে হিংসা ছড়ানো মানুষের চেয়ে হাজার গুণ সম্মানজনক ভাই! 💯✨",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "760",
+    "id": "78360420cc7602d1394d97a9725ee32a55c83072718680fa",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_lifestyle_showoff",
     "patterns": [
       "আমার মতো ড্রেস পরতে পারবি",
       "আমার মতো লাইফস্টাইল তোর নাই",
@@ -724,9 +724,9 @@
     "risk": "low"
   },
   {
-    "id": "761",
+    "id": "6e98238f04092f35a91315c5d7b0f752bf5a79a3b0b488b9",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_success_character",
     "patterns": [
       "তুই কোনোদিন বড় হতে পারবি না",
       "তুই ছোট মানুষ",
@@ -737,18 +737,18 @@
     "risk": "low"
   },
   {
-    "id": "762",
+    "id": "f0b1833a9087651119523a74d6de4cca289d8644404916f3",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_appearance_personality",
     "patterns": ["তোর মুখটাই বাজে", "চেহারা খারাপ তোর", "তোর ফেস সুন্দর না"],
     "approved_answer": "চেহারা ঈশ্বর দিছে ভাই, আর স্বভাব মানুষ নিজে বানায়! 😇 তোর সুন্দর চেহারার আড়ালে তো একটা কুৎসিত মন লুকানো! 👺😜",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "763",
+    "id": "95b3cac37c9c4becdfa5f44e58a480548fb9550e1e6e89cc",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_showoff_response",
     "patterns": [
       "আমার সামনে ফুটানি মারবি না",
       "আমার সাথে বেশি ভাব নিবি না",
@@ -759,9 +759,9 @@
     "risk": "low"
   },
   {
-    "id": "764",
+    "id": "23a6c578b74ce7826c1a15872d7fef70be301d9a3ae0ccb8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_downward_status",
     "patterns": [
       "তুই আমার পায়ের তলায় থাকবি",
       "আমার নিচে নামবি",
@@ -772,9 +772,9 @@
     "risk": "low"
   },
   {
-    "id": "765",
+    "id": "c34ad63da464c43bb0de6b4358c6e912fff9f601a30ced5d",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_conflict_avoidance",
     "patterns": [
       "আমার সাথে লাগতে আসিস না",
       "আমার সাথে লাগলে শেষ হয়ে যাবি",
@@ -785,36 +785,36 @@
     "risk": "low"
   },
   {
-    "id": "766",
+    "id": "97d6ee6472249c1ffa0e9c3f700c86a702fc5bc1c63f5502",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_low_value_mockery",
     "patterns": ["তুই এক টাকা দামের লোক", "এক পয়সার দাম নাই তোর", "তুই সস্তা"],
     "approved_answer": "এক পয়সার মানুষ হয়েও তোকে যে একদম নিখরচায় এত বড় শিক্ষা দিলাম, ওটার জন্য আমায় থ্যাংকস দে আগে! 🎁🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "767",
+    "id": "a78ccde34cc513c67ac95f32e485272c8e9aa77672bc503e",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_age_maturity",
     "patterns": ["আমার লেভেলে আসতে বয়স লাগবে", "বয়স ছোট তোর", "বাচ্চা তুই"],
     "approved_answer": "বয়স বাড়লেই বুদ্ধি বাড়ে না ভাই! 🧠 তোর মাথার ভেতরের সফটওয়্যার তো এখনও ওয়ান-টু তে আটকে আছে! 👶🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "768",
+    "id": "b12464e625c04a5456bc1ce00c818c157be116bef0fd2a43",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_fight_strength",
     "patterns": ["তুই তো এক থাপ্পড়ের খোরাক", "তোর তো দম নাই", "তুই মার খাবি"],
     "approved_answer": "মারামারির ভাব মারার আগে হাত পা কতটা শক্ত ওটা তো একবার জিম থেকে মেপে আয়! 🏋️‍♂️ বাতাসের ধাক্কায় উড়ে যাবি! 🌬️🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "769",
+    "id": "4fa2bb1b62030d72289994c4713cbbc94c92c3c1a383e957",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_high_society",
     "patterns": [
       "আমার হাই সোসাইটি",
       "আমার ভিআইপি সার্কেল",
@@ -825,18 +825,18 @@
     "risk": "low"
   },
   {
-    "id": "770",
+    "id": "ae6efce3d66bce32a6c705e8953c9250a4170aa1d5514dae",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_taste_culture",
     "patterns": ["তোর কোনো রুচি নাই", "রুচিহীন লোক তুই", "তোর কোনো টেস্ট নাই"],
     "approved_answer": "তোর মতো ফালতু পাবলিকের সাথে দাঁড়িয়ে কথা বলছি—আমার রুচির দুর্ভিক্ষ যে এখানেই বোঝা যাচ্ছে ভাই! 🤦‍♂️ কাট এবার! 🚪🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "771",
+    "id": "926dc81511dfe4964f7a6166598747b20d38ee2297b3c92a",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_pet_comparison",
     "patterns": [
       "আমার বাড়ির কুকুরও তোর চেয়ে ভালো",
       "আমার কুকুরের যে ভ্যালু তোর তাও নাই",
@@ -847,9 +847,9 @@
     "risk": "low"
   },
   {
-    "id": "772",
+    "id": "9b9e3c20ed9579b5484c896632acaed4cb07b9e5a06c159f",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_survival_dominance",
     "patterns": [
       "আমার সাথে টিকতে পারবি না",
       "তুই বেশিদিন টিকবি না",
@@ -860,18 +860,18 @@
     "risk": "low"
   },
   {
-    "id": "773",
+    "id": "e6370d2c0546c62d75489aff7a6cf1574549da307cd90f23",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_vehicle_status",
     "patterns": ["তোর বাইক নাই কার নাই", "তুই তো হেঁটে চলিস", "তোর গাড়ি কোথায়"],
     "approved_answer": "হেঁটে চলা পা দুইটা আমার নিজের ভাই! 🦶 তোর মতো বাপের কার নিয়ে ফুটানি মারা লোক তো অন্তত না! 🚗❌",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "774",
+    "id": "cb87ace7278420ddf0153a05680b6c61041e70771d6ab2b1",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_nail_threat",
     "patterns": [
       "তুই আমার নোখের যোগ্য না",
       "নখের সমতুল্য না তুই",
@@ -882,9 +882,9 @@
     "risk": "low"
   },
   {
-    "id": "775",
+    "id": "eb3906508176248e8de7116a4e8883c644df2b826e5ffabf",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_honor_photo_rejection",
     "patterns": [
       "তোর সাথে ছবি তুললে মান সম্মান যাবে",
       "মান সম্মান থাকবে না আমার",
@@ -895,9 +895,9 @@
     "risk": "low"
   },
   {
-    "id": "776",
+    "id": "b2a9330a05bff5d74fdd8d02b7006af3945c223ce7f5370c",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_father_background",
     "patterns": [
       "আমার বাবার ব্যাকগ্রাউন্ড জানিস",
       "আমার বাবা কে জানিস",
@@ -908,9 +908,9 @@
     "risk": "low"
   },
   {
-    "id": "777",
+    "id": "ed8fbfa40d65af45ed04a74e8b02301449b36d8e5a5d13fb",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_worker_status",
     "patterns": [
       "তুই তো কাজের লোক",
       "চাকরের মতো থাকবি",
@@ -921,9 +921,9 @@
     "risk": "low"
   },
   {
-    "id": "778",
+    "id": "db9ba61809d3b2c9869d6b20734eafbf7c38e8e7d5278061",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_word_value",
     "patterns": [
       "তোর কথার কোনো ওয়েট নাই",
       "তোর কথার ভ্যালু নাই",
@@ -934,9 +934,9 @@
     "risk": "low"
   },
   {
-    "id": "779",
+    "id": "a092646fd30e6a436c4124be02b327dbf7e52226bcdf90eb",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_dressup_criticism",
     "patterns": [
       "তোর ড্রেসআপ সেন্স বাজে",
       "কী জামা পরছিস তুই",
@@ -947,9 +947,9 @@
     "risk": "low"
   },
   {
-    "id": "780",
+    "id": "bc7ee70523f4f72f78b37d0c92c8146394c2059dcce97a55",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_envy_accusation",
     "patterns": [
       "তুই আমায় হিংসা করিস",
       "আমার সাকসেস দেখে জলছিস",
@@ -960,9 +960,9 @@
     "risk": "low"
   },
   {
-    "id": "781",
+    "id": "90a3d460fc0fc979ffd5c734d6e7a505dfc19c45b7ca072e",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_social_status_showoff",
     "patterns": [
       "আমার স্ট্যাটাস তোর চেয়ে হাই",
       "আমার সোশ্যাল স্ট্যাটাস দেখিস",
@@ -973,9 +973,9 @@
     "risk": "low"
   },
   {
-    "id": "782",
+    "id": "8e265d06afb0cc4c4af41ccc39ed17168bf6aaae2fb2d9f0",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_distance_superiority",
     "patterns": [
       "তুই আমার ছায়াও ছুতে পারবি না",
       "ছায়া ছোয়ার লেভেল নাই",
@@ -986,9 +986,9 @@
     "risk": "low"
   },
   {
-    "id": "783",
+    "id": "d9829697767370f45dfde2924889170594921a87cc265f17",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_thirdclass_insult",
     "patterns": [
       "তুই একটা থার্ডক্লাস ফালতু",
       "থার্ডক্লাস এটিটিউড তোর",
@@ -999,9 +999,9 @@
     "risk": "low"
   },
   {
-    "id": "784",
+    "id": "8ae2e48a13e75da9410d83e7d8ca435a138de78c8e3ffef8",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_failure_resilience",
     "patterns": [
       "তোর দ্বারা কোনো কাজ হবে না",
       "তুই লাইফে ফেইলু",
@@ -1012,18 +1012,18 @@
     "risk": "low"
   },
   {
-    "id": "785",
+    "id": "f630f39920f512585321f9a9606e476b91324edf328f0d94",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_street_class_mockery",
     "patterns": ["তুই তো রাস্তা ঘাটের লোক", "তুই টোকাই", "ফুটপাতের লোক তুই"],
     "approved_answer": "মাটি থেকেই তো সব গাছের জন্ম হয় ভাই! 🌱 আর তোদের মতো টবে লাগানো কৃত্রিম গাছ তো সামান্য তুফানেই ভেঙে শেষ! 🌪️🔥",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "786",
+    "id": "24b43677234b7f5d560db3537c909078b691d1fb3338d002",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_name_fear_claim",
     "patterns": [
       "আমার নাম বললে সবাই কাঁপে",
       "আমার নামে কাঁপে সবাই",
@@ -1034,9 +1034,9 @@
     "risk": "low"
   },
   {
-    "id": "787",
+    "id": "2ab43b9b129f4bf7c0991139164fed5ac5b0491cdf9a45d5",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_advice_rejection",
     "patterns": [
       "তুই আমাকে অ্যাডভাইস দিবি না",
       "জ্ঞান দিবি না আমারে",
@@ -1047,9 +1047,9 @@
     "risk": "low"
   },
   {
-    "id": "788",
+    "id": "1d88bbcacd67ee0503208092e8e228641c246ced2224ded1",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_following_rejection",
     "patterns": [
       "আমার পেছনে ঘুরবি না",
       "আমার পিছে আসবি না",
@@ -1060,9 +1060,9 @@
     "risk": "low"
   },
   {
-    "id": "789",
+    "id": "2a9135a840a6dc6d9045905d94b5eda806b8b8cb794528cf",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_intelligence_comparison",
     "patterns": [
       "তোর চেয়ে আমার ব্রেন বেশি",
       "তুই বলদ আমার কাছে",
@@ -1073,9 +1073,9 @@
     "risk": "low"
   },
   {
-    "id": "790",
+    "id": "c320420b1ac30679af79ddeb9c25665f005964b13fac6c6d",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_usefulness_mockery",
     "patterns": [
       "তুই তো এক পয়সার কাজের না",
       "অকেজো লোক তুই",
@@ -1086,18 +1086,18 @@
     "risk": "low"
   },
   {
-    "id": "791",
+    "id": "247039f605c112e555087a78ab610b09824593076d74fab7",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_fake_behavior",
     "patterns": ["তুই তো ফেক লোক", "তুই ঢং করিস", "বানাওটি কথা বলিস"],
     "approved_answer": "ফেকনেস আর ঢংয়ের পুরো ইন্ডাস্ট্রি তো তোর ওপর ভর করে চলছে ভাই! 🏭 আমাকে আর নতুন চ্যাপ্টার শেখাতে আসিস না! 📖🤣",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "792",
+    "id": "481f5cc0c4ca9452a60eab37806ca8dc6e0e5932ee89a399",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_vehicle_threat",
     "patterns": [
       "আমার গাড়ি দিয়ে তোকে পিষে দেব",
       "গাড়ি দেখছিস আমার",
@@ -1108,9 +1108,9 @@
     "risk": "low"
   },
   {
-    "id": "793",
+    "id": "25fd5faf82a33983b86ef41b0de68c55bacf0bcf2a2b6b43",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_forgiveness_rejection",
     "patterns": [
       "আমার কাছে কোনো মাফ নাই",
       "তোকে তো ছাড়ব না",
@@ -1121,9 +1121,9 @@
     "risk": "low"
   },
   {
-    "id": "794",
+    "id": "b8fe8831a1dc01596c75924395e14f1de25e7d60c62c9a28",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_level_attitude",
     "patterns": [
       "আমার লেভেলের এটিটিউড দেখাবি না",
       "অ্যাটিটিউড কম দেখা",
@@ -1134,18 +1134,18 @@
     "risk": "low"
   },
   {
-    "id": "795",
+    "id": "2d25aaa0114ae9da46cad725c9307ab880addf5902957cb0",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_outdated_value",
     "patterns": ["তুই তো অচল পয়সা", "তুই তো আউট অফ ডেট", "তোর সময় শেষ"],
     "approved_answer": "পুরানো চালই ভাতে বাড়ে ভাই! 🌾 অচল পয়সাই একদিন এন্টিক পিস হয়ে কোটি টাকায় বিক্রি হয়! 💰 মূল্য বুঝবি সামনে! 🪙🔥",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "796",
+    "id": "da30fa7ec3a3ecdb1b70decadfebf9e700da6e2a13244845",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_personal_conflict_avoidance",
     "patterns": [
       "আমার সাথে পারসোনাল সমস্যা করবি না",
       "আমাকে ঘাটাবি না",
@@ -1156,9 +1156,9 @@
     "risk": "low"
   },
   {
-    "id": "797",
+    "id": "ba041068d880f5af0932e964837f4e1ed7e3a545c4499204",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_shoe_soul_value",
     "patterns": [
       "তুই আমার জুতার সোল এর সমান না",
       "জুতার তলা তুই",
@@ -1169,9 +1169,9 @@
     "risk": "low"
   },
   {
-    "id": "798",
+    "id": "e07967d93b26377e51e0fc848275dbb8aa896ce8c20fcf6b",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_presence_rejection",
     "patterns": [
       "আমার সামনে দাঁড়ানোর ক্ষমতা নাই তোর",
       "আমার সামনে থেকে দূর হ",
@@ -1182,9 +1182,9 @@
     "risk": "low"
   },
   {
-    "id": "799",
+    "id": "742b631e064b1074f5cfbc801df94c04e7fabba44a382b6b",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_level_insult",
     "patterns": [
       "তুই তো একটা অশিক্ষিত ছোটলোক",
       "তোর কোনো লেভেল নাই ছাগল",
@@ -1195,9 +1195,9 @@
     "risk": "low"
   },
   {
-    "id": "800",
+    "id": "020823bbc0c52a047955feb94019ec69de43410429e50022",
     "category": "attitude_boy",
-    "intent": "attitude_boy",
+    "intent": "attitude_chapter_end_comeback",
     "patterns": ["তোর খেলা এখানেই শেষ", "তোর চ্যাপ্টার ক্লোজ", "তুই একদম শেষ"],
     "approved_answer": "আমার চ্যাপ্টার তো ভাই মাত্র শুরু হলো! 📖 আর তুই ৮০০ নম্বর জেসনে এসে নিজের অহংকারসহ একদম খতম! গেম ওভার ব্রো! 🎮🎉💥",
     "auto_reply": true,

@@ -1,6 +1,6 @@
 [
   {
-    "id": "009",
+    "id": "5e91c4a72f08d63b1a4e9f275c8306d8f2b716a54e9c0381",
     "category": "pricing_payment",
     "intent": "pricing_general",
     "patterns": [
@@ -17,7 +17,7 @@
     "risk": "high"
   },
   {
-    "id": "010",
+    "id": "a73d1f9c6048e25b7d91a6f30c582e4d9b07c61f8a35e294",
     "category": "pricing_payment",
     "intent": "discount_request",
     "patterns": [
@@ -32,7 +32,7 @@
     "risk": "high"
   },
   {
-    "id": "011",
+    "id": "d4f82a6e1937c50b9e41f763a0285d6c7b94e215f0a63829",
     "category": "pricing_payment",
     "intent": "payment_methods",
     "patterns": [
@@ -47,7 +47,7 @@
     "risk": "low"
   },
   {
-    "id": "012",
+    "id": "91c6e54a2b7038f4d9e15a67c083bf52e741d906a3c58f17",
     "category": "pricing_payment",
     "intent": "advance_payment",
     "patterns": [
@@ -61,7 +61,7 @@
     "risk": "medium"
   },
   {
-    "id": "104",
+    "id": "f26b9d83c417e50a6d72f908b5314e69c085a27f1d6439b8",
     "category": "pricing_payment",
     "intent": "payment_receipt_share",
     "patterns": [
@@ -75,7 +75,7 @@
     "risk": "medium"
   },
   {
-    "id": "105",
+    "id": "b85e2c719a46d038f1c95e672d804ab3c7f2195e8d0634a1",
     "category": "pricing_payment",
     "intent": "invoice_request",
     "patterns": [
@@ -89,7 +89,7 @@
     "risk": "low"
   },
   {
-    "id": "106",
+    "id": "c49f7a216d8305be92e64c107f385a9d61b274e50c893f26",
     "category": "pricing_payment",
     "intent": "due_payment_query",
     "patterns": [
@@ -103,7 +103,7 @@
     "risk": "medium"
   },
   {
-    "id": "275",
+    "id": "e17c5b904a62f831d7e49c2056f3a8b1c927d540e68f2a73",
     "category": "pricing_payment",
     "intent": "partial_payment_option",
     "patterns": [
@@ -115,7 +115,7 @@
     "risk": "low"
   },
   {
-    "id": "039",
+    "id": "74a8e31f5c096d2b9e47a610c835f1926d7034be81a52c69",
     "category": "pricing_payment",
     "intent": "refund_policy",
     "patterns": [
@@ -129,7 +129,7 @@
     "risk": "high"
   },
   {
-    "id": "068",
+    "id": "3d68f21a9057c4e9b126f80a53d794bc2e61a837d5f04916",
     "category": "pricing_payment",
     "intent": "small_budget_project",
     "patterns": ["kom bajet e hobe", "small budget", "কম বাজেটে হবে কি"],
@@ -138,7 +138,7 @@
     "risk": "medium"
   },
   {
-    "id": "038",
+    "id": "8b52e6d4179c03fa6a84d125e7309c61f2b5478d095e3a24",
     "category": "pricing_payment",
     "intent": "maintenance_charge",
     "patterns": ["monthly charge", "maintenance cost", "মাসে মাসে কত দিতে হবে"],

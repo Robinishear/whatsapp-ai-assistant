@@ -1,6 +1,6 @@
 [
   {
-    "id": "557",
+    "id": "9172f58b417700becd1336068d9b5040ba37e63891358e96",
     "category": "dhadhar_uttor",
     "intent": "male_bird_riddle",
     "patterns": [
@@ -13,7 +13,7 @@
     "risk": "low"
   },
   {
-    "id": "558",
+    "id": "70f5e0407217c0af79e8b91df756f4450991051e28755398",
     "category": "dhadhar_uttor",
     "intent": "name_used_by_others",
     "patterns": [
@@ -26,7 +26,7 @@
     "risk": "low"
   },
   {
-    "id": "559",
+    "id": "01606e5d70c76a0d8d18d1bbbd5036093c65a276573cc713",
     "category": "dhadhar_uttor",
     "intent": "non_growing_hair",
     "patterns": [
@@ -39,7 +39,7 @@
     "risk": "low"
   },
   {
-    "id": "560",
+    "id": "0b3485321cd41c7c47dad5071955e74bf257f4504a97de44",
     "category": "dhadhar_uttor",
     "intent": "unclimbable_tree",
     "patterns": [
@@ -52,7 +52,7 @@
     "risk": "low"
   },
   {
-    "id": "561",
+    "id": "b8cf153998f20be8e7e965ab38f12e34a937dd71bc6f2f63",
     "category": "dhadhar_uttor",
     "intent": "bleeding_cut_riddle",
     "patterns": [
@@ -65,7 +65,7 @@
     "risk": "low"
   },
   {
-    "id": "562",
+    "id": "21434dcb781f1f7f125fab48fc5b8cc6fe6d1bcabc8103ba",
     "category": "dhadhar_uttor",
     "intent": "midnight_sun_country",
     "patterns": [
@@ -78,7 +78,7 @@
     "risk": "low"
   },
   {
-    "id": "563",
+    "id": "5f7c6889e86e2aede5980d141186f4f6ee6b6efea8517374",
     "category": "dhadhar_uttor",
     "intent": "unlivable_room",
     "patterns": [
@@ -91,7 +91,7 @@
     "risk": "low"
   },
   {
-    "id": "564",
+    "id": "48ee6a67ac75846c39924cacb530e5a27cd2afc71efe1f72",
     "category": "dhadhar_uttor",
     "intent": "growing_when_poked",
     "patterns": [
@@ -104,7 +104,7 @@
     "risk": "low"
   },
   {
-    "id": "565",
+    "id": "9088e42134cdfd661f551625b6c4815245d3681ef48a0ee8",
     "category": "dhadhar_uttor",
     "intent": "always_increasing",
     "patterns": [
@@ -117,7 +117,7 @@
     "risk": "low"
   },
   {
-    "id": "566",
+    "id": "aab303f4f274afdb23d6bb19d92ea5afb2198a10f8481867",
     "category": "dhadhar_uttor",
     "intent": "map_without_people",
     "patterns": [
@@ -130,7 +130,7 @@
     "risk": "low"
   },
   {
-    "id": "567",
+    "id": "b624e07a0adf89ba5766209eff2950af56f7466702d6efbf",
     "category": "dhadhar_uttor",
     "intent": "cannot_see_own",
     "patterns": [
@@ -143,7 +143,7 @@
     "risk": "low"
   },
   {
-    "id": "568",
+    "id": "b94b6d72afa532958a153d0f8c4434771af5f469a28bb9ed",
     "category": "dhadhar_uttor",
     "intent": "throw_and_pick_up",
     "patterns": [
@@ -156,7 +156,7 @@
     "risk": "low"
   },
   {
-    "id": "569",
+    "id": "6e02cf0dff19089d9d2a08ce329a89f025c263e326fbc1a6",
     "category": "dhadhar_uttor",
     "intent": "love_thief",
     "patterns": [
@@ -169,7 +169,7 @@
     "risk": "low"
   },
   {
-    "id": "570",
+    "id": "3f5ee9b36908ea916d73af1a92044a6d148450ae496c315b",
     "category": "dhadhar_uttor",
     "intent": "one_plus_one_three",
     "patterns": [
@@ -182,7 +182,7 @@
     "risk": "low"
   },
   {
-    "id": "571",
+    "id": "a8fcb39fa330363c38fce84f9506354bf3f94b5f0b23995b",
     "category": "dhadhar_uttor",
     "intent": "bottomless_sea",
     "patterns": [
@@ -195,7 +195,7 @@
     "risk": "low"
   },
   {
-    "id": "572",
+    "id": "90e5f34acddec58e0dbe21b161de8d0f1cc2ce3032383a81",
     "category": "dhadhar_uttor",
     "intent": "single_eye_object",
     "patterns": [
@@ -208,7 +208,7 @@
     "risk": "low"
   },
   {
-    "id": "573",
+    "id": "7cd6f40ffcce9aad83c1992b2151ac333dff1f546a51eebe",
     "category": "dhadhar_uttor",
     "intent": "silent_cut",
     "patterns": [
@@ -221,7 +221,7 @@
     "risk": "low"
   },
   {
-    "id": "574",
+    "id": "07a79108a0956aeeca28060a12d64c1461baaa1a8ba6d55a",
     "category": "dhadhar_uttor",
     "intent": "human_cow_difference",
     "patterns": [
@@ -234,7 +234,7 @@
     "risk": "low"
   },
   {
-    "id": "575",
+    "id": "6fa6e0bebfed3f4340cf8a4e601e8654daa064732cfabbd3",
     "category": "dhadhar_uttor",
     "intent": "ungraspable_future",
     "patterns": [
@@ -247,7 +247,7 @@
     "risk": "low"
   },
   {
-    "id": "576",
+    "id": "b419983eb7b5b9ae737828efba3c9b52c779938990f63b9c",
     "category": "dhadhar_uttor",
     "intent": "back_carrying_mother",
     "patterns": [
@@ -260,7 +260,7 @@
     "risk": "low"
   },
   {
-    "id": "577",
+    "id": "1300ff5f2a578b42893f1cfdb923756797a95ebc3673b72a",
     "category": "dhadhar_uttor",
     "intent": "cleaner_gets_blacker",
     "patterns": [
@@ -273,7 +273,7 @@
     "risk": "low"
   },
   {
-    "id": "578",
+    "id": "ff7e3d15a0fd46265db19c27180bee9990b421af9383c65b",
     "category": "dhadhar_uttor",
     "intent": "fragrant_artificial_flower",
     "patterns": [
@@ -286,7 +286,7 @@
     "risk": "low"
   },
   {
-    "id": "579",
+    "id": "431a31f839b78b97e2c78fcc85748b309124cf38866aec73",
     "category": "dhadhar_uttor",
     "intent": "bird_drinks_with_feet",
     "patterns": [
@@ -299,7 +299,7 @@
     "risk": "low"
   },
   {
-    "id": "580",
+    "id": "2b729f9a5eaaf5d69ce99f538993340252253b81214d84b4",
     "category": "dhadhar_uttor",
     "intent": "world_in_one_corner",
     "patterns": [
@@ -312,7 +312,7 @@
     "risk": "low"
   },
   {
-    "id": "581",
+    "id": "e606046fc68b9b3d138f5ef11b3b99ab58cb42e0402e7434",
     "category": "dhadhar_uttor",
     "intent": "above_every_head",
     "patterns": [
@@ -325,7 +325,7 @@
     "risk": "low"
   },
   {
-    "id": "582",
+    "id": "1161affb82b8a19c60c6a43485d8499d7d09b88d9ae69744",
     "category": "dhadhar_uttor",
     "intent": "belly_without_back",
     "patterns": [
@@ -338,7 +338,7 @@
     "risk": "low"
   },
   {
-    "id": "583",
+    "id": "f3d03a43a7bda1261aeea482cdf18cd7bf4b1d404d338caa",
     "category": "dhadhar_uttor",
     "intent": "bird_without_nest",
     "patterns": [
@@ -351,7 +351,7 @@
     "risk": "low"
   },
   {
-    "id": "584",
+    "id": "27084dfcc768ebacdb3c795fce500299053846b614f368a9",
     "category": "dhadhar_uttor",
     "intent": "flower_no_fruit_tree",
     "patterns": [
@@ -364,7 +364,7 @@
     "risk": "low"
   },
   {
-    "id": "585",
+    "id": "3cd3840b5bb60f5fe2d2c6fd065c03d9a3bb7f5e4ce5a338",
     "category": "dhadhar_uttor",
     "intent": "silent_break",
     "patterns": [
@@ -377,7 +377,7 @@
     "risk": "low"
   },
   {
-    "id": "586",
+    "id": "6f649371061b3791b7c5a19497f738385fc18f13586f17f2",
     "category": "dhadhar_uttor",
     "intent": "snake_free_country",
     "patterns": [
@@ -390,7 +390,7 @@
     "risk": "low"
   },
   {
-    "id": "587",
+    "id": "82c9c9a21d0ca8dbae5fd6f6b94588aebca68b652e8bb335",
     "category": "dhadhar_uttor",
     "intent": "pull_makes_smaller",
     "patterns": [
@@ -403,7 +403,7 @@
     "risk": "low"
   },
   {
-    "id": "588",
+    "id": "b1151f716301a115498b0102262cc4734bebed19e2f37697",
     "category": "dhadhar_uttor",
     "intent": "hit_no_cry",
     "patterns": [
@@ -416,7 +416,7 @@
     "risk": "low"
   },
   {
-    "id": "589",
+    "id": "e1bee11f831479a41b372148dba9f0495a9f8cfc34dd83f8",
     "category": "dhadhar_uttor",
     "intent": "falls_never_rises",
     "patterns": [
@@ -429,7 +429,7 @@
     "risk": "low"
   },
   {
-    "id": "590",
+    "id": "66a55db41ffab37f16a9662ade9b90409133aa661cf41c23",
     "category": "dhadhar_uttor",
     "intent": "water_kills_fire",
     "patterns": [
@@ -442,7 +442,7 @@
     "risk": "low"
   },
   {
-    "id": "591",
+    "id": "677441b14af30c2a68b7ed70dd8cafd65e1b0032ec9dfc51",
     "category": "dhadhar_uttor",
     "intent": "disappears_in_light",
     "patterns": [
@@ -455,7 +455,7 @@
     "risk": "low"
   },
   {
-    "id": "592",
+    "id": "e470ab87a95c9905130a0159fd2b8e135d88d166022ff719",
     "category": "dhadhar_uttor",
     "intent": "slap_without_hands",
     "patterns": [
@@ -468,7 +468,7 @@
     "risk": "low"
   },
   {
-    "id": "593",
+    "id": "a5e53bfe6e6deaa91b8486c588a0823263fac8389a5ff3cc",
     "category": "dhadhar_uttor",
     "intent": "flying_fish",
     "patterns": ["কোন মাছ আকাশে ওড়ে?", "আকাশে ওড়ে কোন মাছ", "উড়ন্ত মাছ কোনটা?"],
@@ -477,7 +477,7 @@
     "risk": "low"
   },
   {
-    "id": "594",
+    "id": "aade02c3f48abd5fb2c7941d2758954325a891bb883f4a16",
     "category": "dhadhar_uttor",
     "intent": "skin_made_of_cells",
     "patterns": [
@@ -490,7 +490,7 @@
     "risk": "low"
   },
   {
-    "id": "595",
+    "id": "46c790d3810758c7c81fec840468f72736d89786dc81ecde",
     "category": "dhadhar_uttor",
     "intent": "always_turns",
     "patterns": [
@@ -503,7 +503,7 @@
     "risk": "low"
   },
   {
-    "id": "596",
+    "id": "c1bb7ac4705ffc6b5e9ba720dab2c135184bcc15e60f12e5",
     "category": "dhadhar_uttor",
     "intent": "eyes_without_head",
     "patterns": [
@@ -516,7 +516,7 @@
     "risk": "low"
   },
   {
-    "id": "597",
+    "id": "c07fa3e3d3ec1b1c9097c7cf3c32b03fd7dced415d8aaafb",
     "category": "dhadhar_uttor",
     "intent": "snake_without_venom",
     "patterns": ["কোন সাপের বিষ নেই?", "বিষ ছাড়া সাপ", "বিষ নাই কোন সাপের?"],
@@ -525,7 +525,7 @@
     "risk": "low"
   },
   {
-    "id": "598",
+    "id": "61f475e925cba146841372c2f1b3e9c641465c1c12960c6f",
     "category": "dhadhar_uttor",
     "intent": "free_but_hard_to_replace",
     "patterns": [
@@ -538,7 +538,7 @@
     "risk": "low"
   },
   {
-    "id": "599",
+    "id": "a903ad4106b7f353fa02c5ef13fd91d5c4c04c00ac1e51a4",
     "category": "dhadhar_uttor",
     "intent": "born_but_never_dies",
     "patterns": [
@@ -551,7 +551,7 @@
     "risk": "low"
   },
   {
-    "id": "600",
+    "id": "6caa6aff9676954266a01ec454ae6974e59455623d23e3c3",
     "category": "dhadhar_uttor",
     "intent": "riddle_ending",
     "patterns": [
@@ -564,7 +564,7 @@
     "risk": "low"
   },
   {
-    "id": "601",
+    "id": "58430238df0e1bb619a349a7ca59f35a8dd88c7d8a3427c6",
     "category": "dhadhar_uttor",
     "intent": "hidden_by_everyone",
     "patterns": [

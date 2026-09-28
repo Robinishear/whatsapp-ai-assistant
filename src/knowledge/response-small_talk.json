@@ -1,262 +1,261 @@
-
-  [
-    {
-      "id": "001",
-      "category": "small_talk",
-      "intent": "greeting_simple",
-      "patterns": ["hi", "hello", "hey", "হাই", "হ্যালো", "হে"],
-      "approved_answer": "Hello! How can I help you today? 😊",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "002",
-      "category": "small_talk",
-      "intent": "greeting_islamic",
-      "patterns": ["assalamualaykum", "salam", "আসসালামু আলাইকুম", "সালাম"],
-      "approved_answer": "ওয়া আলাইকুম আসসালাম! আশা করি ভালো আছেন। কীভাবে সাহায্য করতে পারি? 🤲",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "003",
-      "category": "small_talk",
-      "intent": "ask_wellbeing",
-      "patterns": [
-        "robin kemon acho",
-        "Robin kemon acho",
-        "robin kemon achen",
-        "Robin kemon achen",
-        "kemon acho",
-        "kemon achen",
-        "how are you",
-        "কেমন আছো",
-        "কেমন আছেন",
-        "কেমন চলতেছে"
-      ],
-      "approved_answer": "আমি খুব ভালো আছি, ধন্যবাদ! আপনার দিনটি কেমন যাচ্ছে? 🌟",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "004",
-      "category": "small_talk",
-      "intent": "ask_identity",
-      "patterns": [
-        "tumi ke",
-        "who are you",
-        "tuhi kon",
-        "তুমি কে",
-        "আপনার পরিচয়"
-      ],
-      "approved_answer": "আমি একজন AI অ্যাসিস্ট্যান্ট। আপনাকে তথ্য দিয়ে ও বিভিন্ন কাজে সাহায্য করার জন্য আছি! 🤖",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "486",
-      "category": "small_talk",
-      "intent": "ask_bot_or_human",
-      "patterns": [
-        "tumi ki robot",
-        "bot naki manush",
-        "তুমি কি রোবট",
-        "মানুষ নাকি বট",
-        "আসল মানুষ কি"
-      ],
-      "approved_answer": "আমি একটি AI অ্যাসিস্ট্যান্ট। চাইলে আপনাকে একজন মানুষের সাথে যুক্ত করে দিতে পারি। 🤖",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "487",
-      "category": "small_talk",
-      "intent": "ask_age_gender",
-      "patterns": [
-        "tumi boy na girl",
-        "boyosh koto",
-        "তোমার বয়স কত",
-        "তুমি ছেলে না মেয়ে"
-      ],
-      "approved_answer": "আমি একটি AI, তাই আমার বয়স বা লিঙ্গ নেই। 😊 আপনাকে কীভাবে সাহায্য করতে পারি?",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "488",
-      "category": "small_talk",
-      "intent": "politics_religion_chat",
-      "patterns": [
-        "politics niye kotha",
-        "dharmo niye",
-        "রাজনীতি নিয়ে কথা",
-        "ধর্ম নিয়ে আলোচনা"
-      ],
-      "approved_answer": "এসব বিষয়ে আমি মন্তব্য করি না। প্রজেক্ট ও সার্ভিস সংক্রান্ত যেকোনো বিষয়ে সাহায্য করতে পারি। 🙏",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "023",
-      "category": "small_talk",
-      "intent": "gratitude",
-      "patterns": ["thanks", "thank you", "dhonnobad", "ধন্যবাদ", "থ্যাংকস"],
-      "approved_answer": "আপনাকেও অনেক ধন্যবাদ! অন্য যেকোনো সাহায্যে আমাদের জানাবেন। 😊",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "008",
-      "category": "small_talk",
-      "intent": "about_developer",
-      "patterns": [
-        "are you a developer",
-        "are you programmer",
-        "তুমি কি ডেভেলপার",
-        "ডেভেলপারের পরিচয়",
-        "apne ki developer",
-        "Apne Ki Developer",
-        "Vai Apne Ki Developer",
-        "vai apne ki developer",
-        "kire vai tui ki developer"
-      ],
-      "approved_answer": "Yes, I am a full-stack developer working on [web and, AI, LLM Rag, software apps, projects]. 💻",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "024",
-      "category": "small_talk",
-      "intent": "welcome_response",
-      "patterns": ["welcome", "ওয়েলকাম"],
-      "approved_answer": "ধন্যবাদ! ভালো থাকবেন। 🙌",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "489",
-      "category": "small_talk",
-      "intent": "love_flirt",
-      "patterns": [
-        "i love you",
-        "ami tomake bhalobashi",
-        "ভালোবাসি",
-        "প্রপোজ করছি"
-      ],
-      "approved_answer": "ধন্যবাদ! 😊 আমি একটি AI অ্যাসিস্ট্যান্ট, তাই আপনার কাজে সাহায্য করতে পারি। বলুন কীভাবে সাহায্য করব?",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "490",
-      "category": "small_talk",
-      "intent": "short_acknowledge",
-      "patterns": ["hmm", "achha", "হুম", "আচ্ছা", "আচ্ছা ঠিক আছে"],
-      "approved_answer": "জি, আর কীভাবে সাহায্য করতে পারি? 😊",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "052",
-      "category": "small_talk",
-      "intent": "appreciate_work",
-      "patterns": [
-        "khub bhalo hoise",
-        "nice work",
-        "দারুণ কাজ হয়েছে",
-        "খুব সুন্দর"
-      ],
-      "approved_answer": "আপনার প্রশংসার জন্য অনেক ধন্যবাদ! আপনার সন্তুষ্টিই আমাদের মূল লক্ষ্য। 👏",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "048",
-      "category": "small_talk",
-      "intent": "wrong_number_notice",
-      "patterns": ["wrong number", "bhul number", "ভুল নম্বর"],
-      "approved_answer": "দুঃখিত, মনে হচ্ছে ভুল নম্বরে টেক্সট এসেছে। ধন্যবাদ! ❌",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "049",
-      "category": "small_talk",
-      "intent": "spam_bot_test",
-      "patterns": ["test", "testing 123", "টেস্ট"],
-      "approved_answer": "সিস্টেম টেস্ট সফল! সিস্টেম সঠিকভাবে কাজ করছে। ⚙️",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "025",
-      "category": "small_talk",
-      "intent": "bye_farewell",
-      "patterns": ["bye", "goodbye", "allah hafez", "আল্লাহ হাফেজ", "বিদায়"],
-      "approved_answer": "আল্লাহ হাফেজ! আবার কথা হবে, ভালো থাকবেন। 👋",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "026",
-      "category": "small_talk",
-      "intent": "good_morning",
-      "patterns": ["good morning", "subho sokal", "শুভ সকাল"],
-      "approved_answer": "শুভ সকাল! আপনার আজকের দিনটি সুন্দর ও সাফল্যমণ্ডিত হোক। ☀️",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "027",
-      "category": "small_talk",
-      "intent": "good_night",
-      "patterns": ["good night", "subho ratri", "শুভ রাত্রি"],
-      "approved_answer": "শুভ রাত্রি! ভালো ঘুম হোক। 🌙",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "050",
-      "category": "small_talk",
-      "intent": "funny_interaction",
-      "patterns": ["joke bolo", "pagol naki", "হাসাও তো", "কৌতুক বলো"],
-      "approved_answer": "আমি তো একটি এআই কোডা র, প্রোগ্রামিং এর বাইরে হাসাতে পারি না! 😅",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "322",
-      "category": "small_talk",
-      "intent": "final_goodbye",
-      "patterns": ["tata", "khoda hafez", "টাটা", "খোদা হাফেজ", "পরে কথা হবে"],
-      "approved_answer": "টাটা! আপনার সাথে কথা বলে ভালো লাগলো। যেকোনো প্রয়োজনে আবার নক দেবেন। 👋",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "057",
-      "category": "small_talk",
-      "intent": "language_bengali_support",
-      "patterns": [
-        "banglay kotha bola jabe",
-        "bangla support",
-        "বাংলায় বলা যাবে"
-      ],
-      "approved_answer": "হ্যাঁ, অবশ্যই! আপনি বাংলা অথবা ইংরেজি যেকোনো ভাষায় কথা বলতে পারেন। 🇧🇩",
-      "auto_reply": true,
-      "risk": "low"
-    },
-    {
-      "id": "058",
-      "category": "small_talk",
-      "intent": "language_english_support",
-      "patterns": [
-        "speak in english",
-        "can you talk english",
-        "ইংরেজি বলতে পারো"
-      ],
-      "approved_answer": "Yes, absolutely! I can seamlessly communicate in English. 🇬🇧",
-      "auto_reply": true,
-      "risk": "low"
-    }
-  ]
+[
+  {
+    "id": "b6e29f417c805a3d92f761e0485cb17a639d2e9540f8a1c",
+    "category": "small_talk",
+    "intent": "greeting_simple",
+    "patterns": ["hi", "hello", "hey", "হাই", "হ্যালো", "হে"],
+    "approved_answer": "Hello! How can I help you today? 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "d173a8f52c604e9b7162f0853a49cd6e8271b50f964e3a2",
+    "category": "small_talk",
+    "intent": "greeting_islamic",
+    "patterns": ["assalamualaykum", "salam", "আসসালামু আলাইকুম", "সালাম"],
+    "approved_answer": "ওয়া আলাইকুম আসসালাম! আশা করি ভালো আছেন। কীভাবে সাহায্য করতে পারি? 🤲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "8c52e7a104d963bf2751f6e83a490c17d62b5f9e3418a07",
+    "category": "small_talk",
+    "intent": "ask_wellbeing",
+    "patterns": [
+      "robin kemon acho",
+      "Robin kemon acho",
+      "robin kemon achen",
+      "Robin kemon achen",
+      "kemon acho",
+      "kemon achen",
+      "how are you",
+      "কেমন আছো",
+      "কেমন আছেন",
+      "কেমন চলতেছে"
+    ],
+    "approved_answer": "আমি খুব ভালো আছি, ধন্যবাদ! আপনার দিনটি কেমন যাচ্ছে? 🌟",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "f49a216c8037e5d92b641a0e7583dc17e9264b5f1a038d6",
+    "category": "small_talk",
+    "intent": "ask_identity",
+    "patterns": [
+      "tumi ke",
+      "who are you",
+      "tuhi kon",
+      "তুমি কে",
+      "আপনার পরিচয়"
+    ],
+    "approved_answer": "আমি একজন AI অ্যাসিস্ট্যান্ট। আপনাকে তথ্য দিয়ে ও বিভিন্ন কাজে সাহায্য করার জন্য আছি! 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "a705d3e8419c62fb538e107a2946cd85f271b0e6394a5c1",
+    "category": "small_talk",
+    "intent": "ask_bot_or_human",
+    "patterns": [
+      "tumi ki robot",
+      "bot naki manush",
+      "তুমি কি রোবট",
+      "মানুষ নাকি বট",
+      "আসল মানুষ কি"
+    ],
+    "approved_answer": "আমি একটি AI অ্যাসিস্ট্যান্ট। চাইলে আপনাকে একজন মানুষের সাথে যুক্ত করে দিতে পারি। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "e38f5b207d1496ac421c8309f75a62be9184d0536f2a7c",
+    "category": "small_talk",
+    "intent": "ask_age_gender",
+    "patterns": [
+      "tumi boy na girl",
+      "boyosh koto",
+      "তোমার বয়স কত",
+      "তুমি ছেলে না মেয়ে"
+    ],
+    "approved_answer": "আমি একটি AI, তাই আমার বয়স বা লিঙ্গ নেই। 😊 আপনাকে কীভাবে সাহায্য করতে পারি?",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "c9217e4a6053bf82d174f936a50c8d27e619b3f4582a70d",
+    "category": "small_talk",
+    "intent": "politics_religion_chat",
+    "patterns": [
+      "politics niye kotha",
+      "dharmo niye",
+      "রাজনীতি নিয়ে কথা",
+      "ধর্ম নিয়ে আলোচনা"
+    ],
+    "approved_answer": "এসব বিষয়ে আমি মন্তব্য করি না। প্রজেক্ট ও সার্ভিস সংক্রান্ত যেকোনো বিষয়ে সাহায্য করতে পারি। 🙏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "57b3d9f1048c62ae7315f0d9e246cb85a9173e6f052d4a",
+    "category": "small_talk",
+    "intent": "gratitude",
+    "patterns": ["thanks", "thank you", "dhonnobad", "ধন্যবাদ", "থ্যাংকস"],
+    "approved_answer": "আপনাকেও অনেক ধন্যবাদ! অন্য যেকোনো সাহায্যে আমাদের জানাবেন। 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "9e641c8a2075bf31d936a4e7502d6c18b573f0a42981de",
+    "category": "small_talk",
+    "intent": "about_developer",
+    "patterns": [
+      "are you a developer",
+      "are you programmer",
+      "তুমি কি ডেভেলপার",
+      "ডেভেলপারের পরিচয়",
+      "apne ki developer",
+      "Apne Ki Developer",
+      "Vai Apne Ki Developer",
+      "vai apne ki developer",
+      "kire vai tui ki developer"
+    ],
+    "approved_answer": "Yes, I am a full-stack developer working on [web and, AI, LLM Rag, software apps, projects]. 💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "4a86f2c1570e93bd628d5e941b73fc20a81569e304c2f7",
+    "category": "small_talk",
+    "intent": "welcome_response",
+    "patterns": ["welcome", "ওয়েলকাম"],
+    "approved_answer": "ধন্যবাদ! ভালো থাকবেন। 🙌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "f2759a6e031c84b719d53a0f628e41cd9572b8064e1935a",
+    "category": "small_talk",
+    "intent": "love_flirt",
+    "patterns": [
+      "i love you",
+      "ami tomake bhalobashi",
+      "ভালোবাসি",
+      "প্রপোজ করছি"
+    ],
+    "approved_answer": "ধন্যবাদ! 😊 আমি একটি AI অ্যাসিস্ট্যান্ট, তাই আপনার কাজে সাহায্য করতে পারি। বলুন কীভাবে সাহায্য করব?",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "6d913e4b8502afc731e64d098527bc1f904a5e3672d8c49",
+    "category": "small_talk",
+    "intent": "short_acknowledge",
+    "patterns": ["hmm", "achha", "হুম", "আচ্ছা", "আচ্ছা ঠিক আছে"],
+    "approved_answer": "জি, আর কীভাবে সাহায্য করতে পারি? 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "a418c6e97052bd3f815e249d0637f1c582b9e40736d5a2",
+    "category": "small_talk",
+    "intent": "appreciate_work",
+    "patterns": [
+      "khub bhalo hoise",
+      "nice work",
+      "দারুণ কাজ হয়েছে",
+      "খুব সুন্দর"
+    ],
+    "approved_answer": "আপনার প্রশংসার জন্য অনেক ধন্যবাদ! আপনার সন্তুষ্টিই আমাদের মূল লক্ষ্য। 👏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "e7520a3c9146f8bd2065d731a49c2ef8571b639d04a5c",
+    "category": "small_talk",
+    "intent": "wrong_number_notice",
+    "patterns": ["wrong number", "bhul number", "ভুল নম্বর"],
+    "approved_answer": "দুঃখিত, মনে হচ্ছে ভুল নম্বরে টেক্সট এসেছে। ধন্যবাদ! ❌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "3c805f2a719d64be938e1075a426cf81b593e2470d6a9c",
+    "category": "small_talk",
+    "intent": "spam_bot_test",
+    "patterns": ["test", "testing 123", "টেস্ট"],
+    "approved_answer": "সিস্টেম টেস্ট সফল! সিস্টেম সঠিকভাবে কাজ করছে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "b294e7f6031a85cd7492f168e53c0a617d9b428f0563e",
+    "category": "small_talk",
+    "intent": "bye_farewell",
+    "patterns": ["bye", "goodbye", "allah hafez", "আল্লাহ হাফেজ", "বিদায়"],
+    "approved_answer": "আল্লাহ হাফেজ! আবার কথা হবে, ভালো থাকবেন। 👋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "81f5c3a706e92bd4158d649f0371ae526b904c7d21836f",
+    "category": "small_talk",
+    "intent": "good_morning",
+    "patterns": ["good morning", "subho sokal", "শুভ সকাল"],
+    "approved_answer": "শুভ সকাল! আপনার আজকের দিনটি সুন্দর ও সাফল্যমণ্ডিত হোক। ☀️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "d6074b2e9538af1c724e6509b31c5f872a16d3e049c8b",
+    "category": "small_talk",
+    "intent": "good_night",
+    "patterns": ["good night", "subho ratri", "শুভ রাত্রি"],
+    "approved_answer": "শুভ রাত্রি! ভালো ঘুম হোক। 🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "5f31a8e704c92d6b179e53af8260bc41d9572e6c0384a",
+    "category": "small_talk",
+    "intent": "funny_interaction",
+    "patterns": ["joke bolo", "pagol naki", "হাসাও তো", "কৌতুক বলো"],
+    "approved_answer": "আমি তো একটি এআই কোডা র, প্রোগ্রামিং এর বাইরে হাসাতে পারি না! 😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "ca76e2b913405f8d621a7e50934bc068f152d4790e36a",
+    "category": "small_talk",
+    "intent": "final_goodbye",
+    "patterns": ["tata", "khoda hafez", "টাটা", "খোদা হাফেজ", "পরে কথা হবে"],
+    "approved_answer": "টাটা! আপনার সাথে কথা বলে ভালো লাগলো। যেকোনো প্রয়োজনে আবার নক দেবেন। 👋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "947d2c6a8051ef3b721c59a0486dbf210e7349c5a1628",
+    "category": "small_talk",
+    "intent": "language_bengali_support",
+    "patterns": [
+      "banglay kotha bola jabe",
+      "bangla support",
+      "বাংলায় বলা যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, অবশ্যই! আপনি বাংলা অথবা ইংরেজি যেকোনো ভাষায় কথা বলতে পারেন। 🇧🇩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "6e19a4f307c85bd2617e930a5482fc91d7053b6a0248e",
+    "category": "small_talk",
+    "intent": "language_english_support",
+    "patterns": [
+      "speak in english",
+      "can you talk english",
+      "ইংরেজি বলতে পারো"
+    ],
+    "approved_answer": "Yes, absolutely! I can seamlessly communicate in English. 🇬🇧",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

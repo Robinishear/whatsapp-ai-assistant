@@ -1,7 +1,6 @@
-
 [
   {
-    "id": "461",
+    "id": "c4a91f7e2d6085b3a174e9f26c8d5031b6a72f94e1c0358d",
     "category": "support",
     "intent": "complaint_general",
     "patterns": [
@@ -16,7 +15,7 @@
     "risk": "medium"
   },
   {
-    "id": "462",
+    "id": "a7e35c921d8460f2b5184ca793e06d1f5b924a680c37e19d",
     "category": "support",
     "intent": "project_delay_complaint",
     "patterns": [
@@ -31,7 +30,7 @@
     "risk": "high"
   },
   {
-    "id": "463",
+    "id": "e2b68d41f90735ac6e1d824b59f03c7a814e26d9350b7f61",
     "category": "support",
     "intent": "legal_threat",
     "patterns": [
@@ -46,7 +45,7 @@
     "risk": "high"
   },
   {
-    "id": "464",
+    "id": "b56f193d8a724ce0f3519e67c204d8ab793a51f6e80c42d",
     "category": "support",
     "intent": "support_expired",
     "patterns": [
@@ -60,7 +59,7 @@
     "risk": "medium"
   },
   {
-    "id": "465",
+    "id": "d93a70c51e8462bf419f3a058c72d6e19b54a8f0271c63e",
     "category": "support",
     "intent": "email_not_working",
     "patterns": [
@@ -75,7 +74,7 @@
     "risk": "medium"
   },
   {
-    "id": "466",
+    "id": "f18c62a947e035bd6d2917f4c8530ae19b7645c2381d9f0",
     "category": "support",
     "intent": "form_not_submitting",
     "patterns": [
@@ -89,7 +88,7 @@
     "risk": "medium"
   },
   {
-    "id": "467",
+    "id": "82e4b7c9135a60df2419e8c7360ab52f4d1673e905c81a6",
     "category": "support",
     "intent": "mobile_view_broken",
     "patterns": [
@@ -103,7 +102,7 @@
     "risk": "medium"
   },
   {
-    "id": "468",
+    "id": "6b30e9f517c842da85a1e6743f9c02bd716e54a893c0f27",
     "category": "support",
     "intent": "content_update_help",
     "patterns": [
@@ -117,7 +116,7 @@
     "risk": "low"
   },
   {
-    "id": "469",
+    "id": "4f82c6d1a7039be574e18c2950a63f8b921d47c5e360ab1",
     "category": "support",
     "intent": "traffic_zero",
     "patterns": [
@@ -131,7 +130,7 @@
     "risk": "low"
   },
   {
-    "id": "470",
+    "id": "91d5e7a348c20fb6179a63e85d42c0b7531f96e4a820cd",
     "category": "support",
     "intent": "data_deleted_restore",
     "patterns": [
@@ -145,7 +144,7 @@
     "risk": "high"
   },
   {
-    "id": "471",
+    "id": "e73a1c906f452bd819d60e5c3748a2f1b936d05c8217fa",
     "category": "support",
     "intent": "change_hosting_provider",
     "patterns": [
@@ -159,7 +158,7 @@
     "risk": "medium"
   },
   {
-    "id": "472",
+    "id": "5c91e4a762d038bf174a9e6502c83d71f609b45a28e36c",
     "category": "support",
     "intent": "mobile_app_update",
     "patterns": [
@@ -173,7 +172,7 @@
     "risk": "low"
   },
   {
-    "id": "473",
+    "id": "7a2f8d516c409be375e13a6940d82f1b956c27e8430ab6",
     "category": "support",
     "intent": "app_rejected",
     "patterns": [
@@ -187,7 +186,7 @@
     "risk": "medium"
   },
   {
-    "id": "474",
+    "id": "3e76b2a904d51cf8279a630b18f45e2c7d091a5638bc4f",
     "category": "support",
     "intent": "voice_only_customer",
     "patterns": [
@@ -202,7 +201,7 @@
     "risk": "low"
   },
   {
-    "id": "475",
+    "id": "c815a4e62970bd351f83e0472a96c5d7184b903e61f27a",
     "category": "support",
     "intent": "screenshot_sent",
     "patterns": [
