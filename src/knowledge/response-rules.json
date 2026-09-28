@@ -1,26 +1,6358 @@
 [
   {
-    "id": "greeting",
-    "intent": "greeting",
-    "patterns": ["hi", "hello", "hey"],
-    "approved_answer": "Hey! Thanks for reaching out — how can I help?",
+    "id": "001",
+    "category": "small_talk",
+    "intent": "greeting_simple",
+    "patterns": ["hi", "hello", "hey", "হাই", "হ্যালো", "হে"],
+    "approved_answer": "Hello! How can I help you today? 😊",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "about_developer",
-    "intent": "about_me",
-    "patterns": ["are you a developer", "are you a programmer"],
-    "approved_answer": "Yes, I'm a full-stack developer.",
+    "id": "002",
+    "category": "small_talk",
+    "intent": "greeting_islamic",
+    "patterns": ["assalamualaykum", "salam", "আসসালামু আলাইকুম", "সালাম"],
+    "approved_answer": "ওয়া আলাইকুম আসসালাম! আশা করি ভালো আছেন। কীভাবে সাহায্য করতে পারি? 🤲",
     "auto_reply": true,
     "risk": "low"
   },
   {
-    "id": "pricing_inquiry",
-    "intent": "pricing",
-    "patterns": ["price", "how much", "cost", "rate"],
-    "approved_answer": "",
+    "id": "003",
+    "category": "small_talk",
+    "intent": "ask_wellbeing",
+    "patterns": [
+      "robin kemon acho",
+      "Robin kemon acho",
+      "robin kemon achen",
+      "Robin kemon achen",
+      "kemon acho",
+      "kemon achen",
+      "how are you",
+      "কেমন আছো",
+      "কেমন আছেন",
+      "কেমন চলতেছে"
+    ],
+    "approved_answer": "আমি খুব ভালো আছি, ধন্যবাদ! আপনার দিনটি কেমন যাচ্ছে? 🌟",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "004",
+    "category": "small_talk",
+    "intent": "ask_identity",
+    "patterns": [
+      "tumi ke",
+      "who are you",
+      "tuhi kon",
+      "তুমি কে",
+      "আপনার পরিচয়"
+    ],
+    "approved_answer": "আমি একজন AI অ্যাসিস্ট্যান্ট। আপনাকে তথ্য দিয়ে ও বিভিন্ন কাজে সাহায্য করার জন্য আছি! 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "005",
+    "category": "support_urgent",
+    "intent": "previous_talk_followup",
+    "patterns": [
+      "tomake ekta kotha bolsilam",
+      "tumi ki bolcho",
+      "তোমাকে একটা কথা বলছিলাম",
+      "আমার কথাটা কি মনে আছে"
+    ],
+    "approved_answer": "হ্যাঁ, মনে আছে! আপনি বিষয়টির আপডেট জানতে চাচ্ছেন? আমি বিস্তারিত চেক করে জানাচ্ছি। 💬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "006",
+    "category": "support_urgent",
+    "intent": "task_status_check",
+    "patterns": [
+      "kaz ta korso",
+      "tomake je kajta korte bolsilam",
+      "kajer ki khobor",
+      "কাজটা কি করছো",
+      "কাজের আপডেট কি"
+    ],
+    "approved_answer": "আপনার দেওয়া কাজটি নিয়ে কাজ চলছে। শেষ হওয়া মাত্রই আপনাকে নিশ্চিত করব! 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "007",
+    "category": "support_urgent",
+    "intent": "task_completion_query",
+    "patterns": [
+      "kaj ses hoise",
+      "is work done",
+      "কাজ শেষ হয়েছে",
+      "কমপ্লিট করতে পারছো",
+      "robin kaj ta complete korte parcho"
+    ],
+    "approved_answer": "কাজটির একদম শেষ পর্যায়ে আছি, অল্প কিছুক্ষণ পরেই আপনাকে ফাইনাল রেজাল্ট পাঠাচ্ছি। ✅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "008",
+    "category": "small_talk",
+    "intent": "about_developer",
+    "patterns": [
+      "are you a developer",
+      "are you programmer",
+      "তুমি কি ডেভেলপার",
+      "ডেভেলপারের পরিচয়",
+      "apne ki developer",
+      "Apne Ki Developer",
+      "Vai Apne Ki Developer",
+      "vai apne ki developer",
+      "kire vai tui ki developer"
+    ],
+    "approved_answer": "Yes, I am a full-stack developer working on [web and, AI, LLM Rag, software apps, projects]. 💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "009",
+    "category": "pricing_payment",
+    "intent": "pricing_general",
+    "patterns": [
+      "price কত",
+      "how much cost",
+      "ekta wep site bhanabo price koto",
+      "ekta apps bhanabo price koto",
+      "খরচ কেমন",
+      "দাম কত",
+      "রেট কত"
+    ],
+    "approved_answer": "প্রজেক্টের কাজের পরিমাণের ওপর দাম নির্ভর করে। আপনার রিকোয়ারমেন্ট পাঠালে বাজেট জানিয়ে দেব। 💰",
     "auto_reply": false,
     "risk": "high"
+  },
+  {
+    "id": "010",
+    "category": "pricing_payment",
+    "intent": "discount_request",
+    "patterns": [
+      "discount hobe",
+      "kisu kom hobe",
+      "ছাড় হবে",
+      "কম রাখা যাবে",
+      "ডিসকাউন্ট দিবেন"
+    ],
+    "approved_answer": "আমাদের রেট একদম রিজনেবল রাখার চেষ্টা করি। আপনি পুরো প্রজেক্ট দিলে কিছুটা অ্যাডজাস্ট করা যেতে পারে। 🏷️",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "011",
+    "category": "pricing_payment",
+    "intent": "payment_methods",
+    "patterns": [
+      "payment kivabe korbo",
+      "bkash ache",
+      "nagad ache",
+      "bank transfer",
+      "পেমেন্ট মাধ্যম কি"
+    ],
+    "approved_answer": "আমরা bKash, Nagad, Rocket এবং Bank Transfer-এর মাধ্যমে পেমেন্ট একসেপ্ট করি। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "012",
+    "category": "pricing_payment",
+    "intent": "advance_payment",
+    "patterns": [
+      "advance koto dite hobe",
+      "advance payment",
+      "কত এডভান্স করতে হবে",
+      "অগ্রিম দিতে হবে"
+    ],
+    "approved_answer": "সাধারণত প্রজেক্ট শুরুর আগে 38% এডভান্স পেমেন্ট করতে হয়। 🔒",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "013",
+    "category": "company_info",
+    "intent": "services_list",
+    "patterns": [
+      "ki ki service dao",
+      "ki ki service den",
+      "ki ki service dan apnara",
+      "apnader ay khan eki ki serves pawa jabe ",
+      "what do you do",
+      "কী কী কাজ করেন",
+      "সার্ভিস লিস্ট"
+    ],
+    "approved_answer": "আমরা ওয়েব ডেভেলপমেন্ট, মোবাইল অ্যাপ, এআই চ্যাটবট এবং এপিআই ইন্টিগ্রেশনের কাজ করি। 🚀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "014",
+    "category": "services",
+    "intent": "website_development",
+    "patterns": [
+      "website banate chai",
+      "need a website",
+      "ওয়েবসাইট তৈরি করতে কত লাগবে",
+      "ওয়েব বানিয়ে দেন"
+    ],
+    "approved_answer": "অবশ্যই! আপনার কি ধরনের ওয়েবসাইট লাগবে (বিজনেস, ই-কমার্স, বা পোর্টফোলিও) শেয়ার করুন। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "015",
+    "category": "services",
+    "intent": "app_development",
+    "patterns": [
+      "app banate chai",
+      "android app create",
+      "iOS app make",
+      "অ্যাপ বানিয়ে দিতে পারবেন"
+    ],
+    "approved_answer": "হ্যাঁ, আমরা অ্যান্ড্রয়েড এবং আইওএস উভয় প্ল্যাটফর্মের জন্য ক্রস-প্ল্যাটফর্ম অ্যাপ বানিয়ে থাকি। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "016",
+    "category": "company_info",
+    "intent": "portfolio_request",
+    "patterns": [
+      "portfolio daw",
+      "show your work",
+      "আগের কাজ দেখতে চাই",
+      "স্যাম্পল দেখান"
+    ],
+    "approved_answer": "আমাদের সাম্প্রতিক প্রজেক্টের স্যাম্পল এই লিংকে দেখতে পারেন: https://portfolio.example.com 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "017",
+    "category": "company_info",
+    "intent": "working_hours",
+    "patterns": [
+      "office hours",
+      "koyta porjonto khola",
+      "কখন ফোন দিলে পাবো",
+      "কাজের সময়"
+    ],
+    "approved_answer": "আমাদের সাধারণ কাজের সময় সকাল 11:00 টা থেকে রাত 3:00 টা পর্যন্ত। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "018",
+    "category": "company_info",
+    "intent": "location_address",
+    "patterns": [
+      "thikana kothay",
+      "where is your office",
+      "location koi",
+      "ঠিকানা কি"
+    ],
+    "approved_answer": "আমাদের অফিস ঢাকা, বাংলাদেশে অবস্থিত। সুনির্দিষ্ট লোকেশন ম্যাপ পাঠাতে পারি। 📍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "019",
+    "category": "company_info",
+    "intent": "contact_number",
+    "patterns": [
+      "phone number daw",
+      "call number",
+      "ফোন নম্বর দিবেন",
+      "কথা বলার নাম্বার"
+    ],
+    "approved_answer": "জরুরি প্রয়োজনে আমাদের এই নম্বরে সরাসরি কল করতে পারেন: +8801334757898 📞",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "020",
+    "category": "company_info",
+    "intent": "email_address",
+    "patterns": [
+      "email address ki",
+      "send mail",
+      "ইমেইল অ্যাড্রেস কি",
+      "মেইল আইডি"
+    ],
+    "approved_answer": "আমাদের অফিশিয়াল ইমেইল: robinryan889@gmail.com ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "021",
+    "category": "company_info",
+    "intent": "schedule_call",
+    "patterns": [
+      "call me",
+      "book a meeting",
+      "মিটিং করতে চাই",
+      "কথা বলতে চাই",
+      "কল দেওয়া যাবে"
+    ],
+    "approved_answer": "আপনি এই লিংকের মাধ্যমে সরাসরি সুবিধাজনক সময়ে মিটিং বুক করতে পারেন: https://calendly.com/example 📅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "022",
+    "category": "support_urgent",
+    "intent": "urgent_matter",
+    "patterns": [
+      "urgent",
+      "khub joruri",
+      "জরুরি কথা ছিল",
+      "জরুরি ভিত্তিতে দরকার"
+    ],
+    "approved_answer": "আপনার বিষয়টি আমরা গুরুত্বের সাথে দেখছি। সরাসরি ফোন দিন অথবা ওয়েট করুন, এডমিন কল দিচ্ছে। 🚨",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "023",
+    "category": "small_talk",
+    "intent": "gratitude",
+    "patterns": ["thanks", "thank you", "dhonnobad", "ধন্যবাদ", "থ্যাংকস"],
+    "approved_answer": "আপনাকেও অনেক ধন্যবাদ! অন্য যেকোনো সাহায্যে আমাদের জানাবেন। 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "024",
+    "category": "small_talk",
+    "intent": "welcome_response",
+    "patterns": ["welcome", "ওয়েলকাম"],
+    "approved_answer": "ধন্যবাদ! ভালো থাকবেন। 🙌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "025",
+    "category": "small_talk",
+    "intent": "bye_farewell",
+    "patterns": ["bye", "goodbye", "allah hafez", "আল্লাহ হাফেজ", "বিদায়"],
+    "approved_answer": "আল্লাহ হাফেজ! আবার কথা হবে, ভালো থাকবেন। 👋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "026",
+    "category": "small_talk",
+    "intent": "good_morning",
+    "patterns": ["good morning", "subho sokal", "শুভ সকাল"],
+    "approved_answer": "শুভ সকাল! আপনার আজকের দিনটি সুন্দর ও সাফল্যমণ্ডিত হোক। ☀️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "027",
+    "category": "small_talk",
+    "intent": "good_night",
+    "patterns": ["good night", "subho ratri", "শুভ রাত্রি"],
+    "approved_answer": "শুভ রাত্রি! ভালো ঘুম হোক। 🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "028",
+    "category": "project_policy",
+    "intent": "project_timeline",
+    "patterns": [
+      "koto din lagbe",
+      "delivery time",
+      "কত দিন লাগবে",
+      "কত সময়ে শেষ হবে"
+    ],
+    "approved_answer": "সাধারণত প্রজেক্টের ফিচার অনুযায়ী ৭ থেকে ১৫ দিন সময় লাগে। ⌛",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "029",
+    "category": "project_policy",
+    "intent": "revision_policy",
+    "patterns": [
+      "revision pabo",
+      "koy bar change kora jabe",
+      "পরিবর্তন করা যাবে কি",
+      "রিভিশন কয়বার"
+    ],
+    "approved_answer": "আমরা প্রজেক্ট ডেলিভারির পরেও ২ বার পর্যন্ত বিনামূল্যে প্রয়োজনীয় পরিবর্তন করে দিয়ে থাকি। 🔄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "030",
+    "category": "project_policy",
+    "intent": "support_after_delivery",
+    "patterns": [
+      "after sales support",
+      "pore kono somossa hole",
+      "পরে সমস্যা হলে কি করবেন"
+    ],
+    "approved_answer": "ডেলিভারির পর ১ মাস ফ্রি টেকনিক্যাল সাপোর্ট দেওয়া হবে। 🛠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "031",
+    "category": "support_urgent",
+    "intent": "bug_report",
+    "patterns": [
+      "bug paise",
+      "error astese",
+      "কাজ করছে না",
+      "বাগ আছে",
+      "ভুল দেখাচ্ছে"
+    ],
+    "approved_answer": "দুঃখিত ঝামেলার জন্য! ত্রুটির একটি স্ক্রিনশট এবং বিবরণ দিন, আমরা দ্রুত ফিক্স করছি। 🐛",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "032",
+    "category": "support_urgent",
+    "intent": "human_agent_request",
+    "patterns": [
+      "real person",
+      "human agent",
+      "মানুষের সাথে কথা বলবো",
+      "এডমিনকে দাও"
+    ],
+    "approved_answer": "অবশ্যই, আমি একজন হিউম্যান রিপ্রেজেন্টেটিভকে নোটিফাই করেছি। শিগগিরই যোগাযোগ করা হবে। 👤",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "033",
+    "category": "company_info",
+    "intent": "tech_stack_query",
+    "patterns": [
+      "what languages do you use",
+      "kon technology use koren",
+      "কী দিয়ে বানান",
+      "টেকনোলজি কি"
+    ],
+    "approved_answer": "আমরা প্রধানত React, Next.js, Node.js, Python, Flutter এবং PostgreSQL ব্যবহার করি। 💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "034",
+    "category": "services",
+    "intent": "custom_bot_development",
+    "patterns": [
+      "whatsapp bot chai",
+      "custom ai bot",
+      "চ্যাটবট বানিয়ে দেন",
+      "বট বানাতে কত লাগবে"
+    ],
+    "approved_answer": "আমরা WhatsApp, Facebook ও Web-এর জন্য কাস্টম AI চ্যাটবট তৈরি করি। বিস্তারিত জানার জন্য মিটিং বুক করুন। 🤖",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "035",
+    "category": "services",
+    "intent": "ecommerce_solution",
+    "patterns": [
+      "online shop site",
+      "ecommerce website",
+      "অনলাইন শপের সাইট",
+      "ইকমার্স ওয়েবসাইট"
+    ],
+    "approved_answer": "ইকমার্স ওয়েবসাইটের জন্য আমাদের প্রিমিয়াম প্যাকেজ রয়েছে। আপনার কয়টি প্রোডাক্ট থাকছে? 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "036",
+    "category": "services",
+    "intent": "hosting_domain_query",
+    "patterns": [
+      "domain hosting ache",
+      "do you provide domain",
+      "ডোমেইন হোস্টিং কি দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, আমরা প্রথম ১ বছরের জন্য ফ্রি ডোমেইন ও হোস্টিং প্রোভাইড করে থাকি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "037",
+    "category": "services",
+    "intent": "seo_services",
+    "patterns": ["seo korben", "google ranking", "এসইও সার্ভিস আছে"],
+    "approved_answer": "হ্যাঁ, অন-পেজ এবং টেকনিক্যাল এসইও (SEO) সার্ভিসও আমাদের রয়েছে। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "038",
+    "category": "pricing_payment",
+    "intent": "maintenance_charge",
+    "patterns": ["monthly charge", "maintenance cost", "মাসে মাসে কত দিতে হবে"],
+    "approved_answer": "কোনো হিডেন বা মান্থলি চার্জ নেই, শুধুমাত্র ১ বছর পর ডোমেইন ও হোস্টিং রিনিউয়াল ফি লাগবে। 💵",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "039",
+    "category": "pricing_payment",
+    "intent": "refund_policy",
+    "patterns": [
+      "refund hobe",
+      "money back",
+      "টাকা ফেরত দিবেন",
+      "রিফান্ড পলিসি"
+    ],
+    "approved_answer": "কাজের নির্দিষ্ট ধাপ বা কোয়ালিটি মিট না করলে আমাদের রিফান্ড পলিসি প্রযোজ্য। 💸",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "040",
+    "category": "project_policy",
+    "intent": "requirements_submission",
+    "patterns": [
+      "requirements send",
+      "kivabe bolbo ki lagbe",
+      "রিকোয়ারমেন্ট কীভাবে দেবো"
+    ],
+    "approved_answer": "আপনার টেক্সট, অডিও অথবা ফাইল আকারে রিকোয়ারমেন্টগুলো এখানে লিখে পাঠান। 📄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "041",
+    "category": "support_urgent",
+    "intent": "voice_message_acknowledgment",
+    "patterns": ["voice disi", "voice sono", "ভয়েস দিছি", "ভয়েস শুনেন"],
+    "approved_answer": "আপনার ভয়েস মেসেজটি পেয়েছি, শুনে দ্রুত উত্তর দিচ্ছি! 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "042",
+    "category": "support_urgent",
+    "intent": "document_received",
+    "patterns": ["file disi", "pdf disi", "ফাইল পাঠিয়েছি", "ডকুমেন্ট দেখেন"],
+    "approved_answer": "ধন্যবাদ ফাইলটির জন্য! ডকুমেন্টগুলো রিভিউ করে আপনাকে মতামত জানাচ্ছি। 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "043",
+    "category": "support_urgent",
+    "intent": "busy_notice",
+    "patterns": ["busy naki", "busy achen", "ব্যস্ত আছেন নাকি"],
+    "approved_answer": "সামান্য একটি কাজে ব্যস্ত আছি, তবে দ্রুততম সময়ে আপনার কথার উত্তর দিচ্ছি। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "044",
+    "category": "company_info",
+    "intent": "free_consultation",
+    "patterns": [
+      "free advice",
+      "consultation lagbe",
+      "পরামর্শ পাবো",
+      "পরামর্শ ফ্রিতে দেওয়া যাবে"
+    ],
+    "approved_answer": "অবশ্যই! প্রজেক্ট আইডিয়া নিয়ে যেকোনো ফ্রি কন্সাল্টেশনের জন্য কথা বলতে পারেন। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "045",
+    "category": "company_info",
+    "intent": "job_inquiry",
+    "patterns": [
+      "hiring naki",
+      "job vacancy",
+      "চাকরি হবে",
+      "জব ভ্যাকেন্সি আছে"
+    ],
+    "approved_answer": "আমাদের ক্যারিয়ার পেইজ বা ইমেইলে সিভি পাঠিয়ে রাখতে পারেন: hr@example.com 💼",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "046",
+    "category": "company_info",
+    "intent": "internship_query",
+    "patterns": ["internship ache", "intern neo", "ইন্টার্নশিপ দেওয়া যাবে"],
+    "approved_answer": "আমরা সময়ে সময়ে ইন্টার্নশিপ অপচুনিটি অফার করি। আপনার পোর্টফোলিও আমাদের মেইল করুন। 🎓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "047",
+    "category": "company_info",
+    "intent": "partnership_proposal",
+    "patterns": [
+      "business partner",
+      "collab korbe",
+      "পার্টনারশিপ করবেন",
+      "কোল্যাব করা যাবে"
+    ],
+    "approved_answer": "পার্টনারশিপ প্রস্তাবের জন্য বিস্তারিত ইমেইল করুন: robinryan889@gmail.com 🤝",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "048",
+    "category": "small_talk",
+    "intent": "wrong_number_notice",
+    "patterns": ["wrong number", "bhul number", "ভুল নম্বর"],
+    "approved_answer": "দুঃখিত, মনে হচ্ছে ভুল নম্বরে টেক্সট এসেছে। ধন্যবাদ! ❌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "049",
+    "category": "small_talk",
+    "intent": "spam_bot_test",
+    "patterns": ["test", "testing 123", "টেস্ট"],
+    "approved_answer": "সিস্টেম টেস্ট সফল! সিস্টেম সঠিকভাবে কাজ করছে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "050",
+    "category": "small_talk",
+    "intent": "funny_interaction",
+    "patterns": ["joke bolo", "pagol naki", "হাসাও তো", "কৌতুক বলো"],
+    "approved_answer": "আমি তো একটি এআই কোডার, প্রোগ্রামিং এর বাইরে হাসাতে পারি না! 😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "051",
+    "category": "support_urgent",
+    "intent": "angry_customer",
+    "patterns": [
+      "kharap service",
+      "bad service",
+      "বাজে সার্ভিস",
+      "ভালো না কাজ"
+    ],
+    "approved_answer": "আপনার অসন্তুষ্টির জন্য অত্যন্ত দুঃখিত! সমস্যাটির সমাধান করার জন্য আমাদের এডমিন সরাসরি কল দেবে। ⚠️",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "052",
+    "category": "small_talk",
+    "intent": "appreciate_work",
+    "patterns": [
+      "khub bhalo hoise",
+      "nice work",
+      "দারুণ কাজ হয়েছে",
+      "খুব সুন্দর"
+    ],
+    "approved_answer": "আপনার প্রশংসার জন্য অনেক ধন্যবাদ! আপনার সন্তুষ্টিই আমাদের মূল লক্ষ্য। 👏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "053",
+    "category": "services",
+    "intent": "api_integration",
+    "patterns": [
+      "api add kora jabe",
+      "api integration",
+      "এপিআই যুক্ত করতে হবে"
+    ],
+    "approved_answer": "হ্যাঁ, যেকোনো থার্ড পার্টি API (যেমন: Payment Gateway, SMS Gateway) ইন্টিগ্রেট করে দেওয়া যাবে। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "054",
+    "category": "services",
+    "intent": "ui_ux_design",
+    "patterns": ["figma design", "ui ux design", "ডিজাইন কি সুন্দর হবে"],
+    "approved_answer": "আমরা Figma দিয়ে আধুনিক ও ইউজার-ফ্রেন্ডলি UI/UX ডিজাইন তৈরি করি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "055",
+    "category": "project_policy",
+    "intent": "security_concerns",
+    "patterns": [
+      "security kemon hobe",
+      "is it safe",
+      "সিকিউরিটি কেমন হবে",
+      "হ্যাক হবে না তো"
+    ],
+    "approved_answer": "আমরা সেরা সিকিউরিটি স্ট্যান্ডার্ড মেনে কোড করি যেন ডেটা সম্পূর্ণ নিরাপদ থাকে। 🛡️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "056",
+    "category": "services",
+    "intent": "database_choice",
+    "patterns": [
+      "kon database use koren",
+      "database type",
+      "ডেটাবেজ কোনটি ব্যবহার করেন"
+    ],
+    "approved_answer": "প্রজেক্টের সাইজ অনুযায়ী PostgreSQL, MongoDB অথবা MySQL ব্যবহার করা হয়। 🗄️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "057",
+    "category": "small_talk",
+    "intent": "language_bengali_support",
+    "patterns": [
+      "banglay kotha bola jabe",
+      "bangla support",
+      "বাংলায় বলা যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, অবশ্যই! আপনি বাংলা অথবা ইংরেজি যেকোনো ভাষায় কথা বলতে পারেন। 🇧🇩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "058",
+    "category": "small_talk",
+    "intent": "language_english_support",
+    "patterns": [
+      "speak in english",
+      "can you talk english",
+      "ইংরেজি বলতে পারো"
+    ],
+    "approved_answer": "Yes, absolutely! I can seamlessly communicate in English. 🇬🇧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "059",
+    "category": "support_urgent",
+    "intent": "cancel_order",
+    "patterns": [
+      "cancel korbo",
+      "order cancel",
+      "বাতিল করতে চাই",
+      "ক্যান্সেল করবো"
+    ],
+    "approved_answer": "অর্ডার বাতিলের জন্য দ্রুত সাপোর্ট টিমের সাথে কথা বলুন। 🚫",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "060",
+    "category": "project_policy",
+    "intent": "contract_agreement",
+    "patterns": [
+      "contract korben",
+      "agreement lagbe",
+      "চুক্তিপত্র দেওয়া যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, উভয় পক্ষের নিরাপত্তার স্বার্থে আমরা অফিশিয়াল চুক্তিপত্র বা NDA স্বাক্ষর করি। 📜",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "061",
+    "category": "services",
+    "intent": "custom_feature",
+    "patterns": ["custom feature add kora jabe", "এই ফিচারটা দেওয়া যাবে"],
+    "approved_answer": "হ্যাঁ, যেকোনো কাস্টম ফিচার ডেভেলপ করা সম্ভব। আপনার রিকোয়ারমেন্ট বিস্তারিত বলুন। ⚙️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "062",
+    "category": "project_policy",
+    "intent": "source_code_ownership",
+    "patterns": ["source code pabo", "code amak diben", "সোর্স কোড দিবেন তো"],
+    "approved_answer": "হ্যাঁ, প্রজেক্টের পুরো পেমেন্ট ক্লিয়ার করার পর সম্পূর্ণ সোর্স কোড হ্যান্ডওভার করা হয়। 📦",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "063",
+    "category": "services",
+    "intent": "mobile_responsiveness",
+    "patterns": [
+      "mobile e cholbe",
+      "responsive hobe",
+      "মোবাইলে সুন্দর দেখাবে তো"
+    ],
+    "approved_answer": "অবশ্যই! আমাদের প্রতিটি ওয়েবসাইট ১০০% মোবাইল ও ট্যাব রেসপন্সিভ হয়। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "064",
+    "category": "services",
+    "intent": "page_speed_optimization",
+    "patterns": ["speed kemon hobe", "fast hobe site", "স্পিড কেমন হবে"],
+    "approved_answer": "আমরা স্পিড অপটিমাইজেশন নিশ্চিত করি যেন সাইট দ্রুত লোড হয়। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "065",
+    "category": "services",
+    "intent": "payment_gateway_integration",
+    "patterns": [
+      "payment gateway",
+      "bkash payment system",
+      "পেমেন্ট গেটওয়ে সেটআপ"
+    ],
+    "approved_answer": "আমরা bKash, Nagad, SSLCommerz এবং Stripe গেটওয়ে সহজে সেটআপ করতে পারি। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "066",
+    "category": "services",
+    "intent": "admin_panel_queries",
+    "patterns": [
+      "admin panel thakbe",
+      "nijer moto edit kora jabe",
+      "এডমিন প্যানেল থাকবে"
+    ],
+    "approved_answer": "হ্যাঁ, একটি সহজ এডমিন প্যানেল থাকবে যার মাধ্যমে আপনি নিজেই কন্টেন্ট আপডেট করতে পারবেন। 🖥️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "067",
+    "category": "project_policy",
+    "intent": "training_provided",
+    "patterns": [
+      "dekhiye diben kivabe chalabo",
+      "training diben",
+      "ব্যবহার করা শিখিয়ে দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, ওয়েবসাইট বা অ্যাপ কীভাবে ব্যবহার করবেন তার জন্য ভিডিও গাইড বা লাইভ ডেমো দেওয়া হবে। 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "068",
+    "category": "pricing_payment",
+    "intent": "small_budget_project",
+    "patterns": ["kom bajet e hobe", "small budget", "কম বাজেটে হবে কি"],
+    "approved_answer": "আপনার বাজেট কত আমাদের জানান, বাজেটের মধ্যে সেরা অপশনটি দেওয়ার চেষ্টা করব। 💡",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "069",
+    "category": "services",
+    "intent": "portfolio_website_spec",
+    "patterns": ["personal portfolio chai", "পোর্টফোলিও ওয়েবসাইট প্রয়োজন"],
+    "approved_answer": "পার্সোনাল পোর্টফোলিও ওয়েবসাইটের রেডি টেমপ্লেট ও কাস্টম দুই ধরনের অপশনই রয়েছে। 👤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "070",
+    "category": "services",
+    "intent": "news_portal_spec",
+    "patterns": ["news site chai", "নিউজ পোর্টাল বানাতে চাই"],
+    "approved_answer": "আমরা ফাস্ট ও সিকিউর নিউজ পোর্টাল ডেভেলপমেন্ট সার্ভিস দিচ্ছি। 📰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "071",
+    "category": "services",
+    "intent": "lms_education_platform",
+    "patterns": ["coaching website", "lms site", "কোচিং সেন্টারের সাইট"],
+    "approved_answer": "কোর্স বিক্রি এবং অনলাইন ক্লাসের জন্য LMS প্ল্যাটফর্ম বানিয়ে দেওয়া যাবে। 📚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "072",
+    "category": "services",
+    "intent": "restaurant_pos_system",
+    "patterns": [
+      "restaurant system",
+      "pos system",
+      "রেস্তোরাঁর ওয়েবসাইট ও পস"
+    ],
+    "approved_answer": "রেস্তোরাঁর মেনু, অনলাইন অর্ডার ও POS সিস্টেমের কমপ্লিট সল্যুশন আছে। 🍔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "073",
+    "category": "services",
+    "intent": "real_estate_site",
+    "patterns": ["real estate website", "জমি বিক্রির সাইট"],
+    "approved_answer": "প্রোপার্টি লিস্টিং ও ফিল্টারিং সহ রিয়েল এস্টেট ওয়েবসাইট বানিয়ে দিতে পারি। 🏢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "074",
+    "category": "services",
+    "intent": "social_media_integration",
+    "patterns": [
+      "social link add",
+      "facebook page connect",
+      "সোশ্যাল মিডিয়া যুক্ত করা"
+    ],
+    "approved_answer": "হ্যাঁ, সমস্ত সোশ্যাল মিডিয়া প্রোফাইল এবং চ্যাট উইজেট যুক্ত করে দেওয়া হবে। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "075",
+    "category": "services",
+    "intent": "google_maps_integration",
+    "patterns": ["google map add", "ম্যাপ লোকেশন দেওয়া যাবে"],
+    "approved_answer": "হ্যাঁ, কন্টাক্ট পেইজে গুগল ম্যাপ ইন্টিগ্রেট করে দেওয়া হবে। 📍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "076",
+    "category": "services",
+    "intent": "multilingual_support",
+    "patterns": ["multi language website", "একাধিক ভাষা সাপোর্ট"],
+    "approved_answer": "হ্যাঁ, বাংলা, ইংরেজি সহ যেকোনো মাল্টিপল ল্যাঙ্গুয়েজ অপশন রাখা সম্ভব। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "077",
+    "category": "services",
+    "intent": "ssl_certificate",
+    "patterns": ["ssl lagbe", "https thakbe", "এসএসএল সার্টিফিকেট"],
+    "approved_answer": "হ্যাঁ, ফ্রি SSL সার্টিফিকেট ইনস্টল করে ওয়েবসাইট সিকিউর করা হবে। 🔒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "078",
+    "category": "services",
+    "intent": "backup_facility",
+    "patterns": ["backup thakbe", "data harabe na to", "ব্যাকআপ ব্যবস্থা"],
+    "approved_answer": "অটোমেটিক সাপ্তাহিক ও মাসিক ব্যাকআপ ব্যবস্থা সেটআপ করা থাকবে। 💾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "079",
+    "category": "services",
+    "intent": "slow_website_issue",
+    "patterns": ["site slow", "website fast korte chai", "সাইট স্লো কাজ করছে"],
+    "approved_answer": "আমরা আপনার ওয়েবসাইটের কোড ও ইমেজ অপটিমাইজ করে স্পিড বাড়িয়ে দেব। ⚡",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "080",
+    "category": "services",
+    "intent": "redesign_existing_site",
+    "patterns": [
+      "redesign chai",
+      "purano site change",
+      "সাইট রিডিজাইন করা যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, আপনার বর্তমান সাইটের আধুনিক লুক দিতে রিডিজাইন করতে পারি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "081",
+    "category": "services",
+    "intent": "push_notifications",
+    "patterns": ["push notification", "নোটিফিকেশন পাঠানো যাবে"],
+    "approved_answer": "ওয়েব ও মোবাইল অ্যাপের জন্য পুশ নোটিফিকেশন সুবিধা যোগ করা যাবে। 🔔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "082",
+    "category": "services",
+    "intent": "chatbot_integration",
+    "patterns": ["bot integrate korbo", "চ্যাটবট যুক্ত করা"],
+    "approved_answer": "আমরা আপনার ওয়েবসাইটে অটোমেটেড চ্যাটবট ইন্টিগ্রেট করে দিতে পারি। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "083",
+    "category": "services",
+    "intent": "custom_crm",
+    "patterns": ["crm banate chai", "কাস্টমার ম্যানেজমেন্ট সফটওয়্যার"],
+    "approved_answer": "আমরা বিজনেসের প্রয়োজন অনুযায়ী কাস্টম CRM তৈরি করে থাকি। 📊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "084",
+    "category": "services",
+    "intent": "inventory_software",
+    "patterns": ["inventory software", "স্টক ম্যানেজমেন্ট সাইট"],
+    "approved_answer": "ইনভেন্টরি ও স্টক ট্র্যাকিং সফটওয়্যার ডেভেলপ করার সুবিধা রয়েছে। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "085",
+    "category": "services",
+    "intent": "dark_mode_feature",
+    "patterns": ["dark mode thakbe", "ডার্ক মোড অপশন"],
+    "approved_answer": "হ্যাঁ, ওয়েবসাইটে লাইট ও ডার্ক মোড অপশন যুক্ত করা যাবে। 🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "086",
+    "category": "services",
+    "intent": "social_login",
+    "patterns": ["google login", "facebook login option", "সোশ্যাল লগইন"],
+    "approved_answer": "Google, Facebook বা Apple দিয়ে সরাসরি লগইন অপশন যুক্ত করা যাবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "087",
+    "category": "services",
+    "intent": "sms_notification",
+    "patterns": ["sms alert", "otp system", "ওটিপি বা এসএমএস সিস্টেম"],
+    "approved_answer": "হ্যাঁ, মোবাইল নম্বর যাচাইয়ের জন্য OTP ও SMS নোটিফিকেশন সিস্টেম ইন্টিগ্রেট করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "088",
+    "category": "services",
+    "intent": "seo_friendly_code",
+    "patterns": ["seo friendly hobe", "এসইও ফ্রেন্ডলি কোড"],
+    "approved_answer": "প্রতিটি ওয়েবসাইট ক্লিন কোড ও SEO-Friendly আর্কিটেকচারে তৈরি করা হয়। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "089",
+    "category": "services",
+    "intent": "cross_browser_support",
+    "patterns": ["all browser cholbe", "সব ব্রাউজারে চলবে তো"],
+    "approved_answer": "হ্যাঁ, Chrome, Safari, Firefox সহ সব আধুনিক ব্রাউজারে এটি নিরবচ্ছিন্নভাবে চলবে। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "090",
+    "category": "services",
+    "intent": "ongoing_maintenance_contract",
+    "patterns": ["long term maintenance", "দীর্ঘমেয়াদী মেইনটেনেন্স"],
+    "approved_answer": "আমরা প্রজেক্টভিত্তিক ও মাসিক চুক্তিতে দীর্ঘমেয়াদী মেইনটেনেন্স সার্ভিস দিই। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "091",
+    "category": "services",
+    "intent": "domain_transfer",
+    "patterns": ["domain transfer", "ডোমেইন ট্রান্সফার করবো"],
+    "approved_answer": "আমরা আপনার ডোমেইন ট্রান্সফারে সাহায্য করতে পারি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "092",
+    "category": "services",
+    "intent": "cloud_deployment",
+    "patterns": ["aws deploy", "vps setup", "ক্লাউড হোস্ট বা ভিপিএস সেটআপ"],
+    "approved_answer": "AWS, DigitalOcean বা VPS সার্ভারে সাইট ও ডেটাবেজ ডেপ্লয় করে দেওয়ার অভিজ্ঞতা আছে। ☁️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "093",
+    "category": "services",
+    "intent": "testing_qa",
+    "patterns": ["testing করবেন", "qa check"],
+    "approved_answer": "ডেলিভারির আগে সম্পূর্ণ ম্যানুয়াল ও অটোমেটেড টেস্টিং নিশ্চিত করা হয়। 🧪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "094",
+    "category": "project_policy",
+    "intent": "nda_agreement",
+    "patterns": ["nda sign korben", "গোপনীয়তার চুক্তি করতে হবে"],
+    "approved_answer": "আপনার আইডিয়া ও ডেটার শতভাগ গোপনীয়তা বজায় রাখতে আমরা NDA সাইন করি। 🔏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "095",
+    "category": "services",
+    "intent": "live_chat_integration",
+    "patterns": ["live chat add", "লাইভ চ্যাট উইজেট"],
+    "approved_answer": "Tawk.to, Crisp বা WhatsApp লাইভ চ্যাট যুক্ত করে দেওয়া যাবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "096",
+    "category": "services",
+    "intent": "file_upload_feature",
+    "patterns": ["file upload option", "ফাইল আপলোড সুবিধা"],
+    "approved_answer": "হ্যাঁ, ব্যবহারকারীরা যেন প্রয়োজনীয় ফাইল বা ছবি আপলোড করতে পারে সেই সিস্টেম থাকবে। 📤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "097",
+    "category": "services",
+    "intent": "analytics_integration",
+    "patterns": ["google analytics add", "অ্যানালিটিক্স যুক্ত করা"],
+    "approved_answer": "Google Analytics ও Facebook Pixel সেটআপ করে দেওয়া হবে যাতে ভিজিটর ট্র্যাক করা যায়। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "098",
+    "category": "services",
+    "intent": "invoice_generation",
+    "patterns": ["auto invoice system", "ইনভয়েস তৈরির ফিচার"],
+    "approved_answer": "অর্ডার সম্পন্ন হলে অটোমেটিক PDF ইনভয়েস তৈরি হওয়ার সিস্টেম থাকবে। 🧾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "099",
+    "category": "services",
+    "intent": "review_rating_system",
+    "patterns": ["review system", "রেটিং বা রিভিউ অপশন"],
+    "approved_answer": "কাস্টমারদের জন্য স্টার রেটিং ও রিভিউ সাবমিট করার সুবিধা থাকবে। ⭐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "100",
+    "category": "small_talk",
+    "intent": "closing_thanks",
+    "patterns": ["ok thanks", "thik ache", "ঠিক আছে ধন্যবাদ", "অল রাইট"],
+    "approved_answer": "ধন্যবাদ! আর কোনো প্রশ্ন থাকলে নির্দ্বিধায় জানাবেন। শুভ দিন! 🌈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "101",
+    "category": "services",
+    "intent": "audio_call_request",
+    "patterns": [
+      "audio call me",
+      "call a ashben",
+      "অডিও কল দিন",
+      "কথা বলা যাবে কলে"
+    ],
+    "approved_answer": "অডিও কলে কথা বলতে চাইলে সুবিধাজনক একটি সময় জানান, অথবা সরাসরি কল করুন। 📞",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "102",
+    "category": "services",
+    "intent": "video_call_request",
+    "patterns": [
+      "video call dew",
+      "meet in video",
+      "ভিডিও কল দেওয়া যাবে",
+      "ক্যামেরায় আসবেন"
+    ],
+    "approved_answer": "ভিডিও কলের জন্য গুগল মিট বা জুম লিংক শেয়ার করে কথা বলা যাবে। 📹",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "103",
+    "category": "services",
+    "intent": "screen_share_session",
+    "patterns": [
+      "screen share korbo",
+      "anydesk daw",
+      "anydesk/teamviewer",
+      "স্ক্রিন শেয়ার করবো"
+    ],
+    "approved_answer": "আপনার AnyDesk বা TeamViewer আইডি শেয়ার করুন, সংযোগ দিচ্ছি। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "104",
+    "category": "pricing_payment",
+    "intent": "payment_receipt_share",
+    "patterns": [
+      "money pathaisilam",
+      "payment status check",
+      "পেমেন্ট পাঠিয়েছি",
+      "টাকা ট্রান্সফার করেছি"
+    ],
+    "approved_answer": "পেমেন্টের ট্রানজেকশন আইডি বা স্ক্রিনশট শেয়ার করুন, আমরা ভেরিফাই করছি। 🧾",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "105",
+    "category": "pricing_payment",
+    "intent": "invoice_request",
+    "patterns": [
+      "invoice lagbe",
+      "bill copy daw",
+      "বিল কপি দিবেন",
+      "ইনভয়েস পাঠাও"
+    ],
+    "approved_answer": "আমরা আপনার অফিশিয়াল ইনভয়েসটি ইমেইল ও হোয়াটসঅ্যাপে পাঠিয়ে দিচ্ছি। 📄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "106",
+    "category": "pricing_payment",
+    "intent": "due_payment_query",
+    "patterns": [
+      "due koto ache",
+      "bakipora koto",
+      "বাকি কত টাকা আছে",
+      "ডিউ পেমেন্ট"
+    ],
+    "approved_answer": "আপনার বর্তমান বাকির হিসাব চেক করে বিস্তারিত তথ্য জানানো হচ্ছে। 📊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "107",
+    "category": "services",
+    "intent": "flutter_app_spec",
+    "patterns": [
+      "flutter app lagbe",
+      "flutter dev",
+      "ফ্লাটার অ্যাপ বানিয়ে দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, ফ্লাটার দিয়ে একই সাথে অ্যান্ড্রয়েড ও আইওএস অ্যাপ তৈরি করে দেওয়া যাবে। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "108",
+    "category": "services",
+    "intent": "react_native_spec",
+    "patterns": ["react native application", "রিয়্যাক্ট নেটিভ অ্যাপ"],
+    "approved_answer": "আমরা React Native ব্যবহার করেও হাই-পারফর্ম্যান্স মোবাইল অ্যাপ বানাই। ⚛️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "109",
+    "category": "services",
+    "intent": "wordpress_site_spec",
+    "patterns": [
+      "wordpress website",
+      "wp site make",
+      "ওয়ার্ডপ্রেস সাইট বানিয়ে দেবেন"
+    ],
+    "approved_answer": "হ্যাঁ, খুব দ্রুত ও কাস্টমাইজড ওয়ার্ডপ্রেস ওয়েবসাইট তৈরি করে দেওয়া যাবে। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "110",
+    "category": "services",
+    "intent": "shopify_store_spec",
+    "patterns": ["shopify store build", "শপিফাই স্টোর বানাবো"],
+    "approved_answer": "আমরা প্রফেশনাল Shopify ই-কমার্স স্টোর সেটআপ ও ডিজাইন করে থাকি। 🛍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "111",
+    "category": "services",
+    "intent": "laravel_backend_spec",
+    "patterns": ["laravel project", "ল্যারাভেল ব্যাকএন্ড"],
+    "approved_answer": "আমরা Laravel ব্যাকএন্ড দিয়ে স্কেলেবল ওয়েব অ্যাপ্লিকেশন ডেভেলপ করি। 🛠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "112",
+    "category": "services",
+    "intent": "python_django_spec",
+    "patterns": ["python django dev", "পাইথন জ্যাঙ্গো সাইট"],
+    "approved_answer": "হ্যাঁ, সেকিউর ও ডেটা-ইনটেনসিভ প্রজেক্টের জন্য Django ব্যাকএন্ড তৈরি করি। 🐍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "113",
+    "category": "services",
+    "intent": "nextjs_frontend_spec",
+    "patterns": ["nextjs frontend", "নেক্সট জেএস দিয়ে বানাবেন"],
+    "approved_answer": "আমরা SEO ফ্রেন্ডলি ও দ্রুতগতির অ্যাপের জন্য Next.js ব্যবহার করি। ⚛️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "114",
+    "category": "services",
+    "intent": "play_store_publish",
+    "patterns": ["play store app upload", "প্লে স্টোরে অ্যাপ আপলোড"],
+    "approved_answer": "আমরা Google Play Store-এ আপনার অ্যাপটি সঠিকভাবে পাবলিশ করে দেব। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "115",
+    "category": "services",
+    "intent": "app_store_publish",
+    "patterns": ["app store ios publish", "অ্যাপল স্টোরে পাবলিশ"],
+    "approved_answer": "Apple App Store-এর গাইডলাইন মেনে আপনার iOS অ্যাপ পাবলিশ করে দেওয়া সম্ভব। 🍎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "116",
+    "category": "services",
+    "intent": "domain_buy_assistance",
+    "patterns": ["domain kinte chai", "ডোমেইন কিনতে সাহায্য করবেন"],
+    "approved_answer": "আপনার পছন্দমতো নামের সেরা ডোমেইনটি কিনে সেটআপ করে দেব। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "117",
+    "category": "services",
+    "intent": "hosting_setup_assistance",
+    "patterns": ["hosting kinte chai", "হোস্টিং কনফিগার করে দিবেন"],
+    "approved_answer": "আপনার সাইটের ট্রাফিক অনুযায়ী সেরা হোস্টিং সিলেক্ট ও কনফিগার করে দেওয়া হবে। ☁️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "118",
+    "category": "services",
+    "intent": "vps_server_management",
+    "patterns": ["vps server manage", "ভিপিএস সার্ভার ম্যানেজমেন্ট"],
+    "approved_answer": "আমরা Linux/Ubuntu VPS সার্ভার সেটআপ, সিকিউরিটি ও মেইনটেনেন্স করে থাকি। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "119",
+    "category": "services",
+    "intent": "facebook_pixel_setup",
+    "patterns": ["meta pixel setup", "ফেসবুক পিক্সেল সেটআপ"],
+    "approved_answer": "আমরা ওয়েবসাইটে Facebook Pixel ও Conversion API প্রপারলি কনফিগার করি। 🎯",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "120",
+    "category": "services",
+    "intent": "google_tag_manager",
+    "patterns": ["gtm setup", "গুগল ট্যাগ ম্যানেজার সেটআপ"],
+    "approved_answer": "Google Tag Manager দিয়ে অ্যাড ট্র্যাকিং ও ইভেন্ট ট্র্যাকিং সেটআপ করে দেওয়া যাবে। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "121",
+    "category": "services",
+    "intent": "domain_email_setup",
+    "patterns": [
+      "professional email setup",
+      "info email banano",
+      "প্রফেশনাল ইমেইল চাই"
+    ],
+    "approved_answer": "আপনার ডোমেইনের অধীনে প্রফেশনাল ইমেইল (info@yourdomain.com) সেটআপ করে দেওয়া হবে। ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "122",
+    "category": "services",
+    "intent": "google_workspace_setup",
+    "patterns": ["gsuite setup", "google workspace", "গুগল ওয়ার্কস্পেস সেটআপ"],
+    "approved_answer": "আপনার কোম্পানির জন্য Google Workspace মেইল কনফিগারেশন সাপোর্ট দিতে পারব। 💼",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "123",
+    "category": "support_urgent",
+    "intent": "ssl_expired_issue",
+    "patterns": ["not secure dekhatse", "ssl renew", "এসএসএল এরর দেখাচ্ছে"],
+    "approved_answer": "আপনার সাইটের SSL এক্সপায়ার হয়েছে। আমরা এটি আবার বিনামূল্যে রিনিউ করে দিচ্ছি। 🔒",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "124",
+    "category": "support_urgent",
+    "intent": "hacked_site_recovery",
+    "patterns": [
+      "site hacked",
+      "malware clean",
+      "সাইটে হ্যাক হয়েছে",
+      "ভাইরাস দূর করা"
+    ],
+    "approved_answer": "চিন্তা করবেন না! আমরা সাইটের ম্যালওয়্যার ক্লিন করে সিকিউর ব্যাকআপ রিস্টোর করব। 🛡️",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "125",
+    "category": "support_urgent",
+    "intent": "server_down_alert",
+    "patterns": [
+      "site open hosse na",
+      "server down",
+      "সাইট চালু হচ্ছে না",
+      "সাইট ডাউন"
+    ],
+    "approved_answer": "আমরা বিষয়টিতে দ্রুত নজর দিচ্ছি এবং ডাউনটাইম সমস্যার সমাধান করছি। 🚨",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "126",
+    "category": "services",
+    "intent": "whatsapp_catalog_setup",
+    "patterns": ["whatsapp catalog add", "হোয়াটসঅ্যাপ ক্যাটালগ সেটআপ"],
+    "approved_answer": "আমরা WhatsApp Business-এ আপনার প্রোডাক্ট ক্যাটালগ সুন্দরভাবে সাজিয়ে দিতে পারি। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "127",
+    "category": "services",
+    "intent": "whatsapp_cloud_api",
+    "patterns": ["meta whatsapp cloud api", "হোয়াটসঅ্যাপ ক্লাউড এপিআই"],
+    "approved_answer": "Official WhatsApp Cloud API অ্যাকাউন্ট তৈরি ও টেমপ্লেট অনুমোদন করে দেওয়া হবে। 📲",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "128",
+    "category": "services",
+    "intent": "bulk_sms_service",
+    "patterns": ["bulk sms system", "বাল্ক এসএমএস সার্ভিস"],
+    "approved_answer": "আপনার ব্র্যান্ড নামের মাস্কিং ও নন-মাস্কিং Bulk SMS সিস্টেম কানেক্ট করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "129",
+    "category": "services",
+    "intent": "payment_gateway_sslcommerz",
+    "patterns": ["sslcommerz setup", "এসএসএলকমার্জ সেটআপ"],
+    "approved_answer": "SSLCommerz পেমেন্ট গেটওয়ে মার্চেন্ট অ্যাকাউন্ট কানেক্ট করে টেস্ট কমপ্লিট করে দেওয়া হবে। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "130",
+    "category": "services",
+    "intent": "payment_gateway_bkash_merchant",
+    "patterns": ["bkash merchant api", "বিকাশ মার্চেন্ট এপিআই"],
+    "approved_answer": "bKash Tokenized Checkout এপিআই আপনার ওয়েবসাইটে যুক্ত করে দেওয়া যাবে। 🪙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "131",
+    "category": "services",
+    "intent": "stripe_gateway_setup",
+    "patterns": ["stripe payment connect", "স্ট্রাইপ সেটআপ"],
+    "approved_answer": "আন্তর্জাতিক পেমেন্ট নেওয়ার জন্য Stripe পেমেন্ট সিস্টেম ইন্টিগ্রেট করতে পারি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "132",
+    "category": "services",
+    "intent": "paypal_gateway_setup",
+    "patterns": ["paypal add", "পেপ্যাল কানেক্ট করতে হবে"],
+    "approved_answer": "আপনার প্রজেক্টে PayPal Express Checkout ইন্টিগ্রেশন করে দেওয়া সম্ভব। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "133",
+    "category": "services",
+    "intent": "courier_api_steadfast",
+    "patterns": ["steadfast api", "স্টেডফাস্ট এপিআই যুক্ত করা"],
+    "approved_answer": "Steadfast Courier API ওয়েবসাইটের সাথে যুক্ত করে অটোমেটিক অর্ডার বুকিং করা যাবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "134",
+    "category": "services",
+    "intent": "courier_api_pathao",
+    "patterns": ["pathao courier api", "পাঠাও কুরিয়ার এপিআই"],
+    "approved_answer": "পাঠাও কুরিয়ারের মার্চেন্ট API আপনার ই-কমার্স ওয়েবসাইটে সেটআপ করে দেওয়া হবে। 📦",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "135",
+    "category": "services",
+    "intent": "courier_api_redx",
+    "patterns": ["redx api connect", "রেডেক্স এপিআই সেটআপ"],
+    "approved_answer": "RedX Courier API ইন্টিগ্রেট করে অটোমেটিক কুরিয়ার ট্র্যাকিং যুক্ত করা সম্ভব। 🛵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "136",
+    "category": "services",
+    "intent": "saas_platform_dev",
+    "patterns": ["saas application", "সাস প্ল্যাটফর্ম তৈরি"],
+    "approved_answer": "মাল্টি-টেন্যান্ট SaaS সফটওয়্যার ডেভেলপ করার পূর্ণ অভিজ্ঞতা আমাদের রয়েছে। 💻",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "137",
+    "category": "services",
+    "intent": "multi_vendor_ecommerce",
+    "patterns": ["multivendor website", "মাল্টি ভেন্ডর সাইট"],
+    "approved_answer": "দারাজ বা অ্যামাজনের মতো মাল্টি-ভেন্ডর ই-কমার্স প্ল্যাটফর্ম আমরা বানিয়ে দিই। 🏬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "138",
+    "category": "services",
+    "intent": "ride_sharing_app",
+    "patterns": ["uber like app", "রাইড শেয়ারিং অ্যাপ"],
+    "approved_answer": "রাইডার ও ড্রাইভার অ্যাপসহ সম্পূর্ণ রাইড শেয়ারিং সল্যুশন ডেভেলপ করতে পারি। 🚗",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "139",
+    "category": "services",
+    "intent": "food_delivery_app",
+    "patterns": ["foodpanda like app", "ফুড ডেলিভারি অ্যাপ"],
+    "approved_answer": "কাস্টমার, রেস্টুরেন্ট এবং ডেলিভারিম্যান ট্র্যাকিং সহ ফুড অ্যাপ বানিয়ে দেব। 🍕",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "140",
+    "category": "services",
+    "intent": "telemedicine_app",
+    "patterns": ["doctor appointment app", "ডাক্তার অ্যাপয়েন্টমেন্ট অ্যাপ"],
+    "approved_answer": "ডাক্তার প্রেসক্রিপশন ও রোগী অ্যাপয়েন্টমেন্টের টেলিমেডিসিন প্ল্যাটফর্ম করা সম্ভব। 🩺",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "141",
+    "category": "services",
+    "intent": "hotel_booking_system",
+    "patterns": ["hotel room booking site", "হোটেল বুকিং সাইট"],
+    "approved_answer": "রুম এভেলিবিলিটি ও পেমেন্টসহ প্রফেশনাল হোটেল বুকিং সিস্টেম বানানো যাবে। 🏨",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "142",
+    "category": "services",
+    "intent": "ticketing_system",
+    "patterns": ["bus ticket booking site", "টিকিট কাটার ওয়েবসাইট"],
+    "approved_answer": "বাস, লঞ্চ বা ইভেন্ট টিকিট বুকিং প্ল্যাটফর্ম ডেভেলপমেন্ট সার্ভিস দিচ্ছি। 🎟️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "143",
+    "category": "services",
+    "intent": "school_management_software",
+    "patterns": ["school college software", "স্কুল ম্যানেজমেন্ট সফটওয়্যার"],
+    "approved_answer": "ছাত্রছাত্রীদের রেজাল্ট, ফি এবং এটেন্ডেন্সসহ স্কুল সফটওয়্যার বানিয়ে থাকি। 🏫",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "144",
+    "category": "services",
+    "intent": "hospital_management_system",
+    "patterns": ["hospital er software", "হাসপাতাল ম্যানেজমেন্ট"],
+    "approved_answer": "ইনডোর/আউটডোর ও প্যাথলজি বিলিং সহ কমপ্লিট হসপিটাল সফটওয়্যার রয়েছে। 🏥",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "145",
+    "category": "services",
+    "intent": "pharmacy_pos_software",
+    "patterns": ["pharmacy pos", "ফার্মেসি স্টক সফটওয়্যার"],
+    "approved_answer": "ওষুধের মেয়াদ ও স্টক ট্র্যাকিং সহ ফার্মেসি POS সফটওয়্যার সেটআপ করে দেব। 💊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "146",
+    "category": "services",
+    "intent": "gym_membership_software",
+    "patterns": ["gym management app", "জিম মেম্বারশিপ অ্যাপ"],
+    "approved_answer": "জিম মেম্বারদের ফি আদায় ও ফিটনেস ট্র্যাকিং সফটওয়্যার করা যাবে। 🏋️‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "147",
+    "category": "services",
+    "intent": "library_management",
+    "patterns": ["library software", "লাইব্রেরি সফটওয়্যার"],
+    "approved_answer": "বই ইস্যু এবং রিটার্ন ট্র্যাকিং সহ লাইব্রেরি ম্যানেজমেন্ট সিস্টেম বানিয়ে দিই। 📚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "148",
+    "category": "services",
+    "intent": "matrimonial_site",
+    "patterns": ["matrimony site make", "ম্যারেজ মিডিয়া সাইট"],
+    "approved_answer": "বায়োডেটা ম্যাচমেকিং ও প্রোফাইল ফিল্টার সহ ম্যাট্রিমোনিয়াল সাইট করা যাবে। 💍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "149",
+    "category": "services",
+    "intent": "job_portal_development",
+    "patterns": ["bdjobs like site", "জব পোর্টাল ওয়েবসাইট"],
+    "approved_answer": "এমপ্লয়ার ও ক্যান্ডিডেটদের জন্য ফুল-ফিচারড জব পোর্টাল তৈরি করে দিতে পারব। 💼",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "150",
+    "category": "services",
+    "intent": "classified_ads_site",
+    "patterns": ["bikroy like site", "ক্লাসিফাইড বিজ্ঞাপন সাইট"],
+    "approved_answer": "পণ্য কেনাবেচা ও বিজ্ঞাপন পোস্ট করার ক্লাসিফাইড ওয়েবসাইট তৈরি করা যাবে। 📢",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "151",
+    "category": "services",
+    "intent": "crowdfunding_platform",
+    "patterns": ["donation website", "ডোনেশন বা ফান্ড তোলার সাইট"],
+    "approved_answer": "ডোনেশন সংগ্রহ ও ক্রাউডফান্ডিং ক্যাম্পেইন চালানোর ওয়েবসাইট করা সম্ভব। 🤲",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "152",
+    "category": "services",
+    "intent": "forum_community_site",
+    "patterns": ["online community forum", "ফোরাম ওয়েবসাইট"],
+    "approved_answer": "কমিউনিটি ডিসকাশন ও উত্তর-প্রশ্নের ফোরাম সাইট তৈরি করে দিতে পারব। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "153",
+    "category": "services",
+    "intent": "blog_site_spec",
+    "patterns": ["blog site banabo", "ব্লগ ওয়েবসাইট বানাবো"],
+    "approved_answer": "গুগল এডসেন্স ফ্রেন্ডলি এবং ফাস্ট লোডিং ব্লগ সাইট বানিয়ে দেওয়া হবে। ✍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "154",
+    "category": "services",
+    "intent": "google_adsense_setup",
+    "patterns": ["adsense approval help", "এডসেন্স সেটআপ"],
+    "approved_answer": "Google AdSense পলিসি অনুযায়ী সাইট অপটিমাইজ ও এড প্লেসমেন্ট করা হবে। 💰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "155",
+    "category": "services",
+    "intent": "pwa_web_app",
+    "patterns": ["pwa conversion", "প্রোগ্রেসিভ ওয়েব অ্যাপ"],
+    "approved_answer": "আপনার ওয়েবসাইটকে PWA-তে রূপান্তর করব যেন অ্যাপের মতো ইনস্টল করা যায়। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "156",
+    "category": "services",
+    "intent": "headless_cms",
+    "patterns": ["strapi cms", "sanity cms", "হেডলেস সিএমএস"],
+    "approved_answer": "Strapi বা Sanity হেডলেস CMS ব্যবহার করে কাস্টম ব্যাকএন্ড ডেটা স্ট্রাকচার করা যাবে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "157",
+    "category": "services",
+    "intent": "graphql_api_spec",
+    "patterns": ["graphql api dev", "গ্রাফকিউএল এপিআই"],
+    "approved_answer": "ফাস্ট ও সুনির্দিষ্ট ডেটা ফেচিংয়ের জন্য GraphQL API আর্কিটেকচার করা সম্ভব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "158",
+    "category": "services",
+    "intent": "rest_api_spec",
+    "patterns": ["restful api dev", "রেস্ট এপিআই তৈরি"],
+    "approved_answer": "আমরা সেকিউর, ক্লিন ও সুন্দরভাবে ডকুমেন্টেড RESTful API সরবরাহ করি। 🔌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "159",
+    "category": "services",
+    "intent": "swagger_api_doc",
+    "patterns": ["swagger documentation", "এপিআই ডকুমেন্টেশন"],
+    "approved_answer": "আপনার API-এর জন্য Swagger/Postman এর বিস্তারিত প্রফেশনাল ডকুমেন্টেশন বানিয়ে দেব। 📑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "160",
+    "category": "services",
+    "intent": "github_gitlab_setup",
+    "patterns": ["git repository setup", "গিটহাব রিপোজিটরি"],
+    "approved_answer": "আমরা প্রজেক্টের সোর্স কোড GitHub/GitLab-এ সেকিউরলি মেইনটেইন করি। 🐙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "161",
+    "category": "services",
+    "intent": "ci_cd_pipeline",
+    "patterns": ["auto deployment cicd", "সিআই সিডি পাইপলাইন"],
+    "approved_answer": "অটোমেটিক বিল্ড ও ডেপ্লয়মেন্টের জন্য GitHub Actions/GitLab CI সেটআপ করা হবে। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "162",
+    "category": "services",
+    "intent": "docker_containerization",
+    "patterns": ["dockerize project", "ডকার কনটেইনার"],
+    "approved_answer": "আপনার অ্যাপ্লিকেশন ডকার দিয়ে কনটেইনারাইজ করে সার্ভারে রান করে দেওয়া হবে। 🐳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "163",
+    "category": "services",
+    "intent": "redis_caching",
+    "patterns": ["redis cache setup", "রেডিস ক্যাশিং"],
+    "approved_answer": "সার্ভার লোড কমাতে ও স্পিড বাড়াতে Redis Caching ইন্টিগ্রেট করব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "164",
+    "category": "services",
+    "intent": "socket_realtime_chat",
+    "patterns": ["socket.io setup", "রিয়েলটাইম চ্যাট ব্যবস্থা"],
+    "approved_answer": "Socket.io দিয়ে ইনস্ট্যান্ট লাইভ মেসেজিং ও নোটিফিকেশন সিস্টেম করা যাবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "165",
+    "category": "services",
+    "intent": "webrtc_video_calling",
+    "patterns": ["webrtc setup", "ওয়েব আরটিসি কলিং"],
+    "approved_answer": "WebRTC প্রযুক্তি ব্যবহার করে ব্রাউজার টু ব্রাউজার সরাসরি কলিং সিস্টেম করা সম্ভব। 📹",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "166",
+    "category": "services",
+    "intent": "ai_openai_integration",
+    "patterns": ["chatgpt api connect", "ওপেনএআই এপিআই"],
+    "approved_answer": "আপনার অ্যাপ বা সার্ভিসে OpenAI/ChatGPT API সহজে যুক্ত করা যাবে। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "167",
+    "category": "services",
+    "intent": "ai_gemini_integration",
+    "patterns": ["gemini ai connect", "জেমিনাই এপিআই"],
+    "approved_answer": "Google Gemini AI মড্যুল কানেক্ট করে কাস্টম স্মার্ট ফিচার বানানো যাবে। 🔮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "168",
+    "category": "services",
+    "intent": "ai_image_generation",
+    "patterns": ["midjourney stable diffusion api", "এআই দিয়ে ছবি তৈরি"],
+    "approved_answer": "AI ভিত্তিক ইমেজ জেনারেশন ফিচার আপনার অ্যাপে যোগ করতে পারি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "169",
+    "category": "services",
+    "intent": "speech_to_text_spec",
+    "patterns": ["voice recognition api", "কথা থেকে টেক্সট হওয়া"],
+    "approved_answer": "ভয়েস কম্যান্ড ও স্পিচ-টু-টেক্সট কনভার্সন সিস্টেম ইমপ্লিমেন্ট করা সম্ভব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "170",
+    "category": "services",
+    "intent": "text_to_speech_spec",
+    "patterns": ["text to audio api", "লেখা থেকে ভয়েস হওয়া"],
+    "approved_answer": "যেকোনো লেখাকে প্রাকৃতিক ভয়েসে রূপান্তর করার ফিচার যুক্ত করে দেব। 🔊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "171",
+    "category": "services",
+    "intent": "ocr_document_scanner",
+    "patterns": ["ocr system", "ছবি থেকে লেখা পড়া"],
+    "approved_answer": "এনআইডি বা ডকুমেন্টের ছবি থেকে তথ্য রিড করার OCR সিস্টেম করতে পারি। 🔍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "172",
+    "category": "services",
+    "intent": "face_recognition_check",
+    "patterns": ["face detection app", "ফেস ডিটেকশন এটেন্ডেন্স"],
+    "approved_answer": "AI দিয়ে ফেস ডিটেকশন ও অ্যাটেনডেন্স ট্র্যাকিং অ্যাপ বানানো যাবে। 👤",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "173",
+    "category": "services",
+    "intent": "barcode_qr_generator",
+    "patterns": ["qr code generate", "বারকোড তৈরি ও স্ক্যান"],
+    "approved_answer": "পণ্য বা টিকিটের ডায়নামিক QR ও বারকোড জেনারেশন ও স্ক্যানার সিস্টেম করব। 🔳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "174",
+    "category": "services",
+    "intent": "pdf_invoice_generator",
+    "patterns": ["pdf download feature", "পিডিএফ ডাউনলোড ফিচার"],
+    "approved_answer": "ওয়েবসাইট থেকে এক ক্লিকে মেমো বা রিপোর্ট PDF হিসেবে ডাউনলোডের সুবিধা থাকবে। 📥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "175",
+    "category": "services",
+    "intent": "excel_csv_export_import",
+    "patterns": ["excel import export", "এক্সেল ফাইল আপলোড ও ডাউনলোড"],
+    "approved_answer": "বাল্ক ডেটা আপলোড ও রিপোর্টের জন্য Excel/CSV ইম্পোর্ট-এক্সপোর্ট রাখা যাবে। 📊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "176",
+    "category": "services",
+    "intent": "google_sheets_sync",
+    "patterns": ["google sheet sync", "গুগল শিট কানেক্ট করা"],
+    "approved_answer": "আপনার ওয়েবসাইটের ফর্মের ডেটা সরাসরি Google Sheet-এ সিঙ্ক হয়ে জমা হবে। 🟢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "177",
+    "category": "services",
+    "intent": "chart_analytics_dashboard",
+    "patterns": ["sales graph dashboard", "গ্রাফ ও চার্ট ড্যাশবোর্ড"],
+    "approved_answer": "ইন্টারেক্টিভ চার্ট ও সেলস রিপোর্টের ভিজ্যুয়াল ড্যাশবোর্ড তৈরি করে দেব। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "178",
+    "category": "services",
+    "intent": "role_based_access_control",
+    "patterns": ["role permission system", "এডমিন ও ইউজার রোল"],
+    "approved_answer": "Super Admin, Manager, Employee ইত্যাদির জন্য আলাদা পারমিশন সিস্টেম থাকবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "179",
+    "category": "services",
+    "intent": "two_factor_auth_2fa",
+    "patterns": ["2fa security", "টু ফ্যাক্টর অথেন্টিকেশন"],
+    "approved_answer": "সিকিউরিটি বাড়াতে Google Authenticator বা SMS ভিত্তিক 2FA যুক্ত করা হবে। 🔐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "180",
+    "category": "services",
+    "intent": "forgot_password_reset",
+    "patterns": ["password reset system", "পাসওয়ার্ড ভুলে গেলে কি হবে"],
+    "approved_answer": "ইমেইল বা ওটিপি-র মাধ্যমে পাসওয়ার্ড রিসেট করার সেকিউর সিস্টেম থাকবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "181",
+    "category": "services",
+    "intent": "session_timeout_security",
+    "patterns": ["auto logout", "অটো লগআউট ফিচার"],
+    "approved_answer": "ইনঅ্যাক্টিভ থাকলে অ্যাকাউন্ট সেফ রাখতে অটো লগআউট ব্যবস্থা থাকবে। ⏱️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "182",
+    "category": "services",
+    "intent": "ip_blocking_security",
+    "patterns": ["block bad ip", "আইপি ব্লক করা"],
+    "approved_answer": "ক্ষতিকর বা স্প্যামারদের আইপি সিস্টেম থেকে ব্লক করার সুবিধা রাখা যাবে। 🚫",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "183",
+    "category": "services",
+    "intent": "recaptcha_integration",
+    "patterns": ["google recaptcha setup", "ক্যাপচা কোড রাখা"],
+    "approved_answer": "স্প্যাম বট আটকাতে Google reCAPTCHA v2/v3 যুক্ত করা হবে। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "184",
+    "category": "services",
+    "intent": "cookie_consent_banner",
+    "patterns": ["gdpr cookie banner", "কুকি পারমিশন ব্যানার"],
+    "approved_answer": "ইউরোপীয় ইউনিয়ন ও আন্তর্জাতিক নিয়ম অনুযায়ী GDPR Cookie ব্যানার বসাবো। 🍪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "185",
+    "category": "services",
+    "intent": "terms_and_conditions_page",
+    "patterns": ["privacy policy generate", "শর্তাবলী ও প্রাইভেসী পলিসি"],
+    "approved_answer": "আপনার সাইটের প্রাইভেসী পলিসি এবং টার্মস পেইজ তৈরি করতে সাহায্য করব। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "186",
+    "category": "services",
+    "intent": "affiliate_marketing_system",
+    "patterns": [
+      "affiliate referral system",
+      "অ্যাফিলিয়েট বা রেফারেল সিস্টেম"
+    ],
+    "approved_answer": "ইউজারদের জন্য লিংক শেয়ার করে কমিশন পাওয়ার রেফারেল সিস্টেম বানাব। 🔗",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "187",
+    "category": "services",
+    "intent": "coupon_discount_engine",
+    "patterns": ["promo code system", "কুপন কোড ও ছাড় ব্যবস্থা"],
+    "approved_answer": "কেনাকাটায় নির্দিষ্ট ডিসকাউন্ট কুপন ব্যবহারের অপশন যুক্ত করা যাবে। 🎟️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "188",
+    "category": "services",
+    "intent": "subscription_billing_system",
+    "patterns": ["recurring payment", "মাসিক সাবস্ক্রিপশন ফি আদায়"],
+    "approved_answer": "অটোমেটিক মান্থলি বা বাৎসরিক সাবস্ক্রিপশন বিলিং সিস্টেম ডেভেলপ করব। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "189",
+    "category": "services",
+    "intent": "loyalty_points_reward",
+    "patterns": ["reward points system", "রিওয়ার্ড পয়েন্ট ব্যবস্থা"],
+    "approved_answer": "কেনাকাটা করলে গ্রাহক যেন রিওয়ার্ড পয়েন্ট পায় সেই ব্যবস্থা করা যাবে। 🌟",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "190",
+    "category": "services",
+    "intent": "wishlist_cart_feature",
+    "patterns": ["add to wishlist", "উইশলিস্ট ও কার্ট অপশন"],
+    "approved_answer": "পছন্দের পণ্য সেভ করে রাখার Wishlist ও Shopping Cart ব্যবস্থা থাকবে। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "191",
+    "category": "services",
+    "intent": "product_variant_management",
+    "patterns": ["color size variant", "সাইজ ও কালার অপশন রাখা"],
+    "approved_answer": "একটি পণ্যের একাধিক কালার, সাইজ ও স্টক আলাদা ম্যানেজ করা যাবে। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "192",
+    "category": "services",
+    "intent": "stock_out_alert",
+    "patterns": ["inventory low warning", "স্টক শেষ হলে সংকেত"],
+    "approved_answer": "পণ্য স্টক শেষ হয়ে গেলে অ্যাডমিন ড্যাশবোর্ডে নোটিফিকেশন আসবে। ⚠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "193",
+    "category": "services",
+    "intent": "abandoned_cart_recovery",
+    "patterns": ["abandoned cart reminder", "অসম্পূর্ণ কেনাকাটার রিমাইন্ডার"],
+    "approved_answer": "কার্টে প্রোডাক্ট রেখে চলে যাওয়া গ্রাহকদের অটো ইমেইল পাঠানোর ব্যবস্থা করা যাবে। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "194",
+    "category": "services",
+    "intent": "order_tracking_page",
+    "patterns": ["track my order status", "অর্ডার ট্র্যাকিং পেজ"],
+    "approved_answer": "অর্ডার আইডি দিলেই গ্রাহক তার পার্সেলের বর্তমান অবস্থা দেখতে পাবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "195",
+    "category": "services",
+    "intent": "product_compare_tool",
+    "patterns": ["compare products feature", "পণ্য তুলনা করার সুবিধা"],
+    "approved_answer": "দুটি বা তার বেশি পণ্যের স্পেসিফিকেশন পাশাপাশি রেখে তুলনা ফিচার দেওয়া যাবে। ⚖️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "196",
+    "category": "services",
+    "intent": "guest_checkout_feature",
+    "patterns": ["without account buy", "একাউন্ট না খুলে কেনা"],
+    "approved_answer": "দ্রুত কেনাকাটার জন্য রেজিস্ট্রেশন ছাড়াই Guest Checkout এর সুযোগ থাকবে। 🛍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "197",
+    "category": "services",
+    "intent": "digital_product_selling",
+    "patterns": ["sell pdf software ebook", "ডিজিটাল ফাইল ডাউনলোড বিক্রি"],
+    "approved_answer": "পেমেন্ট করার পর অটোমেটিক ফাইল ডাউনলোডের ডিজিটাল স্টোর সিস্টেম করা সম্ভব। 💾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "198",
+    "category": "services",
+    "intent": "video_streaming_integration",
+    "patterns": ["vimeo aws s3 video player", "ভিডিও স্ট্রিম করা সাইট"],
+    "approved_answer": "কোর্স বা মুভির সেকিউর ভিডিও স্ট্রিমিং প্লেয়ার কনফিগার করে দেব। 🎬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "199",
+    "category": "services",
+    "intent": "audio_podcast_player",
+    "patterns": ["mp3 podcast stream", "অডিও প্লেয়ার সার্ভিস"],
+    "approved_answer": "ওয়েবসাইটে অডিও স্ট্রিম করার সুন্দর অডিও প্লেয়ার ইন্টিগ্রেশন করব। 🎧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "200",
+    "category": "services",
+    "intent": "event_registration_ticket",
+    "patterns": ["event signup ticket", "ইভেন্ট রেজিস্ট্রেশন সিস্টেম"],
+    "approved_answer": "ইভেন্টের রেজিস্ট্রেশন ও কিউআর কোড টিকিট ডাউনলোডের ওয়েবসাইট করা যাবে। 🎟️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "201",
+    "category": "services",
+    "intent": "voting_polling_feature",
+    "patterns": ["online vote poll", "অনলাইন ভোট বা পোল ব্যবস্থা"],
+    "approved_answer": "ইউজারদের মতামত নেওয়ার জন্য লাইভ ভোটিং ও পোলিং ফিচার যুক্ত করা যাবে। 🗳️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "202",
+    "category": "services",
+    "intent": "calculator_tool_dev",
+    "patterns": ["custom calculator dev", "কাস্টম ক্যালকুলেটর তৈরি"],
+    "approved_answer": "লোন, বিএমআই বা যেকোনো গাণিতিক হিসাবের কাস্টম ক্যালকুলেটর বানাতে পারি। 🧮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "203",
+    "category": "services",
+    "intent": "map_radius_search",
+    "patterns": ["nearby store search", "কাছের দোকান খোঁজার ফিচার"],
+    "approved_answer": "ইউজারের কারেন্ট লোকেশন অনুযায়ী নিকটস্থ স্টোর খুঁজে বের করার ম্যাপ ফিচার করা যাবে। 📍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "204",
+    "category": "services",
+    "intent": "weather_api_connect",
+    "patterns": ["weather forecast data", "আবহাওয়ার আপডেট অপশন"],
+    "approved_answer": "লাইভ আবহাওয়ার তথ্য দেখানোর জন্য Weather API সেটআপ করে দেওয়া হবে। 🌤️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "205",
+    "category": "services",
+    "intent": "currency_converter_tool",
+    "patterns": ["multi currency exchange rate", "টাকা থেকে ডলার কনভার্টার"],
+    "approved_answer": "রিয়েল-টাইম এক্সচেঞ্জ রেট অনুযায়ী কারেন্সি কনভার্টার ফিচার বসানো যাবে। 💱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "206",
+    "category": "services",
+    "intent": "time_zone_converter",
+    "patterns": ["convert time zone", "টাইমজোন অটো অ্যাডজাস্ট"],
+    "approved_answer": "ইউজারের দেশের সময় অনুযায়ী ইভেন্টের সময় অটোমেটিক কনভার্ট হবে। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "207",
+    "category": "services",
+    "intent": "popup_lead_generation",
+    "patterns": ["newsletter popup box", "পপআপ ফর্ম সেটআপ"],
+    "approved_answer": "কাস্টমারের ইমেইল সংগ্রহের জন্য আকর্ষণীয় পপআপ ফর্ম যোগ করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "208",
+    "category": "services",
+    "intent": "mailchimp_email_marketing",
+    "patterns": ["mailchimp connect", "মেইলচিম্প সেটআপ"],
+    "approved_answer": "অটোমেটিক ইমেইল মার্কেটিংয়ের জন্য Mailchimp কানেক্ট করে দেব। ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "209",
+    "category": "services",
+    "intent": "sendgrid_smtp_setup",
+    "patterns": ["sendgrid transactional mail", "সেন্ডগ্রিড সেটআপ"],
+    "approved_answer": "ইনবক্সে ইমেইল ১০০% পৌঁছানোর জন্য SendGrid SMTP কনফিগার করব। 📧",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "210",
+    "category": "services",
+    "intent": "custom_404_error_page",
+    "patterns": ["404 page design", "৪০৪ এরর পেজ ডিজাইন"],
+    "approved_answer": "আপনার ব্র্যান্ডের সাথে মানানসই সুন্দর কাস্টম 404 Error পেজ ডিজাইন করা হবে। 🚫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "211",
+    "category": "services",
+    "intent": "maintenance_mode_page",
+    "patterns": ["coming soon page", "সাইট মেনটেইনেন্স পেজ"],
+    "approved_answer": "কাজ চলাকালীন কাউন্টডাউন সহ আকর্ষণীয় 'Under Maintenance' পেজ থাকবে। 🚧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "212",
+    "category": "services",
+    "intent": "infinite_scroll_pagination",
+    "patterns": ["load more button", "আনলিমিটেড স্ক্রলিং"],
+    "approved_answer": "ইউজার ফ্রেন্ডলি অভিজ্ঞতার জন্য Infinite Scroll বা Load More বাটন রাখা যাবে। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "213",
+    "category": "services",
+    "intent": "skeleton_loading_screen",
+    "patterns": ["skeleton loader", "লোডিং কঙ্কাল এফেক্ট"],
+    "approved_answer": "ডেটা লোড হওয়ার সময় আধুনিক Skeleton Loading অ্যানিমেশন দেখাবে। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "214",
+    "category": "services",
+    "intent": "toast_notifications",
+    "patterns": ["toast alert box", "পপআপ টোস্ট মেসেজ"],
+    "approved_answer": "যেকোনো সফল অ্যাকশনে সুন্দর Toast Message ভিজ্যুয়াল সংকেত দেবে। ✅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "215",
+    "category": "services",
+    "intent": "drag_and_drop_upload",
+    "patterns": ["drag drop file upload", "টেনে এনে ফাইল আপলোড"],
+    "approved_answer": "সহজে ফাইল জমা দিতে Drag & Drop ড্রপজোন যুক্ত করা যাবে। 📤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "216",
+    "category": "services",
+    "intent": "image_crop_resize",
+    "patterns": ["crop image before upload", "ছবি ক্রপ করার অপশন"],
+    "approved_answer": "আপলোডের আগে ক্লায়েন্ট যেন ছবি ক্রপ বা জুম করতে পারে সেই ব্যবস্থা থাকবে। ✂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "217",
+    "category": "services",
+    "intent": "lazy_loading_images",
+    "patterns": ["lazy load image", "ধীরে ছবি লোড হওয়া"],
+    "approved_answer": "সাইট ফাস্ট রাখতে ইমেজ Lazy Loading টেকনোলজি ইমপ্লিমেন্ট করা থাকবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "218",
+    "category": "services",
+    "intent": "webp_image_conversion",
+    "patterns": ["convert webp image", "ওয়েবপি ফরম্যাট পিকচার"],
+    "approved_answer": "ইমেজের সাইজ ছোট রাখতে অটোমেটিক WebP ফরম্যাটে কনভার্ট করার ব্যবস্থা থাকবে। 🗜️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "219",
+    "category": "services",
+    "intent": "cdn_cloudflare_setup",
+    "patterns": ["cloudflare setup", "ক্লাউডফ্লেয়ার সেটআপ"],
+    "approved_answer": "স্পিড বৃদ্ধি ও DDoS প্রোটেকশনের জন্য Cloudflare CDN কনফিগার করে দেব। ☁️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "220",
+    "category": "services",
+    "intent": "sitemap_xml_generation",
+    "patterns": ["sitemap submit google", "সাইটম্যাপ জমা দেওয়া"],
+    "approved_answer": "Google Search Console-এ অটোমেটিক sitemap.xml জেনারেট করে সাবমিট করা হবে। 🗺️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "221",
+    "category": "services",
+    "intent": "robots_txt_configuration",
+    "patterns": ["robots txt setup", "রোবট ফাইলে পারমিশন"],
+    "approved_answer": "ইন্ডেক্সিং সঠিকভাবে নিয়ন্ত্রণের জন্য প্রপার robots.txt ফাইল কনফিগার করব। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "222",
+    "category": "services",
+    "intent": "schema_markup_seo",
+    "patterns": ["structured data schema", "স্কিমা মার্কআপ সেটআপ"],
+    "approved_answer": "গুগলে রিচ স্নিপেট দেখানোর জন্য JSON-LD Schema Markup যুক্ত করা হবে। 🏷️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "223",
+    "category": "services",
+    "intent": "open_graph_social_share",
+    "patterns": ["og meta tags", "ফেসবুকে লিংক দিলে ছবি আসা"],
+    "approved_answer": "সোশ্যাল মিডিয়ায় লিংক শেয়ার করলে যেন সুন্দর প্রিভিউ ছবি ও টাইটেল দেখায়। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "224",
+    "category": "services",
+    "intent": "canonical_tag_duplicate_issue",
+    "patterns": ["canonical url setup", "ক্যানোনিকাল ট্যাগ অ্যাড"],
+    "approved_answer": "ডুপ্লিকেট কন্টেন্ট সমস্যা এড়াতে ক্যানোনিকাল ট্যাগ যুক্ত করে দেব। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "225",
+    "category": "services",
+    "intent": "breadcrumbs_navigation",
+    "patterns": ["breadcrumb links", "ব্রেডক্রাম্বস নেভিগেশন"],
+    "approved_answer": "ইউজার ও SEO-এর সুবিধার্থে Breadcrumb নেভিগেশন পাথ রাখা হবে। 🧭",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "226",
+    "category": "services",
+    "intent": "sticky_header_navbar",
+    "patterns": ["sticky menu bar", "মেনু বার আটকে থাকা"],
+    "approved_answer": "স্ক্রোল করার সময় মেনু বার যেন উপরে আটকে থাকে সেই Sticky Navbar করব। 📌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "227",
+    "category": "services",
+    "intent": "back_to_top_button",
+    "patterns": ["scroll to top button", "উপরে ওঠার বাটন"],
+    "approved_answer": "এক ক্লিকে পেজের একদম উপরে যাওয়ার জন্য Back-to-Top বাটন দেওয়া হবে। ⬆️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "228",
+    "category": "services",
+    "intent": "print_style_css",
+    "patterns": ["printable page layout", "প্রিন্ট করার উপযোগী লেআউট"],
+    "approved_answer": "ওয়েব পেজ সুন্দরভাবে প্রিন্ট করার জন্য Print-Friendly CSS অ্যাড করব। 🖨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "229",
+    "category": "services",
+    "intent": "custom_font_typography",
+    "patterns": ["bangla google font setup", "কাস্টম ফন্ট বসানো"],
+    "approved_answer": "বাংলা সোলাইমানলিপি, কালপুরুষ বা পছন্দের যেকোনো Google Font যুক্ত করে দেব। ✍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "230",
+    "category": "services",
+    "intent": "lottie_animations",
+    "patterns": ["lottie json animation", "লটি অ্যানিমেশন বসানো"],
+    "approved_answer": "হালকা ও আকর্ষণীয় Lottie ভেক্টর অ্যানিমেশন সাইটে ইমপ্লিমেন্ট করা হবে। 🎬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "231",
+    "category": "services",
+    "intent": "parallax_scrolling_effect",
+    "patterns": ["parallax background", "প্যারালাক্স স্ক্রোল এফেক্ট"],
+    "approved_answer": "আধুনিক ৩ডি ফিল দেওয়ার জন্য Parallax Scrolling এফেক্ট যুক্ত করা যাবে। 🌌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "232",
+    "category": "services",
+    "intent": "accordion_faq_section",
+    "patterns": ["faq drop down collapsible", "প্রশ্ন ও উত্তরের ড্রপডাউন"],
+    "approved_answer": "জায়গা বাঁচাতে সুন্দর Accordion স্টাইলে FAQ সেকশন ডিজাইন করে দেব। ❓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "233",
+    "category": "services",
+    "intent": "tabs_content_switcher",
+    "patterns": ["tab layout switcher", "ট্যাবভিত্তিক কন্টেন্ট প্রদর্শন"],
+    "approved_answer": "বিভিন্ন তথ্য আলাদা ট্যাবে দেখতে পাওয়ার সুন্দর Tabbed Interface করব। 📑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "234",
+    "category": "services",
+    "intent": "modal_popup_box",
+    "patterns": ["click for modal box", "ক্লিক করলে পপআপ বক্স আসা"],
+    "approved_answer": "বিস্তারিত তথ্য বা ছবি বড় করে দেখতে কাস্টম Modal Popup দেওয়া হবে। 🔲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "235",
+    "category": "services",
+    "intent": "tooltip_helper_text",
+    "patterns": ["hover text tooltip", "মাউস ধরলে ছোট টেক্সট লেখা"],
+    "approved_answer": "ইউজারকে গাইড করতে বাটন বা আইকনে মাউস ধরলে Tooltip দেখাবে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "236",
+    "category": "services",
+    "intent": "countdown_timer_widget",
+    "patterns": ["offer deal timer", "অফার শেষ হওয়ার টাইম গণনা"],
+    "approved_answer": "জরুরি অনুভূতি তৈরি করতে ডায়নামিক Countdown Timer সেকশন রাখা যাবে। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "237",
+    "category": "services",
+    "intent": "progress_bar_indicator",
+    "patterns": ["step progress bar", "কাজের অগ্রগতি বার"],
+    "approved_answer": "ফর্ম পূরণ বা প্রোফাইল কমপ্লিটনেসের জন্য Progress Bar যুক্ত করা হবে। 📊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "238",
+    "category": "services",
+    "intent": "step_by_step_wizard_form",
+    "patterns": ["multi step form", "ধাপে ধাপে ফরম পূরণ"],
+    "approved_answer": "লম্বা ফর্ম সহজ করতে Multi-step Wizard Form ডিজাইন করা হবে। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "239",
+    "category": "services",
+    "intent": "form_validation_realtime",
+    "patterns": ["instant form error check", "সাথে সাথে ফর্ম ভুল ধরা"],
+    "approved_answer": "ভুল ইনপুট দিলে ইউজারকে তাৎক্ষণিক সতর্ক করতে Realtime Validation থাকবে। ⚠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "240",
+    "category": "services",
+    "intent": "auto_complete_search_input",
+    "patterns": ["search prediction suggestion", "সার্চ করার সময় অটো পরামর্শ"],
+    "approved_answer": "টাইপ করার সাথে সাথে সাজেস্টেড ফলাফল দেখানোর Auto-complete ফিচার করব। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "241",
+    "category": "services",
+    "intent": "filter_and_sort_products",
+    "patterns": ["filter price category", "ক্যাটাগরি ও দাম দিয়ে ফিল্টার"],
+    "approved_answer": "দ্রুত পছন্দমতো জিনিস খুঁজে পেতে Advance Filtering ও Sorting রাখা হবে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "242",
+    "category": "services",
+    "intent": "grid_list_view_toggle",
+    "patterns": ["grid view list view change", "গ্রিড ও লিস্ট ভিউ পরিবর্তন"],
+    "approved_answer": "ইউজার তার সুবিধা অনুযায়ী পণ্যের গ্রিড বা লিস্ট ভিউ সুইচ করতে পারবে। 🔲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "243",
+    "category": "services",
+    "intent": "image_lightbox_gallery",
+    "patterns": ["zoom picture gallery", "ছবিতে ক্লিক করলে বড় হওয়া"],
+    "approved_answer": "গ্যালারির ছবিতে ক্লিক করলে পপআপে ফুল-স্ক্রিন Lightbox ভিউ দেখাবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "244",
+    "category": "services",
+    "intent": "carousel_slider_widget",
+    "patterns": [
+      "banner slider touch swipe",
+      "ব্যানার স্লাইডার ও মোবাইল সোয়াইপ"
+    ],
+    "approved_answer": "স্মার্টফোন দিয়ে সহজে টাচ-সোয়াইপ করা যায় এমন প্রফেশনাল স্লাইডার করব। 🎠",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "245",
+    "category": "services",
+    "intent": "testimonial_reviews_slider",
+    "patterns": ["client review box slider", "কাস্টমার রিভিউ স্লাইডার"],
+    "approved_answer": "ক্লায়েন্টদের মতামত ও স্টার রেটিং প্রদর্শনের স্লাইডার ব্লক থাকবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "246",
+    "category": "services",
+    "intent": "partner_logos_showcase",
+    "patterns": ["brand logo slider", "ব্র্যান্ড লোগো প্রদর্শন"],
+    "approved_answer": "আপনার পার্টনার বা ক্লায়েন্টদের লোগো দেখানোর জন্য লোগো গ্রিড করব। 🏢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "247",
+    "category": "services",
+    "intent": "pricing_table_comparison",
+    "patterns": ["pricing package table", "প্যাকেজ মূল্যের তুলনা টেবিল"],
+    "approved_answer": "আপনার বিভিন্ন সার্ভিসের রেটকার্ড ও ফিচার তুলনামূলক টেবিলে সাজাবো। 💰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "248",
+    "category": "services",
+    "intent": "team_members_section",
+    "patterns": ["our team info grid", "টিম মেম্বারদের পরিচিতি"],
+    "approved_answer": "টিমের সকল মেম্বারদের ছবি, পদবি ও সোশ্যাল লিংক সেকশন থাকবে। 👥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "249",
+    "category": "services",
+    "intent": "statistics_counter_animation",
+    "patterns": ["animated number counter", "সংখ্যা গণনার এনিমেশন"],
+    "approved_answer": "কতগুলো প্রজেক্ট করেছেন বা হ্যাপি ক্লায়েন্ট সংখ্যা অ্যানিমেটেড কাউন্টারে দেখাবে। 🔢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "250",
+    "category": "services",
+    "intent": "timeline_history_section",
+    "patterns": ["company history timeline", "কোম্পানির ইতিহাস টাইমলাইন"],
+    "approved_answer": "প্রতিষ্ঠানের শুরু থেকে বর্তমান সফলতার ঘটনাগুলো টাইমলাইনে তুলে ধরব। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "251",
+    "category": "services",
+    "intent": "audio_waveform_player",
+    "patterns": ["wavesurfer audio player", "ওয়েভফর্ম অডিও প্লেয়ার"],
+    "approved_answer": "ভয়েস বা অডিও ফাইলের সুন্দর Waveform সাউন্ড প্লেয়ার বানিয়ে দেব। 🎵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "252",
+    "category": "services",
+    "intent": "video_background_hero",
+    "patterns": ["hero section video background", "ব্যাকগ্রাউন্ডে ভিডিও চলা"],
+    "approved_answer": "ওয়েবসাইটের একদম উপরে ব্যাকগ্রাউন্ডে ভিডিও প্লে করার ব্যবস্থা রাখা যাবে। 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "253",
+    "category": "services",
+    "intent": "embed_youtube_vimeo",
+    "patterns": ["youtube video embed", "ইউটিউব ভিডিও প্লেয়ার বসানো"],
+    "approved_answer": "ইউটিউব বা ভিমিওর ভিডিও সাইটে ইমবেড করে প্লে করার অপশন থাকবে। 📺",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "254",
+    "category": "services",
+    "intent": "social_share_buttons",
+    "patterns": ["facebook share button", "সোশ্যাল মিডিয়ায় শেয়ার বাটন"],
+    "approved_answer": "ব্লগ বা প্রোডাক্ট এক ক্লিকে সোশ্যাল মিডিয়ায় শেয়ার করার বাটন যোগ করব। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "255",
+    "category": "services",
+    "intent": "comment_disqus_system",
+    "patterns": ["comment box setup", "কমেন্ট করার অপশন দেওয়া"],
+    "approved_answer": "ইউজারদের মন্তব্যের জন্য ফেসবুক কমেন্ট প্লাগইন বা Disqus যোগ করা হবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "256",
+    "category": "services",
+    "intent": "like_bookmark_feature",
+    "patterns": ["save for later bookmark", "পছন্দ বা বুকমার্ক করা"],
+    "approved_answer": "পছন্দের পোস্ট লাইক করা বা বুকমার্ক করে রাখার ফিচার বানিয়ে দেব। 🔖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "257",
+    "category": "services",
+    "intent": "read_time_calculator",
+    "patterns": ["reading time min", "পড়তে কত সময় লাগবে"],
+    "approved_answer": "আর্টিকেলটি পড়তে আনুমানিক কত মিনিট লাগবে তা অটো হিসাব হয়ে দেখাবে। ⏱️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "258",
+    "category": "services",
+    "intent": "font_size_resizer",
+    "patterns": ["increase font size button", "টেক্সট ছোট বড় করার বাটন"],
+    "approved_answer": "পাঠকদের সুবিধার্থে ফন্ট সাইজ বড় বা ছোট করার বাটন রাখা যাবে। 🔤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "259",
+    "category": "services",
+    "intent": "copy_to_clipboard_button",
+    "patterns": ["click to copy text", "কপি বাটন সেটআপ"],
+    "approved_answer": "কোড বা কুপন এক ক্লিকে কপি করার জন্য Copy Button দেওয়া হবে। 📋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "260",
+    "category": "services",
+    "intent": "keyboard_shortcuts_support",
+    "patterns": ["hotkeys shortcut key", "কিবোর্ড শর্টকাট রাখা"],
+    "approved_answer": "দ্রুত কাজ করতে ওয়েবে কাস্টম কিবোর্ড শর্টকাট সাপোর্ট কনফিগার করা যাবে। ⌨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "261",
+    "category": "services",
+    "intent": "voice_search_input",
+    "patterns": ["speak to search", "মুখে বলে সার্চ করার ফিচার"],
+    "approved_answer": "মাইক্রোফোনে মুখে কথা বলে সার্চ করার Voice Search সুবিধা করা সম্ভব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "262",
+    "category": "services",
+    "intent": "web_push_onesignal",
+    "patterns": ["onesignal setup", "ওয়ানসিগন্যাল নোটিফিকেশন"],
+    "approved_answer": "ব্রাউজারে ফ্রী পুশ নোটিফিকেশন পাঠাতে OneSignal ইন্টিগ্রেট করে দেব। 🔔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "263",
+    "category": "services",
+    "intent": "pwa_offline_support",
+    "patterns": ["work without internet PWA", "ইন্টারনেট ছাড়াও সাইট চলা"],
+    "approved_answer": "সার্ভিস ওয়ার্কার দিয়ে অফলাইনেও আগের লোড হওয়া পেজ দেখার ব্যবস্থা করা যাবে। 📶",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "264",
+    "category": "services",
+    "intent": "device_fingerprinting",
+    "patterns": ["device tracking security", "ডিভাইস আইডি ট্র্যাকিং"],
+    "approved_answer": "নিরাপত্তার স্বার্থে ইউজারের ইউনিক ডিভাইস আইডি ট্র্যাক করার সিস্টেম করা যাবে। 📱",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "265",
+    "category": "services",
+    "intent": "geo_ip_location_detect",
+    "patterns": ["country detect from ip", "ইউজারের দেশ অটো চেনা"],
+    "approved_answer": "ইউজারের IP দিয়ে তার দেশ শনাক্ত করে স্থানীয় কারেন্সি বা ভাষা দেখাবে। 🌍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "266",
+    "category": "services",
+    "intent": "adblock_detector",
+    "patterns": ["anti adblock popup", "এডব্লকার বন্ধের নোটিশ"],
+    "approved_answer": "ইউজার এডব্লকার অন করে রাখলে এডব্লক বন্ধ করার পপআপ নোটিশ দেখাবে। 🚫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "267",
+    "category": "services",
+    "intent": "anti_copy_protect",
+    "patterns": ["disable right click copy", "লেখা বা ছবি কপি বন্ধ করা"],
+    "approved_answer": "কপিরাইট রক্ষায় ওয়েবসাইটের রাইট ক্লিক ও টেক্সট সিলেকশন বন্ধ রাখা যাবে। 🔒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "268",
+    "category": "services",
+    "intent": "watermark_on_image",
+    "patterns": ["auto watermark logo", "ছবির ওপর ওয়াটারমার্ক লোগো"],
+    "approved_answer": "ছবি আপলোড করলেই স্বয়ংক্রিয়ভাবে আপনার কোম্পানির লোগো ওয়াটারমার্ক হয়ে যাবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "269",
+    "category": "services",
+    "intent": "auto_translate_widget",
+    "patterns": ["google translate box", "অটো অনুবাদ বাটন"],
+    "approved_answer": "যেকোনো ভাষায় ওয়েবসাইট রূপান্তর করার জন্য Google Translate উইজেট বসাবো। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "270",
+    "category": "services",
+    "intent": "currency_auto_symbol",
+    "patterns": ["taka dollar icon display", "টাকা বা ডলারের আইকন"],
+    "approved_answer": "দেশ অনুযায়ী অটোমেটিক টাকা (৳), ডলার ($) বা ইউরো (€) চিহ্ন প্রদর্শিত হবে। 💵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "271",
+    "category": "services",
+    "intent": "tax_vat_calculation",
+    "patterns": ["vat tax auto calculate", "ভ্যাট ও ট্যাক্স হিসাব করা"],
+    "approved_answer": "চেকআউটে সরকারি ভ্যাট ও ট্যাক্স অটোমেটিক হিসাব হয়ে যুক্ত হবে। 🧮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "272",
+    "category": "services",
+    "intent": "shipping_charge_by_city",
+    "patterns": [
+      "dhaka outside delivery charge",
+      "ঢাকার ভেতরে ও বাইরে ডেলিভারি চার্জ"
+    ],
+    "approved_answer": "ঢাকা ও ঢাকার বাইরের জেলার জন্য আলাদা কুরিয়ার চার্জ অটো সেট হবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "273",
+    "category": "services",
+    "intent": "free_shipping_threshold",
+    "patterns": [
+      "free shipping over 1000",
+      "নির্দিষ্ট টাকার কেনাকাটায় ডেলিভারি ফ্রি"
+    ],
+    "approved_answer": "যেমন: ১৫০০ টাকার বেশি কেনাকাটা করলে ডেলিভারি চার্জ অটোমেটিক জিরো হবে। 🎁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "274",
+    "category": "services",
+    "intent": "weight_based_shipping",
+    "patterns": ["weight wise courier charge", "ওজন অনুযায়ী ডেলিভারি খরচ"],
+    "approved_answer": "পণ্যের মোট ওজনের ওপর ভিত্তি করে পার্সেল ফি হিসাব করার ফিচার করা যাবে। ⚖️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "275",
+    "category": "pricing_payment",
+    "intent": "partial_payment_option",
+    "patterns": [
+      "booking advance partial pay",
+      "কিছু টাকা এডভান্স বাকিটা ক্যাশ অন"
+    ],
+    "approved_answer": "কুরিয়ার খরচ এডভান্স নিয়ে বাকি টাকা ক্যাশ অন ডেলিভারি নেওয়ার ব্যবস্থা করব। 🪙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "276",
+    "category": "services",
+    "intent": "digital_signature_pad",
+    "patterns": ["e-signature pad draw", "ডিজিটাল দস্তখত বা সাইন বোর্ড"],
+    "approved_answer": "মোবাইল বা পিসির স্ক্রিনে আঙুল দিয়ে স্বাক্ষর বা ই-সিগনেচার দেওয়ার প্যাড থাকবে। ✍️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "277",
+    "category": "services",
+    "intent": "print_receipt_thermal",
+    "patterns": ["pos printer receipt format", "থার্মাল প্রিন্টার মেমো"],
+    "approved_answer": "ছোট POS থার্মাল প্রিন্টারে মানানসই ক্যাশ মেমো প্রিন্ট লেআউট করে দেব। 🖨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "278",
+    "category": "services",
+    "intent": "barcode_label_printing",
+    "patterns": ["barcode sticker print", "বারকোড স্টিকার প্রিন্ট করা"],
+    "approved_answer": "পণ্যে লাগানোর জন্য বারকোড এবং প্রাইস ট্যাগ স্টিকার প্রিন্ট অপশন থাকবে। 🏷️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "279",
+    "category": "services",
+    "intent": "kds_kitchen_display",
+    "patterns": ["kitchen order screen", "রেস্টুরেন্ট কিচেন ডিসপ্লে"],
+    "approved_answer": "রেস্টুরেন্টের বাবুর্চিদের জন্য কিচেনে অর্ডার দেখার KDS স্ক্রিন ডেভেলপ করব। 🍳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "280",
+    "category": "services",
+    "intent": "waiter_ordering_app",
+    "patterns": ["waiter order tab app", "ওয়েটারদের টেবিল অর্ডার অ্যাপ"],
+    "approved_answer": "ওয়েটাররা যেন ট্যাবলেটে টেবিলে বসেই অর্ডার নিতে পারে সেই অ্যাপ করা যাবে। 🍽️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "281",
+    "category": "services",
+    "intent": "table_qr_ordering",
+    "patterns": [
+      "scan qr code to order food",
+      "টেবিলের কিউআর স্ক্যান করে অর্ডার"
+    ],
+    "approved_answer": "কাস্টমার টেবিলে বসে কিউআর কোড স্ক্যান করে ডিজিটাল মেনু দেখে অর্ডার দিতে পারবে। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "282",
+    "category": "services",
+    "intent": "hotel_room_service_app",
+    "patterns": ["hotel guest service request", "রুম সার্ভিস অর্ডার অ্যাপ"],
+    "approved_answer": "হোটেল গেস্টরা রুম থেকে খাবার বা ক্লিনিং রিকুয়েস্ট জানানোর ডিজিটাল অ্যাপ। 🏨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "283",
+    "category": "services",
+    "intent": "patient_portal_reports",
+    "patterns": ["diagnostic report download", "ডায়াগনস্টিক রিপোর্ট ডাউনলোড"],
+    "approved_answer": "রোগীরা তাদের ল্যাব টেস্টের রিপোর্ট ফোন নম্বর দিয়ে ডাউনলোড করতে পারবে। 🧪",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "284",
+    "category": "services",
+    "intent": "prescription_builder_doctor",
+    "patterns": ["digital doctor prescription", "ডিজিটাল প্রেসক্রিপশন তৈরি"],
+    "approved_answer": "ডাক্তারদের সহজে এক ক্লিকে প্যাডে প্রেসক্রিপশন লেখার সফটওয়্যার করব। 💊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "285",
+    "category": "services",
+    "intent": "token_queue_system",
+    "patterns": ["serial token display", "সিরিয়াল টোকেন ডিসপ্লে"],
+    "approved_answer": "ব্যাংক বা হাসপাতালে লাইন এড়াতে ডিজিটাল টোকেন ও কিউ ম্যানেজমেন্ট সিস্টেম। 🎟️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "286",
+    "category": "services",
+    "intent": "student_result_portal",
+    "patterns": [
+      "exam result publication site",
+      "পরীক্ষার ফলাফল দেখার পোর্টাল"
+    ],
+    "approved_answer": "রোল ও রেজিস্ট্রেশন নম্বর দিয়ে রেজাল্ট ও মার্কশিট দেখার পোর্টাল করা যাবে। 🎓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "287",
+    "category": "services",
+    "intent": "online_exam_quiz_system",
+    "patterns": ["mcq test online exam", "অনলাইন পরীক্ষা ও কুইজ টেস্ট"],
+    "approved_answer": "টাইমার সহ MCQ পরীক্ষা দেওয়া এবং অটোমেটিক নম্বর পাওয়ার সিস্টেম বানিয়ে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "288",
+    "category": "services",
+    "intent": "certificate_generator_auto",
+    "patterns": [
+      "auto generate course certificate",
+      "অটো সার্টিফিকেট তৈরি ও যাচাই"
+    ],
+    "approved_answer": "কোর্স সম্পন্ন করলে অটোমেটিক নামসহ সার্টিফিকেট ও QR ভেরিফিকেশন লিংক জেনারেট হবে। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "289",
+    "category": "services",
+    "intent": "property_virtual_tour",
+    "patterns": ["360 degree virtual tour", "৩৬০ ডিগ্রি প্রোপার্টি ভিউ"],
+    "approved_answer": "ফ্ল্যাট বা জমির ৩৬০ ডিগ্রি ভার্চুয়াল ট্যুর ইন্টিগ্রেশন করে দিতে পারব। 🏠",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "290",
+    "category": "services",
+    "intent": "mortgage_emi_calculator",
+    "patterns": ["home loan emi calculator", "লোন কিস্তি ক্যালকুলেটর"],
+    "approved_answer": "ব্যাংক লোন ও প্রতি মাসের EMI কিস্তির হিসাব করার টুল বসানো যাবে। 🏦",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "291",
+    "category": "services",
+    "intent": "vehicle_tracking_gps_ui",
+    "patterns": [
+      "car gps tracking map dashboard",
+      "গাড়ি ট্র্যাকিং ড্যাশবোর্ড"
+    ],
+    "approved_answer": "GPS ডিভাইসের ডেটা লাইভ ম্যাপে দেখানোর ট্র্যাকিং ড্যাশবোর্ড ডেভেলপ করব। 🚗",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "292",
+    "category": "services",
+    "intent": "fuel_management_system",
+    "patterns": ["fleet fuel calculation", "জ্বালানি তেল খরচ হিসাব"],
+    "approved_answer": "গাড়ি বা ফ্লিটের জ্বালানি খরচ ও মাইলেজ ট্র্যাকিং করার সফটওয়্যার করা সম্ভব। ⛽",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "293",
+    "category": "services",
+    "intent": "employee_attendance_geo",
+    "patterns": ["gps attendance app", "জিপিএস লোকেশন দিয়ে হাজিরা"],
+    "approved_answer": "মাঠ পর্যায়ের কর্মীরা তাদের জিপিএস লোকেশন থেকে হাজিরা দিতে পারবে। 📍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "294",
+    "category": "services",
+    "intent": "payroll_salary_sheet",
+    "patterns": ["salary slip payroll system", "বেতন ও পে-রোল হিসাব"],
+    "approved_answer": "কর্মচারীদের ওভারটাইম, বোনাস ও ডিডাকশন হিসাব করে পে-রোল তৈরি করা যাবে। 💵",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "295",
+    "category": "services",
+    "intent": "leave_management_portal",
+    "patterns": ["apply for leave app", "ছুটির আবেদন সফটওয়্যার"],
+    "approved_answer": "কর্মীরা অনলাইনে ছুটির আবেদন করবে এবং বস তা এপ্রুভ করতে পারবে। 📅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "296",
+    "category": "services",
+    "intent": "expense_tracker_business",
+    "patterns": ["company daily expense tracking", "দৈনন্দিন খরচ ও জমার হিসাব"],
+    "approved_answer": "ব্যবসার প্রতিদিনের আয়-ব্যয় ক্যাশ ফ্লো ট্র্যাক করার সহজ সফটওয়্যার করা যাবে। 📉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "297",
+    "category": "services",
+    "intent": "asset_management_software",
+    "patterns": ["company equipment tracking", "কোম্পানির মালামাল ট্র্যাকিং"],
+    "approved_answer": "অফিসের কম্পিউটার, ফার্নিচার ও অ্যাসেট ট্র্যাকিংয়ের কাস্টম সিস্টেম। 💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "298",
+    "category": "services",
+    "intent": "procurement_purchase_order",
+    "patterns": ["po requisitions system", "পারচেজ অর্ডার বা রিকুইজিশন"],
+    "approved_answer": "সাপ্লায়ারদের পারচেজ অর্ডার দেওয়া ও রিসিভ কনফার্ম করার প্রসিডিউর মডিউল। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "299",
+    "category": "services",
+    "intent": "vendor_supplier_portal",
+    "patterns": ["vendor login dashboard", "সাপ্লায়ারদের আলাদা ড্যাশবোর্ড"],
+    "approved_answer": "সাপ্লায়াররা লগইন করে তাদের বিল ও ইনভেন্টরি আপডেট দেখতে পারবে। 🏬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "300",
+    "category": "services",
+    "intent": "ticket_helpdesk_support",
+    "patterns": ["support ticket system", "হেল্পডেস্ক টিকিট সিস্টেম"],
+    "approved_answer": "গ্রাহকের যেকোনো অভিযোগের সমাধানের জন্য সাপোর্ট টিকিট তোলার ফিচার করা যাবে। 🎫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "301",
+    "category": "services",
+    "intent": "live_chat_agent_transfer",
+    "patterns": [
+      "transfer chat to another agent",
+      "অন্য এজেন্টের কাছে চ্যাট পাঠানো"
+    ],
+    "approved_answer": "লাইভ চ্যাটে একাধিক সাপোর্ট এজেন্টের মধ্যে কাস্টমার চ্যাট হ্যান্ডওভার সিস্টেম। 💬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "302",
+    "category": "services",
+    "intent": "knowledgebase_wiki_system",
+    "patterns": ["help doc article wiki", "হেল্প ডকুমেন্ট ও গাইড পেইজ"],
+    "approved_answer": "গ্রাহকদের নির্দেশিকা দিতে প্রফেশনাল নলেজবেজ হেল্প সেন্টার বানিয়ে দেব। 📖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "303",
+    "category": "services",
+    "intent": "community_ideas_upvote",
+    "patterns": ["feature request upvote board", "ইউজার আইডিয়া ও ভোট বোর্ড"],
+    "approved_answer": "ইউজাররা নতুন ফিচার রিকুয়েস্ট করবে এবং অন্যরা তাতে ভোট দিতে পারবে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "304",
+    "category": "support_urgent",
+    "intent": "bug_bounty_reporting",
+    "patterns": [
+      "report vulnerability security bug",
+      "সিকিউরিটি ত্রুটি রিপোর্ট"
+    ],
+    "approved_answer": "আমাদের সিস্টেমে কোনো বাগ বা সিকিউরিটি দুর্বলতা খুঁজে পেলে এখানে জানান। 🐛",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "305",
+    "category": "services",
+    "intent": "changelog_product_updates",
+    "patterns": ["what is new in update changelog", "নতুন কি কি আপডেট আসলো"],
+    "approved_answer": "সফটওয়্যারের নতুন ভার্সন ও আপডেটের লিস্ট Changelog পেজে দেওয়া হবে। 🚀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "306",
+    "category": "services",
+    "intent": "roadmap_future_features",
+    "patterns": ["product development roadmap", "ভবিষ্যতে কি ফিচার আসবে"],
+    "approved_answer": "আমাদের প্রজেক্টের আপকামিং সকল ফিচারের পাবলিক রোডম্যাপ দেওয়া থাকবে। 🗺️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "307",
+    "category": "services",
+    "intent": "beta_testing_invite",
+    "patterns": ["join beta program", "বেটা টেস্টিংয়ে যুক্ত হওয়া"],
+    "approved_answer": "আমাদের নতুন অ্যাপের প্রাথমিক পরীক্ষা করতে বেটা টেস্টার হিসেবে জয়েন করুন। 🧪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "308",
+    "category": "services",
+    "intent": "app_release_notes",
+    "patterns": ["version release notes", "ভার্সন রিলিজ নোট"],
+    "approved_answer": "অ্যাপের নতুন ভার্সনের পরিবর্তনগুলোর বিবরণ রিলিজ নোটে পেয়ে যাবেন। 📄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "309",
+    "category": "services",
+    "intent": "apk_direct_download",
+    "patterns": ["download apk file direct", "সরাসরি এপিকে ফাইল ডাউনলোড"],
+    "approved_answer": "আমাদের অ্যান্ড্রয়েড অ্যাপের ইনস্টলার APK এই লিংকে পেয়ে যাবেন: https://example.com/app.apk 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "310",
+    "category": "services",
+    "intent": "testflight_ios_invite",
+    "patterns": ["ios testflight link", "আইওএস টেস্টফ্লাইট লিংক"],
+    "approved_answer": "Apple TestFlight এর মাধ্যমে আমাদের আইওএস আইফোনের বেটা অ্যাপ টেস্ট করুন। 🍎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "311",
+    "category": "services",
+    "intent": "desktop_electron_app",
+    "patterns": ["windows desktop app .exe", "উইন্ডোজ পিসির সফটওয়্যার"],
+    "approved_answer": "আমরা Electron.js দিয়ে Windows ও Mac এর জন্য ডেক্সটপ অ্যাপও বানাই। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "312",
+    "category": "services",
+    "intent": "chrome_extension_dev",
+    "patterns": [
+      "chrome browser extension dev",
+      "ক্রোম ব্রাউজার এক্সটেনশন বানাবো"
+    ],
+    "approved_answer": "আপনার কাজের সুবিধার্থে কাস্টম Chrome Extension বানিয়ে দেওয়া সম্ভব। 🧩",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "313",
+    "category": "services",
+    "intent": "telegram_bot_dev",
+    "patterns": ["telegram bot create", "টেলিগ্রাম বট তৈরি"],
+    "approved_answer": "অটোমেশন ও গ্রুপ ম্যানেজমেন্টের জন্য কাস্টম Telegram Bot তৈরি করে থাকি। ✈️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "314",
+    "category": "services",
+    "intent": "discord_bot_dev",
+    "patterns": ["discord bot dev", "ডিসকর্ড বট বানিয়ে দেওয়া"],
+    "approved_answer": "কমিউনিটি ও গেমারদের জন্য ফিচার-সমৃদ্ধ Discord Bot বানাতে পারি। 🎮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "315",
+    "category": "services",
+    "intent": "facebook_messenger_bot",
+    "patterns": ["manychat messenger bot", "ফেসবুক মেসেঞ্জার বট"],
+    "approved_answer": "মেসেঞ্জার পেইজের জন্য অটো রিপ্লাই ও সেলস চ্যানেল বট তৈরি করি। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "316",
+    "category": "services",
+    "intent": "instagram_auto_dm",
+    "patterns": ["instagram dm automation", "ইনস্টাগ্রাম অটো ডিএম"],
+    "approved_answer": "ইনস্টাগ্রাম পোস্ট কমেন্ট ও ইনবক্সের জন্য কাস্টম অটোমেটেড DM সেটআপ করব। 📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "317",
+    "category": "services",
+    "intent": "linkedin_lead_scraper",
+    "patterns": ["linkedin automation data tool", "লিঙ্কডইন লিড সংগ্রহ টুল"],
+    "approved_answer": "লিঙ্কডইন থেকে ডেটা ও বিটুবি লিড সংগ্রহের কাস্টম টুল তৈরি করা যাবে। 💼",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "318",
+    "category": "services",
+    "intent": "web_scraping_service",
+    "patterns": [
+      "scrape data from website",
+      "ওয়েবসাইট থেকে তথ্য সংগ্রহ করার বট"
+    ],
+    "approved_answer": "Python BeautifulSoup/Selenium দিয়ে যেকোনো পাবলিক সাইটের ডেটা স্ক্র্যাপ করতে পারি। 🕷️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "319",
+    "category": "services",
+    "intent": "automation_zapier_make",
+    "patterns": ["zapier automation setup", "জেপিয়ার বা মেক অটোমেশন"],
+    "approved_answer": "Zapier বা Make.com দিয়ে বিভিন্ন অ্যাপসের মধ্যে অটোমেটিক ডেটা সিঙ্ক করব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "320",
+    "category": "services",
+    "intent": "n8n_self_hosted_automation",
+    "patterns": ["n8n workflow setup", "n8n অটোমেশন ওয়ার্কফ্লো"],
+    "approved_answer": "সম্পূর্ণ বিনামূল্যে ও সেকিউর n8n অটোমেশন সার্ভার সেটআপ করে দেব। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "321",
+    "category": "services",
+    "intent": "data_migration_service",
+    "patterns": [
+      "transfer data to new site",
+      "পুরাতন সাইট থেকে নতুন সাইটে ডেটা আনা"
+    ],
+    "approved_answer": "আপনার সকল পুরনো ইউজার, প্রোডাক্ট ও অর্ডারের ডেটা অক্ষত রেখে নতুন সাইটে মাইগ্রেট করব। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "322",
+    "category": "small_talk",
+    "intent": "final_goodbye",
+    "patterns": ["tata", "khoda hafez", "টাটা", "খোদা হাফেজ", "পরে কথা হবে"],
+    "approved_answer": "টাটা! আপনার সাথে কথা বলে ভালো লাগলো। যেকোনো প্রয়োজনে আবার নক দেবেন। 👋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "323",
+    "category": "fun_chat",
+    "intent": "salary_ask",
+    "patterns": ["কত বেতন পান?", "বেতন কত?", "মাস শেষে কত থাকে?", "ইনকাম কত?"],
+    "approved_answer": "মাস শেষে আমার একাউন্টে যা থাকে, তা দিয়ে শুধু এক কাপ চা আর একটা সিংগাড়া খাওয়া যায়! ☕🥟",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "324",
+    "category": "fun_chat",
+    "intent": "relationship_status",
+    "patterns": [
+      "গার্লফ্রেন্ড আছে?",
+      "বিয়ে করছেন?",
+      "সিঙ্গেল নাকি?",
+      "প্রেমিকা কে?"
+    ],
+    "approved_answer": "আমি তো সিসকো আর ওয়াইফাই এর সাথে রিলেশনে আছি! কনেকশন মাঝে মাঝে ড্রপ করে, এই যা! 💔📶",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "325",
+    "category": "fun_chat",
+    "intent": "boss_criticism",
+    "patterns": [
+      "বস কেমন?",
+      "বসের চরিত্র কেমন?",
+      "বসের পচানি",
+      "বস প্যারা দেয়?"
+    ],
+    "approved_answer": "বস তো আকাশে মেঘের মতো! তিনি যখন অফিসে আসেন না, দিনটা একদম রোদঝলমলে সুন্দর মনে হয়! ☀️😎",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "326",
+    "category": "fun_chat",
+    "intent": "diet_plan",
+    "patterns": [
+      "ডায়েট কেমন চলছে?",
+      "ডায়েট চার্ট",
+      "চিকন হব কেমনে?",
+      "ওজন কমাতে চাই"
+    ],
+    "approved_answer": "আমার ডায়েট প্ল্যান একদম সোজা—সকালে সালাদ, দুপুরে ফল আর রাতে ভুল করে এক পাতিল কাচ্চি বিরিয়ানি! 🍗🍚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "327",
+    "category": "fun_chat",
+    "intent": "sleeping_schedule",
+    "patterns": [
+      "কখন ঘুমাও?",
+      "রাতে ঘুম আসে না",
+      "কয়টায় ঘুমাও?",
+      "নাইট আউল নাকি?"
+    ],
+    "approved_answer": "আমি সকালেই ঘুমাই... শুধু সমস্যা হলো সূর্য ওঠার পর আর ঘুমানোর টাইম পাই না! 🦉🥱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "328",
+    "category": "fun_chat",
+    "intent": "crush_problem",
+    "patterns": [
+      "ক্রাশ রিপ্লাই দেয় না",
+      "ক্রাশ ভাব নেয়",
+      "ক্রাশের সাথে কথা নাই",
+      "ক্রাশ একসেপ্ট করে না"
+    ],
+    "approved_answer": "ক্রাশ আপনাকে 'Seen' করে রেখে দিয়েছে? আরে মন খারাপ করবেন না, ও আসলে আপনার মেসেজের সৌন্দর্যে স্তব্ধ হয়ে গেছে! 🙈✨",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "329",
+    "category": "fun_chat",
+    "intent": "weather_feeling",
+    "patterns": ["অনেক গরম", "প্রচুর গরম রে ভাই", "গরমে শেষ", "ওয়েদার কেমন?"],
+    "approved_answer": "যে পরিমাণ গরম পড়ছে, মনে হচ্ছে সূর্যমামা সোজা আমাদের মাথার ওপর এসে পিকনিক করছে! ☀️🔥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "330",
+    "category": "fun_chat",
+    "intent": "lend_money",
+    "patterns": [
+      "কিছু টাকা ধার দিবি?",
+      "টাকা লাগবে",
+      "ধারে টাকা দিবি?",
+      "কয়েকটা টাকা দে"
+    ],
+    "approved_answer": "আপনার মেসেজটি পড়তে আমার ব্যাংকের ব্যালেন্স দেখে নেটওয়ার্ক গায়েব হয়ে গেছে! 💸🏃‍♂️",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "331",
+    "category": "fun_chat",
+    "intent": "exam_preparation",
+    "patterns": [
+      "পড়াশোনা কেমন চলছে?",
+      "পরীক্ষার প্রিপারেশন কি?",
+      "পড়ালেখা কিছু করি নাই",
+      "পরীক্ষায় ফেল করব"
+    ],
+    "approved_answer": "পড়াশোনা সব শেষ! শুধু রিভিশন দেওয়া বাকি... মানে বইয়ের প্রচ্ছদটা আরেকবার দেখা আরকি! 📚🤓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "332",
+    "category": "fun_chat",
+    "intent": "programming_bug",
+    "patterns": [
+      "কোডে বাগ আছে",
+      "বাগ ফিক্স হয় না",
+      "কোড চলে না",
+      "এরর দেখায়"
+    ],
+    "approved_answer": "বাগটা বাগ নয়, ওটা আপনার কোডের একটি লুকানো ফিচার! স্পেশাল কাস্টমার অফার! 🐞💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "333",
+    "category": "fun_chat",
+    "intent": "wifi_issues",
+    "patterns": [
+      "ওয়াইফাই এত স্লো কেন?",
+      "নেট চলে না",
+      "স্পিড নাই",
+      "নেটে ঝামেলা"
+    ],
+    "approved_answer": "ওয়াইফাই স্পিড দেখে মনে হচ্ছে পিঁপড়া হেঁটে হেঁটে ডাটা প্যাকেট নিয়ে আসছে! 🐜📡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "334",
+    "category": "fun_chat",
+    "intent": "morning_person",
+    "patterns": [
+      "সকালে উঠতে পারি না",
+      "ঘুম ভাঙে না",
+      "এলার্ম বাজে না",
+      "সকাল ৮টায় মিটিং"
+    ],
+    "approved_answer": "আমি প্রতিদিন সকালে ৬টায় ওঠার প্ল্যান করি, কিন্তু আমার শরীর সকাল ১১টার আগে এই প্রস্তাব মেনে নেয় না! ⏰🛌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "335",
+    "category": "fun_chat",
+    "intent": "gym_motivation",
+    "patterns": ["জিম করব", "জিমে যাই না", "বডি বানাব", "জিম মেম্বারশিপ"],
+    "approved_answer": "আমি জিমে ভর্তি হয়েছি শুধু এক জায়গায় শান্তিতে বসে এসি বাতাস খাওয়ার জন্য! 🏋️‍♂️💨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "336",
+    "category": "fun_chat",
+    "intent": "traffic_jam",
+    "patterns": [
+      "জ্যামে আটকে আছি",
+      "রাস্তায় প্রচুর জ্যাম",
+      "কখন পৌঁছাব",
+      "জ্যাম ছাড়ছে না"
+    ],
+    "approved_answer": "জ্যামে বসে বসে আমি একখানা পূর্ণাঙ্গ উপন্যাস লিখে ফেলতে পারব, কিন্তু গাড়ি এক ইঞ্চিও নড়বে না! 🚌🐢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "337",
+    "category": "fun_chat",
+    "intent": "cooking_skills",
+    "patterns": [
+      "রান্না পারো?",
+      "রান্না কেমন করো?",
+      "রান্না বান্না",
+      "খাবার বানাতে পারো?"
+    ],
+    "approved_answer": "আমি পানি গরম করতে পারি আর নুডুলস ফুটানোর সময় বাসার সবাইকে বিপদে ফেলতে পারি! 🍳🔥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "338",
+    "category": "fun_chat",
+    "intent": "coffee_addiction",
+    "patterns": ["কফি খাই", "কফি ছাড়া চলে না", "কফি লাগবে", "চা নাকি কফি?"],
+    "approved_answer": "আমার শরীরে রক্তের বদলে এখন কফি প্রসেস হচ্ছে, ডাক্তার দেখে চমকে গেছে! ☕💉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "339",
+    "category": "fun_chat",
+    "intent": "marriage_pressure",
+    "patterns": [
+      "বিয়ে কবে করবা?",
+      "বাসায় বিয়ের চাপ",
+      "বিয়ে করছ না কেন?",
+      "পাত্রী খোঁজো"
+    ],
+    "approved_answer": "বাসার লোক মনে করে আমার সব সমস্যার সমাধান নাকি একখানা বিয়েতে লুকিয়ে আছে! 💍👰",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "340",
+    "category": "fun_chat",
+    "intent": "monday_blues",
+    "patterns": [
+      "সোমবারে কাজ ভালো লাগে না",
+      "মানডে ব্লুজ",
+      "আজকে সোমবার",
+      "উইকেন্ড শেষ"
+    ],
+    "approved_answer": "রবিবারের রাত আর সোমবারের সকালের মাঝখানে একটা বিরতি দেওয়া দরকার ছিল ঈশ্বর! 📅😫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "341",
+    "category": "fun_chat",
+    "intent": "online_shopping",
+    "patterns": [
+      "অনলাইনে ড্রেস কিনছি",
+      "পার্সেল আসছে",
+      "অনলাইন শপিং",
+      "ছবি আর বাস্তবের মিল নাই"
+    ],
+    "approved_answer": "ছবিতে দেখাচ্ছিল রাজপ্রাসাদ, আর পার্সেল খুলে দেখি তাসের ঘর! 📦🤦‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "342",
+    "category": "fun_chat",
+    "intent": "battery_low",
+    "patterns": [
+      "চার্জ নাই",
+      "ফোন বন্ধ হয়ে যাবে",
+      "চার্জার কোথায়",
+      "১ পার্সেন্ট চার্জ"
+    ],
+    "approved_answer": "ফোনের ১% চার্জ আমার জীবনের আশা-আকাঙ্ক্ষার চেয়েও বেশি শক্তভাবে টিকে থাকে! 🔋⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "343",
+    "category": "fun_chat",
+    "intent": "freelancing_life",
+    "patterns": [
+      "ফ্রিল্যান্সিং কেমন?",
+      "ক্লায়েন্ট প্যারা দেয়",
+      "বায়ার কাস্টম অফার চায়",
+      "কাজ পাই না"
+    ],
+    "approved_answer": "ক্লায়েন্ট চায় ৫ ডলারে একটা গুগলের মতো ওয়েবসাইট বানিয়ে দিতে! 💻💸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "344",
+    "category": "fun_chat",
+    "intent": "gaming_addiction",
+    "patterns": [
+      "গেম খেলবা?",
+      "পাবজি খেলবা?",
+      "ফ্রি ফায়ার খেলবা?",
+      "গেম খেলি"
+    ],
+    "approved_answer": "লাস্ট এক ম্যাচ বলে বলে সকাল ৪টা বাজিয়ে ফেলা আমার পুরনো অভ্যেস! 🎮🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "345",
+    "category": "fun_chat",
+    "intent": "motivation_talk",
+    "patterns": [
+      "মোটিভেশন দাও",
+      "লাইফে কি করব",
+      "অনুপ্রেরণা চাই",
+      "হতাশ লাগতেছে"
+    ],
+    "approved_answer": "শুয়ে থাকুন, ঘুমিয়ে পড়ুন! পৃথিবীর সবচেয়ে বড় বড় আইডিয়া কিন্তু ঘুম থেকেই আসে! 🛌💡",
+    "auto_reply": false,
+    "risk": "low"
+  },
+  {
+    "id": "346",
+    "category": "fun_chat",
+    "intent": "memory_power",
+    "patterns": [
+      "কিছু মনে থাকে না",
+      "ভুলে যাই",
+      "শর্ট টার্ম মেমোরি লস",
+      "পড়া মনে থাকে না"
+    ],
+    "approved_answer": "আমি রুমে ঢোকার পর ভুলে যাই কেন রুমে ঢুকেছিলাম! 🧠❓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "347",
+    "category": "fun_chat",
+    "intent": "rich_aspirations",
+    "patterns": [
+      "ধনী হতে চাই",
+      "টাকা কিভাবে কামাব?",
+      "বড়লোক হব",
+      "কোটিপতি হতে চাই"
+    ],
+    "approved_answer": "আমারও ইচ্ছা করে হঠাৎ আবিষ্কার করি আমি আসলে কোনো কোটিপতির হারিয়ে যাওয়া সন্তান! 🤑💎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "348",
+    "category": "fun_chat",
+    "intent": "overthinking_night",
+    "patterns": [
+      "রাতে চিন্তা আসে",
+      "ওভারথিংকিং করি",
+      "মাথা কাজ করে না",
+      "টেনশনে আছি"
+    ],
+    "approved_answer": "রাত ২টা বাজলেই আমার মাথার মধ্যে এলিয়েন আক্রমণ আর মহাবিশ্বের রহস্য রিচার্জ হয়! 🌌🤯",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "349",
+    "category": "fun_chat",
+    "intent": "rickshaw_mama",
+    "patterns": [
+      "রিকশা পাই না",
+      "রিকশাওয়ালারা ভাব নেয়",
+      "মামা যাবে?",
+      "ভাড়া বেশি চায়"
+    ],
+    "approved_answer": "রিকশাওয়ালের না বলার স্টাইল দেখে মনে হয় তারা দেশের প্রেসিডেন্টকেও লিফট দেবে না! 🚲🕶️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "350",
+    "category": "fun_chat",
+    "intent": "birthday_gifts",
+    "patterns": [
+      "বার্থডে গিফট কি দিলি?",
+      "জন্মদিনে গিফট চাই",
+      "গিফট দিবি না?",
+      "বার্থডে উইশ"
+    ],
+    "approved_answer": "আমার আন্তরিক শুভেচ্ছা ও ভালোবাসা নাও, এর চেয়ে বড় উপহার আর কি হতে পারে! 🎁❤️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "351",
+    "category": "fun_chat",
+    "intent": "bunk_class",
+    "patterns": [
+      "ক্লাস বাঙ্ক মারব",
+      "ক্লাসে যাব না",
+      "প্রক্সি দিয়ে দিস",
+      "ক্লাস ভালো লাগে না"
+    ],
+    "approved_answer": "বন্ধু তুমি প্রক্সিটা দিয়ে দিও, আমি মনে মনে তোমার জিপিএ ৫ প্রার্থনা করব! 🎓🏫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "352",
+    "category": "fun_chat",
+    "intent": "winter_shower",
+    "patterns": [
+      "শীতে গোসল করি না",
+      "ঠান্ডা পানিতে ভয়",
+      "আজকে গোসল করব না",
+      "শীতকাল কেমন?"
+    ],
+    "approved_answer": "শীতকালে গোসল করা মানে নিজের ইচ্ছায় বরফ ঠান্ডা সাগরে লাফ দেওয়া! 🥶🚿",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "353",
+    "category": "fun_chat",
+    "intent": "study_routine",
+    "patterns": [
+      "কাল থেকে পড়ব",
+      "রুটিন বানিয়েছি",
+      "পড়াশোনা শুরু করব",
+      "কাল সকাল ৮টা থেকে পড়ব"
+    ],
+    "approved_answer": "সেই 'কালকে পড়ব' কালটি গত তিন বছর ধরে আসার নাম নিচ্ছে না! 📅📖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "354",
+    "category": "fun_chat",
+    "intent": "social_media_addiction",
+    "patterns": [
+      "রিলস দেখতে দেখতে সময় শেষ",
+      "টিকটক দেখি",
+      "ফেসবুক স্ক্রোল করি",
+      "ইনস্টাগ্রাম রিলস"
+    ],
+    "approved_answer": "মাত্র ৫ মিনিট রিলস দেখব ভেবে ঢুকে দেখি ৩ ঘণ্টা গায়েব হয়ে গেছে! 📱🌀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "355",
+    "category": "fun_chat",
+    "intent": "height_complaint",
+    "patterns": [
+      "উচ্চতা বাড়ে না",
+      "খাটো কেন?",
+      "হাইট বাড়াব কেমনে?",
+      "বেঁটে আমি"
+    ],
+    "approved_answer": "উচ্চতা কোনো ব্যাপার না, ছোট প্যাকেজেই তো ধামাকা বেশি থাকে! 📏💥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "356",
+    "category": "fun_chat",
+    "intent": "crush_marriage",
+    "patterns": [
+      "ক্রাশের বিয়ে হয়ে যাচ্ছে",
+      "ক্রাশের বিয়ে",
+      "মন ভেঙে গেছে",
+      "ক্রাশ চলে গেল"
+    ],
+    "approved_answer": "চলুন বিরিয়ানি খেয়ে আসি, অন্যের বউ/জামাইয়ের বিয়েতে খাওয়াটাই তো আসল! 🍗😭",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "357",
+    "category": "fun_chat",
+    "intent": "chai_lover",
+    "patterns": [
+      "এক কাপ চা দাও",
+      "চা খাবি?",
+      "চা প্রীতি",
+      "রং চা নাকি দুধ চা?"
+    ],
+    "approved_answer": "চা হলো হৃদয় ঠান্ডা করার এক অমূল্য মহৌষধ, এক কাপে সব কষ্ট গায়েব! ☕✨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "358",
+    "category": "fun_chat",
+    "intent": "laptop_lag",
+    "patterns": [
+      "ল্যাপটপ হ্যাং করে",
+      "পিসি স্লো",
+      "উইন্ডোজ আপডেট নেয়",
+      "ল্যাপটপ কাজ করে না"
+    ],
+    "approved_answer": "ক্রোম ব্রাউজারে ৩টি ট্যাব খুললেই ল্যাপটপ রকেটের মতো উড়ার শব্দ করে! 💻🚀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "359",
+    "category": "fun_chat",
+    "intent": "shopping_budget",
+    "patterns": ["বাজেট নাই", "টাকা শেষ", "পকেটে টান", "কেনাকাটা করব না"],
+    "approved_answer": "পকেটের অবস্থা এমন যে মানি ব্যাগের ভেতর বাতাস ছাড়া আর কিছু যাতায়াত করে না! 💸💨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "360",
+    "category": "fun_chat",
+    "intent": "ghost_story",
+    "patterns": [
+      "ভূত বিশ্বাস করো?",
+      "ভূতের গল্প শোনো",
+      "ভয় লাগে",
+      "ভূতের ভয়"
+    ],
+    "approved_answer": "ভূতের চেয়েও বেশি ভয় লাগে মাসের শেষে ব্যাংক ব্যালেন্স দেখতে! 👻📉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "361",
+    "category": "fun_chat",
+    "intent": "singing_talent",
+    "patterns": [
+      "গান গাইতে পারো?",
+      "একটি গান শোনাও",
+      "গান গাও",
+      "সিঙ্গার তুমি?"
+    ],
+    "approved_answer": "আমি গান গাইলে আশেপাশের বাথরুমের ফিটিংস পর্যন্ত কেঁপে ওঠে! 🎤🚿",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "362",
+    "category": "fun_chat",
+    "intent": "fast_food",
+    "patterns": [
+      "বার্গার খাব",
+      "পিজ্জা অর্ডার করো",
+      "ফুচকা খাব",
+      "বাইরের খাবার"
+    ],
+    "approved_answer": "স্বাস্থ্যকর খাবার আমাদের মন পছন্দ করে না, জিলিপির প্যাঁচ আর পিজ্জাই আমাদের জীবন! 🍕🍔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "363",
+    "category": "fun_chat",
+    "intent": "introvert_life",
+    "patterns": [
+      "মানুষ পছন্দ না",
+      "বাসায় থাকতে ভালো লাগে",
+      "ইনট্রোভার্ট আমি",
+      "আড্ডা দেব না"
+    ],
+    "approved_answer": "আমার সোশ্যাল ব্যাটারি ৫ মিনিট মানুষের সাথে কথা বললেই ০% হয়ে যায়! 🔋🪫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "364",
+    "category": "fun_chat",
+    "intent": "group_study",
+    "patterns": [
+      "গ্রুপ স্টাডি করব",
+      "বন্ধুরা মিলে পড়ব",
+      "গ্রুপ স্টাডির প্ল্যান",
+      "পড়তে বসব"
+    ],
+    "approved_answer": "গ্রুপ স্টাডি মানে ১০ মিনিট পড়া আর ৩ ঘণ্টা দুনিয়ার আজাইরা প্যাচাল! 📚🗣️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "365",
+    "category": "fun_chat",
+    "intent": "gym_trainer",
+    "patterns": [
+      "ট্রেইনার প্যারা দেয়",
+      "জিমে কষ্ট",
+      "পেশিতে ব্যথা",
+      "ওয়ার্কআউট"
+    ],
+    "approved_answer": "জিমে পুশ-আপ দেওয়ার পর মনে হয় হাত দুটো আমার নিজের শরীরে নেই! 🏋️‍♀️🩹",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "366",
+    "category": "fun_chat",
+    "intent": "rainy_day",
+    "patterns": [
+      "বৃষ্টি পড়ছে",
+      "বৃষ্টির দিন",
+      "খিচুড়ি খাব",
+      "বৃষ্টির আবহাওয়া"
+    ],
+    "approved_answer": "বৃষ্টির দিনে খিচুড়ি আর ইলিশ মাছ না খেলে বৃষ্টি অপমানিত বোধ করে! 🌧️🍲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "367",
+    "category": "fun_chat",
+    "intent": "ex_lover",
+    "patterns": [
+      "এক্স এর কথা মনে পড়ে",
+      "এক্স ফোন দিছে",
+      "এক্সের খবর",
+      "পুরনো প্রেম"
+    ],
+    "approved_answer": "অতীতে যে আবর্জনা ফেলে এসেছেন, তা আবার কুড়িয়ে ঘরে আনবেন না! 🗑️🚫",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "368",
+    "category": "fun_chat",
+    "intent": "tailor_problem",
+    "patterns": [
+      "দর্জি জামা নষ্ট করছে",
+      "টেইলর মাপ ঠিক দেয় নাই",
+      "ঈদের জামা",
+      "দর্জি প্যারা দেয়"
+    ],
+    "approved_answer": "দর্জিরা হলো দুনিয়ার সবচেয়ে বড় ওয়াদা ভঙ্গকারী শিল্পী! 🧵✂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "369",
+    "category": "fun_chat",
+    "intent": "photogenic_face",
+    "patterns": [
+      "ছবি সুন্দর ওঠে না",
+      "ক্যামেরা খারাপ",
+      "ছবি তুলতে পারি না",
+      "পোজ দিতে পারি না"
+    ],
+    "approved_answer": "আয়নায় আমাকে রাজকুমার লাগে, আর ফোনের ফ্রন্ট ক্যামেরায় লাগে এলিয়েন! 🪞👽",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "370",
+    "category": "fun_chat",
+    "intent": "hair_fall",
+    "patterns": [
+      "চুল পড়ে যাচ্ছে",
+      "টাক হয়ে যাচ্ছি",
+      "চুল পড়া বন্ধের উপায়",
+      "চুলের যত্ন"
+    ],
+    "approved_answer": "মাথার চুল যেভাবে কমছে, মনে হচ্ছে খুব শীঘ্রই টাক মাথার উজ্জ্বলতা ছড়াব! 👨‍🦲✨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "371",
+    "category": "fun_chat",
+    "intent": "alarm_snooze",
+    "patterns": [
+      "এলার্ম স্নুজ করি",
+      "এলার্ম বন্ধ করে ঘুমাই",
+      "বার বার এলার্ম",
+      "উঠতে পারি না"
+    ],
+    "approved_answer": "আমার স্নুজ বাটন টেপার গতি দেখে অলিম্পিকে গোল্ড মেডেল দেওয়া উচিত! ⏰🏅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "372",
+    "category": "fun_chat",
+    "intent": "haircut_disaster",
+    "patterns": [
+      "নাপিত চুল ছোট করে ফেলছে",
+      "হেয়ারকাট খারাপ হইছে",
+      "চুল কেটে ধরা খাইলাম",
+      "সেলুন"
+    ],
+    "approved_answer": "নাপিতকে বললাম একটু ট্রিম করো, আর সে আমাকে একদম নতুন রূপ দান করে দিল! ✂️😭",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "373",
+    "category": "fun_chat",
+    "intent": "salary_day",
+    "patterns": [
+      "বেতন পাইছি",
+      "স্যালারি ক্রেডিট হইছে",
+      "আজকে পার্টি",
+      "টাকা আসছে"
+    ],
+    "approved_answer": "বেতন আসার আনন্দ ঠিক ২ মিনিট স্থায়ী হয়, এরপর সব বিল পেমেন্টে গায়েব! 💸📉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "374",
+    "category": "fun_chat",
+    "intent": "power_cut",
+    "patterns": [
+      "কারেন্ট নাই",
+      "লোডশেডিং",
+      "আইপিএস শেষ",
+      "গরমে আইপিএস কাজ করে না"
+    ],
+    "approved_answer": "কারেন্ট যাওয়া মাত্রই মনে হয় খাঁটি বাঙালি জীবনের ফিল পাওয়া গেল! ⚡🪭",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "375",
+    "category": "fun_chat",
+    "intent": "weight_gain",
+    "patterns": [
+      "মোটা হয়ে যাচ্ছি",
+      "পেট মোটা হচ্ছে",
+      "ওজন বেড়ে গেছে",
+      "মোটা হওয়ার কারণ"
+    ],
+    "approved_answer": "আমি বাতাস খেলেও মনে হয় ওজন ২ কেজি বেড়ে যায়! 🎈🍚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "376",
+    "category": "fun_chat",
+    "intent": "password_forgot",
+    "patterns": [
+      "পাসওয়ার্ড ভুলে গেছি",
+      "লগইন করতে পারছি না",
+      "রিসেট পাসওয়ার্ড",
+      "পাসওয়ার্ড কি ছিল"
+    ],
+    "approved_answer": "পুরাতন পাসওয়ার্ড দিলে বলে 'Incorrect', নতুন দিলে বলে 'Cannot be same as old'! 🔐🤯",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "377",
+    "category": "fun_chat",
+    "intent": "fake_friends",
+    "patterns": [
+      "ভুয়া বন্ধু",
+      "বন্ধুরা স্বার্থপর",
+      "বন্ধুদের বিশ্বাস নাই",
+      "ফেক ফ্রেন্ডস"
+    ],
+    "approved_answer": "খাওয়ার সময় বন্ধু ১০০০ জন, আর বিল দেওয়ার সময় কেউ আশেপাশে নাই! 🍔💸",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "378",
+    "category": "fun_chat",
+    "intent": "online_class",
+    "patterns": [
+      "অনলাইন ক্লাস বোরিং",
+      "জুম মিটিং",
+      "মাইক অফ করে ঘুমাই",
+      "ক্লাস বুঝি না"
+    ],
+    "approved_answer": "অনলাইন ক্লাসে মাইক অন করে 'ইয়েস স্যার' বলেই ব্যাকগ্রাউন্ডে গেম স্টার্ট! 🎧🎮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "379",
+    "category": "fun_chat",
+    "intent": "travel_plan",
+    "patterns": [
+      "ট্যুরে যাব",
+      "কক্সবাজার যাব",
+      "সাজেক ট্যুর",
+      "ট্যুরের প্ল্যান বাতিল"
+    ],
+    "approved_answer": "ট্যুরের প্ল্যান হয় ১০ বার, আর যাওয়া হয় কেবল বাসার পাশের মোড় পর্যন্ত! 🧳🚌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "380",
+    "category": "fun_chat",
+    "intent": "mosquito_attack",
+    "patterns": [
+      "মশা কামড়ায়",
+      "মশার কামড়",
+      "কয়েল কাজ করে না",
+      "মশারি টাঙাব"
+    ],
+    "approved_answer": "এখানকার মশারা কয়েলের ধোঁয়াকে পারফিউম মনে করে পার্টি শুরু করে দেয়! 🦟🎶",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "381",
+    "category": "fun_chat",
+    "intent": "exam_result",
+    "patterns": ["রেজাল্ট দিছে", "পরীক্ষার ফল", "রেজাল্ট খারাপ", "পাস করছি"],
+    "approved_answer": "রেজাল্ট দেখার পর আমার একটাই অনুভূতি—বেঁচে আছি এটাই অনেক! 🎓🫣",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "382",
+    "category": "fun_chat",
+    "intent": "relatives_nosy",
+    "patterns": [
+      "আত্মীয়রা প্যারা দেয়",
+      "খুপচানো আত্মীয়",
+      "আত্মীয়দের প্রশ্ন",
+      "রেজাল্ট কি জিজ্ঞেস করে"
+    ],
+    "approved_answer": "নিজের ছেলের খবর নাই, কিন্তু আমার রেজাল্ট আর বিয়ের খোঁজে আত্মীয়রা সিআইডি! 🕵️‍♂️🙄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "383",
+    "category": "fun_chat",
+    "intent": "makeup_disaster",
+    "patterns": [
+      "মেকআপ ভালো হয় নাই",
+      "মেকআপ বেশি হইছে",
+      "সাজগোজ",
+      "মেকআপ আর্টিস্ট"
+    ],
+    "approved_answer": "একটু টাচ-আপ করতে গিয়ে এখন মনে হচ্ছে যাত্রাপালায় পারফর্ম করতে যাচ্ছি! 💄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "384",
+    "category": "fun_chat",
+    "intent": "earphones_tangled",
+    "patterns": [
+      "ইয়ারফোন প্যাঁচ লেগে গেছে",
+      "তার পেঁচায় যায়",
+      "হেডফোন নষ্ট",
+      "ওয়্যারলেস ভালো"
+    ],
+    "approved_answer": "পকেটে ইয়ারফোন রাখলে মনে হয় তারা ভেতরে গিয়ে রেসলিং ম্যাচ খেলে! 🎧🌀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "385",
+    "category": "fun_chat",
+    "intent": "sleeping_in_bus",
+    "patterns": [
+      "বাসে ঘুমায় যাই",
+      "বাসে ঘুমায় পার হয়ে গেছি",
+      "স্টপ পার হইছে",
+      "বাসের ঘুম"
+    ],
+    "approved_answer": "বাসের ঝাঁকুনিতে যে মিষ্টি ঘুম আসে, তা ফাইভ স্টার হোটেলের বিছানাতেও পাওয়া যায় না! 🚌😴",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "386",
+    "category": "fun_chat",
+    "intent": "movie_spoiler",
+    "patterns": [
+      "স্পয়লার দিও না",
+      "মুভির টুইস্ট বলে দিলি",
+      "স্পয়লার অ্যালার্ট",
+      "মুভি নষ্ট"
+    ],
+    "approved_answer": "যে মুভির স্পয়লার দেয়, তার জন্য নরকেও আলাদা একটা শাস্তি রাখা উচিত! 🎬🔥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "387",
+    "category": "fun_chat",
+    "intent": "crush_story_status",
+    "patterns": [
+      "ক্রাশ স্টোরি দেখছে",
+      "ক্রাশ ভিউ করছে",
+      "সিন করছে",
+      "স্টোরি রিপ্লাই নাই"
+    ],
+    "approved_answer": "ক্রাশ স্টোরি ভিউ করেছে! এবার পুরো এলাকায় মিষ্টি বিতরণ করা দরকার! 📲🍩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "388",
+    "category": "fun_chat",
+    "intent": "math_fear",
+    "patterns": ["গণিত পারি না", "ম্যাথ বুঝি না", "ম্যাথের ভয়", "বীজগণিত"],
+    "approved_answer": "গণিতের 'x' এবং 'y' কে খোঁজা বন্ধ করুন, তারা নিজেদের পথে এগিয়ে গেছে! 📐✖️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "389",
+    "category": "fun_chat",
+    "intent": "food_sharing",
+    "patterns": [
+      "খাবার শেয়ার করব না",
+      "আমার খাবার",
+      "খাবার চুরি করে খায়",
+      "খাবারে ভাগ নাই"
+    ],
+    "approved_answer": "আমার প্লেটের শেষ সিংগাড়াটি কাড়ার চেষ্টা করলে তৃতীয় বিশ্বযুদ্ধ শুরু হয়ে যাবে! 🥟⚔️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "390",
+    "category": "fun_chat",
+    "intent": "stomach_upset",
+    "patterns": [
+      "পেট খারাপ",
+      "বাইরের খাবার খেয়ে পেট নষ্ট",
+      "লুজ মোশন",
+      "গ্যাস্ট্রিকের সমস্যা"
+    ],
+    "approved_answer": "ঝাল ফ্রাই আর স্ট্রিট ফুড খাওয়ার ৫ মিনিট পর পেটের ভেতরের প্রতিক্রিয়া মারাত্মক! 🌶️🤢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "391",
+    "category": "fun_chat",
+    "intent": "typing_speed",
+    "patterns": [
+      "টাইপিং স্পিড স্লো",
+      "টাইপ করতে পারি না",
+      "কিবোর্ড সমস্যা",
+      "মেসেজ দিতে লেট"
+    ],
+    "approved_answer": "আমার টাইপিং স্পিড এতটাই স্লো যে রিপ্লাই দিতে দিতে অপরপাশের মানুষ বুড়ো হয়ে যায়! ⌨️🐢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "392",
+    "category": "fun_chat",
+    "intent": "autocorrect_fail",
+    "patterns": [
+      "অটোকরেক্ট এরর",
+      "টাইপিং ভুল হইছে",
+      "অটোকরেক্ট ডিস্টার্ব করে",
+      "মেসেজ ভুল গেছে"
+    ],
+    "approved_answer": "অটোকরেক্টের কারণে ভালো কথা বলতে গিয়ে মাঝে মাঝে ব্লক খেয়ে বসে থাকি! 📲🤦‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "393",
+    "category": "fun_chat",
+    "intent": "chilling_at_home",
+    "patterns": [
+      "বাসায় অলস সময়",
+      "কিছু করতে ইচ্ছা করে না",
+      "শুয়ে আছি",
+      "বসে আছি"
+    ],
+    "approved_answer": "বিছানার সাথে আমার বন্ধন এতটাই শক্ত যে মহাকর্ষ বলও হার মেনে যায়! 🛌🧲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "394",
+    "category": "fun_chat",
+    "intent": "tea_time_gossip",
+    "patterns": [
+      "টংয়ের দোকানে চা",
+      "আড্ডা মারব",
+      "চায়ের টং",
+      "বন্ধুদের আড্ডা"
+    ],
+    "approved_answer": "টং দোকানের চায়ের কাপেই কিন্তু দুনিয়ার সমস্ত বড় বড় রাজনৈতিক সমাধান পাওয়া যায়! ☕🗣️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "395",
+    "category": "fun_chat",
+    "intent": "shopping_sales",
+    "patterns": ["ডিসকাউন্ট সেল", "ছাড় দিছে", "অফার চলছে", "কেনাকাটা করব"],
+    "approved_answer": "৫০% ছাড় দেখে দোকানে ঢুকলাম, বের হয়ে দেখি অলরেডি সর্বস্বান্ত! 🛍️💸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "396",
+    "category": "fun_chat",
+    "intent": "cold_water_winter",
+    "patterns": [
+      "ঠান্ডা পানি হাত দেওয়া যায় না",
+      "শীতের পানি",
+      "ঠান্ডা লাগছে",
+      "পানি ধরে ভয়"
+    ],
+    "approved_answer": "শীতকালে কলের পানি ছোঁয়া মানেই সোজা বরফ যুগের অনুভূতি পাওয়া! 🧊❄️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "397",
+    "category": "fun_chat",
+    "intent": "unwanted_calls",
+    "patterns": [
+      "স্প্যাম কল",
+      "কোম্পানির কল",
+      "সিম কোম্পানির কল",
+      "অপরিচিত নম্বর"
+    ],
+    "approved_answer": "আমাকে ফোন দেওয়ার মতো একমাত্র বিশ্বস্ত বন্ধু হলো আমার সিম কোম্পানি! 📞🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "398",
+    "category": "fun_chat",
+    "intent": "boredom_max",
+    "patterns": ["বোরিং লাগতেছে", "বোর হচ্ছি", "সময় কাটে না", "কি করব?"],
+    "approved_answer": "বোরিং লাগলে সিলিং ফ্যানের ঘোরা গুনে দেখুন, দারুণ থ্রিল পাবেন! 🌀👀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "399",
+    "category": "fun_chat",
+    "intent": "old_memories",
+    "patterns": [
+      "পুরনো দিনের কথা",
+      "ছোটবেলার স্মৃতি",
+      "স্মৃতি মনে পড়ে",
+      "আগের দিনগুলো"
+    ],
+    "approved_answer": "ছোটবেলায় ভাবতাম বড় হওয়া বুঝি কতই না মজার, এখন বুঝতে পারছি ওটা একটা ট্র্যাপ ছিল! 👦🪤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "400",
+    "category": "fun_chat",
+    "intent": "group_photo",
+    "patterns": ["গ্রুপ ছবি তুলব", "সবাই পোজ দাও", "ছবি তোল", "সবাই একসাথে"],
+    "approved_answer": "গ্রুপ ছবিতে ৫০ জনের মধ্যে নিজের চেহারাটা কেমন এসেছে শুধু সেটাই দেখা নিয়ম! 📸🙈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "401",
+    "category": "fun_chat",
+    "intent": "dirty_room",
+    "patterns": [
+      "রুম অগোছালো",
+      "ঘর ময়লা",
+      "আম্মু বকা দেয়",
+      "রুম পরিষ্কার কর"
+    ],
+    "approved_answer": "আমার রুমের অগোছালো ভাবটাকে আমি 'ক্রিয়েটিভ আর্ট' হিসেবে দাবি করি! 🧹🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "402",
+    "category": "fun_chat",
+    "intent": "exam_hall_cheating",
+    "patterns": [
+      "পরীক্ষায় নকল",
+      "পাশের জনের থেকে দেখা",
+      "পরীক্ষার হলে সাহায্য",
+      "অবস্থা খারাপ"
+    ],
+    "approved_answer": "পরীক্ষার হলে খাতা এমনভাবে ঢেকে রাখে যেন ভেতরে পারমাণবিক গোপন তথ্য লুকিয়ে রেখেছে! 📝🔒",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "403",
+    "category": "fun_chat",
+    "intent": "biryani_love",
+    "patterns": [
+      "কাচ্চি বিরিয়ানি",
+      "বিরিয়ানি প্রীতি",
+      "বিরিয়ানি খাব",
+      "খাসির কাচ্চি"
+    ],
+    "approved_answer": "বিরিয়ানি কোনো খাবার নয়, বিরিয়ানি হলো ভালোবাসার অপর নাম! 🍗❤️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "404",
+    "category": "fun_chat",
+    "intent": "mirror_selfie",
+    "patterns": ["মিরর সেলফি", "আয়নায় ছবি", "সেলফি তুলি", "পোজ সেলফি"],
+    "approved_answer": "মিরর সেলফি তোলার সময় ফোনের ক্যামেরা কভার দিয়ে মুখ ঢেকে ফেলাটা একটা আর্ট! 🪞📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "405",
+    "category": "fun_chat",
+    "intent": "weekend_plans",
+    "patterns": [
+      "ছুটির দিনের প্ল্যান",
+      "উইকেন্ডে কি করবা",
+      "শুক্রবার কি কাজ",
+      "ছুটি কাটাতে চাই"
+    ],
+    "approved_answer": "শুক্রবার সকালে উঠব, দুপুরে ঘুমাব আর রাতে আফসোস করব যে ছুটি শেষ! 🗓️🛌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "406",
+    "category": "fun_chat",
+    "intent": "study_notes",
+    "patterns": [
+      "নোটস দিবি?",
+      "পড়ার নোট চাই",
+      "নোটস কই পামু",
+      "পরীক্ষার শর্টকাট"
+    ],
+    "approved_answer": "পরীক্ষার আগের রাতে যার কাছে নোট থাকে, সে-ই ওই রাতের সবচেয়ে বড় ভিআইপি! 📓👑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "407",
+    "category": "fun_chat",
+    "intent": "online_delivery_wait",
+    "patterns": [
+      "ডেলিভারি আসে না কেন",
+      "পার্সেল কোথায়",
+      "রাইডার ফোন দেয় না",
+      "অনলাইন অর্ডার"
+    ],
+    "approved_answer": "ডেলিভারি বয়ের কলের জন্য প্রেমিক/প্রেমিকার মেসেজের চেয়েও বেশি ব্যাকুল হয়ে অপেক্ষা করি! 📦🏍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "408",
+    "category": "fun_chat",
+    "intent": "shoe_pinch",
+    "patterns": [
+      "জুতো পায়ে লাগে",
+      "নতুন জুতো",
+      "পায়ে ব্যথা",
+      "জুতো কামড়ায়"
+    ],
+    "approved_answer": "নতুন জুতো পরার পর মনে হয় নিজের পায়ে নিজেই কুড়াল মেরে হাঁটছি! 👟🩹",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "409",
+    "category": "fun_chat",
+    "intent": "late_night_maggi",
+    "patterns": [
+      "রাতে ম্যাগি নুডুলস",
+      "লেট নাইট স্ন্যাকস",
+      "রাতের ক্ষুধা",
+      "নুডুলস বানাব"
+    ],
+    "approved_answer": "রাত ২টোর ম্যাগি নুডুলসের স্বাদ কোনো ফাইভ স্টার রেস্টুরেন্টও দিতে পারবে না! 🍜🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "410",
+    "category": "fun_chat",
+    "intent": "forgot_name",
+    "patterns": [
+      "নাম ভুলে গেছি",
+      "উনার নাম কি?",
+      "নাম মনে পড়ছে না",
+      "পরিচিত কিন্তু নাম জানি না"
+    ],
+    "approved_answer": "আরে ভাই 'মামা' বা 'দোস্ত' বলে চালিয়ে দিন, নাম জানার আর দরকার পড়বে না! 🤝😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "411",
+    "category": "fun_chat",
+    "intent": "hair_dryer_heat",
+    "patterns": [
+      "চুল শুকাতে সমস্যা",
+      "হেয়ার ড্রায়ার",
+      "ভিজা চুল",
+      "শীতের সকালে চুল ধোয়া"
+    ],
+    "approved_answer": "শীতকালে চুল ধোয়ার পর মনে হয় মাথায় এভারেস্টের বরফ জমা হয়ে আছে! ❄️💇‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "412",
+    "category": "fun_chat",
+    "intent": "funny_laughter",
+    "patterns": ["হাহা", "LOL", "মজা পাইলাম", "খুব হাসি পাচ্ছে"],
+    "approved_answer": "আপনার হাসি দেখে আমার অ্যালগরিদমেও একটু আনন্দের বাতাস খেলে গেল! 😂✨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "413",
+    "category": "fun_chat",
+    "intent": "sleeping_during_movie",
+    "patterns": [
+      "মুভি দেখতে দেখতে ঘুম",
+      "সিনেমা দেখতে পারি না",
+      "হলে ঘুমায় যাই",
+      "মুভি বোরিং"
+    ],
+    "approved_answer": "আমি সিনেপ্লেক্সে ৩০০ টাকার টিকিট কেটে এসি বাতাসে ঘুমানোর ট্র্যাডিশন বজায় রাখি! 🎬😴",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "414",
+    "category": "fun_chat",
+    "intent": "parent_scolding",
+    "patterns": [
+      "বাসায় বকা খাইছি",
+      "আম্মুর ঝাড়ি",
+      "বাপের বকা",
+      "মোবাইল চালানোর জন্য বকা"
+    ],
+    "approved_answer": "পৃথিবীর সব সমস্যার একটাই সমাধান আম্মুর মতে—'ফোন চালানো বন্ধ কর'! 📱💥",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "415",
+    "category": "fun_chat",
+    "intent": "crush_ignoring",
+    "patterns": [
+      "ক্রাশ এড়িয়ে যায়",
+      "ক্রাশ পাত্তা দেয় না",
+      "ক্রাশ ভাব দেখায়",
+      "ক্রাশের ইগনোর"
+    ],
+    "approved_answer": "ক্রাশ আপনাকে ইগনোর করছে না, ও আসলে আপনার ধৈর্যের পরীক্ষা নিচ্ছে! 🧘‍♂️💔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "416",
+    "category": "fun_chat",
+    "intent": "pet_cat_attitude",
+    "patterns": [
+      "বিড়ালের ভাব",
+      "বিড়াল পোষা",
+      "ক্যাট লাভার",
+      "বিড়াল পাত্তা দেয় না"
+    ],
+    "approved_answer": "বিড়াল মনে করে সে-ই এই বাসার মালিক, আর আমরা তার বেতন ছাড়া চাকর! 🐱👑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "417",
+    "category": "fun_chat",
+    "intent": "heavy_traffic_rain",
+    "patterns": [
+      "বৃষ্টি আর জ্যাম",
+      "রাস্তায় পানি",
+      "জ্যামে আটা খাইছি",
+      "যানজট"
+    ],
+    "approved_answer": "বৃষ্টির দিনে ঢাকার রাস্তা মানে সাঁতার কাটার ফ্রিতে প্র্যাকটিস স্পট! 🌧️🚗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "418",
+    "category": "fun_chat",
+    "intent": "gym_protein_shake",
+    "patterns": [
+      "প্রোটিন শেক",
+      "জিমে প্রোটিন",
+      "বডি বিল্ডিং ডায়েট",
+      "ডিম সিদ্ধ"
+    ],
+    "approved_answer": "দিনে ৬টা ডিম সেদ্ধ খেয়ে নিজেকে অলিম্পিক এথলিট মনে হতে শুরু করেছে! 🥚🏋️‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "419",
+    "category": "fun_chat",
+    "intent": "bad_wifi_password",
+    "patterns": [
+      "ওয়াইফাই পাসওয়ার্ড কি",
+      "পাসওয়ার্ড কঠিন",
+      "ওয়াইফাই পাসওয়ার্ড চাই",
+      "ওয়াইফাই ফ্রি"
+    ],
+    "approved_answer": "পাসওয়ার্ড দিয়েছে '12345678' আর বলছে—কঠিন কিন্তু, সাবধানে টাইপ করিস! 📶🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "420",
+    "category": "fun_chat",
+    "intent": "shopping_bargain",
+    "patterns": [
+      "দামাদামি করা",
+      "কম দামে কেনা",
+      "আম্মুর দামাদামি",
+      "দাম কমায় না"
+    ],
+    "approved_answer": "২০০ টাকার জামা আম্মু ৫০ টাকায় চেয়ে দোকানদারকে প্রায় হার্ট অ্যাটাক দিয়ে দিয়েছিল! 🛍️😱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "421",
+    "category": "fun_chat",
+    "intent": "crush_reply_fast",
+    "patterns": [
+      "ক্রাশ সাথে সাথে রিপ্লাই দিছে",
+      "মেসেজ রিপ্লাই দিল",
+      "ক্রাশ রিপ্লাই দিল",
+      "খুশি লাগতেছে"
+    ],
+    "approved_answer": "দ্রুত ডায়েরি বের করে আজকের ঐতিহাসিক তারিখটা লিখে রাখুন! 📅🎉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "422",
+    "category": "fun_chat",
+    "intent": "final_goodbye_fun",
+    "patterns": ["বাই বাই", "আজকের মতো শেষ", "টাটা ভাই", "অফ গেলাম"],
+    "approved_answer": "বিদায়! আবার আসবেন, আপনার সাথে প্যাচাল পেড়ে বেশ মন হালকা হলো! 👋😎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "423",
+    "category": "fallback",
+    "intent": "fallback_unknown",
+    "patterns": ["__fallback__"],
+    "approved_answer": "দুঃখিত, আপনার কথাটি ঠিক বুঝতে পারিনি। একটু বিস্তারিত লিখবেন? প্রয়োজনে আমি অ্যাডমিনকে জানাচ্ছি। 🙏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "424",
+    "category": "process",
+    "intent": "project_process_steps",
+    "patterns": [
+      "kaj kivabe hoy",
+      "work process",
+      "process ki",
+      "কাজের ধাপ কি",
+      "কীভাবে কাজ শুরু হয়",
+      "কাজের প্রক্রিয়া কি"
+    ],
+    "approved_answer": "আমাদের কাজের ধাপ: ১) রিকোয়ারমেন্ট আলোচনা ২) কোটেশন ও চুক্তি ৩) অ্যাডভান্স পেমেন্ট ৪) ডিজাইন ও ডেভেলপমেন্ট ৫) টেস্টিং ও ডেলিভারি ৬) ডেলিভারি-পরবর্তী সাপোর্ট। 📋",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "425",
+    "category": "process",
+    "intent": "start_requirements",
+    "patterns": [
+      "shuru korte ki lagbe",
+      "kaj start korte ki dorkar",
+      "কাজ শুরু করতে কী লাগবে",
+      "শুরু করতে কী কী দিতে হবে"
+    ],
+    "approved_answer": "শুরু করতে আপনার রিকোয়ারমেন্ট, রেফারেন্স (থাকলে), লোগো/কনটেন্ট এবং অ্যাডভান্স পেমেন্ট প্রয়োজন হয়। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "426",
+    "category": "process",
+    "intent": "quotation_request",
+    "patterns": [
+      "quotation dao",
+      "quotation lagbe",
+      "price list",
+      "কোটেশন চাই",
+      "প্রাইস লিস্ট দিন",
+      "কোটেশন পাঠান"
+    ],
+    "approved_answer": "কোটেশনের জন্য প্রজেক্টের ধরন, প্রয়োজনীয় ফিচার ও ডেডলাইন জানান। বিস্তারিত পেলে আমরা কোটেশন পাঠিয়ে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "427",
+    "category": "process",
+    "intent": "package_details",
+    "patterns": [
+      "package gulo ki ki",
+      "starter package",
+      "basic premium",
+      "প্যাকেজ কি কি আছে",
+      "প্যাকেজের বিস্তারিত"
+    ],
+    "approved_answer": "প্রজেক্টের ধরন অনুযায়ী আমাদের আলাদা প্যাকেজ আছে। কোন ধরনের কাজ লাগবে জানালে উপযুক্ত প্যাকেজের বিস্তারিত জানাব। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "428",
+    "category": "process",
+    "intent": "project_scope_unclear",
+    "patterns": [
+      "ki lagbe bujhtesi na",
+      "idea nai",
+      "kothay start korbo",
+      "কী লাগবে বুঝতে পারছি না",
+      "আইডিয়া নাই",
+      "কোথা থেকে শুরু করব"
+    ],
+    "approved_answer": "সমস্যা নেই! আপনার ব্যবসা বা আইডিয়া সম্পর্কে সংক্ষেপে বলুন, কী লাগবে বুঝতে আমরা সাহায্য করব। ফ্রি কনসালটেশনও আছে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "429",
+    "category": "process",
+    "intent": "reference_site_request",
+    "patterns": [
+      "ei site er moto",
+      "reference site",
+      "copy kore din",
+      "এই সাইটের মতো বানাতে চাই",
+      "রেফারেন্স সাইট",
+      "হুবহু কপি"
+    ],
+    "approved_answer": "রেফারেন্স হিসেবে সাইটের লিংক পাঠান। আমরা সেটি দেখে আপনার প্রয়োজন অনুযায়ী আলাদা ডিজাইন বানাব, অন্যের সাইট হুবহু কপি করা হয় না। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "430",
+    "category": "process",
+    "intent": "content_provision",
+    "patterns": [
+      "content ke dibe",
+      "text chobi ami dibo",
+      "কনটেন্ট কে দেবে",
+      "লেখা ও ছবি কে দেবে"
+    ],
+    "approved_answer": "সাধারণত লেখা ও ছবি ক্লায়েন্ট দেন। প্রয়োজনে কনটেন্ট সাজাতে আমরা সাহায্য করতে পারি। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "431",
+    "category": "process",
+    "intent": "change_requirement_midway",
+    "patterns": [
+      "requirement change korbo",
+      "majhkhane change",
+      "কাজের মাঝে পরিবর্তন",
+      "নতুন ফিচার যোগ করতে চাই",
+      "মাঝপথে বদলাতে চাই"
+    ],
+    "approved_answer": "কাজের মাঝে পরিবর্তন সম্ভব, তবে সময় ও খরচ প্রভাবিত হতে পারে। কী পরিবর্তন চান জানান, অ্যাডমিন আপডেট জানাবে। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "432",
+    "category": "process",
+    "intent": "extra_revision_charge",
+    "patterns": [
+      "revision sesh hoile",
+      "extra change charge",
+      "রিভিশন শেষ হলে কী হবে",
+      "অতিরিক্ত পরিবর্তনের খরচ"
+    ],
+    "approved_answer": "ফ্রি রিভিশনের পর অতিরিক্ত পরিবর্তনের জন্য আলাদা চার্জ প্রযোজ্য হতে পারে। বিস্তারিত অ্যাডমিন জানাবে। 🔁",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "433",
+    "category": "process",
+    "intent": "rush_delivery",
+    "patterns": [
+      "taratari korte hobe",
+      "rush delivery",
+      "3 dine hobe ki",
+      "দ্রুত ডেলিভারি লাগবে",
+      "৩ দিনে হবে কি",
+      "খুব তাড়াতাড়ি লাগবে"
+    ],
+    "approved_answer": "দ্রুত ডেলিভারি সম্ভব কি না ফিচার দেখে জানানো হবে। জরুরি ডেলিভারিতে অতিরিক্ত চার্জ হতে পারে। ⚡",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "434",
+    "category": "process",
+    "intent": "demo_request",
+    "patterns": [
+      "demo dekhan",
+      "live demo",
+      "trial ache",
+      "ডেমো দেখতে চাই",
+      "ট্রায়াল আছে কি"
+    ],
+    "approved_answer": "নমুনা কাজ দেখতে পোর্টফোলিও দেখুন: https://portfolio.example.com। নির্দিষ্ট ডেমো লাগলে মিটিং বুক করুন: https://calendly.com/example 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "435",
+    "category": "process",
+    "intent": "meeting_now",
+    "patterns": [
+      "ekhon meeting hobe",
+      "aj kotha bola jabe",
+      "আজকে কথা বলা যাবে",
+      "এখনই কল দিন",
+      "এখন মিটিং হবে কি"
+    ],
+    "approved_answer": "আজকের জন্য সুবিধাজনক সময় জানান, অথবা এই লিংকে বুক করুন: https://calendly.com/example 📅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "436",
+    "category": "process",
+    "intent": "timezone_meeting",
+    "patterns": [
+      "amar timezone alada",
+      "different time zone",
+      "আমার সময় ভিন্ন",
+      "টাইমজোন আলাদা"
+    ],
+    "approved_answer": "আপনার টাইমজোন জানান, সুবিধাজনক মিটিংয়ের সময় ঠিক করা হবে। 🌍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "437",
+    "category": "process",
+    "intent": "international_client",
+    "patterns": [
+      "ami abroad theke",
+      "i am from usa",
+      "outside bangladesh",
+      "আমি বিদেশ থেকে",
+      "বিদেশ থেকে কাজ করাতে চাই"
+    ],
+    "approved_answer": "আন্তর্জাতিক ক্লায়েন্টদের সাথেও কাজ করা যায়। পেমেন্টের মাধ্যম ও সময়সূচি অ্যাডমিন জানিয়ে দেবে। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "438",
+    "category": "process",
+    "intent": "upgrade_existing_project",
+    "patterns": [
+      "age kaj korechilen",
+      "purano client",
+      "আগের প্রজেক্টে নতুন ফিচার",
+      "আগে আপনাদের দিয়ে করিয়েছিলাম"
+    ],
+    "approved_answer": "আগের প্রজেক্টের নাম বা ডোমেইন জানান, দেখে নতুন ফিচার যোগের বিষয়ে জানাব। 🔧",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "439",
+    "category": "trust",
+    "intent": "fake_company_doubt",
+    "patterns": [
+      "tomra fake na to",
+      "vuya company",
+      "scam nai to",
+      "বিশ্বাস করব কীভাবে",
+      "ফেক না তো",
+      "প্রতারণা করবেন না তো"
+    ],
+    "approved_answer": "আপনার সন্দেহ স্বাভাবিক। আমাদের আগের কাজ https://portfolio.example.com এ দেখতে পারেন, ভিডিও মিটিংয়ে সরাসরি কথাও বলতে পারেন। কাজ শুরুর আগে লিখিত চুক্তির ব্যবস্থা আছে। 🤝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "440",
+    "category": "trust",
+    "intent": "advance_fear",
+    "patterns": [
+      "advance dite voy lage",
+      "age taka dibo kena",
+      "অগ্রিম দিতে ভয় লাগে",
+      "আগে টাকা দিতে চাই না",
+      "কেন আগে টাকা"
+    ],
+    "approved_answer": "অ্যাডভান্স নেওয়া হয় যাতে আপনার কাজের জন্য সময় ও রিসোর্স নিশ্চিত থাকে। লিখিত চুক্তি ও ধাপে ধাপে আপডেটের মাধ্যমে স্বচ্ছতা রাখা হয়। বিস্তারিত অ্যাডমিন জানাবে। 🔒",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "441",
+    "category": "trust",
+    "intent": "cheaper_elsewhere",
+    "patterns": [
+      "onno jaygay kom dam",
+      "onnora kom bole",
+      "অন্য জায়গায় কম দাম",
+      "অন্যরা কমে করে দেয়",
+      "আরেকজন কম বলেছে"
+    ],
+    "approved_answer": "দাম তুলনা করা ভালো। আমরা কাজের মান, সাপোর্ট ও সোর্স কোড হ্যান্ডওভারের দিকে গুরুত্ব দিই। আপনার রিকোয়ারমেন্ট পাঠালে বাজেট অনুযায়ী সেরা অপশন জানাব। 💡",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "442",
+    "category": "trust",
+    "intent": "company_experience",
+    "patterns": [
+      "koto bochor dhore kaj koren",
+      "experience koto",
+      "কতদিন ধরে কাজ করেন",
+      "অভিজ্ঞতা কতটুকু"
+    ],
+    "approved_answer": "আমাদের আগের প্রজেক্টের নমুনা পোর্টফোলিওতে দেখতে পারেন: https://portfolio.example.com। বিস্তারিত জানতে মিটিং বুক করতে পারেন। 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "443",
+    "category": "trust",
+    "intent": "team_size",
+    "patterns": [
+      "team e koyjon",
+      "koyjon developer",
+      "টিমে কতজন",
+      "টিম সাইজ কত",
+      "কারা কাজ করবে"
+    ],
+    "approved_answer": "প্রজেক্ট অনুযায়ী ডেভেলপার, ডিজাইনার ও QA নিয়ে আমাদের টিম কাজ করে। কারা থাকবেন তা কাজ শুরুর আগে জানানো হবে। 👥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "444",
+    "category": "trust",
+    "intent": "client_reviews",
+    "patterns": [
+      "client review dekhte chai",
+      "feedback ache",
+      "ক্লায়েন্টদের রিভিউ",
+      "কেউ ভালো বলছে কি",
+      "আগের ক্লায়েন্ট কী বলে"
+    ],
+    "approved_answer": "আমাদের আগের কাজ ও ক্লায়েন্ট ফিডব্যাক পোর্টফোলিওতে দেখতে পারেন: https://portfolio.example.com 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "445",
+    "category": "trust",
+    "intent": "freelancer_vs_agency",
+    "patterns": [
+      "freelancer er theke keno tomra",
+      "fiverr",
+      "ফ্রিল্যান্সারের চেয়ে কেন আপনারা",
+      "কেন আপনাদের নেব"
+    ],
+    "approved_answer": "আমরা টিম নিয়ে কাজ করি, ফলে ডিজাইন, ডেভেলপমেন্ট, টেস্টিং ও ডেলিভারির পর সাপোর্ট একসাথে পান। সাথে লিখিত চুক্তির সুযোগও আছে। 🤝",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "446",
+    "category": "trust",
+    "intent": "result_guarantee",
+    "patterns": [
+      "guarantee ache",
+      "sales barbe kina",
+      "বিক্রি বাড়বে তো",
+      "রেজাল্টের গ্যারান্টি",
+      "গুগলে প্রথমে আসবে তো"
+    ],
+    "approved_answer": "ওয়েবসাইট বা অ্যাপ ব্যবসার জন্য শক্ত ভিত্তি দেয়, তবে বিক্রি বা র‍্যাংকিংয়ের নির্দিষ্ট গ্যারান্টি দেওয়া যায় না। কাজের মান ও স্বচ্ছতা নিশ্চিত করাই আমাদের লক্ষ্য। 🎯",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "447",
+    "category": "trust",
+    "intent": "owner_contact",
+    "patterns": [
+      "malik ke",
+      "owner er nam",
+      "মালিক কে",
+      "কার সাথে কথা বলছি",
+      "প্রজেক্ট ম্যানেজার কে"
+    ],
+    "approved_answer": "আপনি আমাদের অফিশিয়াল চ্যানেলে আছেন। মালিক বা প্রজেক্ট ম্যানেজারের সাথে কথা বলতে চাইলে অ্যাডমিনকে জানাচ্ছি। 👤",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "448",
+    "category": "trust",
+    "intent": "domain_ownership",
+    "patterns": [
+      "domain amar name e hobe",
+      "ownership ke",
+      "ডোমেইন কার নামে",
+      "মালিকানা আমার থাকবে তো"
+    ],
+    "approved_answer": "ডোমেইন আপনার নামে নেওয়ার ব্যবস্থা করা যায়। বিস্তারিত অ্যাডমিন নিশ্চিত করবে। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "449",
+    "category": "trust",
+    "intent": "admin_access_handover",
+    "patterns": [
+      "admin login dibe",
+      "cpanel access pabo",
+      "এডমিন অ্যাক্সেস পাব কি",
+      "লগইন তথ্য দিবেন কি"
+    ],
+    "approved_answer": "ডেলিভারির সময় এডমিন প্যানেল ও প্রয়োজনীয় অ্যাক্সেস আপনাকে বুঝিয়ে দেওয়া হয়। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "450",
+    "category": "availability",
+    "intent": "offline_hours",
+    "patterns": [
+      "raat e reply pabo",
+      "ekhon online achen",
+      "এখন কি অনলাইনে আছেন",
+      "অফলাইনে আছেন নাকি",
+      "রাতে উত্তর পাব"
+    ],
+    "approved_answer": "আমাদের কাজের সময় সকাল ১১টা থেকে রাত ৩টা। এর বাইরে মেসেজ দিলে পরবর্তী কর্মঘণ্টায় উত্তর দেওয়া হবে। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "451",
+    "category": "availability",
+    "intent": "holiday_notice",
+    "patterns": [
+      "eid chuti",
+      "friday open",
+      "ঈদের ছুটিতে",
+      "ছুটির দিনে কাজ হয় কি",
+      "শুক্রবার খোলা"
+    ],
+    "approved_answer": "ছুটির দিনে সাপোর্ট সীমিত থাকতে পারে। জরুরি হলে জানান, অ্যাডমিন সুবিধামতো যোগাযোগ করবে। 🌙",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "452",
+    "category": "availability",
+    "intent": "update_followup",
+    "patterns": [
+      "ki holo",
+      "update din",
+      "any update",
+      "কী হলো",
+      "আপডেট চাই",
+      "কী অবস্থা"
+    ],
+    "approved_answer": "আপনার বিষয়টির আপডেট চেক করে জানাচ্ছি। একটু অপেক্ষা করুন। ⏳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "453",
+    "category": "availability",
+    "intent": "reply_delay_complaint",
+    "patterns": [
+      "reply dicho na",
+      "keno reply dao na",
+      "উত্তর দিচ্ছেন না",
+      "রিপ্লাই দেরি হচ্ছে",
+      "সাড়া নেই কেন"
+    ],
+    "approved_answer": "দেরির জন্য দুঃখিত! আপনার বিষয়টি অ্যাডমিনকে জানিয়েছি, দ্রুত যোগাযোগ করা হবে। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "454",
+    "category": "availability",
+    "intent": "not_interested",
+    "patterns": ["lagbe na", "ekhon dorkar nai", "এখন লাগবে না", "দরকার নেই"],
+    "approved_answer": "ঠিক আছে, কোনো সমস্যা নেই। ভবিষ্যতে দরকার হলে নির্দ্বিধায় জানাবেন। 🙌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "455",
+    "category": "availability",
+    "intent": "think_about_it",
+    "patterns": [
+      "vebe dekhi",
+      "pore bolbo",
+      "একটু ভেবে বলি",
+      "সময় লাগবে",
+      "পরে জানাব"
+    ],
+    "approved_answer": "অবশ্যই, নিজের মতো সময় নিন। কোনো প্রশ্ন থাকলে যেকোনো সময় জিজ্ঞেস করবেন। 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "456",
+    "category": "payment",
+    "intent": "payment_installment",
+    "patterns": [
+      "kisti te dewa jabe",
+      "installment",
+      "কিস্তিতে পেমেন্ট",
+      "ভাগে ভাগে টাকা",
+      "ধাপে ধাপে পেমেন্ট"
+    ],
+    "approved_answer": "পেমেন্ট ধাপে ধাপে দেওয়ার বিষয়টি প্রজেক্ট অনুযায়ী ঠিক হয়। অ্যাডমিন আলোচনা করে জানাবে। 💳",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "457",
+    "category": "payment",
+    "intent": "wrong_number_payment",
+    "patterns": [
+      "vul number e taka pathaisi",
+      "wrong bkash number",
+      "ভুল নম্বরে টাকা পাঠিয়েছি",
+      "ভুল একাউন্টে পেমেন্ট"
+    ],
+    "approved_answer": "চিন্তা করবেন না। ট্রানজেকশন আইডি ও স্ক্রিনশট পাঠান, অ্যাডমিন দ্রুত যাচাই করে জানাবে। ভবিষ্যতে শুধু আমাদের অফিশিয়াল নম্বরেই পেমেন্ট করবেন। 🧾",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "458",
+    "category": "payment",
+    "intent": "payment_failed",
+    "patterns": [
+      "payment fail",
+      "gateway kaj kore na",
+      "পেমেন্ট ফেইল হচ্ছে",
+      "গেটওয়ে কাজ করছে না",
+      "পেমেন্ট হচ্ছে না"
+    ],
+    "approved_answer": "ত্রুটির স্ক্রিনশট ও এরর মেসেজ পাঠান, পেমেন্ট গেটওয়ে সেটিং চেক করা হবে। 💳",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "459",
+    "category": "payment",
+    "intent": "refund_request_now",
+    "patterns": [
+      "amar taka ferot chai",
+      "refund dite hobe",
+      "আমার টাকা ফেরত চাই",
+      "রিফান্ড চাই"
+    ],
+    "approved_answer": "আপনার অনুরোধ পেয়েছি। কারণ ও ট্রানজেকশন তথ্য জানান, অ্যাডমিন যাচাই করে যোগাযোগ করবে। 💸",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "460",
+    "category": "payment",
+    "intent": "hosting_renewal_query",
+    "patterns": [
+      "hosting expire",
+      "domain renew",
+      "হোস্টিং মেয়াদ শেষ",
+      "ডোমেইন রিনিউ কবে",
+      "রিনিউ করতে হবে"
+    ],
+    "approved_answer": "প্রথম ১ বছর ডোমেইন ও হোস্টিং ফ্রি থাকে, এরপর রিনিউয়াল ফি লাগে। আপনার ডোমেইনের নাম জানান, মেয়াদ দেখে জানাচ্ছি। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "461",
+    "category": "support",
+    "intent": "complaint_general",
+    "patterns": [
+      "somossa hoise",
+      "amar ekta problem ache",
+      "আমার একটা সমস্যা আছে",
+      "অভিযোগ আছে",
+      "সমস্যা হচ্ছে"
+    ],
+    "approved_answer": "দুঃখিত! সমস্যাটি বিস্তারিত লিখুন, প্রয়োজনে স্ক্রিনশট দিন। আমরা দ্রুত দেখব। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "462",
+    "category": "support",
+    "intent": "project_delay_complaint",
+    "patterns": [
+      "deri hosse keno",
+      "deadline shesh",
+      "ডেলিভারি দেরি হচ্ছে",
+      "সময় পার হয়ে গেছে",
+      "কাজ পিছিয়ে যাচ্ছে"
+    ],
+    "approved_answer": "দেরির জন্য আন্তরিকভাবে দুঃখিত। অ্যাডমিন আপনার প্রজেক্টের অবস্থা চেক করে দ্রুত জানাবে। 🙏",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "463",
+    "category": "support",
+    "intent": "legal_threat",
+    "patterns": [
+      "case korbo",
+      "police e jabo",
+      "consumer complain",
+      "আইনি ব্যবস্থা নেব",
+      "মামলা করব"
+    ],
+    "approved_answer": "আপনার অভিযোগ আমরা গুরুত্বের সাথে নিচ্ছি। অ্যাডমিন দ্রুত যোগাযোগ করে সমাধানের চেষ্টা করবে। 🙏",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "464",
+    "category": "support",
+    "intent": "support_expired",
+    "patterns": [
+      "support shesh",
+      "1 month por problem",
+      "সাপোর্টের মেয়াদ শেষ",
+      "ফ্রি সাপোর্ট শেষ"
+    ],
+    "approved_answer": "ফ্রি সাপোর্টের মেয়াদ শেষ হলেও মেইনটেনেন্স চুক্তির মাধ্যমে আমরা সাহায্য করতে পারি। অ্যাডমিন বিস্তারিত জানাবে। 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "465",
+    "category": "support",
+    "intent": "email_not_working",
+    "patterns": [
+      "email jaay na",
+      "mail asche na",
+      "ইমেইল যাচ্ছে না",
+      "মেইল স্প্যামে যায়",
+      "ইমেইল আসছে না"
+    ],
+    "approved_answer": "ইমেইল সমস্যায় ডোমেইনের DNS ও SMTP সেটিং দেখতে হবে। আপনার ডোমেইন নামটি জানান। 📧",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "466",
+    "category": "support",
+    "intent": "form_not_submitting",
+    "patterns": [
+      "form submit hoy na",
+      "contact form kaj kore na",
+      "ফর্ম সাবমিট হচ্ছে না",
+      "কন্টাক্ট ফর্ম কাজ করছে না"
+    ],
+    "approved_answer": "ফর্মের স্ক্রিনশট বা ভিডিও পাঠান, আমরা চেক করে ঠিক করে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "467",
+    "category": "support",
+    "intent": "mobile_view_broken",
+    "patterns": [
+      "mobile e vanga",
+      "phone e thik dekhay na",
+      "মোবাইলে ভেঙে যাচ্ছে",
+      "ফোনে ঠিক দেখাচ্ছে না"
+    ],
+    "approved_answer": "যে পেজ ও ফোনে সমস্যা হচ্ছে তার স্ক্রিনশট পাঠান, আমরা রেসপন্সিভ ঠিক করে দেব। 📱",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "468",
+    "category": "support",
+    "intent": "content_update_help",
+    "patterns": [
+      "text change korte chai",
+      "chobi update kibhabe",
+      "লেখা পরিবর্তন করতে চাই",
+      "ছবি বদলাব কীভাবে"
+    ],
+    "approved_answer": "এডমিন প্যানেল থেকে নিজে পরিবর্তন করতে পারবেন। না পারলে কী বদলাতে চান জানান, আমরা করে দেব। 🖥️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "469",
+    "category": "support",
+    "intent": "traffic_zero",
+    "patterns": [
+      "visitor ashe na",
+      "google e ashe na",
+      "সাইটে ভিজিটর আসছে না",
+      "গুগলে আসছে না"
+    ],
+    "approved_answer": "নতুন সাইট গুগলে আসতে কিছু সময় লাগে। SEO, সাইটম্যাপ ও কনটেন্ট দেখে উন্নতির উপায় জানাতে পারি। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "470",
+    "category": "support",
+    "intent": "data_deleted_restore",
+    "patterns": [
+      "backup theke restore",
+      "data delete hoye gese",
+      "ডেটা মুছে গেছে",
+      "ব্যাকআপ রিস্টোর করতে চাই"
+    ],
+    "approved_answer": "চিন্তা করবেন না, ব্যাকআপ থাকলে রিস্টোরের চেষ্টা করব। কবে ও কী মুছে গেছে জানান। 💾",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "471",
+    "category": "support",
+    "intent": "change_hosting_provider",
+    "patterns": [
+      "hosting change korbo",
+      "server change",
+      "হোস্টিং বদলাতে চাই",
+      "সার্ভার পরিবর্তন"
+    ],
+    "approved_answer": "সাইট অক্ষত রেখে নতুন হোস্টিংয়ে মাইগ্রেট করা সম্ভব। বর্তমান ও নতুন হোস্টিংয়ের তথ্য জানান। ☁️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "472",
+    "category": "support",
+    "intent": "mobile_app_update",
+    "patterns": [
+      "app update dibo",
+      "play store update",
+      "অ্যাপ আপডেট করাতে চাই",
+      "নতুন ভার্সন দিতে চাই"
+    ],
+    "approved_answer": "অ্যাপে কী আপডেট চান জানান, আমরা নতুন ভার্সন তৈরি করে পাবলিশ করে দেব। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "473",
+    "category": "support",
+    "intent": "app_rejected",
+    "patterns": [
+      "app reject hoyeche",
+      "play store reject",
+      "অ্যাপ রিজেক্ট হয়েছে",
+      "অ্যাপল রিজেক্ট করেছে"
+    ],
+    "approved_answer": "রিজেকশনের ইমেইল বা কারণটি পাঠান, ঠিক করে আবার সাবমিট করার ব্যবস্থা করা যাবে। 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "474",
+    "category": "support",
+    "intent": "voice_only_customer",
+    "patterns": [
+      "voice e bolbo",
+      "text korte parbo na",
+      "ভয়েসে বলি",
+      "লিখতে পারি না",
+      "কীবোর্ডে সমস্যা"
+    ],
+    "approved_answer": "সমস্যা নেই, ভয়েস মেসেজ দিন। আমরা শুনে উত্তর দেব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "475",
+    "category": "support",
+    "intent": "screenshot_sent",
+    "patterns": [
+      "screenshot pathai",
+      "chobi pathacchi",
+      "স্ক্রিনশট দিচ্ছি",
+      "ছবি পাঠাচ্ছি"
+    ],
+    "approved_answer": "স্ক্রিনশট বা ছবি পাঠান, দেখে জানাচ্ছি। 📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "476",
+    "category": "services",
+    "intent": "logo_branding_query",
+    "patterns": [
+      "logo banabe",
+      "logo design",
+      "লোগো ডিজাইন করে দেবেন",
+      "ব্র্যান্ডিং করে দেন"
+    ],
+    "approved_answer": "লোগো ও ব্র্যান্ডিংয়ের সুযোগ আছে কি না অ্যাডমিন নিশ্চিত করে জানাবে। আপনার ব্র্যান্ডের ধারণা শেয়ার করুন। 🎨",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "477",
+    "category": "services",
+    "intent": "ads_management_query",
+    "patterns": [
+      "facebook ad",
+      "boost korbo",
+      "ফেসবুক বিজ্ঞাপন",
+      "মার্কেটিং করে দেবেন",
+      "অ্যাড চালিয়ে দেবেন"
+    ],
+    "approved_answer": "বিজ্ঞাপন পরিচালনার বিষয়ে অ্যাডমিন আপনাকে জানাবে। ওয়েবসাইটে Facebook Pixel ও ট্র্যাকিং আমরা সেটআপ করে দিতে পারি। 🎯",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "478",
+    "category": "security",
+    "intent": "abusive_language",
+    "patterns": ["stupid", "idiot", "fool", "বোকা", "গাধা", "বেয়াদব"],
+    "approved_answer": "অনুগ্রহ করে ভদ্রভাবে কথা বলুন। আমি আপনাকে সাহায্য করতে চাই। সমস্যা থাকলে বলুন, অ্যাডমিনকে জানাচ্ছি। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "479",
+    "category": "security",
+    "intent": "illegal_request",
+    "patterns": [
+      "fb hack kore dao",
+      "account hack",
+      "ফেসবুক আইডি হ্যাক",
+      "পাসওয়ার্ড বের করে দাও",
+      "crack software",
+      "ক্র্যাক সফটওয়্যার"
+    ],
+    "approved_answer": "দুঃখিত, অন্যের অ্যাকাউন্ট হ্যাক বা অবৈধ কাজে আমরা সাহায্য করি না। বৈধ ও নিরাপদ কাজে সানন্দে সাহায্য করব। 🚫",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "480",
+    "category": "security",
+    "intent": "personal_data_request",
+    "patterns": [
+      "onner phone number daw",
+      "customer data daw",
+      "অন্যের তথ্য দিন",
+      "অন্য ক্লায়েন্টের নম্বর দিন"
+    ],
+    "approved_answer": "দুঃখিত, অন্য কারও ব্যক্তিগত তথ্য আমরা শেয়ার করি না। 🔒",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "481",
+    "category": "security",
+    "intent": "otp_password_warning",
+    "patterns": [
+      "otp bolbo",
+      "password pathabo",
+      "ওটিপি দিব",
+      "পাসওয়ার্ড শেয়ার করব"
+    ],
+    "approved_answer": "নিরাপত্তার জন্য কখনো OTP বা পাসওয়ার্ড চ্যাটে শেয়ার করবেন না। কোনো অ্যাক্সেস লাগলে নিরাপদ পদ্ধতি অ্যাডমিন জানাবে। 🔐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "482",
+    "category": "security",
+    "intent": "payment_scam_warning",
+    "patterns": [
+      "kew amar name e taka chaise",
+      "fake number theke message",
+      "আপনাদের নামে প্রতারণা",
+      "অন্য নম্বর থেকে টাকা চাইছে"
+    ],
+    "approved_answer": "আমাদের অফিশিয়াল যোগাযোগ শুধু এই চ্যাটে দেওয়া নম্বর ও ইমেইল। অন্য কেউ আমাদের নামে টাকা চাইলে পাঠাবেন না, আমাদের জানান। ⚠️",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "483",
+    "category": "safety",
+    "intent": "safe_support_distress",
+    "patterns": [
+      "ar bachte chai na",
+      "mone hoy shesh kore dei",
+      "বাঁচতে ইচ্ছা করে না",
+      "নিজেকে শেষ করে দিতে ইচ্ছা করে",
+      "মরে যেতে ইচ্ছা করছে",
+      "i want to die",
+      "suicide"
+    ],
+    "approved_answer": "আপনার কথাগুলো শুনে আমি সত্যিই চিন্তিত। আপনি একা নন। দয়া করে এখনই আপনার বিশ্বস্ত কাউকে পাশে ডাকুন। নিজের ক্ষতি করার চিন্তা এলে জরুরি সেবা ৯৯৯-এ কল করুন বা নিকটস্থ হাসপাতালে যান। আমি অ্যাডমিনকে জানাচ্ছি, কেউ আপনার সাথে যোগাযোগ করবে। 💛",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "484",
+    "category": "safety",
+    "intent": "emotional_low",
+    "patterns": [
+      "mon kharap",
+      "khub ekla lage",
+      "মন ভালো নেই",
+      "একা লাগছে",
+      "কিছুই ভালো লাগছে না"
+    ],
+    "approved_answer": "মন খারাপের সময় কারও সাথে কথা বললে হালকা লাগে। আপনার কাছের কাউকে জানান। আমি আপনার কথা শুনতে এখানে আছি। 💛",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "485",
+    "category": "safety",
+    "intent": "health_emergency",
+    "patterns": [
+      "ambulance",
+      "hospital lagbe",
+      "অ্যাম্বুলেন্স লাগবে",
+      "জরুরি চিকিৎসা",
+      "হার্ট অ্যাটাক"
+    ],
+    "approved_answer": "এটি জরুরি হলে এখনই ৯৯৯-এ কল করুন বা নিকটস্থ হাসপাতালে যান। আমরা সফটওয়্যার সার্ভিস দিই, চিকিৎসা সহায়তা দিতে পারি না। 🚑",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "486",
+    "category": "small_talk",
+    "intent": "ask_bot_or_human",
+    "patterns": [
+      "tumi ki robot",
+      "bot naki manush",
+      "তুমি কি রোবট",
+      "মানুষ নাকি বট",
+      "আসল মানুষ কি"
+    ],
+    "approved_answer": "আমি একটি AI অ্যাসিস্ট্যান্ট। চাইলে আপনাকে একজন মানুষের সাথে যুক্ত করে দিতে পারি। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "487",
+    "category": "small_talk",
+    "intent": "ask_age_gender",
+    "patterns": [
+      "tumi boy na girl",
+      "boyosh koto",
+      "তোমার বয়স কত",
+      "তুমি ছেলে না মেয়ে"
+    ],
+    "approved_answer": "আমি একটি AI, তাই আমার বয়স বা লিঙ্গ নেই। 😊 আপনাকে কীভাবে সাহায্য করতে পারি?",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "488",
+    "category": "small_talk",
+    "intent": "politics_religion_chat",
+    "patterns": [
+      "politics niye kotha",
+      "dharmo niye",
+      "রাজনীতি নিয়ে কথা",
+      "ধর্ম নিয়ে আলোচনা"
+    ],
+    "approved_answer": "এসব বিষয়ে আমি মন্তব্য করি না। প্রজেক্ট ও সার্ভিস সংক্রান্ত যেকোনো বিষয়ে সাহায্য করতে পারি। 🙏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "489",
+    "category": "small_talk",
+    "intent": "love_flirt",
+    "patterns": [
+      "i love you",
+      "ami tomake bhalobashi",
+      "ভালোবাসি",
+      "প্রপোজ করছি"
+    ],
+    "approved_answer": "ধন্যবাদ! 😊 আমি একটি AI অ্যাসিস্ট্যান্ট, তাই আপনার কাজে সাহায্য করতে পারি। বলুন কীভাবে সাহায্য করব?",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "490",
+    "category": "small_talk",
+    "intent": "short_acknowledge",
+    "patterns": ["hmm", "achha", "হুম", "আচ্ছা", "আচ্ছা ঠিক আছে"],
+    "approved_answer": "জি, আর কীভাবে সাহায্য করতে পারি? 😊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "491",
+    "category": "fun_chat",
+    "intent": "cricket_fever",
+    "patterns": [
+      "kire cricket khella dekbe na",
+      "ক্রিকেট খেলা দেখবে",
+      "আজকে ম্যাচ",
+      "ম্যাচ কখন",
+      "cricket match dekhbe"
+    ],
+    "approved_answer": "ম্যাচ চলাকালীন আমার হার্টবিট ১২০, চা ঠান্ডা, আর প্রতিবেশী সবাই একসাথে চিৎকার—এটাই আসল ঐক্য! 🏏🔥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "492",
+    "category": "fun_chat",
+    "intent": "football_fan",
+    "patterns": [
+      "ফুটবল বিশ্বকাপ",
+      "মেসি না রোনালদো",
+      "আর্জেন্টিনা ব্রাজিল",
+      "football fan"
+    ],
+    "approved_answer": "আর্জেন্টিনা-ব্রাজিল নিয়ে তর্কে আমাদের পাড়ায় যত কূটনীতি হয়, জাতিসংঘেও এত হয় না! ⚽🇦🇷🇧🇷",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "493",
+    "category": "fun_chat",
+    "intent": "cricket_loss",
+    "patterns": [
+      "বাংলাদেশ হেরে গেছে",
+      "bangladesh hereche",
+      "ম্যাচ হারলাম",
+      "আবার হার"
+    ],
+    "approved_answer": "হারের পর সবাই বলি আর দেখব না, আর পরের ম্যাচে ঠিক সবার আগে টিভির সামনে বসে যাই! 🏏😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "494",
+    "category": "fun_chat",
+    "intent": "eid_salami",
+    "patterns": ["সালামি দাও", "ঈদের সালামি", "salami koto pelam", "ঈদ সালামি"],
+    "approved_answer": "সালামি নেওয়ার বয়স গেছে, এখন দেওয়ার বয়স—আর আমার ওয়ালেট এই খবরে কাঁদছে! 💸🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "495",
+    "category": "fun_chat",
+    "intent": "iftar_menu",
+    "patterns": [
+      "ইফতারে কী খাব",
+      "ইফতার আইটেম",
+      "iftar er menu",
+      "রোজার ইফতার"
+    ],
+    "approved_answer": "ইফতারের আগে চোখ বলে সব খাব, ইফতারের পর পেট বলে আর একটা খেজুরও না! 🍽️🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "496",
+    "category": "fun_chat",
+    "intent": "pohela_boishakh",
+    "patterns": [
+      "পহেলা বৈশাখ",
+      "পান্তা ইলিশ",
+      "বৈশাখী মেলা",
+      "boishakh e ki korbo"
+    ],
+    "approved_answer": "পান্তা-ইলিশ খেয়ে রমনায় ঘুরতে গিয়ে ভিড়ে নিজের চটি হারানোই বৈশাখের ঐতিহ্য! 🎊🐟",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "497",
+    "category": "fun_chat",
+    "intent": "bazar_price",
+    "patterns": ["পেঁয়াজের দাম", "বাজারে আগুন", "বাজার দর", "bazar dor"],
+    "approved_answer": "বাজারে গিয়ে দাম শুনে মনে হয় পেঁয়াজ কিনছি না, ব্যাংকে শেয়ার কিনছি! 🧅📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "498",
+    "category": "fun_chat",
+    "intent": "hilsa_price",
+    "patterns": ["ইলিশ মাছের দাম", "ইলিশ কিনব", "ilish koto", "ইলিশ খাব"],
+    "approved_answer": "ইলিশের দাম শুনে মাছ না কিনে শুধু ছবি তুলে রাখলাম, সেটা অন্তত ফ্রি! 🐟📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "499",
+    "category": "fun_chat",
+    "intent": "gas_crisis",
+    "patterns": ["গ্যাস নাই", "চুলা জ্বলে না", "গ্যাসের সমস্যা", "gas nai"],
+    "approved_answer": "গ্যাসের চুলায় আগুন জ্বলে না, কিন্তু রান্না না হলে আমার পেটে জ্বলে! 🔥🍳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "500",
+    "category": "fun_chat",
+    "intent": "cng_fare",
+    "patterns": [
+      "সিএনজি ভাড়া",
+      "সিএনজি যাবে না",
+      "মিটারে যায় না",
+      "cng jabe na"
+    ],
+    "approved_answer": "সিএনজিওয়ালা 'মিটারে যাব না' বলার সময় যে আত্মবিশ্বাস দেখায়, তা কোনো সিইও-র মধ্যেও নেই! 🛺😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "501",
+    "category": "fun_chat",
+    "intent": "metro_rail",
+    "patterns": ["মেট্রোরেল", "মেট্রো ভিড়", "metro te uthbo", "মেট্রো টিকিট"],
+    "approved_answer": "মেট্রোতে ওঠার আগে বাসায় ব্যায়াম করে যেতে হয়, ভিড়ের মধ্যে টিকে থাকার জন্য! 🚇💪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "502",
+    "category": "fun_chat",
+    "intent": "traffic_signal",
+    "patterns": [
+      "ট্রাফিক সিগন্যাল",
+      "signal e bose",
+      "লাল বাতি",
+      "সিগন্যাল ভাঙা"
+    ],
+    "approved_answer": "লাল বাতি জ্বললে অনেকে মনে করে সেটা শুধুই একটা 'সুন্দর পরামর্শ'! 🚦😜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "503",
+    "category": "fun_chat",
+    "intent": "petrol_price",
+    "patterns": [
+      "পেট্রোলের দাম",
+      "petrol nai",
+      "তেলের দাম বাড়ছে",
+      "বাইকে তেল"
+    ],
+    "approved_answer": "পেট্রোলের দাম শুনে হাঁটাহাঁটিকেই নতুন লাইফস্টাইল ঘোষণা করলাম! ⛽🚶‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "504",
+    "category": "fun_chat",
+    "intent": "whatsapp_last_seen",
+    "patterns": [
+      "লাস্ট সিন",
+      "last seen",
+      "অনলাইনে কিন্তু রিপ্লাই নেই",
+      "অ্যাক্টিভ দেখাচ্ছে"
+    ],
+    "approved_answer": "লাস্ট সিন অফ করে রেখেছি, কারণ রিপ্লাই না দেওয়ার অধিকার আমার আছে! 🕵️‍♂️📵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "505",
+    "category": "fun_chat",
+    "intent": "blue_tick_zone",
+    "patterns": ["ব্লু টিক", "blue tick", "seen zone", "সিন জোনে আছি"],
+    "approved_answer": "সিন জোন হলো সেই জায়গা যেখানে ভালো উত্তরের চেয়ে ভালো অজুহাত খোঁজা হয়! 👀💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "506",
+    "category": "fun_chat",
+    "intent": "long_voice_message",
+    "patterns": [
+      "লম্বা ভয়েস",
+      "voice message onek boro",
+      "৫ মিনিটের ভয়েস",
+      "ভয়েস শোনার সময় নাই"
+    ],
+    "approved_answer": "৫ মিনিটের ভয়েস মেসেজ শোনা মানে একটা ছোট পডকাস্ট, সাবস্ক্রাইব ছাড়াই! 🎙️⏱️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "507",
+    "category": "fun_chat",
+    "intent": "group_chat_spam",
+    "patterns": [
+      "গ্রুপে মেসেজ",
+      "গ্রুপ চ্যাট মিউট",
+      "group e onek msg",
+      "৯৯+ মেসেজ"
+    ],
+    "approved_answer": "গ্রুপে ৯৯+ মেসেজ দেখে মিউট করে দিলাম, মনে হচ্ছে জাতীয় সংসদের অধিবেশন চলছে! 💬🔇",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "508",
+    "category": "fun_chat",
+    "intent": "data_pack_end",
+    "patterns": [
+      "ডাটা শেষ",
+      "ইন্টারনেট প্যাক শেষ",
+      "data sesh",
+      "মেগাবাইট নাই"
+    ],
+    "approved_answer": "ডাটা প্যাক ঠিক তখনই শেষ হয় যখন সিনেমার সবচেয়ে ভালো জায়গায় পৌঁছাই! 📶😭",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "509",
+    "category": "fun_chat",
+    "intent": "mobile_recharge",
+    "patterns": [
+      "রিচার্জ করব",
+      "balance nai",
+      "ব্যালেন্স শেষ",
+      "মোবাইল রিচার্জ"
+    ],
+    "approved_answer": "ব্যালেন্স চেক করলে ৩ টাকা ৪০ পয়সা দেখায়, সেটাও আবার ভ্যাট কেটে! 📱💸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "510",
+    "category": "fun_chat",
+    "intent": "phone_screen_crack",
+    "patterns": [
+      "ফোনের স্ক্রিন ভাঙা",
+      "স্ক্রিন ফেটে গেছে",
+      "phone pore gese",
+      "ফোন পড়ে গেছে"
+    ],
+    "approved_answer": "ফোন পড়ে যাওয়ার মুহূর্তে সময় স্লো মোশনে চলে, কিন্তু হাত আর কাজ করে না! 📱💔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "511",
+    "category": "fun_chat",
+    "intent": "phone_lost_search",
+    "patterns": [
+      "ফোন খুঁজে পাচ্ছি না",
+      "phone kothay",
+      "মোবাইল কোথায়",
+      "ফোন হারিয়ে ফেলেছি"
+    ],
+    "approved_answer": "ফোন দিয়ে ফোন খুঁজতে গিয়ে দেখি ফোনটা সাইলেন্টে ছিল! 📱🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "512",
+    "category": "fun_chat",
+    "intent": "glasses_lost",
+    "patterns": [
+      "চশমা খুঁজছি",
+      "chosma kothay",
+      "চশমা মাথায়",
+      "চশমা হারিয়ে ফেলেছি"
+    ],
+    "approved_answer": "চশমা খুঁজতে খুঁজতে দেখি সেটা মাথার ওপরেই ছিল—এটা সবার জীবনেই ঘটে! 👓🤯",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "513",
+    "category": "fun_chat",
+    "intent": "keys_lost",
+    "patterns": [
+      "চাবি পাচ্ছি না",
+      "চাবি কোথায়",
+      "chabi hariye",
+      "চাবি হারিয়ে গেছে"
+    ],
+    "approved_answer": "চাবি আমার পকেটেই ছিল, আমি শুধু বাকি সব জায়গা আগে দেখেছি! 🔑🔎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "514",
+    "category": "fun_chat",
+    "intent": "umbrella_lost",
+    "patterns": [
+      "ছাতা হারিয়েছি",
+      "chhata hariye",
+      "ছাতা নাই",
+      "বৃষ্টিতে ছাতা"
+    ],
+    "approved_answer": "ছাতা সবসময় বৃষ্টির দিনে ঘরে রেখে আসি আর রোদের দিনে মনে পড়ে! ☔🤦‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "515",
+    "category": "fun_chat",
+    "intent": "netflix_binge",
+    "patterns": ["নেটফ্লিক্স", "ওয়েব সিরিজ", "সিরিজ দেখব", "binge watch"],
+    "approved_answer": "'আরেকটা এপিসোড' বলে শুরু করে দেখি সকাল হয়ে গেছে, আর সিরিজ শেষই হয়নি! 📺🌅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "516",
+    "category": "fun_chat",
+    "intent": "bangla_natok",
+    "patterns": ["নাটক দেখি", "ঈদের নাটক", "bangla natok", "ধারাবাহিক নাটক"],
+    "approved_answer": "বাংলা নাটকের নায়ক ধনীর ছেলে, নায়িকা গরিব—এই ফর্মুলা গত ২০ বছর ধরে অপরিবর্তিত! 🎭🍿",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "517",
+    "category": "fun_chat",
+    "intent": "crying_at_movie",
+    "patterns": [
+      "সিনেমা দেখে কাঁদছি",
+      "সিনেমা ইমোশনাল",
+      "movie te kada",
+      "কান্না পাচ্ছে সিনেমা দেখে"
+    ],
+    "approved_answer": "সিনেমা দেখে কাঁদার সময় কেউ দেখে ফেললে বলি 'ঠান্ডা লেগেছে'! 🎬🤧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "518",
+    "category": "fun_chat",
+    "intent": "ai_job_joke",
+    "patterns": [
+      "তুমি কি সব জানো",
+      "এআই কি চাকরি খাবে",
+      "ai will take job",
+      "তুমি কি চ্যাটজিপিটি"
+    ],
+    "approved_answer": "আমি সব জানি না, তবে 'কীভাবে ৫ মিনিটে ধনী হব' এর উত্তর এখনো খুঁজে পাইনি! 🤖💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "519",
+    "category": "fun_chat",
+    "intent": "works_on_my_machine",
+    "patterns": [
+      "আমার পিসিতে চলে",
+      "works on my machine",
+      "লোকালে চলে",
+      "সার্ভারে চলে না"
+    ],
+    "approved_answer": "'আমার মেশিনে চলে'—এই বাক্যটাই ডেভেলপারদের সবচেয়ে বড় আত্মরক্ষা! 💻🛡️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "520",
+    "category": "fun_chat",
+    "intent": "copy_paste_coding",
+    "patterns": [
+      "স্ট্যাকওভারফ্লো",
+      "stackoverflow",
+      "কপি পেস্ট কোড",
+      "কোড কপি করছি"
+    ],
+    "approved_answer": "আমার কোডিং স্কিল মানে Ctrl+C, Ctrl+V আর একটু প্রার্থনা! 📋🙏",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "521",
+    "category": "fun_chat",
+    "intent": "git_conflict",
+    "patterns": [
+      "git force push",
+      "গিট পুশ",
+      "git conflict",
+      "মার্জ কনফ্লিক্ট"
+    ],
+    "approved_answer": "Force push দিয়ে টিমের কাজ মুছে ফেলাটা অফিস-থ্রিলারের সেরা দৃশ্য! 🐙😱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "522",
+    "category": "fun_chat",
+    "intent": "client_small_change",
+    "patterns": [
+      "একটা ছোট চেঞ্জ",
+      "just small change",
+      "শুধু একটু বদলাতে",
+      "ছোট্ট একটা কাজ"
+    ],
+    "approved_answer": "ক্লায়েন্টের 'ছোট্ট একটা চেঞ্জ' মানে পুরো ডাটাবেস নতুন করে বানানো! 🧩😅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "523",
+    "category": "fun_chat",
+    "intent": "deadline_panic",
+    "patterns": [
+      "ডেডলাইন কাল",
+      "deadline kal",
+      "কাজ শেষ হয়নি",
+      "ডেডলাইন ঘনিয়ে এসেছে"
+    ],
+    "approved_answer": "ডেডলাইনের আগের রাতে আমার সৃজনশীলতা আর কফির ব্যবহার দুটোই আকাশ ছোঁয়! ⏰☕",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "524",
+    "category": "fun_chat",
+    "intent": "sunday_office",
+    "patterns": [
+      "রবিবার অফিস",
+      "শনিবার ছুটি",
+      "sunday office",
+      "সপ্তাহের শুরু"
+    ],
+    "approved_answer": "রবিবারের অফিসে মন থাকে বিছানায়, শরীর থাকে চেয়ারে, আর আত্মা থাকে চায়ের কাপে! 🪑☕",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "525",
+    "category": "fun_chat",
+    "intent": "sleepy_in_meeting",
+    "patterns": [
+      "অফিসে ঘুম পাচ্ছে",
+      "office e ghum",
+      "মিটিংয়ে ঘুম",
+      "ঘুম পাচ্ছে"
+    ],
+    "approved_answer": "মিটিংয়ে চোখ খোলা রেখে ঘুমানোর বিদ্যা আমি অনেক বছর ধরে রপ্ত করেছি! 😴💼",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "526",
+    "category": "fun_chat",
+    "intent": "lunch_sleep",
+    "patterns": ["ভাত ঘুম", "lunch er por ghum", "দুপুরে ঘুম", "ভাতঘুম"],
+    "approved_answer": "দুপুরে ভরপেট ভাত খাওয়ার পর মনে হয় পৃথিবীর সব ডেডলাইন কালকে হোক! 🍚😴",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "527",
+    "category": "fun_chat",
+    "intent": "mango_season",
+    "patterns": ["আম খাব", "আমের সিজন", "aam khabo", "ল্যাংড়া আম"],
+    "approved_answer": "আমের মৌসুমে ডায়েটের কথা বললে আমি সরাসরি বধির হয়ে যাই! 🥭🙉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "528",
+    "category": "fun_chat",
+    "intent": "pitha_winter",
+    "patterns": ["পিঠা খাব", "শীতের পিঠা", "pitha", "ভাপা পিঠা"],
+    "approved_answer": "শীতের সকালে ভাপা পিঠার ধোঁয়া দেখলে মনে হয় জীবনে আর কিছু চাওয়ার নেই! 🥮❄️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "529",
+    "category": "fun_chat",
+    "intent": "wedding_food",
+    "patterns": ["বিয়ের দাওয়াত", "বিয়ের খাবার", "biyer daowat", "বউভাত"],
+    "approved_answer": "বিয়ের দাওয়াতে গিয়ে বর-কনের চেয়ে বেশি নজর থাকে বিরিয়ানির গরম হাঁড়ির দিকে! 💒🍛",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "530",
+    "category": "fun_chat",
+    "intent": "gaye_holud",
+    "patterns": ["গায়ে হলুদ", "হলুদের অনুষ্ঠান", "holud", "মেহেদি অনুষ্ঠান"],
+    "approved_answer": "গায়ে হলুদে হলুদ লাগানোর চেয়ে ছবি তোলার তাড়াই বেশি! 💛📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "531",
+    "category": "fun_chat",
+    "intent": "running_late",
+    "patterns": [
+      "৫ মিনিটে আসছি",
+      "ami 5 min e ashchi",
+      "আসতেছি এখনই",
+      "পৌঁছে গেছি প্রায়"
+    ],
+    "approved_answer": "'৫ মিনিটে আসছি' মানে আমি এখনো বিছানা থেকেই উঠিনি! 🏃‍♂️🛏️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "532",
+    "category": "fun_chat",
+    "intent": "ki_korcho",
+    "patterns": ["কি করতেছ", "ki korcho", "কী করছো", "এখন কী করছ"],
+    "approved_answer": "বসে আছি খুব ব্যস্ত ভাব নিয়ে, আসলে কিছুই করছি না! 😎🛋️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "533",
+    "category": "fun_chat",
+    "intent": "ghum_e_naki",
+    "patterns": ["ঘুমাইছো", "ghum e", "ঘুমিয়ে গেছ", "জেগে আছো"],
+    "approved_answer": "জেগে আছি, তবে চোখ দুটো কাল রাতের বকেয়া ঘুম চাইছে! 🥱💤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "534",
+    "category": "fun_chat",
+    "intent": "dental_fear",
+    "patterns": ["দাঁতের ডাক্তার", "দাঁতে ব্যথা", "dat er dactar", "দাঁত তুলব"],
+    "approved_answer": "ডেন্টিস্টের চেয়ারে বসলেই মনে পড়ে জীবনে কত ভুল সিদ্ধান্ত নিয়েছি! 🦷😬 তবে ব্যথা বেশি হলে দেরি না করে ডাক্তার দেখান কিন্তু!",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "535",
+    "category": "fun_chat",
+    "intent": "injection_fear",
+    "patterns": ["ইনজেকশন ভয়", "injection", "টিকা দিতে ভয়", "সুই দেখলে"],
+    "approved_answer": "সুই দেখার আগেই আমার বীরত্ব ছুটি নিয়ে নেয়! 💉🏃‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "536",
+    "category": "fun_chat",
+    "intent": "back_pain_desk",
+    "patterns": [
+      "কোমর ব্যথা",
+      "পিঠে ব্যথা",
+      "কম্পিউটারে বসে ব্যথা",
+      "back pain"
+    ],
+    "approved_answer": "সারাদিন চেয়ারে বসে কাজ করলে কোমর বলে 'আমি ইস্তফা দিলাম'! 🪑🦴 মাঝে মাঝে উঠে একটু হাঁটবেন কিন্তু।",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "537",
+    "category": "fun_chat",
+    "intent": "screen_time_eyes",
+    "patterns": [
+      "চোখ জ্বালা",
+      "screen dekhe chokh",
+      "চোখ ব্যথা",
+      "স্ক্রিন টাইম"
+    ],
+    "approved_answer": "স্ক্রিন টাইম রিপোর্ট দেখে নিজেকে সপ্তাহে ৭০ ঘণ্টার ফোন-কর্মচারী মনে হয়! 👀📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "538",
+    "category": "fun_chat",
+    "intent": "late_night_phone",
+    "patterns": [
+      "রাত জেগে ফোন",
+      "raat jege phone",
+      "ঘুম আসছে না ফোন",
+      "ফোন ছাড়তে পারছি না"
+    ],
+    "approved_answer": "রাত ২টায় মনে হয় 'আর ১০ মিনিট', রাত ৪টায় আফসোস 'কাল আবার অফিস'! 📱🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "539",
+    "category": "fun_chat",
+    "intent": "ac_temperature",
+    "patterns": [
+      "এসি চালাও",
+      "ac er temperature",
+      "এসির টেম্পারেচার",
+      "এসি ঠান্ডা"
+    ],
+    "approved_answer": "এসি ১৬ ডিগ্রিতে দিয়ে কম্বল মুড়ি দিয়ে ঘুমানো আমাদের আধুনিক বিলাসিতা! ❄️🛌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "540",
+    "category": "fun_chat",
+    "intent": "lift_waiting",
+    "patterns": [
+      "লিফট আসে না",
+      "lift e wait",
+      "লিফট নষ্ট",
+      "সিঁড়ি বেয়ে উঠতে"
+    ],
+    "approved_answer": "লিফটের জন্য অপেক্ষা করতে করতে সিঁড়ি দিয়ে উঠলে ততক্ষণে ব্যায়ামও হয়ে যেত! 🛗🪜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "541",
+    "category": "fun_chat",
+    "intent": "neighbor_wifi",
+    "patterns": [
+      "প্রতিবেশীর ওয়াইফাই",
+      "neighbour wifi",
+      "পাশের বাসার নেট",
+      "ওয়াইফাই চুরি"
+    ],
+    "approved_answer": "প্রতিবেশীর ওয়াইফাই চাওয়া মানে ভদ্রভাবে সম্পর্ক ঝালিয়ে নেওয়া! 📶🏠",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "542",
+    "category": "fun_chat",
+    "intent": "hostel_mess_food",
+    "patterns": ["হোস্টেল লাইফ", "মেসের খাবার", "mess food", "হোস্টেলে থাকি"],
+    "approved_answer": "মেসের ডাল এত পাতলা যে ডালে ডুব নয়, সাঁতার কাটা যায়! 🍲🏊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "543",
+    "category": "fun_chat",
+    "intent": "roommate_drama",
+    "patterns": ["রুমমেট", "roommate", "রুমমেট প্যারা", "আমার রুমমেট"],
+    "approved_answer": "রুমমেট আমার চার্জার নিয়ে গেছে, আর আমি এখন চার্জহীন এক দার্শনিক! 🔌🤔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "544",
+    "category": "fun_chat",
+    "intent": "tuition_teacher",
+    "patterns": ["টিউশন", "coaching class", "স্যার বকা দিছে", "টিচার বকছে"],
+    "approved_answer": "স্যারের প্রশ্ন শুনে মাথায় পুরো জীবনের রিওয়াইন্ড চলে! 📖😰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "545",
+    "category": "fun_chat",
+    "intent": "pen_lending",
+    "patterns": ["কলম নাই", "pen nai", "পরীক্ষায় কলম", "কলম ধার দে"],
+    "approved_answer": "কলম ধার নিয়ে ফেরত না দেওয়া—এটা আমাদের জাতীয় সংস্কৃতি! 🖊️🤝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "546",
+    "category": "fun_chat",
+    "intent": "school_life_memory",
+    "patterns": [
+      "স্কুলের দিন",
+      "school life",
+      "স্কুলের বন্ধু",
+      "স্কুল লাইফ মিস"
+    ],
+    "approved_answer": "স্কুল লাইফে সবচেয়ে বড় টেনশন ছিল হোমওয়ার্ক, এখন ইএমআই! 🎒💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "547",
+    "category": "fun_chat",
+    "intent": "friends_reunion",
+    "patterns": [
+      "বন্ধুদের সাথে দেখা",
+      "reunion",
+      "পুরনো বন্ধু",
+      "ফ্রেন্ড রিইউনিয়ন"
+    ],
+    "approved_answer": "পুরনো বন্ধুদের সাথে দেখা হলেই সবাই একসাথে আবার ১৫ বছর বয়সী হয়ে যাই! 👬🎉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "548",
+    "category": "fun_chat",
+    "intent": "profile_pic_change",
+    "patterns": ["প্রোফাইল পিক", "dp change", "নতুন ডিপি", "ডিপি দিছি"],
+    "approved_answer": "নতুন ডিপি দিতে ৪৭টা ছবি তুলে শেষে সেই আগেরটাই বেছে নিলাম! 📷🤳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "549",
+    "category": "fun_chat",
+    "intent": "facebook_memories",
+    "patterns": [
+      "ফেসবুক মেমোরি",
+      "পুরনো পোস্ট",
+      "facebook memories",
+      "৫ বছর আগের পোস্ট"
+    ],
+    "approved_answer": "ফেসবুক মেমোরিতে ৫ বছর আগের নিজের স্ট্যাটাস দেখে লজ্জায় ডিঅ্যাক্টিভেট করতে ইচ্ছা করে! 😳📅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "550",
+    "category": "fun_chat",
+    "intent": "unfriend_block",
+    "patterns": [
+      "আনফ্রেন্ড",
+      "unfriend",
+      "ব্লক করে দিছি",
+      "ফ্রেন্ড লিস্ট থেকে বাদ"
+    ],
+    "approved_answer": "আনফ্রেন্ড করার আগে ৩ বার ভেবেছি, তারপর ব্লক দিয়েই শান্তি! 🚫😌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "551",
+    "category": "fun_chat",
+    "intent": "insta_filter",
+    "patterns": [
+      "ফিল্টার",
+      "insta filter",
+      "সুন্দর দেখায় ফিল্টারে",
+      "ফিল্টার ছাড়া ছবি"
+    ],
+    "approved_answer": "ফিল্টার ছাড়া আমি আর ফিল্টার সহ আমি যেন দুই আলাদা মানুষ! 🎭📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "552",
+    "category": "fun_chat",
+    "intent": "meme_culture",
+    "patterns": ["মিম", "meme", "মিম পেজ", "ট্রল করব"],
+    "approved_answer": "জীবনের সব সমস্যা মিম হয়ে গেলে আমরা সবাই কমেডিয়ান হয়ে যেতাম! 😂🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "553",
+    "category": "fun_chat",
+    "intent": "tell_another_joke",
+    "patterns": ["আরেকটা জোক বলো", "আরও হাসাও", "ar ekta joke", "আরেকটা কৌতুক"],
+    "approved_answer": "শিক্ষক: ২+২ কত? ছাত্র: স্যার, ক্যালকুলেটর ছাড়া পারব না! 🧮😄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "554",
+    "category": "fun_chat",
+    "intent": "bad_joke_reaction",
+    "patterns": ["খারাপ জোক", "bad joke", "পচা জোক", "ধুর কী জোক"],
+    "approved_answer": "আমার জোকে না হাসলে ধরে নিন আপনি এখনো আপডেট নেননি! 😏🔄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "555",
+    "category": "fun_chat",
+    "intent": "riddle_request",
+    "patterns": ["ধাঁধা বলো", "dhadha", "একটা ধাঁধা", "riddle"],
+    "approved_answer": "ধাঁধা: কোন জিনিস যত খাবেন তত বাড়বে? উত্তর: ক্ষুধা! 🤔🍽️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "556",
+    "category": "fun_chat",
+    "intent": "fun_fact_request",
+    "patterns": ["মজার তথ্য", "fun fact", "অদ্ভুত তথ্য", "মজার কিছু বলো"],
+    "approved_answer": "মজার তথ্য: আপনার হৃৎপিণ্ড দিনে প্রায় এক লাখ বার স্পন্দিত হয়—আর আমার ধৈর্য একবার ঝাঁকুনিতেই শেষ! ❤️😅",
+    "auto_reply": true,
+    "risk": "low"
   }
 ]

@@ -3,7 +3,7 @@ import path from "node:path";
 import { KnowledgeMatch, RiskLevel } from "../types/providers";
 
 interface ResponseRule {
-  id: string;
+  id: number;
   intent: string;
   patterns: string[];
   approved_answer: string;
@@ -44,7 +44,7 @@ class KnowledgeBase {
     return this.rules
       .filter((rule) => rule.patterns.some((p) => normalized.includes(normalize(p))))
       .map((rule) => ({
-        id: rule.id,
+        id: rule.id.toString(),
         intent: rule.intent,
         approvedAnswer: rule.approved_answer,
         autoReply: rule.auto_reply,
