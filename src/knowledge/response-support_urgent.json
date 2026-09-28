@@ -1,0 +1,182 @@
+[
+  {
+    "id": "041",
+    "category": "support_urgent",
+    "intent": "voice_message_acknowledgment",
+    "patterns": ["voice disi", "voice sono", "ভয়েস দিছি", "ভয়েস শুনেন"],
+    "approved_answer": "আপনার ভয়েস মেসেজটি পেয়েছি, শুনে দ্রুত উত্তর দিচ্ছি! 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "042",
+    "category": "support_urgent",
+    "intent": "document_received",
+    "patterns": ["file disi", "pdf disi", "ফাইল পাঠিয়েছি", "ডকুমেন্ট দেখেন"],
+    "approved_answer": "ধন্যবাদ ফাইলটির জন্য! ডকুমেন্টগুলো রিভিউ করে আপনাকে মতামত জানাচ্ছি। 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "043",
+    "category": "support_urgent",
+    "intent": "busy_notice",
+    "patterns": ["busy naki", "busy achen", "ব্যস্ত আছেন নাকি"],
+    "approved_answer": "সামান্য একটি কাজে ব্যস্ত আছি, তবে দ্রুততম সময়ে আপনার কথার উত্তর দিচ্ছি। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "031",
+    "category": "support_urgent",
+    "intent": "bug_report",
+    "patterns": [
+      "bug paise",
+      "error astese",
+      "কাজ করছে না",
+      "বাগ আছে",
+      "ভুল দেখাচ্ছে"
+    ],
+    "approved_answer": "দুঃখিত ঝামেলার জন্য! ত্রুটির একটি স্ক্রিনশট এবং বিবরণ দিন, আমরা দ্রুত ফিক্স করছি। 🐛",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "032",
+    "category": "support_urgent",
+    "intent": "human_agent_request",
+    "patterns": [
+      "real person",
+      "human agent",
+      "মানুষের সাথে কথা বলবো",
+      "এডমিনকে দাও"
+    ],
+    "approved_answer": "অবশ্যই, আমি একজন হিউম্যান রিপ্রেজেন্টেটিভকে নোটিফাই করেছি। শিগগিরই যোগাযোগ করা হবে। 👤",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "022",
+    "category": "support_urgent",
+    "intent": "urgent_matter",
+    "patterns": [
+      "urgent",
+      "khub joruri",
+      "জরুরি কথা ছিল",
+      "জরুরি ভিত্তিতে দরকার"
+    ],
+    "approved_answer": "আপনার বিষয়টি আমরা গুরুত্বের সাথে দেখছি। সরাসরি ফোন দিন অথবা ওয়েট করুন, এডমিন কল দিচ্ছে। 🚨",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "005",
+    "category": "support_urgent",
+    "intent": "previous_talk_followup",
+    "patterns": [
+      "tomake ekta kotha bolsilam",
+      "tumi ki bolcho",
+      "তোমাকে একটা কথা বলছিলাম",
+      "আমার কথাটা কি মনে আছে"
+    ],
+    "approved_answer": "হ্যাঁ, মনে আছে! আপনি বিষয়টির আপডেট জানতে চাচ্ছেন? আমি বিস্তারিত চেক করে জানাচ্ছি। 💬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "006",
+    "category": "support_urgent",
+    "intent": "task_status_check",
+    "patterns": [
+      "kaz ta korso",
+      "tomake je kajta korte bolsilam",
+      "kajer ki khobor",
+      "কাজটা কি করছো",
+      "কাজের আপডেট কি"
+    ],
+    "approved_answer": "আপনার দেওয়া কাজটি নিয়ে কাজ চলছে। শেষ হওয়া মাত্রই আপনাকে নিশ্চিত করব! 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "007",
+    "category": "support_urgent",
+    "intent": "task_completion_query",
+    "patterns": [
+      "kaj ses hoise",
+      "is work done",
+      "কাজ শেষ হয়েছে",
+      "কমপ্লিট করতে পারছো",
+      "robin kaj ta complete korte parcho"
+    ],
+    "approved_answer": "কাজটির একদম শেষ পর্যায়ে আছি, অল্প কিছুক্ষণ পরেই আপনাকে ফাইনাল রেজাল্ট পাঠাচ্ছি। ✅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "123",
+    "category": "support_urgent",
+    "intent": "ssl_expired_issue",
+    "patterns": ["not secure dekhatse", "ssl renew", "এসএসএল এরর দেখাচ্ছে"],
+    "approved_answer": "আপনার সাইটের SSL এক্সপায়ার হয়েছে। আমরা এটি আবার বিনামূল্যে রিনিউ করে দিচ্ছি। 🔒",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "124",
+    "category": "support_urgent",
+    "intent": "hacked_site_recovery",
+    "patterns": [
+      "site hacked",
+      "malware clean",
+      "সাইটে হ্যাক হয়েছে",
+      "ভাইরাস দূর করা"
+    ],
+    "approved_answer": "চিন্তা করবেন না! আমরা সাইটের ম্যালওয়্যার ক্লিন করে সিকিউর ব্যাকআপ রিস্টোর করব। 🛡️",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "125",
+    "category": "support_urgent",
+    "intent": "server_down_alert",
+    "patterns": [
+      "site open hosse na",
+      "server down",
+      "সাইট চালু হচ্ছে না",
+      "সাইট ডাউন"
+    ],
+    "approved_answer": "আমরা বিষয়টিতে দ্রুত নজর দিচ্ছি এবং ডাউনটাইম সমস্যার সমাধান করছি। 🚨",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "059",
+    "category": "support_urgent",
+    "intent": "cancel_order",
+    "patterns": [
+      "cancel korbo",
+      "order cancel",
+      "বাতিল করতে চাই",
+      "ক্যান্সেল করবো"
+    ],
+    "approved_answer": "অর্ডার বাতিলের জন্য দ্রুত সাপোর্ট টিমের সাথে কথা বলুন। 🚫",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "051",
+    "category": "support_urgent",
+    "intent": "angry_customer",
+    "patterns": [
+      "kharap service",
+      "bad service",
+      "বাজে সার্ভিস",
+      "ভালো না কাজ"
+    ],
+    "approved_answer": "আপনার অসন্তুষ্টির জন্য অত্যন্ত দুঃখিত! সমস্যাটির সমাধান করার জন্য আমাদের এডমিন সরাসরি কল দেবে। ⚠️",
+    "auto_reply": false,
+    "risk": "high"
+  }
+]

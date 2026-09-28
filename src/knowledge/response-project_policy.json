@@ -1,0 +1,106 @@
+[
+  {
+    "id": "028",
+    "category": "project_policy",
+    "intent": "project_timeline",
+    "patterns": [
+      "koto din lagbe",
+      "delivery time",
+      "কত দিন লাগবে",
+      "কত সময়ে শেষ হবে"
+    ],
+    "approved_answer": "সাধারণত প্রজেক্টের ফিচার অনুযায়ী ৭ থেকে ১৫ দিন সময় লাগে। ⌛",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "067",
+    "category": "project_policy",
+    "intent": "training_provided",
+    "patterns": [
+      "dekhiye diben kivabe chalabo",
+      "training diben",
+      "ব্যবহার করা শিখিয়ে দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, ওয়েবসাইট বা অ্যাপ কীভাবে ব্যবহার করবেন তার জন্য ভিডিও গাইড বা লাইভ ডেমো দেওয়া হবে। 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "029",
+    "category": "project_policy",
+    "intent": "revision_policy",
+    "patterns": [
+      "revision pabo",
+      "koy bar change kora jabe",
+      "পরিবর্তন করা যাবে কি",
+      "রিভিশন কয়বার"
+    ],
+    "approved_answer": "আমরা প্রজেক্ট ডেলিভারির পরেও ২ বার পর্যন্ত বিনামূল্যে প্রয়োজনীয় পরিবর্তন করে দিয়ে থাকি। 🔄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "030",
+    "category": "project_policy",
+    "intent": "support_after_delivery",
+    "patterns": [
+      "after sales support",
+      "pore kono somossa hole",
+      "পরে সমস্যা হলে কি করবেন"
+    ],
+    "approved_answer": "ডেলিভারির পর ১ মাস ফ্রি টেকনিক্যাল সাপোর্ট দেওয়া হবে। 🛠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "060",
+    "category": "project_policy",
+    "intent": "contract_agreement",
+    "patterns": [
+      "contract korben",
+      "agreement lagbe",
+      "চুক্তিপত্র দেওয়া যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, উভয় পক্ষের নিরাপত্তার স্বার্থে আমরা অফিশিয়াল চুক্তিপত্র বা NDA স্বাক্ষর করি। 📜",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "055",
+    "category": "project_policy",
+    "intent": "security_concerns",
+    "patterns": [
+      "security kemon hobe",
+      "is it safe",
+      "সিকিউরিটি কেমন হবে",
+      "হ্যাক হবে না তো"
+    ],
+    "approved_answer": "আমরা সেরা সিকিউরিটি স্ট্যান্ডার্ড মেনে কোড করি যেন ডেটা সম্পূর্ণ নিরাপদ থাকে। 🛡️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+
+  {
+    "id": "040",
+    "category": "project_policy",
+    "intent": "requirements_submission",
+    "patterns": [
+      "requirements send",
+      "kivabe bolbo ki lagbe",
+      "রিকোয়ারমেন্ট কীভাবে দেবো"
+    ],
+    "approved_answer": "আপনার টেক্সট, অডিও অথবা ফাইল আকারে রিকোয়ারমেন্টগুলো এখানে লিখে পাঠান। 📄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "062",
+    "category": "project_policy",
+    "intent": "source_code_ownership",
+    "patterns": ["source code pabo", "code amak diben", "সোর্স কোড দিবেন তো"],
+    "approved_answer": "হ্যাঁ, প্রজেক্টের পুরো পেমেন্ট ক্লিয়ার করার পর সম্পূর্ণ সোর্স কোড হ্যান্ডওভার করা হয়। 📦",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

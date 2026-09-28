@@ -1,0 +1,11 @@
+[
+  {
+    "id": "423",
+    "category": "fallback",
+    "intent": "fallback_unknown",
+    "patterns": ["__fallback__"],
+    "approved_answer": "দুঃখিত, আপনার কথাটি ঠিক বুঝতে পারিনি। একটু বিস্তারিত লিখবেন? প্রয়োজনে আমি অ্যাডমিনকে জানাচ্ছি। 🙏",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

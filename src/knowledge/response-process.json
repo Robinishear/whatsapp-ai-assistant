@@ -1,0 +1,228 @@
+
+  [
+  {
+    "id": "424",
+    "category": "process",
+    "intent": "project_process_steps",
+    "patterns": [
+      "kaj kivabe hoy",
+      "work process",
+      "process ki",
+      "কাজের ধাপ কি",
+      "কীভাবে কাজ শুরু হয়",
+      "কাজের প্রক্রিয়া কি"
+    ],
+    "approved_answer": "আমাদের কাজের ধাপ: ১) রিকোয়ারমেন্ট আলোচনা ২) কোটেশন ও চুক্তি ৩) অ্যাডভান্স পেমেন্ট ৪) ডিজাইন ও ডেভেলপমেন্ট ৫) টেস্টিং ও ডেলিভারি ৬) ডেলিভারি-পরবর্তী সাপোর্ট। 📋",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "425",
+    "category": "process",
+    "intent": "start_requirements",
+    "patterns": [
+      "shuru korte ki lagbe",
+      "kaj start korte ki dorkar",
+      "কাজ শুরু করতে কী লাগবে",
+      "শুরু করতে কী কী দিতে হবে"
+    ],
+    "approved_answer": "শুরু করতে আপনার রিকোয়ারমেন্ট, রেফারেন্স (থাকলে), লোগো/কনটেন্ট এবং অ্যাডভান্স পেমেন্ট প্রয়োজন হয়। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "426",
+    "category": "process",
+    "intent": "quotation_request",
+    "patterns": [
+      "quotation dao",
+      "quotation lagbe",
+      "price list",
+      "কোটেশন চাই",
+      "প্রাইস লিস্ট দিন",
+      "কোটেশন পাঠান"
+    ],
+    "approved_answer": "কোটেশনের জন্য প্রজেক্টের ধরন, প্রয়োজনীয় ফিচার ও ডেডলাইন জানান। বিস্তারিত পেলে আমরা কোটেশন পাঠিয়ে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "427",
+    "category": "process",
+    "intent": "package_details",
+    "patterns": [
+      "package gulo ki ki",
+      "starter package",
+      "basic premium",
+      "প্যাকেজ কি কি আছে",
+      "প্যাকেজের বিস্তারিত"
+    ],
+    "approved_answer": "প্রজেক্টের ধরন অনুযায়ী আমাদের আলাদা প্যাকেজ আছে। কোন ধরনের কাজ লাগবে জানালে উপযুক্ত প্যাকেজের বিস্তারিত জানাব। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "428",
+    "category": "process",
+    "intent": "project_scope_unclear",
+    "patterns": [
+      "ki lagbe bujhtesi na",
+      "idea nai",
+      "kothay start korbo",
+      "কী লাগবে বুঝতে পারছি না",
+      "আইডিয়া নাই",
+      "কোথা থেকে শুরু করব"
+    ],
+    "approved_answer": "সমস্যা নেই! আপনার ব্যবসা বা আইডিয়া সম্পর্কে সংক্ষেপে বলুন, কী লাগবে বুঝতে আমরা সাহায্য করব। ফ্রি কনসালটেশনও আছে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "429",
+    "category": "process",
+    "intent": "reference_site_request",
+    "patterns": [
+      "ei site er moto",
+      "reference site",
+      "copy kore din",
+      "এই সাইটের মতো বানাতে চাই",
+      "রেফারেন্স সাইট",
+      "হুবহু কপি"
+    ],
+    "approved_answer": "রেফারেন্স হিসেবে সাইটের লিংক পাঠান। আমরা সেটি দেখে আপনার প্রয়োজন অনুযায়ী আলাদা ডিজাইন বানাব, অন্যের সাইট হুবহু কপি করা হয় না। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "430",
+    "category": "process",
+    "intent": "content_provision",
+    "patterns": [
+      "content ke dibe",
+      "text chobi ami dibo",
+      "কনটেন্ট কে দেবে",
+      "লেখা ও ছবি কে দেবে"
+    ],
+    "approved_answer": "সাধারণত লেখা ও ছবি ক্লায়েন্ট দেন। প্রয়োজনে কনটেন্ট সাজাতে আমরা সাহায্য করতে পারি। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "431",
+    "category": "process",
+    "intent": "change_requirement_midway",
+    "patterns": [
+      "requirement change korbo",
+      "majhkhane change",
+      "কাজের মাঝে পরিবর্তন",
+      "নতুন ফিচার যোগ করতে চাই",
+      "মাঝপথে বদলাতে চাই"
+    ],
+    "approved_answer": "কাজের মাঝে পরিবর্তন সম্ভব, তবে সময় ও খরচ প্রভাবিত হতে পারে। কী পরিবর্তন চান জানান, অ্যাডমিন আপডেট জানাবে। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "432",
+    "category": "process",
+    "intent": "extra_revision_charge",
+    "patterns": [
+      "revision sesh hoile",
+      "extra change charge",
+      "রিভিশন শেষ হলে কী হবে",
+      "অতিরিক্ত পরিবর্তনের খরচ"
+    ],
+    "approved_answer": "ফ্রি রিভিশনের পর অতিরিক্ত পরিবর্তনের জন্য আলাদা চার্জ প্রযোজ্য হতে পারে। বিস্তারিত অ্যাডমিন জানাবে। 🔁",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "433",
+    "category": "process",
+    "intent": "rush_delivery",
+    "patterns": [
+      "taratari korte hobe",
+      "rush delivery",
+      "3 dine hobe ki",
+      "দ্রুত ডেলিভারি লাগবে",
+      "৩ দিনে হবে কি",
+      "খুব তাড়াতাড়ি লাগবে"
+    ],
+    "approved_answer": "দ্রুত ডেলিভারি সম্ভব কি না ফিচার দেখে জানানো হবে। জরুরি ডেলিভারিতে অতিরিক্ত চার্জ হতে পারে। ⚡",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "434",
+    "category": "process",
+    "intent": "demo_request",
+    "patterns": [
+      "demo dekhan",
+      "live demo",
+      "trial ache",
+      "ডেমো দেখতে চাই",
+      "ট্রায়াল আছে কি"
+    ],
+    "approved_answer": "নমুনা কাজ দেখতে পোর্টফোলিও দেখুন: https://portfolio.example.com। নির্দিষ্ট ডেমো লাগলে মিটিং বুক করুন: https://calendly.com/example 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "435",
+    "category": "process",
+    "intent": "meeting_now",
+    "patterns": [
+      "ekhon meeting hobe",
+      "aj kotha bola jabe",
+      "আজকে কথা বলা যাবে",
+      "এখনই কল দিন",
+      "এখন মিটিং হবে কি"
+    ],
+    "approved_answer": "আজকের জন্য সুবিধাজনক সময় জানান, অথবা এই লিংকে বুক করুন: https://calendly.com/example 📅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "436",
+    "category": "process",
+    "intent": "timezone_meeting",
+    "patterns": [
+      "amar timezone alada",
+      "different time zone",
+      "আমার সময় ভিন্ন",
+      "টাইমজোন আলাদা"
+    ],
+    "approved_answer": "আপনার টাইমজোন জানান, সুবিধাজনক মিটিংয়ের সময় ঠিক করা হবে। 🌍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "437",
+    "category": "process",
+    "intent": "international_client",
+    "patterns": [
+      "ami abroad theke",
+      "i am from usa",
+      "outside bangladesh",
+      "আমি বিদেশ থেকে",
+      "বিদেশ থেকে কাজ করাতে চাই"
+    ],
+    "approved_answer": "আন্তর্জাতিক ক্লায়েন্টদের সাথেও কাজ করা যায়। পেমেন্টের মাধ্যম ও সময়সূচি অ্যাডমিন জানিয়ে দেবে। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "438",
+    "category": "process",
+    "intent": "upgrade_existing_project",
+    "patterns": [
+      "age kaj korechilen",
+      "purano client",
+      "আগের প্রজেক্টে নতুন ফিচার",
+      "আগে আপনাদের দিয়ে করিয়েছিলাম"
+    ],
+    "approved_answer": "আগের প্রজেক্টের নাম বা ডোমেইন জানান, দেখে নতুন ফিচার যোগের বিষয়ে জানাব। 🔧",
+    "auto_reply": true,
+    "risk": "medium"
+  }
+]

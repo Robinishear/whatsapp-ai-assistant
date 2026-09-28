@@ -1,0 +1,166 @@
+
+
+  [
+  {
+    "id": "439",
+    "category": "trust",
+    "intent": "fake_company_doubt",
+    "patterns": [
+      "tomra fake na to",
+      "vuya company",
+      "scam nai to",
+      "বিশ্বাস করব কীভাবে",
+      "ফেক না তো",
+      "প্রতারণা করবেন না তো"
+    ],
+    "approved_answer": "আপনার সন্দেহ স্বাভাবিক। আমাদের আগের কাজ https://portfolio.example.com এ দেখতে পারেন, ভিডিও মিটিংয়ে সরাসরি কথাও বলতে পারেন। কাজ শুরুর আগে লিখিত চুক্তির ব্যবস্থা আছে। 🤝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "440",
+    "category": "trust",
+    "intent": "advance_fear",
+    "patterns": [
+      "advance dite voy lage",
+      "age taka dibo kena",
+      "অগ্রিম দিতে ভয় লাগে",
+      "আগে টাকা দিতে চাই না",
+      "কেন আগে টাকা"
+    ],
+    "approved_answer": "অ্যাডভান্স নেওয়া হয় যাতে আপনার কাজের জন্য সময় ও রিসোর্স নিশ্চিত থাকে। লিখিত চুক্তি ও ধাপে ধাপে আপডেটের মাধ্যমে স্বচ্ছতা রাখা হয়। বিস্তারিত অ্যাডমিন জানাবে। 🔒",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "441",
+    "category": "trust",
+    "intent": "cheaper_elsewhere",
+    "patterns": [
+      "onno jaygay kom dam",
+      "onnora kom bole",
+      "অন্য জায়গায় কম দাম",
+      "অন্যরা কমে করে দেয়",
+      "আরেকজন কম বলেছে"
+    ],
+    "approved_answer": "দাম তুলনা করা ভালো। আমরা কাজের মান, সাপোর্ট ও সোর্স কোড হ্যান্ডওভারের দিকে গুরুত্ব দিই। আপনার রিকোয়ারমেন্ট পাঠালে বাজেট অনুযায়ী সেরা অপশন জানাব। 💡",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "442",
+    "category": "trust",
+    "intent": "company_experience",
+    "patterns": [
+      "koto bochor dhore kaj koren",
+      "experience koto",
+      "কতদিন ধরে কাজ করেন",
+      "অভিজ্ঞতা কতটুকু"
+    ],
+    "approved_answer": "আমাদের আগের প্রজেক্টের নমুনা পোর্টফোলিওতে দেখতে পারেন: https://portfolio.example.com। বিস্তারিত জানতে মিটিং বুক করতে পারেন। 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "443",
+    "category": "trust",
+    "intent": "team_size",
+    "patterns": [
+      "team e koyjon",
+      "koyjon developer",
+      "টিমে কতজন",
+      "টিম সাইজ কত",
+      "কারা কাজ করবে"
+    ],
+    "approved_answer": "প্রজেক্ট অনুযায়ী ডেভেলপার, ডিজাইনার ও QA নিয়ে আমাদের টিম কাজ করে। কারা থাকবেন তা কাজ শুরুর আগে জানানো হবে। 👥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "444",
+    "category": "trust",
+    "intent": "client_reviews",
+    "patterns": [
+      "client review dekhte chai",
+      "feedback ache",
+      "ক্লায়েন্টদের রিভিউ",
+      "কেউ ভালো বলছে কি",
+      "আগের ক্লায়েন্ট কী বলে"
+    ],
+    "approved_answer": "আমাদের আগের কাজ ও ক্লায়েন্ট ফিডব্যাক পোর্টফোলিওতে দেখতে পারেন: https://portfolio.example.com 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "445",
+    "category": "trust",
+    "intent": "freelancer_vs_agency",
+    "patterns": [
+      "freelancer er theke keno tomra",
+      "fiverr",
+      "ফ্রিল্যান্সারের চেয়ে কেন আপনারা",
+      "কেন আপনাদের নেব"
+    ],
+    "approved_answer": "আমরা টিম নিয়ে কাজ করি, ফলে ডিজাইন, ডেভেলপমেন্ট, টেস্টিং ও ডেলিভারির পর সাপোর্ট একসাথে পান। সাথে লিখিত চুক্তির সুযোগও আছে। 🤝",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "446",
+    "category": "trust",
+    "intent": "result_guarantee",
+    "patterns": [
+      "guarantee ache",
+      "sales barbe kina",
+      "বিক্রি বাড়বে তো",
+      "রেজাল্টের গ্যারান্টি",
+      "গুগলে প্রথমে আসবে তো"
+    ],
+    "approved_answer": "ওয়েবসাইট বা অ্যাপ ব্যবসার জন্য শক্ত ভিত্তি দেয়, তবে বিক্রি বা র‍্যাংকিংয়ের নির্দিষ্ট গ্যারান্টি দেওয়া যায় না। কাজের মান ও স্বচ্ছতা নিশ্চিত করাই আমাদের লক্ষ্য। 🎯",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "447",
+    "category": "trust",
+    "intent": "owner_contact",
+    "patterns": [
+      "malik ke",
+      "owner er nam",
+      "মালিক কে",
+      "কার সাথে কথা বলছি",
+      "প্রজেক্ট ম্যানেজার কে"
+    ],
+    "approved_answer": "আপনি আমাদের অফিশিয়াল চ্যানেলে আছেন। মালিক বা প্রজেক্ট ম্যানেজারের সাথে কথা বলতে চাইলে অ্যাডমিনকে জানাচ্ছি। 👤",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "448",
+    "category": "trust",
+    "intent": "domain_ownership",
+    "patterns": [
+      "domain amar name e hobe",
+      "ownership ke",
+      "ডোমেইন কার নামে",
+      "মালিকানা আমার থাকবে তো"
+    ],
+    "approved_answer": "ডোমেইন আপনার নামে নেওয়ার ব্যবস্থা করা যায়। বিস্তারিত অ্যাডমিন নিশ্চিত করবে। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "449",
+    "category": "trust",
+    "intent": "admin_access_handover",
+    "patterns": [
+      "admin login dibe",
+      "cpanel access pabo",
+      "এডমিন অ্যাক্সেস পাব কি",
+      "লগইন তথ্য দিবেন কি"
+    ],
+    "approved_answer": "ডেলিভারির সময় এডমিন প্যানেল ও প্রয়োজনীয় অ্যাক্সেস আপনাকে বুঝিয়ে দেওয়া হয়। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

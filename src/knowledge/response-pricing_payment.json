@@ -1,0 +1,149 @@
+[
+  {
+    "id": "009",
+    "category": "pricing_payment",
+    "intent": "pricing_general",
+    "patterns": [
+      "price কত",
+      "how much cost",
+      "ekta wep site bhanabo price koto",
+      "ekta apps bhanabo price koto",
+      "খরচ কেমন",
+      "দাম কত",
+      "রেট কত"
+    ],
+    "approved_answer": "প্রজেক্টের কাজের পরিমাণের ওপর দাম নির্ভর করে। আপনার রিকোয়ারমেন্ট পাঠালে বাজেট জানিয়ে দেব। 💰",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "010",
+    "category": "pricing_payment",
+    "intent": "discount_request",
+    "patterns": [
+      "discount hobe",
+      "kisu kom hobe",
+      "ছাড় হবে",
+      "কম রাখা যাবে",
+      "ডিসকাউন্ট দিবেন"
+    ],
+    "approved_answer": "আমাদের রেট একদম রিজনেবল রাখার চেষ্টা করি। আপনি পুরো প্রজেক্ট দিলে কিছুটা অ্যাডজাস্ট করা যেতে পারে। 🏷️",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "011",
+    "category": "pricing_payment",
+    "intent": "payment_methods",
+    "patterns": [
+      "payment kivabe korbo",
+      "bkash ache",
+      "nagad ache",
+      "bank transfer",
+      "পেমেন্ট মাধ্যম কি"
+    ],
+    "approved_answer": "আমরা bKash, Nagad, Rocket এবং Bank Transfer-এর মাধ্যমে পেমেন্ট একসেপ্ট করি। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "012",
+    "category": "pricing_payment",
+    "intent": "advance_payment",
+    "patterns": [
+      "advance koto dite hobe",
+      "advance payment",
+      "কত এডভান্স করতে হবে",
+      "অগ্রিম দিতে হবে"
+    ],
+    "approved_answer": "সাধারণত প্রজেক্ট শুরুর আগে 38% এডভান্স পেমেন্ট করতে হয়। 🔒",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "104",
+    "category": "pricing_payment",
+    "intent": "payment_receipt_share",
+    "patterns": [
+      "money pathaisilam",
+      "payment status check",
+      "পেমেন্ট পাঠিয়েছি",
+      "টাকা ট্রান্সফার করেছি"
+    ],
+    "approved_answer": "পেমেন্টের ট্রানজেকশন আইডি বা স্ক্রিনশট শেয়ার করুন, আমরা ভেরিফাই করছি। 🧾",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "105",
+    "category": "pricing_payment",
+    "intent": "invoice_request",
+    "patterns": [
+      "invoice lagbe",
+      "bill copy daw",
+      "বিল কপি দিবেন",
+      "ইনভয়েস পাঠাও"
+    ],
+    "approved_answer": "আমি এআই সিস্টেম 🤖। রবিন ভাই ফ্রি হয়ে আপনাকে আনসার করবে। ধন্যবাদ! 🙏✨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "106",
+    "category": "pricing_payment",
+    "intent": "due_payment_query",
+    "patterns": [
+      "due koto ache",
+      "bakipora koto",
+      "বাকি কত টাকা আছে",
+      "ডিউ পেমেন্ট"
+    ],
+    "approved_answer": "আপনার বর্তমান বাকির হিসাব চেক করে বিস্তারিত তথ্য জানানো হচ্ছে। 📊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "275",
+    "category": "pricing_payment",
+    "intent": "partial_payment_option",
+    "patterns": [
+      "booking advance partial pay",
+      "কিছু টাকা এডভান্স বাকিটা ক্যাশ অন"
+    ],
+    "approved_answer": "কুরিয়ার খরচ এডভান্স নিয়ে বাকি টাকা ক্যাশ অন ডেলিভারি নেওয়ার ব্যবস্থা করব। 🪙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "039",
+    "category": "pricing_payment",
+    "intent": "refund_policy",
+    "patterns": [
+      "refund hobe",
+      "money back",
+      "টাকা ফেরত দিবেন",
+      "রিফান্ড পলিসি"
+    ],
+    "approved_answer": "কাজের নির্দিষ্ট ধাপ বা কোয়ালিটি মিট না করলে আমাদের রিফান্ড পলিসি প্রযোজ্য। 💸",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "068",
+    "category": "pricing_payment",
+    "intent": "small_budget_project",
+    "patterns": ["kom bajet e hobe", "small budget", "কম বাজেটে হবে কি"],
+    "approved_answer": "আপনার বাজেট কত আমাদের জানান, বাজেটের মধ্যে সেরা অপশনটি দেওয়ার চেষ্টা করব। 💡",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "038",
+    "category": "pricing_payment",
+    "intent": "maintenance_charge",
+    "patterns": ["monthly charge", "maintenance cost", "মাসে মাসে কত দিতে হবে"],
+    "approved_answer": "কোনো হিডেন বা মান্থলি চার্জ নেই, শুধুমাত্র  ডোমেইন ও হোস্টিং রিনিউয়াল ফি লাগবে। 💵",
+    "auto_reply": true,
+    "risk": "medium"
+  }
+]

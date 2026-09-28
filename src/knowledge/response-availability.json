@@ -1,0 +1,87 @@
+[
+  {
+    "id": "450",
+    "category": "availability",
+    "intent": "offline_hours",
+    "patterns": [
+      "raat e reply pabo",
+      "ekhon online achen",
+      "এখন কি অনলাইনে আছেন",
+      "অফলাইনে আছেন নাকি",
+      "রাতে উত্তর পাব"
+    ],
+    "approved_answer": "আমাদের কাজের সময় সকাল ১১টা থেকে রাত ৩টা। এর বাইরে মেসেজ দিলে পরবর্তী কর্মঘণ্টায় উত্তর দেওয়া হবে। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "451",
+    "category": "availability",
+    "intent": "holiday_notice",
+    "patterns": [
+      "eid chuti",
+      "friday open",
+      "ঈদের ছুটিতে",
+      "ছুটির দিনে কাজ হয় কি",
+      "শুক্রবার খোলা"
+    ],
+    "approved_answer": "ছুটির দিনে সাপোর্ট সীমিত থাকতে পারে। জরুরি হলে জানান, অ্যাডমিন সুবিধামতো যোগাযোগ করবে। 🌙",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "452",
+    "category": "availability",
+    "intent": "update_followup",
+    "patterns": [
+      "ki holo",
+      "update din",
+      "any update",
+      "কী হলো",
+      "আপডেট চাই",
+      "কী অবস্থা"
+    ],
+    "approved_answer": "আপনার বিষয়টির আপডেট চেক করে জানাচ্ছি। একটু অপেক্ষা করুন। ⏳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "453",
+    "category": "availability",
+    "intent": "reply_delay_complaint",
+    "patterns": [
+      "reply dicho na",
+      "keno reply dao na",
+      "উত্তর দিচ্ছেন না",
+      "রিপ্লাই দেরি হচ্ছে",
+      "সাড়া নেই কেন"
+    ],
+    "approved_answer": "দেরির জন্য দুঃখিত! আপনার বিষয়টি অ্যাডমিনকে জানিয়েছি, দ্রুত যোগাযোগ করা হবে। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "454",
+    "category": "availability",
+    "intent": "not_interested",
+    "patterns": ["lagbe na", "ekhon dorkar nai", "এখন লাগবে না", "দরকার নেই"],
+    "approved_answer": "ঠিক আছে, কোনো সমস্যা নেই। ভবিষ্যতে দরকার হলে নির্দ্বিধায় জানাবেন। 🙌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "455",
+    "category": "availability",
+    "intent": "think_about_it",
+    "patterns": [
+      "vebe dekhi",
+      "pore bolbo",
+      "একটু ভেবে বলি",
+      "সময় লাগবে",
+      "পরে জানাব"
+    ],
+    "approved_answer": "অবশ্যই, নিজের মতো সময় নিন। কোনো প্রশ্ন থাকলে যেকোনো সময় জিজ্ঞেস করবেন। 😊",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

@@ -21,7 +21,6 @@ class KnowledgeBase {
   constructor(private readonly dir: string) {
     this.load();
   }
-
   private load(): void {
     const file = path.join(this.dir, "response-rules.json");
     if (!fs.existsSync(file)) {
@@ -42,7 +41,9 @@ class KnowledgeBase {
     const normalized = normalize(message);
 
     return this.rules
-      .filter((rule) => rule.patterns.some((p) => normalized.includes(normalize(p))))
+      .filter((rule) =>
+        rule.patterns.some((p) => normalized.includes(normalize(p))),
+      )
       .map((rule) => ({
         id: rule.id.toString(),
         intent: rule.intent,

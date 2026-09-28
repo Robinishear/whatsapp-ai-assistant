@@ -1,0 +1,70 @@
+
+  [
+  {
+    "id": "478",
+    "category": "security",
+    "intent": "abusive_language",
+    "patterns": ["stupid", "idiot", "fool", "বোকা", "গাধা", "বেয়াদব"],
+    "approved_answer": "অনুগ্রহ করে ভদ্রভাবে কথা বলুন। আমি আপনাকে সাহায্য করতে চাই। সমস্যা থাকলে বলুন, অ্যাডমিনকে জানাচ্ছি। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "479",
+    "category": "security",
+    "intent": "illegal_request",
+    "patterns": [
+      "fb hack kore dao",
+      "account hack",
+      "ফেসবুক আইডি হ্যাক",
+      "পাসওয়ার্ড বের করে দাও",
+      "crack software",
+      "ক্র্যাক সফটওয়্যার"
+    ],
+    "approved_answer": "দুঃখিত, অন্যের অ্যাকাউন্ট হ্যাক বা অবৈধ কাজে আমরা সাহায্য করি না। বৈধ ও নিরাপদ কাজে সানন্দে সাহায্য করব। 🚫",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "480",
+    "category": "security",
+    "intent": "personal_data_request",
+    "patterns": [
+      "onner phone number daw",
+      "customer data daw",
+      "অন্যের তথ্য দিন",
+      "অন্য ক্লায়েন্টের নম্বর দিন"
+    ],
+    "approved_answer": "দুঃখিত, অন্য কারও ব্যক্তিগত তথ্য আমরা শেয়ার করি না। 🔒",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "481",
+    "category": "security",
+    "intent": "otp_password_warning",
+    "patterns": [
+      "otp bolbo",
+      "password pathabo",
+      "ওটিপি দিব",
+      "পাসওয়ার্ড শেয়ার করব"
+    ],
+    "approved_answer": "নিরাপত্তার জন্য কখনো OTP বা পাসওয়ার্ড চ্যাটে শেয়ার করবেন না। কোনো অ্যাক্সেস লাগলে নিরাপদ পদ্ধতি অ্যাডমিন জানাবে। 🔐",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "482",
+    "category": "security",
+    "intent": "payment_scam_warning",
+    "patterns": [
+      "kew amar name e taka chaise",
+      "fake number theke message",
+      "আপনাদের নামে প্রতারণা",
+      "অন্য নম্বর থেকে টাকা চাইছে"
+    ],
+    "approved_answer": "আমাদের অফিশিয়াল যোগাযোগ শুধু এই চ্যাটে দেওয়া নম্বর ও ইমেইল। অন্য কেউ আমাদের নামে টাকা চাইলে পাঠাবেন না, আমাদের জানান। ⚠️",
+    "auto_reply": true,
+    "risk": "high"
+  }
+]

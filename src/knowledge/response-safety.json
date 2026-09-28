@@ -1,0 +1,49 @@
+  [
+  {
+    "id": "483",
+    "category": "safety",
+    "intent": "safe_support_distress",
+    "patterns": [
+      "ar bachte chai na",
+      "mone hoy shesh kore dei",
+      "বাঁচতে ইচ্ছা করে না",
+      "নিজেকে শেষ করে দিতে ইচ্ছা করে",
+      "মরে যেতে ইচ্ছা করছে",
+      "i want to die",
+      "suicide"
+    ],
+    "approved_answer": "আপনার কথাগুলো শুনে আমি সত্যিই চিন্তিত। আপনি একা নন। দয়া করে এখনই আপনার বিশ্বস্ত কাউকে পাশে ডাকুন। নিজের ক্ষতি করার চিন্তা এলে জরুরি সেবা ৯৯৯-এ কল করুন বা নিকটস্থ হাসপাতালে যান। আমি অ্যাডমিনকে জানাচ্ছি, কেউ আপনার সাথে যোগাযোগ করবে। 💛",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "484",
+    "category": "safety",
+    "intent": "emotional_low",
+    "patterns": [
+      "mon kharap",
+      "khub ekla lage",
+      "মন ভালো নেই",
+      "একা লাগছে",
+      "কিছুই ভালো লাগছে না"
+    ],
+    "approved_answer": "মন খারাপের সময় কারও সাথে কথা বললে হালকা লাগে। আপনার কাছের কাউকে জানান। আমি আপনার কথা শুনতে এখানে আছি। 💛",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "485",
+    "category": "safety",
+    "intent": "health_emergency",
+    "patterns": [
+      "ambulance",
+      "hospital lagbe",
+      "অ্যাম্বুলেন্স লাগবে",
+      "জরুরি চিকিৎসা",
+      "হার্ট অ্যাটাক"
+    ],
+    "approved_answer": "এটি জরুরি হলে এখনই ৯৯৯-এ কল করুন বা নিকটস্থ হাসপাতালে যান। আমরা সফটওয়্যার সার্ভিস দিই, চিকিৎসা সহায়তা দিতে পারি না। 🚑",
+    "auto_reply": true,
+    "risk": "high"
+  }
+]

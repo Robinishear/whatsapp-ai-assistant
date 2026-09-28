@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "053",
+    "category": "services",
+    "intent": "api_integration",
+    "patterns": [
+      "api add kora jabe",
+      "api integration",
+      "এপিআই যুক্ত করতে হবে"
+    ],
+    "approved_answer": "হ্যাঁ, যেকোনো থার্ড পার্টি API (যেমন: Payment Gateway, SMS Gateway) ইন্টিগ্রেট করে দেওয়া যাবে। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "054",
+    "category": "services",
+    "intent": "ui_ux_design",
+    "patterns": ["figma design", "ui ux design", "ডিজাইন কি সুন্দর হবে"],
+    "approved_answer": "আমরা Figma দিয়ে আধুনিক ও ইউজার-ফ্রেন্ডলি UI/UX ডিজাইন তৈরি করি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "056",
+    "category": "services",
+    "intent": "database_choice",
+    "patterns": [
+      "kon database use koren",
+      "database type",
+      "ডেটাবেজ কোনটি ব্যবহার করেন"
+    ],
+    "approved_answer": "প্রজেক্টের সাইজ অনুযায়ী PostgreSQL, MongoDB অথবা MySQL ব্যবহার করা হয়। 🗄️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "061",
+    "category": "services",
+    "intent": "custom_feature",
+    "patterns": ["custom feature add kora jabe", "এই ফিচারটা দেওয়া যাবে"],
+    "approved_answer": "হ্যাঁ, যেকোনো কাস্টম ফিচার ডেভেলপ করা সম্ভব। আপনার রিকোয়ারমেন্ট বিস্তারিত বলুন। ⚙️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+
+  {
+    "id": "063",
+    "category": "services",
+    "intent": "mobile_responsiveness",
+    "patterns": [
+      "mobile e cholbe",
+      "responsive hobe",
+      "মোবাইলে সুন্দর দেখাবে তো"
+    ],
+    "approved_answer": "অবশ্যই! আমাদের প্রতিটি ওয়েবসাইট ১০০% মোবাইল ও ট্যাব রেসপন্সিভ হয়। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "064",
+    "category": "services",
+    "intent": "page_speed_optimization",
+    "patterns": ["speed kemon hobe", "fast hobe site", "স্পিড কেমন হবে"],
+    "approved_answer": "আমরা স্পিড অপটিমাইজেশন নিশ্চিত করি যেন সাইট দ্রুত লোড হয়। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "065",
+    "category": "services",
+    "intent": "payment_gateway_integration",
+    "patterns": [
+      "payment gateway",
+      "bkash payment system",
+      "পেমেন্ট গেটওয়ে সেটআপ"
+    ],
+    "approved_answer": "আমরা bKash, Nagad, SSLCommerz এবং Stripe গেটওয়ে সহজে সেটআপ করতে পারি। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "066",
+    "category": "services",
+    "intent": "admin_panel_queries",
+    "patterns": [
+      "admin panel thakbe",
+      "nijer moto edit kora jabe",
+      "এডমিন প্যানেল থাকবে"
+    ],
+    "approved_answer": "হ্যাঁ, একটি সহজ এডমিন প্যানেল থাকবে যার মাধ্যমে আপনি নিজেই কন্টেন্ট আপডেট করতে পারবেন। 🖥️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "034",
+    "category": "services",
+    "intent": "custom_bot_development",
+    "patterns": [
+      "whatsapp bot chai",
+      "custom ai bot",
+      "চ্যাটবট বানিয়ে দেন",
+      "বট বানাতে কত লাগবে"
+    ],
+    "approved_answer": "আমরা WhatsApp, Facebook ও Web-এর জন্য কাস্টম AI চ্যাটবট তৈরি করি। বিস্তারিত জানার জন্য মিটিং বুক করুন। 🤖",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "035",
+    "category": "services",
+    "intent": "ecommerce_solution",
+    "patterns": [
+      "online shop site",
+      "ecommerce website",
+      "অনলাইন শপের সাইট",
+      "ইকমার্স ওয়েবসাইট"
+    ],
+    "approved_answer": "ইকমার্স ওয়েবসাইটের জন্য আমাদের প্রিমিয়াম প্যাকেজ রয়েছে। আপনার কয়টি প্রোডাক্ট থাকছে? 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "036",
+    "category": "services",
+    "intent": "hosting_domain_query",
+    "patterns": [
+      "domain hosting ache",
+      "do you provide domain",
+      "ডোমেইন হোস্টিং কি দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, আমরা প্রথম ১ বছরের জন্য ফ্রি ডোমেইন ও ** ১ মাসের জন্য ** হোস্টিং প্রোভাইড করে থাকি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "037",
+    "category": "services",
+    "intent": "seo_services",
+    "patterns": ["seo korben", "google ranking", "এসইও সার্ভিস আছে"],
+    "approved_answer": "হ্যাঁ, অন-পেজ এবং টেকনিক্যাল এসইও (SEO) সার্ভিসও আমাদের রয়েছে। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "015",
+    "category": "services",
+    "intent": "app_development",
+    "patterns": [
+      "app banate chai",
+      "android app create",
+      "iOS app make",
+      "অ্যাপ বানিয়ে দিতে পারবেন"
+    ],
+    "approved_answer": "হ্যাঁ, আমরা অ্যান্ড্রয়েড এবং আইওএস উভয় প্ল্যাটফর্মের জন্য ক্রস-প্ল্যাটফর্ম অ্যাপ বানিয়ে থাকি। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "014",
+    "category": "services",
+    "intent": "website_development",
+    "patterns": [
+      "website banate chai",
+      "need a website",
+      "ওয়েবসাইট তৈরি করতে কত লাগবে",
+      "ওয়েব বানিয়ে দেন"
+    ],
+    "approved_answer": "অবশ্যই! আপনার কি ধরনের ওয়েবসাইট লাগবে (বিজনেস, ই-কমার্স, বা পোর্টফোলিও), শেয়ার করুন। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "013",
+    "category": "company_info",
+    "intent": "services_list",
+    "patterns": [
+      "ki ki service dao",
+      "ki ki service den",
+      "ki ki service dan apnara",
+      "apnader ay khan eki ki serves pawa jabe ",
+      "what do you do",
+      "কী কী কাজ করেন",
+      "সার্ভিস লিস্ট"
+    ],
+    "approved_answer": "আমরা ওয়েব ডেভেলপমেন্ট, মোবাইল অ্যাপ, এআই চ্যাটবট এবং এপিআই ইন্টিগ্রেশনের কাজ করি। 🚀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+
+  {
+    "id": "476",
+    "category": "services",
+    "intent": "logo_branding_query",
+    "patterns": [
+      "logo banabe",
+      "logo design",
+      "লোগো ডিজাইন করে দেবেন",
+      "ব্র্যান্ডিং করে দেন"
+    ],
+    "approved_answer": "লোগো ও ব্র্যান্ডিংয়ের সুযোগ আছে কি না অ্যাডমিন নিশ্চিত করে জানাবে। আপনার ব্র্যান্ডের ধারণা শেয়ার করুন। 🎨",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "477",
+    "category": "services",
+    "intent": "ads_management_query",
+    "patterns": [
+      "facebook ad",
+      "boost korbo",
+      "ফেসবুক বিজ্ঞাপন",
+      "মার্কেটিং করে দেবেন",
+      "অ্যাড চালিয়ে দেবেন"
+    ],
+    "approved_answer": "বিজ্ঞাপন পরিচালনার বিষয়ে অ্যাডমিন আপনাকে জানাবে। ওয়েবসাইটে Facebook Pixel ও ট্র্যাকিং আমরা সেটআপ করে দিতে পারি। 🎯",
+    "auto_reply": false,
+    "risk": "medium"
+  },
+  {
+    "id": "276",
+    "category": "services",
+    "intent": "digital_signature_pad",
+    "patterns": ["e-signature pad draw", "ডিজিটাল দস্তখত বা সাইন বোর্ড"],
+    "approved_answer": "মোবাইল বা পিসির স্ক্রিনে আঙুল দিয়ে স্বাক্ষর বা ই-সিগনেচার দেওয়ার প্যাড থাকবে। ✍️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "277",
+    "category": "services",
+    "intent": "print_receipt_thermal",
+    "patterns": ["pos printer receipt format", "থার্মাল প্রিন্টার মেমো"],
+    "approved_answer": "ছোট POS থার্মাল প্রিন্টারে মানানসই ক্যাশ মেমো প্রিন্ট লেআউট করে দেব। 🖨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "278",
+    "category": "services",
+    "intent": "barcode_label_printing",
+    "patterns": ["barcode sticker print", "বারকোড স্টিকার প্রিন্ট করা"],
+    "approved_answer": "পণ্যে লাগানোর জন্য বারকোড এবং প্রাইস ট্যাগ স্টিকার প্রিন্ট অপশন থাকবে। 🏷️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "279",
+    "category": "services",
+    "intent": "kds_kitchen_display",
+    "patterns": ["kitchen order screen", "রেস্টুরেন্ট কিচেন ডিসপ্লে"],
+    "approved_answer": "রেস্টুরেন্টের বাবুর্চিদের জন্য কিচেনে অর্ডার দেখার KDS স্ক্রিন ডেভেলপ করব। 🍳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "280",
+    "category": "services",
+    "intent": "waiter_ordering_app",
+    "patterns": ["waiter order tab app", "ওয়েটারদের টেবিল অর্ডার অ্যাপ"],
+    "approved_answer": "ওয়েটাররা যেন ট্যাবলেটে টেবিলে বসেই অর্ডার নিতে পারে সেই অ্যাপ করা যাবে। 🍽️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "281",
+    "category": "services",
+    "intent": "table_qr_ordering",
+    "patterns": [
+      "scan qr code to order food",
+      "টেবিলের কিউআর স্ক্যান করে অর্ডার"
+    ],
+    "approved_answer": "কাস্টমার টেবিলে বসে কিউআর কোড স্ক্যান করে ডিজিটাল মেনু দেখে অর্ডার দিতে পারবে। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "282",
+    "category": "services",
+    "intent": "hotel_room_service_app",
+    "patterns": ["hotel guest service request", "রুম সার্ভিস অর্ডার অ্যাপ"],
+    "approved_answer": "হোটেল গেস্টরা রুম থেকে খাবার বা ক্লিনিং রিকুয়েস্ট জানানোর ডিজিটাল অ্যাপ। 🏨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "283",
+    "category": "services",
+    "intent": "patient_portal_reports",
+    "patterns": ["diagnostic report download", "ডায়াগনস্টিক রিপোর্ট ডাউনলোড"],
+    "approved_answer": "রোগীরা তাদের ল্যাব টেস্টের রিপোর্ট ফোন নম্বর দিয়ে ডাউনলোড করতে পারবে। 🧪",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "284",
+    "category": "services",
+    "intent": "prescription_builder_doctor",
+    "patterns": ["digital doctor prescription", "ডিজিটাল প্রেসক্রিপশন তৈরি"],
+    "approved_answer": "ডাক্তারদের সহজে এক ক্লিকে প্যাডে প্রেসক্রিপশন লেখার সফটওয়্যার করব। 💊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "285",
+    "category": "services",
+    "intent": "token_queue_system",
+    "patterns": ["serial token display", "সিরিয়াল টোকেন ডিসপ্লে"],
+    "approved_answer": "ব্যাংক বা হাসপাতালে লাইন এড়াতে ডিজিটাল টোকেন ও কিউ ম্যানেজমেন্ট সিস্টেম। 🎟️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "286",
+    "category": "services",
+    "intent": "student_result_portal",
+    "patterns": [
+      "exam result publication site",
+      "পরীক্ষার ফলাফল দেখার পোর্টাল"
+    ],
+    "approved_answer": "রোল ও রেজিস্ট্রেশন নম্বর দিয়ে রেজাল্ট ও মার্কশিট দেখার পোর্টাল করা যাবে। 🎓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "287",
+    "category": "services",
+    "intent": "online_exam_quiz_system",
+    "patterns": ["mcq test online exam", "অনলাইন পরীক্ষা ও কুইজ টেস্ট"],
+    "approved_answer": "টাইমার সহ MCQ পরীক্ষা দেওয়া এবং অটোমেটিক নম্বর পাওয়ার সিস্টেম বানিয়ে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "288",
+    "category": "services",
+    "intent": "certificate_generator_auto",
+    "patterns": [
+      "auto generate course certificate",
+      "অটো সার্টিফিকেট তৈরি ও যাচাই"
+    ],
+    "approved_answer": "কোর্স সম্পন্ন করলে অটোমেটিক নামসহ সার্টিফিকেট ও QR ভেরিফিকেশন লিংক জেনারেট হবে। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "289",
+    "category": "services",
+    "intent": "property_virtual_tour",
+    "patterns": ["360 degree virtual tour", "৩৬০ ডিগ্রি প্রোপার্টি ভিউ"],
+    "approved_answer": "ফ্ল্যাট বা জমির ৩৬০ ডিগ্রি ভার্চুয়াল ট্যুর ইন্টিগ্রেশন করে দিতে পারব। 🏠",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "290",
+    "category": "services",
+    "intent": "mortgage_emi_calculator",
+    "patterns": ["home loan emi calculator", "লোন কিস্তি ক্যালকুলেটর"],
+    "approved_answer": "ব্যাংক লোন ও প্রতি মাসের EMI কিস্তির হিসাব করার টুল বসানো যাবে। 🏦",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "291",
+    "category": "services",
+    "intent": "vehicle_tracking_gps_ui",
+    "patterns": [
+      "car gps tracking map dashboard",
+      "গাড়ি ট্র্যাকিং ড্যাশবোর্ড"
+    ],
+    "approved_answer": "GPS ডিভাইসের ডেটা লাইভ ম্যাপে দেখানোর ট্র্যাকিং ড্যাশবোর্ড ডেভেলপ করব। 🚗",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "292",
+    "category": "services",
+    "intent": "fuel_management_system",
+    "patterns": ["fleet fuel calculation", "জ্বালানি তেল খরচ হিসাব"],
+    "approved_answer": "গাড়ি বা ফ্লিটের জ্বালানি খরচ ও মাইলেজ ট্র্যাকিং করার সফটওয়্যার করা সম্ভব। ⛽",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "293",
+    "category": "services",
+    "intent": "employee_attendance_geo",
+    "patterns": ["gps attendance app", "জিপিএস লোকেশন দিয়ে হাজিরা"],
+    "approved_answer": "মাঠ পর্যায়ের কর্মীরা তাদের জিপিএস লোকেশন থেকে হাজিরা দিতে পারবে। 📍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "294",
+    "category": "services",
+    "intent": "payroll_salary_sheet",
+    "patterns": ["salary slip payroll system", "বেতন ও পে-রোল হিসাব"],
+    "approved_answer": "কর্মচারীদের ওভারটাইম, বোনাস ও ডিডাকশন হিসাব করে পে-রোল তৈরি করা যাবে। 💵",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "295",
+    "category": "services",
+    "intent": "leave_management_portal",
+    "patterns": ["apply for leave app", "ছুটির আবেদন সফটওয়্যার"],
+    "approved_answer": "কর্মীরা অনলাইনে ছুটির আবেদন করবে এবং বস তা এপ্রুভ করতে পারবে। 📅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "296",
+    "category": "services",
+    "intent": "expense_tracker_business",
+    "patterns": ["company daily expense tracking", "দৈনন্দিন খরচ ও জমার হিসাব"],
+    "approved_answer": "ব্যবসার প্রতিদিনের আয়-ব্যয় ক্যাশ ফ্লো ট্র্যাক করার সহজ সফটওয়্যার করা যাবে। 📉",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "297",
+    "category": "services",
+    "intent": "asset_management_software",
+    "patterns": ["company equipment tracking", "কোম্পানির মালামাল ট্র্যাকিং"],
+    "approved_answer": "অফিসের কম্পিউটার, ফার্নিচার ও অ্যাসেট ট্র্যাকিংয়ের কাস্টম সিস্টেম। 💻",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "298",
+    "category": "services",
+    "intent": "procurement_purchase_order",
+    "patterns": ["po requisitions system", "পারচেজ অর্ডার বা রিকুইজিশন"],
+    "approved_answer": "সাপ্লায়ারদের পারচেজ অর্ডার দেওয়া ও রিসিভ কনফার্ম করার প্রসিডিউর মডিউল। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "299",
+    "category": "services",
+    "intent": "vendor_supplier_portal",
+    "patterns": ["vendor login dashboard", "সাপ্লায়ারদের আলাদা ড্যাশবোর্ড"],
+    "approved_answer": "সাপ্লায়াররা লগইন করে তাদের বিল ও ইনভেন্টরি আপডেট দেখতে পারবে। 🏬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "300",
+    "category": "services",
+    "intent": "ticket_helpdesk_support",
+    "patterns": ["support ticket system", "হেল্পডেস্ক টিকিট সিস্টেম"],
+    "approved_answer": "গ্রাহকের যেকোনো অভিযোগের সমাধানের জন্য সাপোর্ট টিকিট তোলার ফিচার করা যাবে। 🎫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "301",
+    "category": "services",
+    "intent": "live_chat_agent_transfer",
+    "patterns": [
+      "transfer chat to another agent",
+      "অন্য এজেন্টের কাছে চ্যাট পাঠানো"
+    ],
+    "approved_answer": "লাইভ চ্যাটে একাধিক সাপোর্ট এজেন্টের মধ্যে কাস্টমার চ্যাট হ্যান্ডওভার সিস্টেম। 💬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "302",
+    "category": "services",
+    "intent": "knowledgebase_wiki_system",
+    "patterns": ["help doc article wiki", "হেল্প ডকুমেন্ট ও গাইড পেইজ"],
+    "approved_answer": "গ্রাহকদের নির্দেশিকা দিতে প্রফেশনাল নলেজবেজ হেল্প সেন্টার বানিয়ে দেব। 📖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "303",
+    "category": "services",
+    "intent": "community_ideas_upvote",
+    "patterns": ["feature request upvote board", "ইউজার আইডিয়া ও ভোট বোর্ড"],
+    "approved_answer": "ইউজাররা নতুন ফিচার রিকুয়েস্ট করবে এবং অন্যরা তাতে ভোট দিতে পারবে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "304",
+    "category": "services",
+    "intent": "bug_bounty_reporting",
+    "patterns": [
+      "report vulnerability security bug",
+      "সিকিউরিটি ত্রুটি রিপোর্ট"
+    ],
+    "approved_answer": "আমাদের সিস্টেমে কোনো বাগ বা সিকিউরিটি দুর্বলতা খুঁজে পেলে এখানে জানান। 🐛",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "305",
+    "category": "services",
+    "intent": "changelog_product_updates",
+    "patterns": ["what is new in update changelog", "নতুন কি কি আপডেট আসলো"],
+    "approved_answer": "সফটওয়্যারের নতুন ভার্সন ও আপডেটের লিস্ট Changelog পেজে দেওয়া হবে। 🚀",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "306",
+    "category": "services",
+    "intent": "roadmap_future_features",
+    "patterns": ["product development roadmap", "ভবিষ্যতে কি ফিচার আসবে"],
+    "approved_answer": "আমাদের প্রজেক্টের আপকামিং সকল ফিচারের পাবলিক রোডম্যাপ দেওয়া থাকবে। 🗺️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "307",
+    "category": "services",
+    "intent": "beta_testing_invite",
+    "patterns": ["join beta program", "বেটা টেস্টিংয়ে যুক্ত হওয়া"],
+    "approved_answer": "আমাদের নতুন অ্যাপের প্রাথমিক পরীক্ষা করতে বেটা টেস্টার হিসেবে জয়েন করুন। 🧪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "308",
+    "category": "services",
+    "intent": "app_release_notes",
+    "patterns": ["version release notes", "ভার্সন রিলিজ নোট"],
+    "approved_answer": "অ্যাপের নতুন ভার্সনের পরিবর্তনগুলোর বিবরণ রিলিজ নোটে পেয়ে যাবেন। 📄",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "309",
+    "category": "services",
+    "intent": "apk_direct_download",
+    "patterns": ["download apk file direct", "সরাসরি এপিকে ফাইল ডাউনলোড"],
+    "approved_answer": "আমাদের অ্যান্ড্রয়েড অ্যাপের ইনস্টলার APK এই লিংকে পেয়ে যাবেন: https://example.com/app.apk 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "310",
+    "category": "services",
+    "intent": "testflight_ios_invite",
+    "patterns": ["ios testflight link", "আইওএস টেস্টফ্লাইট লিংক"],
+    "approved_answer": "Apple TestFlight এর মাধ্যমে আমাদের আইওএস আইফোনের বেটা অ্যাপ টেস্ট করুন। 🍎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "311",
+    "category": "services",
+    "intent": "desktop_electron_app",
+    "patterns": ["windows desktop app .exe", "উইন্ডোজ পিসির সফটওয়্যার"],
+    "approved_answer": "আমরা Electron.js দিয়ে Windows ও Mac এর জন্য ডেক্সটপ অ্যাপও বানাই। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "312",
+    "category": "services",
+    "intent": "chrome_extension_dev",
+    "patterns": [
+      "chrome browser extension dev",
+      "ক্রোম ব্রাউজার এক্সটেনশন বানাবো"
+    ],
+    "approved_answer": "আপনার কাজের সুবিধার্থে কাস্টম Chrome Extension বানিয়ে দেওয়া সম্ভব। 🧩",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "313",
+    "category": "services",
+    "intent": "telegram_bot_dev",
+    "patterns": ["telegram bot create", "টেলিগ্রাম বট তৈরি"],
+    "approved_answer": "অটোমেশন ও গ্রুপ ম্যানেজমেন্টের জন্য কাস্টম Telegram Bot তৈরি করে থাকি। ✈️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "314",
+    "category": "services",
+    "intent": "discord_bot_dev",
+    "patterns": ["discord bot dev", "ডিসকর্ড বট বানিয়ে দেওয়া"],
+    "approved_answer": "কমিউনিটি ও গেমারদের জন্য ফিচার-সমৃদ্ধ Discord Bot বানাতে পারি। 🎮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "315",
+    "category": "services",
+    "intent": "facebook_messenger_bot",
+    "patterns": ["manychat messenger bot", "ফেসবুক মেসেঞ্জার বট"],
+    "approved_answer": "মেসেঞ্জার পেইজের জন্য অটো রিপ্লাই ও সেলস চ্যানেল বট তৈরি করি। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "316",
+    "category": "services",
+    "intent": "instagram_auto_dm",
+    "patterns": ["instagram dm automation", "ইনস্টাগ্রাম অটো ডিএম"],
+    "approved_answer": "ইনস্টাগ্রাম পোস্ট কমেন্ট ও ইনবক্সের জন্য কাস্টম অটোমেটেড DM সেটআপ করব। 📸",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "317",
+    "category": "services",
+    "intent": "linkedin_lead_scraper",
+    "patterns": ["linkedin automation data tool", "লিঙ্কডইন লিড সংগ্রহ টুল"],
+    "approved_answer": "লিঙ্কডইন থেকে ডেটা ও বিটুবি লিড সংগ্রহের কাস্টম টুল তৈরি করা যাবে। 💼",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "318",
+    "category": "services",
+    "intent": "web_scraping_service",
+    "patterns": [
+      "scrape data from website",
+      "ওয়েবসাইট থেকে তথ্য সংগ্রহ করার বট"
+    ],
+    "approved_answer": "Python BeautifulSoup/Selenium দিয়ে যেকোনো পাবলিক সাইটের ডেটা স্ক্র্যাপ করতে পারি। 🕷️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "319",
+    "category": "services",
+    "intent": "automation_zapier_make",
+    "patterns": ["zapier automation setup", "জেপিয়ার বা মেক অটোমেশন"],
+    "approved_answer": "Zapier বা Make.com দিয়ে বিভিন্ন অ্যাপসের মধ্যে অটোমেটিক ডেটা সিঙ্ক করব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "320",
+    "category": "services",
+    "intent": "n8n_self_hosted_automation",
+    "patterns": ["n8n workflow setup", "n8n অটোমেশন ওয়ার্কফ্লো"],
+    "approved_answer": "সম্পূর্ণ বিনামূল্যে ও সেকিউর n8n অটোমেশন সার্ভার সেটআপ করে দেব। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "321",
+    "category": "services",
+    "intent": "data_migration_service",
+    "patterns": [
+      "transfer data to new site",
+      "পুরাতন সাইট থেকে নতুন সাইটে ডেটা আনা"
+    ],
+    "approved_answer": "আপনার সকল পুরনো ইউজার, প্রোডাক্ট ও অর্ডারের ডেটা অক্ষত রেখে নতুন সাইটে মাইগ্রেট করব। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+
+  {
+    "id": "126",
+    "category": "services",
+    "intent": "whatsapp_catalog_setup",
+    "patterns": ["whatsapp catalog add", "হোয়াটসঅ্যাপ ক্যাটালগ সেটআপ"],
+    "approved_answer": "আমরা WhatsApp Business-এ আপনার প্রোডাক্ট ক্যাটালগ সুন্দরভাবে সাজিয়ে দিতে পারি। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "127",
+    "category": "services",
+    "intent": "whatsapp_cloud_api",
+    "patterns": ["meta whatsapp cloud api", "হোয়াটসঅ্যাপ ক্লাউড এপিআই"],
+    "approved_answer": "Official WhatsApp Cloud API অ্যাকাউন্ট তৈরি ও টেমপ্লেট অনুমোদন করে দেওয়া হবে। 📲",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "128",
+    "category": "services",
+    "intent": "bulk_sms_service",
+    "patterns": ["bulk sms system", "বাল্ক এসএমএস সার্ভিস"],
+    "approved_answer": "আপনার ব্র্যান্ড নামের মাস্কিং ও নন-মাস্কিং Bulk SMS সিস্টেম কানেক্ট করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "129",
+    "category": "services",
+    "intent": "payment_gateway_sslcommerz",
+    "patterns": ["sslcommerz setup", "এসএসএলকমার্জ সেটআপ"],
+    "approved_answer": "SSLCommerz পেমেন্ট গেটওয়ে মার্চেন্ট অ্যাকাউন্ট কানেক্ট করে টেস্ট কমপ্লিট করে দেওয়া হবে। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "130",
+    "category": "services",
+    "intent": "payment_gateway_bkash_merchant",
+    "patterns": ["bkash merchant api", "বিকাশ মার্চেন্ট এপিআই"],
+    "approved_answer": "bKash Tokenized Checkout এপিআই আপনার ওয়েবসাইটে যুক্ত করে দেওয়া যাবে। 🪙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "131",
+    "category": "services",
+    "intent": "stripe_gateway_setup",
+    "patterns": ["stripe payment connect", "স্ট্রাইপ সেটআপ"],
+    "approved_answer": "আন্তর্জাতিক পেমেন্ট নেওয়ার জন্য Stripe পেমেন্ট সিস্টেম ইন্টিগ্রেট করতে পারি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "132",
+    "category": "services",
+    "intent": "paypal_gateway_setup",
+    "patterns": ["paypal add", "পেপ্যাল কানেক্ট করতে হবে"],
+    "approved_answer": "আপনার প্রজেক্টে PayPal Express Checkout ইন্টিগ্রেশন করে দেওয়া সম্ভব। 💳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "133",
+    "category": "services",
+    "intent": "courier_api_steadfast",
+    "patterns": ["steadfast api", "স্টেডফাস্ট এপিআই যুক্ত করা"],
+    "approved_answer": "Steadfast Courier API ওয়েবসাইটের সাথে যুক্ত করে অটোমেটিক অর্ডার বুকিং করা যাবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "134",
+    "category": "services",
+    "intent": "courier_api_pathao",
+    "patterns": ["pathao courier api", "পাঠাও কুরিয়ার এপিআই"],
+    "approved_answer": "পাঠাও কুরিয়ারের মার্চেন্ট API আপনার ই-কমার্স ওয়েবসাইটে সেটআপ করে দেওয়া হবে। 📦",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "135",
+    "category": "services",
+    "intent": "courier_api_redx",
+    "patterns": ["redx api connect", "রেডেক্স এপিআই সেটআপ"],
+    "approved_answer": "RedX Courier API ইন্টিগ্রেট করে অটোমেটিক কুরিয়ার ট্র্যাকিং যুক্ত করা সম্ভব। 🛵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "136",
+    "category": "services",
+    "intent": "saas_platform_dev",
+    "patterns": ["saas application", "সাস প্ল্যাটফর্ম তৈরি"],
+    "approved_answer": "মাল্টি-টেন্যান্ট SaaS সফটওয়্যার ডেভেলপ করার পূর্ণ অভিজ্ঞতা আমাদের রয়েছে। 💻",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "137",
+    "category": "services",
+    "intent": "multi_vendor_ecommerce",
+    "patterns": ["multivendor website", "মাল্টি ভেন্ডর সাইট"],
+    "approved_answer": "দারাজ বা অ্যামাজনের মতো মাল্টি-ভেন্ডর ই-কমার্স প্ল্যাটফর্ম আমরা বানিয়ে দিই। 🏬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "138",
+    "category": "services",
+    "intent": "ride_sharing_app",
+    "patterns": ["uber like app", "রাইড শেয়ারিং অ্যাপ"],
+    "approved_answer": "রাইডার ও ড্রাইভার অ্যাপসহ সম্পূর্ণ রাইড শেয়ারিং সল্যুশন ডেভেলপ করতে পারি। 🚗",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "139",
+    "category": "services",
+    "intent": "food_delivery_app",
+    "patterns": ["foodpanda like app", "ফুড ডেলিভারি অ্যাপ"],
+    "approved_answer": "কাস্টমার, রেস্টুরেন্ট এবং ডেলিভারিম্যান ট্র্যাকিং সহ ফুড অ্যাপ বানিয়ে দেব। 🍕",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "140",
+    "category": "services",
+    "intent": "telemedicine_app",
+    "patterns": ["doctor appointment app", "ডাক্তার অ্যাপয়েন্টমেন্ট অ্যাপ"],
+    "approved_answer": "ডাক্তার প্রেসক্রিপশন ও রোগী অ্যাপয়েন্টমেন্টের টেলিমেডিসিন প্ল্যাটফর্ম করা সম্ভব। 🩺",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "141",
+    "category": "services",
+    "intent": "hotel_booking_system",
+    "patterns": ["hotel room booking site", "হোটেল বুকিং সাইট"],
+    "approved_answer": "রুম এভেলিবিলিটি ও পেমেন্টসহ প্রফেশনাল হোটেল বুকিং সিস্টেম বানানো যাবে। 🏨",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "142",
+    "category": "services",
+    "intent": "ticketing_system",
+    "patterns": ["bus ticket booking site", "টিকিট কাটার ওয়েবসাইট"],
+    "approved_answer": "বাস, লঞ্চ বা ইভেন্ট টিকিট বুকিং প্ল্যাটফর্ম ডেভেলপমেন্ট সার্ভিস দিচ্ছি। 🎟️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "143",
+    "category": "services",
+    "intent": "school_management_software",
+    "patterns": ["school college software", "স্কুল ম্যানেজমেন্ট সফটওয়্যার"],
+    "approved_answer": "ছাত্রছাত্রীদের রেজাল্ট, ফি এবং এটেন্ডেন্সসহ স্কুল সফটওয়্যার বানিয়ে থাকি। 🏫",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "144",
+    "category": "services",
+    "intent": "hospital_management_system",
+    "patterns": ["hospital er software", "হাসপাতাল ম্যানেজমেন্ট"],
+    "approved_answer": "ইনডোর/আউটডোর ও প্যাথলজি বিলিং সহ কমপ্লিট হসপিটাল সফটওয়্যার রয়েছে। 🏥",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "145",
+    "category": "services",
+    "intent": "pharmacy_pos_software",
+    "patterns": ["pharmacy pos", "ফার্মেসি স্টক সফটওয়্যার"],
+    "approved_answer": "ওষুধের মেয়াদ ও স্টক ট্র্যাকিং সহ ফার্মেসি POS সফটওয়্যার সেটআপ করে দেব। 💊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "146",
+    "category": "services",
+    "intent": "gym_membership_software",
+    "patterns": ["gym management app", "জিম মেম্বারশিপ অ্যাপ"],
+    "approved_answer": "জিম মেম্বারদের ফি আদায় ও ফিটনেস ট্র্যাকিং সফটওয়্যার করা যাবে। 🏋️‍♂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "147",
+    "category": "services",
+    "intent": "library_management",
+    "patterns": ["library software", "লাইব্রেরি সফটওয়্যার"],
+    "approved_answer": "বই ইস্যু এবং রিটার্ন ট্র্যাকিং সহ লাইব্রেরি ম্যানেজমেন্ট সিস্টেম বানিয়ে দিই। 📚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "148",
+    "category": "services",
+    "intent": "matrimonial_site",
+    "patterns": ["matrimony site make", "ম্যারেজ মিডিয়া সাইট"],
+    "approved_answer": "বায়োডেটা ম্যাচমেকিং ও প্রোফাইল ফিল্টার সহ ম্যাট্রিমোনিয়াল সাইট করা যাবে। 💍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "149",
+    "category": "services",
+    "intent": "job_portal_development",
+    "patterns": ["bdjobs like site", "জব পোর্টাল ওয়েবসাইট"],
+    "approved_answer": "এমপ্লয়ার ও ক্যান্ডিডেটদের জন্য ফুল-ফিচারড জব পোর্টাল তৈরি করে দিতে পারব। 💼",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "150",
+    "category": "services",
+    "intent": "classified_ads_site",
+    "patterns": ["bikroy like site", "ক্লাসিফাইড বিজ্ঞাপন সাইট"],
+    "approved_answer": "পণ্য কেনাবেচা ও বিজ্ঞাপন পোস্ট করার ক্লাসিফাইড ওয়েবসাইট তৈরি করা যাবে। 📢",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "151",
+    "category": "services",
+    "intent": "crowdfunding_platform",
+    "patterns": ["donation website", "ডোনেশন বা ফান্ড তোলার সাইট"],
+    "approved_answer": "ডোনেশন সংগ্রহ ও ক্রাউডফান্ডিং ক্যাম্পেইন চালানোর ওয়েবসাইট করা সম্ভব। 🤲",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "152",
+    "category": "services",
+    "intent": "forum_community_site",
+    "patterns": ["online community forum", "ফোরাম ওয়েবসাইট"],
+    "approved_answer": "কমিউনিটি ডিসকাশন ও উত্তর-প্রশ্নের ফোরাম সাইট তৈরি করে দিতে পারব। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "153",
+    "category": "services",
+    "intent": "blog_site_spec",
+    "patterns": ["blog site banabo", "ব্লগ ওয়েবসাইট বানাবো"],
+    "approved_answer": "গুগল এডসেন্স ফ্রেন্ডলি এবং ফাস্ট লোডিং ব্লগ সাইট বানিয়ে দেওয়া হবে। ✍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "154",
+    "category": "services",
+    "intent": "google_adsense_setup",
+    "patterns": ["adsense approval help", "এডসেন্স সেটআপ"],
+    "approved_answer": "Google AdSense পলিসি অনুযায়ী সাইট অপটিমাইজ ও এড প্লেসমেন্ট করা হবে। 💰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "155",
+    "category": "services",
+    "intent": "pwa_web_app",
+    "patterns": ["pwa conversion", "প্রোগ্রেসিভ ওয়েব অ্যাপ"],
+    "approved_answer": "আপনার ওয়েবসাইটকে PWA-তে রূপান্তর করব যেন অ্যাপের মতো ইনস্টল করা যায়। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "156",
+    "category": "services",
+    "intent": "headless_cms",
+    "patterns": ["strapi cms", "sanity cms", "হেডলেস সিএমএস"],
+    "approved_answer": "Strapi বা Sanity হেডলেস CMS ব্যবহার করে কাস্টম ব্যাকএন্ড ডেটা স্ট্রাকচার করা যাবে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "157",
+    "category": "services",
+    "intent": "graphql_api_spec",
+    "patterns": ["graphql api dev", "গ্রাফকিউএল এপিআই"],
+    "approved_answer": "ফাস্ট ও সুনির্দিষ্ট ডেটা ফেচিংয়ের জন্য GraphQL API আর্কিটেকচার করা সম্ভব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "158",
+    "category": "services",
+    "intent": "rest_api_spec",
+    "patterns": ["restful api dev", "রেস্ট এপিআই তৈরি"],
+    "approved_answer": "আমরা সেকিউর, ক্লিন ও সুন্দরভাবে ডকুমেন্টেড RESTful API সরবরাহ করি। 🔌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "159",
+    "category": "services",
+    "intent": "swagger_api_doc",
+    "patterns": ["swagger documentation", "এপিআই ডকুমেন্টেশন"],
+    "approved_answer": "আপনার API-এর জন্য Swagger/Postman এর বিস্তারিত প্রফেশনাল ডকুমেন্টেশন বানিয়ে দেব। 📑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "160",
+    "category": "services",
+    "intent": "github_gitlab_setup",
+    "patterns": ["git repository setup", "গিটহাব রিপোজিটরি"],
+    "approved_answer": "আমরা প্রজেক্টের সোর্স কোড GitHub/GitLab-এ সেকিউরলি মেইনটেইন করি। 🐙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "161",
+    "category": "services",
+    "intent": "ci_cd_pipeline",
+    "patterns": ["auto deployment cicd", "সিআই সিডি পাইপলাইন"],
+    "approved_answer": "অটোমেটিক বিল্ড ও ডেপ্লয়মেন্টের জন্য GitHub Actions/GitLab CI সেটআপ করা হবে। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "162",
+    "category": "services",
+    "intent": "docker_containerization",
+    "patterns": ["dockerize project", "ডকার কনটেইনার"],
+    "approved_answer": "আপনার অ্যাপ্লিকেশন ডকার দিয়ে কনটেইনারাইজ করে সার্ভারে রান করে দেওয়া হবে। 🐳",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "163",
+    "category": "services",
+    "intent": "redis_caching",
+    "patterns": ["redis cache setup", "রেডিস ক্যাশিং"],
+    "approved_answer": "সার্ভার লোড কমাতে ও স্পিড বাড়াতে Redis Caching ইন্টিগ্রেট করব। ⚡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "164",
+    "category": "services",
+    "intent": "socket_realtime_chat",
+    "patterns": ["socket.io setup", "রিয়েলটাইম চ্যাট ব্যবস্থা"],
+    "approved_answer": "Socket.io দিয়ে ইনস্ট্যান্ট লাইভ মেসেজিং ও নোটিফিকেশন সিস্টেম করা যাবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "165",
+    "category": "services",
+    "intent": "webrtc_video_calling",
+    "patterns": ["webrtc setup", "ওয়েব আরটিসি কলিং"],
+    "approved_answer": "WebRTC প্রযুক্তি ব্যবহার করে ব্রাউজার টু ব্রাউজার সরাসরি কলিং সিস্টেম করা সম্ভব। 📹",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "166",
+    "category": "services",
+    "intent": "ai_openai_integration",
+    "patterns": ["chatgpt api connect", "ওপেনএআই এপিআই"],
+    "approved_answer": "আপনার অ্যাপ বা সার্ভিসে OpenAI/ChatGPT API সহজে যুক্ত করা যাবে। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "167",
+    "category": "services",
+    "intent": "ai_gemini_integration",
+    "patterns": ["gemini ai connect", "জেমিনাই এপিআই"],
+    "approved_answer": "Google Gemini AI মড্যুল কানেক্ট করে কাস্টম স্মার্ট ফিচার বানানো যাবে। 🔮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "168",
+    "category": "services",
+    "intent": "ai_image_generation",
+    "patterns": ["midjourney stable diffusion api", "এআই দিয়ে ছবি তৈরি"],
+    "approved_answer": "AI ভিত্তিক ইমেজ জেনারেশন ফিচার আপনার অ্যাপে যোগ করতে পারি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "169",
+    "category": "services",
+    "intent": "speech_to_text_spec",
+    "patterns": ["voice recognition api", "কথা থেকে টেক্সট হওয়া"],
+    "approved_answer": "ভয়েস কম্যান্ড ও স্পিচ-টু-টেক্সট কনভার্সন সিস্টেম ইমপ্লিমেন্ট করা সম্ভব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "170",
+    "category": "services",
+    "intent": "text_to_speech_spec",
+    "patterns": ["text to audio api", "লেখা থেকে ভয়েস হওয়া"],
+    "approved_answer": "যেকোনো লেখাকে প্রাকৃতিক ভয়েসে রূপান্তর করার ফিচার যুক্ত করে দেব। 🔊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "171",
+    "category": "services",
+    "intent": "ocr_document_scanner",
+    "patterns": ["ocr system", "ছবি থেকে লেখা পড়া"],
+    "approved_answer": "এনআইডি বা ডকুমেন্টের ছবি থেকে তথ্য রিড করার OCR সিস্টেম করতে পারি। 🔍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "172",
+    "category": "services",
+    "intent": "face_recognition_check",
+    "patterns": ["face detection app", "ফেস ডিটেকশন এটেন্ডেন্স"],
+    "approved_answer": "AI দিয়ে ফেস ডিটেকশন ও অ্যাটেনডেন্স ট্র্যাকিং অ্যাপ বানানো যাবে। 👤",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "173",
+    "category": "services",
+    "intent": "barcode_qr_generator",
+    "patterns": ["qr code generate", "বারকোড তৈরি ও স্ক্যান"],
+    "approved_answer": "পণ্য বা টিকিটের ডায়নামিক QR ও বারকোড জেনারেশন ও স্ক্যানার সিস্টেম করব। 🔳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "174",
+    "category": "services",
+    "intent": "pdf_invoice_generator",
+    "patterns": ["pdf download feature", "পিডিএফ ডাউনলোড ফিচার"],
+    "approved_answer": "ওয়েবসাইট থেকে এক ক্লিকে মেমো বা রিপোর্ট PDF হিসেবে ডাউনলোডের সুবিধা থাকবে। 📥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "175",
+    "category": "services",
+    "intent": "excel_csv_export_import",
+    "patterns": ["excel import export", "এক্সেল ফাইল আপলোড ও ডাউনলোড"],
+    "approved_answer": "বাল্ক ডেটা আপলোড ও রিপোর্টের জন্য Excel/CSV ইম্পোর্ট-এক্সপোর্ট রাখা যাবে। 📊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "176",
+    "category": "services",
+    "intent": "google_sheets_sync",
+    "patterns": ["google sheet sync", "গুগল শিট কানেক্ট করা"],
+    "approved_answer": "আপনার ওয়েবসাইটের ফর্মের ডেটা সরাসরি Google Sheet-এ সিঙ্ক হয়ে জমা হবে। 🟢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "177",
+    "category": "services",
+    "intent": "chart_analytics_dashboard",
+    "patterns": ["sales graph dashboard", "গ্রাফ ও চার্ট ড্যাশবোর্ড"],
+    "approved_answer": "ইন্টারেক্টিভ চার্ট ও সেলস রিপোর্টের ভিজ্যুয়াল ড্যাশবোর্ড তৈরি করে দেব। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "178",
+    "category": "services",
+    "intent": "role_based_access_control",
+    "patterns": ["role permission system", "এডমিন ও ইউজার রোল"],
+    "approved_answer": "Super Admin, Manager, Employee ইত্যাদির জন্য আলাদা পারমিশন সিস্টেম থাকবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "179",
+    "category": "services",
+    "intent": "two_factor_auth_2fa",
+    "patterns": ["2fa security", "টু ফ্যাক্টর অথেন্টিকেশন"],
+    "approved_answer": "সিকিউরিটি বাড়াতে Google Authenticator বা SMS ভিত্তিক 2FA যুক্ত করা হবে। 🔐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "180",
+    "category": "services",
+    "intent": "forgot_password_reset",
+    "patterns": ["password reset system", "পাসওয়ার্ড ভুলে গেলে কি হবে"],
+    "approved_answer": "ইমেইল বা ওটিপি-র মাধ্যমে পাসওয়ার্ড রিসেট করার সেকিউর সিস্টেম থাকবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "181",
+    "category": "services",
+    "intent": "session_timeout_security",
+    "patterns": ["auto logout", "অটো লগআউট ফিচার"],
+    "approved_answer": "ইনঅ্যাক্টিভ থাকলে অ্যাকাউন্ট সেফ রাখতে অটো লগআউট ব্যবস্থা থাকবে। ⏱️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "182",
+    "category": "services",
+    "intent": "ip_blocking_security",
+    "patterns": ["block bad ip", "আইপি ব্লক করা"],
+    "approved_answer": "ক্ষতিকর বা স্প্যামারদের আইপি সিস্টেম থেকে ব্লক করার সুবিধা রাখা যাবে। 🚫",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "183",
+    "category": "services",
+    "intent": "recaptcha_integration",
+    "patterns": ["google recaptcha setup", "ক্যাপচা কোড রাখা"],
+    "approved_answer": "স্প্যাম বট আটকাতে Google reCAPTCHA v2/v3 যুক্ত করা হবে। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "184",
+    "category": "services",
+    "intent": "cookie_consent_banner",
+    "patterns": ["gdpr cookie banner", "কুকি পারমিশন ব্যানার"],
+    "approved_answer": "ইউরোপীয় ইউনিয়ন ও আন্তর্জাতিক নিয়ম অনুযায়ী GDPR Cookie ব্যানার বসাবো। 🍪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "185",
+    "category": "services",
+    "intent": "terms_and_conditions_page",
+    "patterns": ["privacy policy generate", "শর্তাবলী ও প্রাইভেসী পলিসি"],
+    "approved_answer": "আপনার সাইটের প্রাইভেসী পলিসি এবং টার্মস পেইজ তৈরি করতে সাহায্য করব। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "186",
+    "category": "services",
+    "intent": "affiliate_marketing_system",
+    "patterns": [
+      "affiliate referral system",
+      "অ্যাফিলিয়েট বা রেফারেল সিস্টেম"
+    ],
+    "approved_answer": "ইউজারদের জন্য লিংক শেয়ার করে কমিশন পাওয়ার রেফারেল সিস্টেম বানাব। 🔗",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "187",
+    "category": "services",
+    "intent": "coupon_discount_engine",
+    "patterns": ["promo code system", "কুপন কোড ও ছাড় ব্যবস্থা"],
+    "approved_answer": "কেনাকাটায় নির্দিষ্ট ডিসকাউন্ট কুপন ব্যবহারের অপশন যুক্ত করা যাবে। 🎟️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "188",
+    "category": "services",
+    "intent": "subscription_billing_system",
+    "patterns": ["recurring payment", "মাসিক সাবস্ক্রিপশন ফি আদায়"],
+    "approved_answer": "অটোমেটিক মান্থলি বা বাৎসরিক সাবস্ক্রিপশন বিলিং সিস্টেম ডেভেলপ করব। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "189",
+    "category": "services",
+    "intent": "loyalty_points_reward",
+    "patterns": ["reward points system", "রিওয়ার্ড পয়েন্ট ব্যবস্থা"],
+    "approved_answer": "কেনাকাটা করলে গ্রাহক যেন রিওয়ার্ড পয়েন্ট পায় সেই ব্যবস্থা করা যাবে। 🌟",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "190",
+    "category": "services",
+    "intent": "wishlist_cart_feature",
+    "patterns": ["add to wishlist", "উইশলিস্ট ও কার্ট অপশন"],
+    "approved_answer": "পছন্দের পণ্য সেভ করে রাখার Wishlist ও Shopping Cart ব্যবস্থা থাকবে। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "191",
+    "category": "services",
+    "intent": "product_variant_management",
+    "patterns": ["color size variant", "সাইজ ও কালার অপশন রাখা"],
+    "approved_answer": "একটি পণ্যের একাধিক কালার, সাইজ ও স্টক আলাদা ম্যানেজ করা যাবে। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "192",
+    "category": "services",
+    "intent": "stock_out_alert",
+    "patterns": ["inventory low warning", "স্টক শেষ হলে সংকেত"],
+    "approved_answer": "পণ্য স্টক শেষ হয়ে গেলে অ্যাডমিন ড্যাশবোর্ডে নোটিফিকেশন আসবে। ⚠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "193",
+    "category": "services",
+    "intent": "abandoned_cart_recovery",
+    "patterns": ["abandoned cart reminder", "অসম্পূর্ণ কেনাকাটার রিমাইন্ডার"],
+    "approved_answer": "কার্টে প্রোডাক্ট রেখে চলে যাওয়া গ্রাহকদের অটো ইমেইল পাঠানোর ব্যবস্থা করা যাবে। 🛒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "194",
+    "category": "services",
+    "intent": "order_tracking_page",
+    "patterns": ["track my order status", "অর্ডার ট্র্যাকিং পেজ"],
+    "approved_answer": "অর্ডার আইডি দিলেই গ্রাহক তার পার্সেলের বর্তমান অবস্থা দেখতে পাবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "195",
+    "category": "services",
+    "intent": "product_compare_tool",
+    "patterns": ["compare products feature", "পণ্য তুলনা করার সুবিধা"],
+    "approved_answer": "দুটি বা তার বেশি পণ্যের স্পেসিফিকেশন পাশাপাশি রেখে তুলনা ফিচার দেওয়া যাবে। ⚖️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "196",
+    "category": "services",
+    "intent": "guest_checkout_feature",
+    "patterns": ["without account buy", "একাউন্ট না খুলে কেনা"],
+    "approved_answer": "দ্রুত কেনাকাটার জন্য রেজিস্ট্রেশন ছাড়াই Guest Checkout এর সুযোগ থাকবে। 🛍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "197",
+    "category": "services",
+    "intent": "digital_product_selling",
+    "patterns": ["sell pdf software ebook", "ডিজিটাল ফাইল ডাউনলোড বিক্রি"],
+    "approved_answer": "পেমেন্ট করার পর অটোমেটিক ফাইল ডাউনলোডের ডিজিটাল স্টোর সিস্টেম করা সম্ভব। 💾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "198",
+    "category": "services",
+    "intent": "video_streaming_integration",
+    "patterns": ["vimeo aws s3 video player", "ভিডিও স্ট্রিম করা সাইট"],
+    "approved_answer": "কোর্স বা মুভির সেকিউর ভিডিও স্ট্রিমিং প্লেয়ার কনফিগার করে দেব। 🎬",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "199",
+    "category": "services",
+    "intent": "audio_podcast_player",
+    "patterns": ["mp3 podcast stream", "অডিও প্লেয়ার সার্ভিস"],
+    "approved_answer": "ওয়েবসাইটে অডিও স্ট্রিম করার সুন্দর অডিও প্লেয়ার ইন্টিগ্রেশন করব। 🎧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "200",
+    "category": "services",
+    "intent": "event_registration_ticket",
+    "patterns": ["event signup ticket", "ইভেন্ট রেজিস্ট্রেশন সিস্টেম"],
+    "approved_answer": "ইভেন্টের রেজিস্ট্রেশন ও কিউআর কোড টিকিট ডাউনলোডের ওয়েবসাইট করা যাবে। 🎟️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "201",
+    "category": "services",
+    "intent": "voting_polling_feature",
+    "patterns": ["online vote poll", "অনলাইন ভোট বা পোল ব্যবস্থা"],
+    "approved_answer": "ইউজারদের মতামত নেওয়ার জন্য লাইভ ভোটিং ও পোলিং ফিচার যুক্ত করা যাবে। 🗳️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "202",
+    "category": "services",
+    "intent": "calculator_tool_dev",
+    "patterns": ["custom calculator dev", "কাস্টম ক্যালকুলেটর তৈরি"],
+    "approved_answer": "লোন, বিএমআই বা যেকোনো গাণিতিক হিসাবের কাস্টম ক্যালকুলেটর বানাতে পারি। 🧮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "203",
+    "category": "services",
+    "intent": "map_radius_search",
+    "patterns": ["nearby store search", "কাছের দোকান খোঁজার ফিচার"],
+    "approved_answer": "ইউজারের কারেন্ট লোকেশন অনুযায়ী নিকটস্থ স্টোর খুঁজে বের করার ম্যাপ ফিচার করা যাবে। 📍",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "204",
+    "category": "services",
+    "intent": "weather_api_connect",
+    "patterns": ["weather forecast data", "আবহাওয়ার আপডেট অপশন"],
+    "approved_answer": "লাইভ আবহাওয়ার তথ্য দেখানোর জন্য Weather API সেটআপ করে দেওয়া হবে। 🌤️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "205",
+    "category": "services",
+    "intent": "currency_converter_tool",
+    "patterns": ["multi currency exchange rate", "টাকা থেকে ডলার কনভার্টার"],
+    "approved_answer": "রিয়েল-টাইম এক্সচেঞ্জ রেট অনুযায়ী কারেন্সি কনভার্টার ফিচার বসানো যাবে। 💱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "206",
+    "category": "services",
+    "intent": "time_zone_converter",
+    "patterns": ["convert time zone", "টাইমজোন অটো অ্যাডজাস্ট"],
+    "approved_answer": "ইউজারের দেশের সময় অনুযায়ী ইভেন্টের সময় অটোমেটিক কনভার্ট হবে। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "207",
+    "category": "services",
+    "intent": "popup_lead_generation",
+    "patterns": ["newsletter popup box", "পপআপ ফর্ম সেটআপ"],
+    "approved_answer": "কাস্টমারের ইমেইল সংগ্রহের জন্য আকর্ষণীয় পপআপ ফর্ম যোগ করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "208",
+    "category": "services",
+    "intent": "mailchimp_email_marketing",
+    "patterns": ["mailchimp connect", "মেইলচিম্প সেটআপ"],
+    "approved_answer": "অটোমেটিক ইমেইল মার্কেটিংয়ের জন্য Mailchimp কানেক্ট করে দেব। ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "209",
+    "category": "services",
+    "intent": "sendgrid_smtp_setup",
+    "patterns": ["sendgrid transactional mail", "সেন্ডগ্রিড সেটআপ"],
+    "approved_answer": "ইনবক্সে ইমেইল ১০০% পৌঁছানোর জন্য SendGrid SMTP কনফিগার করব। 📧",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "210",
+    "category": "services",
+    "intent": "custom_404_error_page",
+    "patterns": ["404 page design", "৪০৪ এরর পেজ ডিজাইন"],
+    "approved_answer": "আপনার ব্র্যান্ডের সাথে মানানসই সুন্দর কাস্টম 404 Error পেজ ডিজাইন করা হবে। 🚫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "211",
+    "category": "services",
+    "intent": "maintenance_mode_page",
+    "patterns": ["coming soon page", "সাইট মেনটেইনেন্স পেজ"],
+    "approved_answer": "কাজ চলাকালীন কাউন্টডাউন সহ আকর্ষণীয় 'Under Maintenance' পেজ থাকবে। 🚧",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "212",
+    "category": "services",
+    "intent": "infinite_scroll_pagination",
+    "patterns": ["load more button", "আনলিমিটেড স্ক্রলিং"],
+    "approved_answer": "ইউজার ফ্রেন্ডলি অভিজ্ঞতার জন্য Infinite Scroll বা Load More বাটন রাখা যাবে। 📜",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "213",
+    "category": "services",
+    "intent": "skeleton_loading_screen",
+    "patterns": ["skeleton loader", "লোডিং কঙ্কাল এফেক্ট"],
+    "approved_answer": "ডেটা লোড হওয়ার সময় আধুনিক Skeleton Loading অ্যানিমেশন দেখাবে। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "214",
+    "category": "services",
+    "intent": "toast_notifications",
+    "patterns": ["toast alert box", "পপআপ টোস্ট মেসেজ"],
+    "approved_answer": "যেকোনো সফল অ্যাকশনে সুন্দর Toast Message ভিজ্যুয়াল সংকেত দেবে। ✅",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "215",
+    "category": "services",
+    "intent": "drag_and_drop_upload",
+    "patterns": ["drag drop file upload", "টেনে এনে ফাইল আপলোড"],
+    "approved_answer": "সহজে ফাইল জমা দিতে Drag & Drop ড্রপজোন যুক্ত করা যাবে। 📤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "216",
+    "category": "services",
+    "intent": "image_crop_resize",
+    "patterns": ["crop image before upload", "ছবি ক্রপ করার অপশন"],
+    "approved_answer": "আপলোডের আগে ক্লায়েন্ট যেন ছবি ক্রপ বা জুম করতে পারে সেই ব্যবস্থা থাকবে। ✂️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "217",
+    "category": "services",
+    "intent": "lazy_loading_images",
+    "patterns": ["lazy load image", "ধীরে ছবি লোড হওয়া"],
+    "approved_answer": "সাইট ফাস্ট রাখতে ইমেজ Lazy Loading টেকনোলজি ইমপ্লিমেন্ট করা থাকবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "218",
+    "category": "services",
+    "intent": "webp_image_conversion",
+    "patterns": ["convert webp image", "ওয়েবপি ফরম্যাট পিকচার"],
+    "approved_answer": "ইমেজের সাইজ ছোট রাখতে অটোমেটিক WebP ফরম্যাটে কনভার্ট করার ব্যবস্থা থাকবে। 🗜️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "219",
+    "category": "services",
+    "intent": "cdn_cloudflare_setup",
+    "patterns": ["cloudflare setup", "ক্লাউডফ্লেয়ার সেটআপ"],
+    "approved_answer": "স্পিড বৃদ্ধি ও DDoS প্রোটেকশনের জন্য Cloudflare CDN কনফিগার করে দেব। ☁️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "220",
+    "category": "services",
+    "intent": "sitemap_xml_generation",
+    "patterns": ["sitemap submit google", "সাইটম্যাপ জমা দেওয়া"],
+    "approved_answer": "Google Search Console-এ অটোমেটিক sitemap.xml জেনারেট করে সাবমিট করা হবে। 🗺️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "221",
+    "category": "services",
+    "intent": "robots_txt_configuration",
+    "patterns": ["robots txt setup", "রোবট ফাইলে পারমিশন"],
+    "approved_answer": "ইন্ডেক্সিং সঠিকভাবে নিয়ন্ত্রণের জন্য প্রপার robots.txt ফাইল কনফিগার করব। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "222",
+    "category": "services",
+    "intent": "schema_markup_seo",
+    "patterns": ["structured data schema", "স্কিমা মার্কআপ সেটআপ"],
+    "approved_answer": "গুগলে রিচ স্নিপেট দেখানোর জন্য JSON-LD Schema Markup যুক্ত করা হবে। 🏷️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "223",
+    "category": "services",
+    "intent": "open_graph_social_share",
+    "patterns": ["og meta tags", "ফেসবুকে লিংক দিলে ছবি আসা"],
+    "approved_answer": "সোশ্যাল মিডিয়ায় লিংক শেয়ার করলে যেন সুন্দর প্রিভিউ ছবি ও টাইটেল দেখায়। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "224",
+    "category": "services",
+    "intent": "canonical_tag_duplicate_issue",
+    "patterns": ["canonical url setup", "ক্যানোনিকাল ট্যাগ অ্যাড"],
+    "approved_answer": "ডুপ্লিকেট কন্টেন্ট সমস্যা এড়াতে ক্যানোনিকাল ট্যাগ যুক্ত করে দেব। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "225",
+    "category": "services",
+    "intent": "breadcrumbs_navigation",
+    "patterns": ["breadcrumb links", "ব্রেডক্রাম্বস নেভিগেশন"],
+    "approved_answer": "ইউজার ও SEO-এর সুবিধার্থে Breadcrumb নেভিগেশন পাথ রাখা হবে। 🧭",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "226",
+    "category": "services",
+    "intent": "sticky_header_navbar",
+    "patterns": ["sticky menu bar", "মেনু বার আটকে থাকা"],
+    "approved_answer": "স্ক্রোল করার সময় মেনু বার যেন উপরে আটকে থাকে সেই Sticky Navbar করব। 📌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "227",
+    "category": "services",
+    "intent": "back_to_top_button",
+    "patterns": ["scroll to top button", "উপরে ওঠার বাটন"],
+    "approved_answer": "এক ক্লিকে পেজের একদম উপরে যাওয়ার জন্য Back-to-Top বাটন দেওয়া হবে। ⬆️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "228",
+    "category": "services",
+    "intent": "print_style_css",
+    "patterns": ["printable page layout", "প্রিন্ট করার উপযোগী লেআউট"],
+    "approved_answer": "ওয়েব পেজ সুন্দরভাবে প্রিন্ট করার জন্য Print-Friendly CSS অ্যাড করব। 🖨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "229",
+    "category": "services",
+    "intent": "custom_font_typography",
+    "patterns": ["bangla google font setup", "কাস্টম ফন্ট বসানো"],
+    "approved_answer": "বাংলা সোলাইমানলিপি, কালপুরুষ বা পছন্দের যেকোনো Google Font যুক্ত করে দেব। ✍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "230",
+    "category": "services",
+    "intent": "lottie_animations",
+    "patterns": ["lottie json animation", "লটি অ্যানিমেশন বসানো"],
+    "approved_answer": "হালকা ও আকর্ষণীয় Lottie ভেক্টর অ্যানিমেশন সাইটে ইমপ্লিমেন্ট করা হবে। 🎬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "231",
+    "category": "services",
+    "intent": "parallax_scrolling_effect",
+    "patterns": ["parallax background", "প্যারালাক্স স্ক্রোল এফেক্ট"],
+    "approved_answer": "আধুনিক ৩ডি ফিল দেওয়ার জন্য Parallax Scrolling এফেক্ট যুক্ত করা যাবে। 🌌",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "232",
+    "category": "services",
+    "intent": "accordion_faq_section",
+    "patterns": ["faq drop down collapsible", "প্রশ্ন ও উত্তরের ড্রপডাউন"],
+    "approved_answer": "জায়গা বাঁচাতে সুন্দর Accordion স্টাইলে FAQ সেকশন ডিজাইন করে দেব। ❓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "233",
+    "category": "services",
+    "intent": "tabs_content_switcher",
+    "patterns": ["tab layout switcher", "ট্যাবভিত্তিক কন্টেন্ট প্রদর্শন"],
+    "approved_answer": "বিভিন্ন তথ্য আলাদা ট্যাবে দেখতে পাওয়ার সুন্দর Tabbed Interface করব। 📑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "234",
+    "category": "services",
+    "intent": "modal_popup_box",
+    "patterns": ["click for modal box", "ক্লিক করলে পপআপ বক্স আসা"],
+    "approved_answer": "বিস্তারিত তথ্য বা ছবি বড় করে দেখতে কাস্টম Modal Popup দেওয়া হবে। 🔲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "235",
+    "category": "services",
+    "intent": "tooltip_helper_text",
+    "patterns": ["hover text tooltip", "মাউস ধরলে ছোট টেক্সট লেখা"],
+    "approved_answer": "ইউজারকে গাইড করতে বাটন বা আইকনে মাউস ধরলে Tooltip দেখাবে। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "236",
+    "category": "services",
+    "intent": "countdown_timer_widget",
+    "patterns": ["offer deal timer", "অফার শেষ হওয়ার টাইম গণনা"],
+    "approved_answer": "জরুরি অনুভূতি তৈরি করতে ডায়নামিক Countdown Timer সেকশন রাখা যাবে। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "237",
+    "category": "services",
+    "intent": "progress_bar_indicator",
+    "patterns": ["step progress bar", "কাজের অগ্রগতি বার"],
+    "approved_answer": "ফর্ম পূরণ বা প্রোফাইল কমপ্লিটনেসের জন্য Progress Bar যুক্ত করা হবে। 📊",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "238",
+    "category": "services",
+    "intent": "step_by_step_wizard_form",
+    "patterns": ["multi step form", "ধাপে ধাপে ফরম পূরণ"],
+    "approved_answer": "লম্বা ফর্ম সহজ করতে Multi-step Wizard Form ডিজাইন করা হবে। 📝",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "239",
+    "category": "services",
+    "intent": "form_validation_realtime",
+    "patterns": ["instant form error check", "সাথে সাথে ফর্ম ভুল ধরা"],
+    "approved_answer": "ভুল ইনপুট দিলে ইউজারকে তাৎক্ষণিক সতর্ক করতে Realtime Validation থাকবে। ⚠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "240",
+    "category": "services",
+    "intent": "auto_complete_search_input",
+    "patterns": ["search prediction suggestion", "সার্চ করার সময় অটো পরামর্শ"],
+    "approved_answer": "টাইপ করার সাথে সাথে সাজেস্টেড ফলাফল দেখানোর Auto-complete ফিচার করব। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "241",
+    "category": "services",
+    "intent": "filter_and_sort_products",
+    "patterns": ["filter price category", "ক্যাটাগরি ও দাম দিয়ে ফিল্টার"],
+    "approved_answer": "দ্রুত পছন্দমতো জিনিস খুঁজে পেতে Advance Filtering ও Sorting রাখা হবে। ⚙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "242",
+    "category": "services",
+    "intent": "grid_list_view_toggle",
+    "patterns": ["grid view list view change", "গ্রিড ও লিস্ট ভিউ পরিবর্তন"],
+    "approved_answer": "ইউজার তার সুবিধা অনুযায়ী পণ্যের গ্রিড বা লিস্ট ভিউ সুইচ করতে পারবে। 🔲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "243",
+    "category": "services",
+    "intent": "image_lightbox_gallery",
+    "patterns": ["zoom picture gallery", "ছবিতে ক্লিক করলে বড় হওয়া"],
+    "approved_answer": "গ্যালারির ছবিতে ক্লিক করলে পপআপে ফুল-স্ক্রিন Lightbox ভিউ দেখাবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "244",
+    "category": "services",
+    "intent": "carousel_slider_widget",
+    "patterns": [
+      "banner slider touch swipe",
+      "ব্যানার স্লাইডার ও মোবাইল সোয়াইপ"
+    ],
+    "approved_answer": "স্মার্টফোন দিয়ে সহজে টাচ-সোয়াইপ করা যায় এমন প্রফেশনাল স্লাইডার করব। 🎠",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "245",
+    "category": "services",
+    "intent": "testimonial_reviews_slider",
+    "patterns": ["client review box slider", "কাস্টমার রিভিউ স্লাইডার"],
+    "approved_answer": "ক্লায়েন্টদের মতামত ও স্টার রেটিং প্রদর্শনের স্লাইডার ব্লক থাকবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "246",
+    "category": "services",
+    "intent": "partner_logos_showcase",
+    "patterns": ["brand logo slider", "ব্র্যান্ড লোগো প্রদর্শন"],
+    "approved_answer": "আপনার পার্টনার বা ক্লায়েন্টদের লোগো দেখানোর জন্য লোগো গ্রিড করব। 🏢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "247",
+    "category": "services",
+    "intent": "pricing_table_comparison",
+    "patterns": ["pricing package table", "প্যাকেজ মূল্যের তুলনা টেবিল"],
+    "approved_answer": "আপনার বিভিন্ন সার্ভিসের রেটকার্ড ও ফিচার তুলনামূলক টেবিলে সাজাবো। 💰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "248",
+    "category": "services",
+    "intent": "team_members_section",
+    "patterns": ["our team info grid", "টিম মেম্বারদের পরিচিতি"],
+    "approved_answer": "টিমের সকল মেম্বারদের ছবি, পদবি ও সোশ্যাল লিংক সেকশন থাকবে। 👥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "249",
+    "category": "services",
+    "intent": "statistics_counter_animation",
+    "patterns": ["animated number counter", "সংখ্যা গণনার এনিমেশন"],
+    "approved_answer": "কতগুলো প্রজেক্ট করেছেন বা হ্যাপি ক্লায়েন্ট সংখ্যা অ্যানিমেটেড কাউন্টারে দেখাবে। 🔢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "250",
+    "category": "services",
+    "intent": "timeline_history_section",
+    "patterns": ["company history timeline", "কোম্পানির ইতিহাস টাইমলাইন"],
+    "approved_answer": "প্রতিষ্ঠানের শুরু থেকে বর্তমান সফলতার ঘটনাগুলো টাইমলাইনে তুলে ধরব। ⏳",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "251",
+    "category": "services",
+    "intent": "audio_waveform_player",
+    "patterns": ["wavesurfer audio player", "ওয়েভফর্ম অডিও প্লেয়ার"],
+    "approved_answer": "ভয়েস বা অডিও ফাইলের সুন্দর Waveform সাউন্ড প্লেয়ার বানিয়ে দেব। 🎵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "252",
+    "category": "services",
+    "intent": "video_background_hero",
+    "patterns": ["hero section video background", "ব্যাকগ্রাউন্ডে ভিডিও চলা"],
+    "approved_answer": "ওয়েবসাইটের একদম উপরে ব্যাকগ্রাউন্ডে ভিডিও প্লে করার ব্যবস্থা রাখা যাবে। 🎥",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "253",
+    "category": "services",
+    "intent": "embed_youtube_vimeo",
+    "patterns": ["youtube video embed", "ইউটিউব ভিডিও প্লেয়ার বসানো"],
+    "approved_answer": "ইউটিউব বা ভিমিওর ভিডিও সাইটে ইমবেড করে প্লে করার অপশন থাকবে। 📺",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "254",
+    "category": "services",
+    "intent": "social_share_buttons",
+    "patterns": ["facebook share button", "সোশ্যাল মিডিয়ায় শেয়ার বাটন"],
+    "approved_answer": "ব্লগ বা প্রোডাক্ট এক ক্লিকে সোশ্যাল মিডিয়ায় শেয়ার করার বাটন যোগ করব। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "255",
+    "category": "services",
+    "intent": "comment_disqus_system",
+    "patterns": ["comment box setup", "কমেন্ট করার অপশন দেওয়া"],
+    "approved_answer": "ইউজারদের মন্তব্যের জন্য ফেসবুক কমেন্ট প্লাগইন বা Disqus যোগ করা হবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "256",
+    "category": "services",
+    "intent": "like_bookmark_feature",
+    "patterns": ["save for later bookmark", "পছন্দ বা বুকমার্ক করা"],
+    "approved_answer": "পছন্দের পোস্ট লাইক করা বা বুকমার্ক করে রাখার ফিচার বানিয়ে দেব। 🔖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "257",
+    "category": "services",
+    "intent": "read_time_calculator",
+    "patterns": ["reading time min", "পড়তে কত সময় লাগবে"],
+    "approved_answer": "আর্টিকেলটি পড়তে আনুমানিক কত মিনিট লাগবে তা অটো হিসাব হয়ে দেখাবে। ⏱️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "258",
+    "category": "services",
+    "intent": "font_size_resizer",
+    "patterns": ["increase font size button", "টেক্সট ছোট বড় করার বাটন"],
+    "approved_answer": "পাঠকদের সুবিধার্থে ফন্ট সাইজ বড় বা ছোট করার বাটন রাখা যাবে। 🔤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "259",
+    "category": "services",
+    "intent": "copy_to_clipboard_button",
+    "patterns": ["click to copy text", "কপি বাটন সেটআপ"],
+    "approved_answer": "কোড বা কুপন এক ক্লিকে কপি করার জন্য Copy Button দেওয়া হবে। 📋",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "260",
+    "category": "services",
+    "intent": "keyboard_shortcuts_support",
+    "patterns": ["hotkeys shortcut key", "কিবোর্ড শর্টকাট রাখা"],
+    "approved_answer": "দ্রুত কাজ করতে ওয়েবে কাস্টম কিবোর্ড শর্টকাট সাপোর্ট কনফিগার করা যাবে। ⌨️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "261",
+    "category": "services",
+    "intent": "voice_search_input",
+    "patterns": ["speak to search", "মুখে বলে সার্চ করার ফিচার"],
+    "approved_answer": "মাইক্রোফোনে মুখে কথা বলে সার্চ করার Voice Search সুবিধা করা সম্ভব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "262",
+    "category": "services",
+    "intent": "web_push_onesignal",
+    "patterns": ["onesignal setup", "ওয়ানসিগন্যাল নোটিফিকেশন"],
+    "approved_answer": "ব্রাউজারে ফ্রী পুশ নোটিফিকেশন পাঠাতে OneSignal ইন্টিগ্রেট করে দেব। 🔔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "263",
+    "category": "services",
+    "intent": "pwa_offline_support",
+    "patterns": ["work without internet PWA", "ইন্টারনেট ছাড়াও সাইট চলা"],
+    "approved_answer": "সার্ভিস ওয়ার্কার দিয়ে অফলাইনেও আগের লোড হওয়া পেজ দেখার ব্যবস্থা করা যাবে। 📶",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "264",
+    "category": "services",
+    "intent": "device_fingerprinting",
+    "patterns": ["device tracking security", "ডিভাইস আইডি ট্র্যাকিং"],
+    "approved_answer": "নিরাপত্তার স্বার্থে ইউজারের ইউনিক ডিভাইস আইডি ট্র্যাক করার সিস্টেম করা যাবে। 📱",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "265",
+    "category": "services",
+    "intent": "geo_ip_location_detect",
+    "patterns": ["country detect from ip", "ইউজারের দেশ অটো চেনা"],
+    "approved_answer": "ইউজারের IP দিয়ে তার দেশ শনাক্ত করে স্থানীয় কারেন্সি বা ভাষা দেখাবে। 🌍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "266",
+    "category": "services",
+    "intent": "adblock_detector",
+    "patterns": ["anti adblock popup", "এডব্লকার বন্ধের নোটিশ"],
+    "approved_answer": "ইউজার এডব্লকার অন করে রাখলে এডব্লক বন্ধ করার পপআপ নোটিশ দেখাবে। 🚫",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "267",
+    "category": "services",
+    "intent": "anti_copy_protect",
+    "patterns": ["disable right click copy", "লেখা বা ছবি কপি বন্ধ করা"],
+    "approved_answer": "কপিরাইট রক্ষায় ওয়েবসাইটের রাইট ক্লিক ও টেক্সট সিলেকশন বন্ধ রাখা যাবে। 🔒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "268",
+    "category": "services",
+    "intent": "watermark_on_image",
+    "patterns": ["auto watermark logo", "ছবির ওপর ওয়াটারমার্ক লোগো"],
+    "approved_answer": "ছবি আপলোড করলেই স্বয়ংক্রিয়ভাবে আপনার কোম্পানির লোগো ওয়াটারমার্ক হয়ে যাবে। 🖼️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "269",
+    "category": "services",
+    "intent": "auto_translate_widget",
+    "patterns": ["google translate box", "অটো অনুবাদ বাটন"],
+    "approved_answer": "যেকোনো ভাষায় ওয়েবসাইট রূপান্তর করার জন্য Google Translate উইজেট বসাবো। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "270",
+    "category": "services",
+    "intent": "currency_auto_symbol",
+    "patterns": ["taka dollar icon display", "টাকা বা ডলারের আইকন"],
+    "approved_answer": "দেশ অনুযায়ী অটোমেটিক টাকা (৳), ডলার ($) বা ইউরো (€) চিহ্ন প্রদর্শিত হবে। 💵",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "271",
+    "category": "services",
+    "intent": "tax_vat_calculation",
+    "patterns": ["vat tax auto calculate", "ভ্যাট ও ট্যাক্স হিসাব করা"],
+    "approved_answer": "চেকআউটে সরকারি ভ্যাট ও ট্যাক্স অটোমেটিক হিসাব হয়ে যুক্ত হবে। 🧮",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "272",
+    "category": "services",
+    "intent": "shipping_charge_by_city",
+    "patterns": [
+      "dhaka outside delivery charge",
+      "ঢাকার ভেতরে ও বাইরে ডেলিভারি চার্জ"
+    ],
+    "approved_answer": "ঢাকা ও ঢাকার বাইরের জেলার জন্য আলাদা কুরিয়ার চার্জ অটো সেট হবে। 🚚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "273",
+    "category": "services",
+    "intent": "free_shipping_threshold",
+    "patterns": [
+      "free shipping over 1000",
+      "নির্দিষ্ট টাকার কেনাকাটায় ডেলিভারি ফ্রি"
+    ],
+    "approved_answer": "যেমন: ১৫০০ টাকার বেশি কেনাকাটা করলে ডেলিভারি চার্জ অটোমেটিক জিরো হবে। 🎁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "274",
+    "category": "services",
+    "intent": "weight_based_shipping",
+    "patterns": ["weight wise courier charge", "ওজন অনুযায়ী ডেলিভারি খরচ"],
+    "approved_answer": "পণ্যের মোট ওজনের ওপর ভিত্তি করে পার্সেল ফি হিসাব করার ফিচার করা যাবে। ⚖️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "107",
+    "category": "services",
+    "intent": "flutter_app_spec",
+    "patterns": [
+      "flutter app lagbe",
+      "flutter dev",
+      "ফ্লাটার অ্যাপ বানিয়ে দিবেন"
+    ],
+    "approved_answer": "হ্যাঁ, ফ্লাটার দিয়ে একই সাথে অ্যান্ড্রয়েড ও আইওএস অ্যাপ তৈরি করে দেওয়া যাবে। 📱",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "108",
+    "category": "services",
+    "intent": "react_native_spec",
+    "patterns": ["react native application", "রিয়্যাক্ট নেটিভ অ্যাপ"],
+    "approved_answer": "আমরা React Native ব্যবহার করেও হাই-পারফর্ম্যান্স মোবাইল অ্যাপ বানাই। ⚛️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "109",
+    "category": "services",
+    "intent": "wordpress_site_spec",
+    "patterns": [
+      "wordpress website",
+      "wp site make",
+      "ওয়ার্ডপ্রেস সাইট বানিয়ে দেবেন"
+    ],
+    "approved_answer": "হ্যাঁ, খুব দ্রুত ও কাস্টমাইজড ওয়ার্ডপ্রেস ওয়েবসাইট তৈরি করে দেওয়া যাবে। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "110",
+    "category": "services",
+    "intent": "shopify_store_spec",
+    "patterns": ["shopify store build", "শপিফাই স্টোর বানাবো"],
+    "approved_answer": "আমরা প্রফেশনাল Shopify ই-কমার্স স্টোর সেটআপ ও ডিজাইন করে থাকি। 🛍️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "111",
+    "category": "services",
+    "intent": "laravel_backend_spec",
+    "patterns": ["laravel project", "ল্যারাভেল ব্যাকএন্ড"],
+    "approved_answer": "আমরা Laravel ব্যাকএন্ড দিয়ে স্কেলেবল ওয়েব অ্যাপ্লিকেশন ডেভেলপ করি। 🛠️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "112",
+    "category": "services",
+    "intent": "python_django_spec",
+    "patterns": ["python django dev", "পাইথন জ্যাঙ্গো সাইট"],
+    "approved_answer": "হ্যাঁ, সেকিউর ও ডেটা-ইনটেনসিভ প্রজেক্টের জন্য Django ব্যাকএন্ড তৈরি করি। 🐍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "113",
+    "category": "services",
+    "intent": "nextjs_frontend_spec",
+    "patterns": ["nextjs frontend", "নেক্সট জেএস দিয়ে বানাবেন"],
+    "approved_answer": "আমরা SEO ফ্রেন্ডলি ও দ্রুতগতির অ্যাপের জন্য Next.js ব্যবহার করি। ⚛️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "114",
+    "category": "services",
+    "intent": "play_store_publish",
+    "patterns": ["play store app upload", "প্লে স্টোরে অ্যাপ আপলোড"],
+    "approved_answer": "আমরা Google Play Store-এ আপনার অ্যাপটি সঠিকভাবে পাবলিশ করে দেব। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "115",
+    "category": "services",
+    "intent": "app_store_publish",
+    "patterns": ["app store ios publish", "অ্যাপল স্টোরে পাবলিশ"],
+    "approved_answer": "Apple App Store-এর গাইডলাইন মেনে আপনার iOS অ্যাপ পাবলিশ করে দেওয়া সম্ভব। 🍎",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "116",
+    "category": "services",
+    "intent": "domain_buy_assistance",
+    "patterns": ["domain kinte chai", "ডোমেইন কিনতে সাহায্য করবেন"],
+    "approved_answer": "আপনার পছন্দমতো নামের সেরা ডোমেইনটি কিনে সেটআপ করে দেব। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "117",
+    "category": "services",
+    "intent": "hosting_setup_assistance",
+    "patterns": ["hosting kinte chai", "হোস্টিং কনফিগার করে দিবেন"],
+    "approved_answer": "আপনার সাইটের ট্রাফিক অনুযায়ী সেরা হোস্টিং সিলেক্ট ও কনফিগার করে দেওয়া হবে। ☁️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "118",
+    "category": "services",
+    "intent": "vps_server_management",
+    "patterns": ["vps server manage", "ভিপিএস সার্ভার ম্যানেজমেন্ট"],
+    "approved_answer": "আমরা Linux/Ubuntu VPS সার্ভার সেটআপ, সিকিউরিটি ও মেইনটেনেন্স করে থাকি। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "119",
+    "category": "services",
+    "intent": "facebook_pixel_setup",
+    "patterns": ["meta pixel setup", "ফেসবুক পিক্সেল সেটআপ"],
+    "approved_answer": "আমরা ওয়েবসাইটে Facebook Pixel ও Conversion API প্রপারলি কনফিগার করি। 🎯",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "120",
+    "category": "services",
+    "intent": "google_tag_manager",
+    "patterns": ["gtm setup", "গুগল ট্যাগ ম্যানেজার সেটআপ"],
+    "approved_answer": "Google Tag Manager দিয়ে অ্যাড ট্র্যাকিং ও ইভেন্ট ট্র্যাকিং সেটআপ করে দেওয়া যাবে। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "121",
+    "category": "services",
+    "intent": "domain_email_setup",
+    "patterns": [
+      "professional email setup",
+      "info email banano",
+      "প্রফেশনাল ইমেইল চাই"
+    ],
+    "approved_answer": "আপনার ডোমেইনের অধীনে প্রফেশনাল ইমেইল (info@yourdomain.com) সেটআপ করে দেওয়া হবে। ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "122",
+    "category": "services",
+    "intent": "google_workspace_setup",
+    "patterns": ["gsuite setup", "google workspace", "গুগল ওয়ার্কস্পেস সেটআপ"],
+    "approved_answer": "আপনার কোম্পানির জন্য Google Workspace মেইল কনফিগারেশন সাপোর্ট দিতে পারব। 💼",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "069",
+    "category": "services",
+    "intent": "portfolio_website_spec",
+    "patterns": ["personal portfolio chai", "পোর্টফোলিও ওয়েবসাইট প্রয়োজন"],
+    "approved_answer": "পার্সোনাল পোর্টফোলিও ওয়েবসাইটের রেডি টেমপ্লেট ও কাস্টম দুই ধরনের অপশনই রয়েছে। 👤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "070",
+    "category": "services",
+    "intent": "news_portal_spec",
+    "patterns": ["news site chai", "নিউজ পোর্টাল বানাতে চাই"],
+    "approved_answer": "আমরা ফাস্ট ও সিকিউর নিউজ পোর্টাল ডেভেলপমেন্ট সার্ভিস দিচ্ছি। 📰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "071",
+    "category": "services",
+    "intent": "lms_education_platform",
+    "patterns": ["coaching website", "lms site", "কোচিং সেন্টারের সাইট"],
+    "approved_answer": "কোর্স বিক্রি এবং অনলাইন ক্লাসের জন্য LMS প্ল্যাটফর্ম বানিয়ে দেওয়া যাবে। 📚",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "072",
+    "category": "services",
+    "intent": "restaurant_pos_system",
+    "patterns": [
+      "restaurant system",
+      "pos system",
+      "রেস্তোরাঁর ওয়েবসাইট ও পস"
+    ],
+    "approved_answer": "রেস্তোরাঁর মেনু, অনলাইন অর্ডার ও POS সিস্টেমের কমপ্লিট সল্যুশন আছে। 🍔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "073",
+    "category": "services",
+    "intent": "real_estate_site",
+    "patterns": ["real estate website", "জমি বিক্রির সাইট"],
+    "approved_answer": "প্রোপার্টি লিস্টিং ও ফিল্টারিং সহ রিয়েল এস্টেট ওয়েবসাইট বানিয়ে দিতে পারি। 🏢",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "074",
+    "category": "services",
+    "intent": "social_media_integration",
+    "patterns": [
+      "social link add",
+      "facebook page connect",
+      "সোশ্যাল মিডিয়া যুক্ত করা"
+    ],
+    "approved_answer": "হ্যাঁ, সমস্ত সোশ্যাল মিডিয়া প্রোফাইল এবং চ্যাট উইজেট যুক্ত করে দেওয়া হবে। 🔗",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "075",
+    "category": "services",
+    "intent": "google_maps_integration",
+    "patterns": ["google map add", "ম্যাপ লোকেশন দেওয়া যাবে"],
+    "approved_answer": "হ্যাঁ, কন্টাক্ট পেইজে গুগল ম্যাপ ইন্টিগ্রেট করে দেওয়া হবে। 📍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "076",
+    "category": "services",
+    "intent": "multilingual_support",
+    "patterns": ["multi language website", "একাধিক ভাষা সাপোর্ট"],
+    "approved_answer": "হ্যাঁ, বাংলা, ইংরেজি সহ যেকোনো মাল্টিপল ল্যাঙ্গুয়েজ অপশন রাখা সম্ভব। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "077",
+    "category": "services",
+    "intent": "ssl_certificate",
+    "patterns": ["ssl lagbe", "https thakbe", "এসএসএল সার্টিফিকেট"],
+    "approved_answer": "হ্যাঁ, ফ্রি SSL সার্টিফিকেট ইনস্টল করে ওয়েবসাইট সিকিউর করা হবে। 🔒",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "078",
+    "category": "services",
+    "intent": "backup_facility",
+    "patterns": ["backup thakbe", "data harabe na to", "ব্যাকআপ ব্যবস্থা"],
+    "approved_answer": "অটোমেটিক সাপ্তাহিক ও মাসিক ব্যাকআপ ব্যবস্থা সেটআপ করা থাকবে। 💾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "079",
+    "category": "services",
+    "intent": "slow_website_issue",
+    "patterns": ["site slow", "website fast korte chai", "সাইট স্লো কাজ করছে"],
+    "approved_answer": "আমরা আপনার ওয়েবসাইটের কোড ও ইমেজ অপটিমাইজ করে স্পিড বাড়িয়ে দেব। ⚡",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "080",
+    "category": "services",
+    "intent": "redesign_existing_site",
+    "patterns": [
+      "redesign chai",
+      "purano site change",
+      "সাইট রিডিজাইন করা যাবে"
+    ],
+    "approved_answer": "হ্যাঁ, আপনার বর্তমান সাইটের আধুনিক লুক দিতে রিডিজাইন করতে পারি। 🎨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "081",
+    "category": "services",
+    "intent": "push_notifications",
+    "patterns": ["push notification", "নোটিফিকেশন পাঠানো যাবে"],
+    "approved_answer": "ওয়েব ও মোবাইল অ্যাপের জন্য পুশ নোটিফিকেশন সুবিধা যোগ করা যাবে। 🔔",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "082",
+    "category": "services",
+    "intent": "chatbot_integration",
+    "patterns": ["bot integrate korbo", "চ্যাটবট যুক্ত করা"],
+    "approved_answer": "আমরা আপনার ওয়েবসাইটে অটোমেটেড চ্যাটবট ইন্টিগ্রেট করে দিতে পারি। 🤖",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "083",
+    "category": "services",
+    "intent": "custom_crm",
+    "patterns": ["crm banate chai", "কাস্টমার ম্যানেজমেন্ট সফটওয়্যার"],
+    "approved_answer": "আমরা বিজনেসের প্রয়োজন অনুযায়ী কাস্টম CRM তৈরি করে থাকি। 📊",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "084",
+    "category": "services",
+    "intent": "inventory_software",
+    "patterns": ["inventory software", "স্টক ম্যানেজমেন্ট সাইট"],
+    "approved_answer": "ইনভেন্টরি ও স্টক ট্র্যাকিং সফটওয়্যার ডেভেলপ করার সুবিধা রয়েছে। 📦",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "085",
+    "category": "services",
+    "intent": "dark_mode_feature",
+    "patterns": ["dark mode thakbe", "ডার্ক মোড অপশন"],
+    "approved_answer": "হ্যাঁ, ওয়েবসাইটে লাইট ও ডার্ক মোড অপশন যুক্ত করা যাবে। 🌙",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "086",
+    "category": "services",
+    "intent": "social_login",
+    "patterns": ["google login", "facebook login option", "সোশ্যাল লগইন"],
+    "approved_answer": "Google, Facebook বা Apple দিয়ে সরাসরি লগইন অপশন যুক্ত করা যাবে। 🔑",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "087",
+    "category": "services",
+    "intent": "sms_notification",
+    "patterns": ["sms alert", "otp system", "ওটিপি বা এসএমএস সিস্টেম"],
+    "approved_answer": "হ্যাঁ, মোবাইল নম্বর যাচাইয়ের জন্য OTP ও SMS নোটিফিকেশন সিস্টেম ইন্টিগ্রেট করা যাবে। 📩",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "088",
+    "category": "services",
+    "intent": "seo_friendly_code",
+    "patterns": ["seo friendly hobe", "এসইও ফ্রেন্ডলি কোড"],
+    "approved_answer": "প্রতিটি ওয়েবসাইট ক্লিন কোড ও SEO-Friendly আর্কিটেকচারে তৈরি করা হয়। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "089",
+    "category": "services",
+    "intent": "cross_browser_support",
+    "patterns": ["all browser cholbe", "সব ব্রাউজারে চলবে তো"],
+    "approved_answer": "হ্যাঁ, Chrome, Safari, Firefox সহ সব আধুনিক ব্রাউজারে এটি নিরবচ্ছিন্নভাবে চলবে। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "090",
+    "category": "services",
+    "intent": "ongoing_maintenance_contract",
+    "patterns": ["long term maintenance", "দীর্ঘমেয়াদী মেইনটেনেন্স"],
+    "approved_answer": "আমরা প্রজেক্টভিত্তিক ও মাসিক চুক্তিতে দীর্ঘমেয়াদী মেইনটেনেন্স সার্ভিস দিই। 🔄",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "091",
+    "category": "services",
+    "intent": "domain_transfer",
+    "patterns": ["domain transfer", "ডোমেইন ট্রান্সফার করবো"],
+    "approved_answer": "আমরা আপনার ডোমেইন ট্রান্সফারে সাহায্য করতে পারি। 🌐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "092",
+    "category": "services",
+    "intent": "cloud_deployment",
+    "patterns": ["aws deploy", "vps setup", "ক্লাউড হোস্ট বা ভিপিএস সেটআপ"],
+    "approved_answer": "AWS, DigitalOcean বা VPS সার্ভারে সাইট ও ডেটাবেজ ডেপ্লয় করে দেওয়ার অভিজ্ঞতা আছে। ☁️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "093",
+    "category": "services",
+    "intent": "testing_qa",
+    "patterns": ["testing করবেন", "qa check"],
+    "approved_answer": "ডেলিভারির আগে সম্পূর্ণ ম্যানুয়াল ও অটোমেটেড টেস্টিং নিশ্চিত করা হয়। 🧪",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "094",
+    "category": "services",
+    "intent": "nda_agreement",
+    "patterns": ["k"],
+    "approved_answer": "ku",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "095",
+    "category": "services",
+    "intent": "live_chat_integration",
+    "patterns": ["live chat add", "লাইভ চ্যাট উইজেট"],
+    "approved_answer": "Tawk.to, Crisp বা WhatsApp লাইভ চ্যাট যুক্ত করে দেওয়া যাবে। 💬",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "096",
+    "category": "services",
+    "intent": "file_upload_feature",
+    "patterns": ["file upload option", "ফাইল আপলোড সুবিধা"],
+    "approved_answer": "হ্যাঁ, ব্যবহারকারীরা যেন প্রয়োজনীয় ফাইল বা ছবি আপলোড করতে পারে সেই সিস্টেম থাকবে। 📤",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "097",
+    "category": "services",
+    "intent": "analytics_integration",
+    "patterns": ["google analytics add", "অ্যানালিটিক্স যুক্ত করা"],
+    "approved_answer": "Google Analytics ও Facebook Pixel সেটআপ করে দেওয়া হবে যাতে ভিজিটর ট্র্যাক করা যায়। 📈",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "098",
+    "category": "services",
+    "intent": "invoice_generation",
+    "patterns": ["auto invoice system", "ইনভয়েস তৈরির ফিচার"],
+    "approved_answer": "অর্ডার সম্পন্ন হলে অটোমেটিক PDF ইনভয়েস তৈরি হওয়ার সিস্টেম থাকবে। 🧾",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "099",
+    "category": "services",
+    "intent": "review_rating_system",
+    "patterns": ["review system", "রেটিং বা রিভিউ অপশন"],
+    "approved_answer": "কাস্টমারদের জন্য স্টার রেটিং ও রিভিউ সাবমিট করার সুবিধা থাকবে। ⭐",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "100",
+    "category": "services",
+    "intent": "closing_thanks",
+    "patterns": ["i"],
+    "approved_answer": "00",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "101",
+    "category": "services",
+    "intent": "audio_call_request",
+    "patterns": [
+      "audio call me",
+      "call a ashben",
+      "অডিও কল দিন",
+      "কথা বলা যাবে কলে"
+    ],
+    "approved_answer": "অডিও কলে কথা বলতে চাইলে সুবিধাজনক একটি সময় জানান, অথবা সরাসরি কল করুন। 📞",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "102",
+    "category": "services",
+    "intent": "video_call_request",
+    "patterns": [
+      "video call dew",
+      "meet in video",
+      "ভিডিও কল দেওয়া যাবে",
+      "ক্যামেরায় আসবেন"
+    ],
+    "approved_answer": "ভিডিও কলের জন্য গুগল মিট বা জুম লিংক শেয়ার করে কথা বলা যাবে। 📹",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "103",
+    "category": "services",
+    "intent": "screen_share_session",
+    "patterns": [
+      "screen share korbo",
+      "anydesk daw",
+      "anydesk/teamviewer",
+      "স্ক্রিন শেয়ার করবো"
+    ],
+    "approved_answer": "আপনার AnyDesk বা TeamViewer আইডি শেয়ার করুন, সংযোগ দিচ্ছি। 🖥️",
+    "auto_reply": true,
+    "risk": "medium"
+  }
+]

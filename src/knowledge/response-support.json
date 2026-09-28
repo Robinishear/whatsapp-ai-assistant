@@ -1,0 +1,218 @@
+
+[
+  {
+    "id": "461",
+    "category": "support",
+    "intent": "complaint_general",
+    "patterns": [
+      "somossa hoise",
+      "amar ekta problem ache",
+      "আমার একটা সমস্যা আছে",
+      "অভিযোগ আছে",
+      "সমস্যা হচ্ছে"
+    ],
+    "approved_answer": "দুঃখিত! সমস্যাটি বিস্তারিত লিখুন, প্রয়োজনে স্ক্রিনশট দিন। আমরা দ্রুত দেখব। 🙏",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "462",
+    "category": "support",
+    "intent": "project_delay_complaint",
+    "patterns": [
+      "deri hosse keno",
+      "deadline shesh",
+      "ডেলিভারি দেরি হচ্ছে",
+      "সময় পার হয়ে গেছে",
+      "কাজ পিছিয়ে যাচ্ছে"
+    ],
+    "approved_answer": "দেরির জন্য আন্তরিকভাবে দুঃখিত। অ্যাডমিন আপনার প্রজেক্টের অবস্থা চেক করে দ্রুত জানাবে। 🙏",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "463",
+    "category": "support",
+    "intent": "legal_threat",
+    "patterns": [
+      "case korbo",
+      "police e jabo",
+      "consumer complain",
+      "আইনি ব্যবস্থা নেব",
+      "মামলা করব"
+    ],
+    "approved_answer": "আপনার অভিযোগ আমরা গুরুত্বের সাথে নিচ্ছি। অ্যাডমিন দ্রুত যোগাযোগ করে সমাধানের চেষ্টা করবে। 🙏",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "464",
+    "category": "support",
+    "intent": "support_expired",
+    "patterns": [
+      "support shesh",
+      "1 month por problem",
+      "সাপোর্টের মেয়াদ শেষ",
+      "ফ্রি সাপোর্ট শেষ"
+    ],
+    "approved_answer": "ফ্রি সাপোর্টের মেয়াদ শেষ হলেও মেইনটেনেন্স চুক্তির মাধ্যমে আমরা সাহায্য করতে পারি। অ্যাডমিন বিস্তারিত জানাবে। 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "465",
+    "category": "support",
+    "intent": "email_not_working",
+    "patterns": [
+      "email jaay na",
+      "mail asche na",
+      "ইমেইল যাচ্ছে না",
+      "মেইল স্প্যামে যায়",
+      "ইমেইল আসছে না"
+    ],
+    "approved_answer": "ইমেইল সমস্যায় ডোমেইনের DNS ও SMTP সেটিং দেখতে হবে। আপনার ডোমেইন নামটি জানান। 📧",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "466",
+    "category": "support",
+    "intent": "form_not_submitting",
+    "patterns": [
+      "form submit hoy na",
+      "contact form kaj kore na",
+      "ফর্ম সাবমিট হচ্ছে না",
+      "কন্টাক্ট ফর্ম কাজ করছে না"
+    ],
+    "approved_answer": "ফর্মের স্ক্রিনশট বা ভিডিও পাঠান, আমরা চেক করে ঠিক করে দেব। 📝",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "467",
+    "category": "support",
+    "intent": "mobile_view_broken",
+    "patterns": [
+      "mobile e vanga",
+      "phone e thik dekhay na",
+      "মোবাইলে ভেঙে যাচ্ছে",
+      "ফোনে ঠিক দেখাচ্ছে না"
+    ],
+    "approved_answer": "যে পেজ ও ফোনে সমস্যা হচ্ছে তার স্ক্রিনশট পাঠান, আমরা রেসপন্সিভ ঠিক করে দেব। 📱",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "468",
+    "category": "support",
+    "intent": "content_update_help",
+    "patterns": [
+      "text change korte chai",
+      "chobi update kibhabe",
+      "লেখা পরিবর্তন করতে চাই",
+      "ছবি বদলাব কীভাবে"
+    ],
+    "approved_answer": "এডমিন প্যানেল থেকে নিজে পরিবর্তন করতে পারবেন। না পারলে কী বদলাতে চান জানান, আমরা করে দেব। 🖥️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "469",
+    "category": "support",
+    "intent": "traffic_zero",
+    "patterns": [
+      "visitor ashe na",
+      "google e ashe na",
+      "সাইটে ভিজিটর আসছে না",
+      "গুগলে আসছে না"
+    ],
+    "approved_answer": "নতুন সাইট গুগলে আসতে কিছু সময় লাগে। SEO, সাইটম্যাপ ও কনটেন্ট দেখে উন্নতির উপায় জানাতে পারি। 🔍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "470",
+    "category": "support",
+    "intent": "data_deleted_restore",
+    "patterns": [
+      "backup theke restore",
+      "data delete hoye gese",
+      "ডেটা মুছে গেছে",
+      "ব্যাকআপ রিস্টোর করতে চাই"
+    ],
+    "approved_answer": "চিন্তা করবেন না, ব্যাকআপ থাকলে রিস্টোরের চেষ্টা করব। কবে ও কী মুছে গেছে জানান। 💾",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "471",
+    "category": "support",
+    "intent": "change_hosting_provider",
+    "patterns": [
+      "hosting change korbo",
+      "server change",
+      "হোস্টিং বদলাতে চাই",
+      "সার্ভার পরিবর্তন"
+    ],
+    "approved_answer": "সাইট অক্ষত রেখে নতুন হোস্টিংয়ে মাইগ্রেট করা সম্ভব। বর্তমান ও নতুন হোস্টিংয়ের তথ্য জানান। ☁️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "472",
+    "category": "support",
+    "intent": "mobile_app_update",
+    "patterns": [
+      "app update dibo",
+      "play store update",
+      "অ্যাপ আপডেট করাতে চাই",
+      "নতুন ভার্সন দিতে চাই"
+    ],
+    "approved_answer": "অ্যাপে কী আপডেট চান জানান, আমরা নতুন ভার্সন তৈরি করে পাবলিশ করে দেব। 📲",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "473",
+    "category": "support",
+    "intent": "app_rejected",
+    "patterns": [
+      "app reject hoyeche",
+      "play store reject",
+      "অ্যাপ রিজেক্ট হয়েছে",
+      "অ্যাপল রিজেক্ট করেছে"
+    ],
+    "approved_answer": "রিজেকশনের ইমেইল বা কারণটি পাঠান, ঠিক করে আবার সাবমিট করার ব্যবস্থা করা যাবে। 🛠️",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+  {
+    "id": "474",
+    "category": "support",
+    "intent": "voice_only_customer",
+    "patterns": [
+      "voice e bolbo",
+      "text korte parbo na",
+      "ভয়েসে বলি",
+      "লিখতে পারি না",
+      "কীবোর্ডে সমস্যা"
+    ],
+    "approved_answer": "সমস্যা নেই, ভয়েস মেসেজ দিন। আমরা শুনে উত্তর দেব। 🎙️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "475",
+    "category": "support",
+    "intent": "screenshot_sent",
+    "patterns": [
+      "screenshot pathai",
+      "chobi pathacchi",
+      "স্ক্রিনশট দিচ্ছি",
+      "ছবি পাঠাচ্ছি"
+    ],
+    "approved_answer": "স্ক্রিনশট বা ছবি পাঠান, দেখে জানাচ্ছি। 📸",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

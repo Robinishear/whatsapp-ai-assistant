@@ -1,0 +1,158 @@
+[
+  {
+    "id": "016",
+    "category": "company_info",
+    "intent": "portfolio_request",
+    "patterns": [
+      "portfolio daw",
+      "show your work",
+      "আগের কাজ দেখতে চাই",
+      "স্যাম্পল দেখান"
+    ],
+    "approved_answer": "আমাদের সাম্প্রতিক প্রজেক্টের স্যাম্পল এই লিংকে দেখতে পারেন: https://portfolio.example.com 📁",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "017",
+    "category": "company_info",
+    "intent": "working_hours",
+    "patterns": [
+      "office hours",
+      "koyta porjonto khola",
+      "কখন ফোন দিলে পাবো",
+      "কাজের সময়"
+    ],
+    "approved_answer": "আমাদের সাধারণ কাজের সময় সকাল 11:00 টা থেকে রাত 3:00 টা পর্যন্ত। ⏰",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "018",
+    "category": "company_info",
+    "intent": "location_address",
+    "patterns": [
+      "thikana kothay",
+      "where is your office",
+      "location koi",
+      "ঠিকানা কি"
+    ],
+    "approved_answer": "আমাদের অফিস ঢাকা, বাংলাদেশে অবস্থিত। সুনির্দিষ্ট লোকেশন ম্যাপ পাঠাতে পারি। 📍",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "019",
+    "category": "company_info",
+    "intent": "contact_number",
+    "patterns": [
+      "phone number daw",
+      "call number",
+      "ফোন নম্বর দিবেন",
+      "কথা বলার নাম্বার"
+    ],
+    "approved_answer": "জরুরি প্রয়োজনে আমাদের এই নম্বরে সরাসরি কল করতে পারেন: +8801334757898 📞",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "020",
+    "category": "company_info",
+    "intent": "email_address",
+    "patterns": [
+      "email address ki",
+      "send mail",
+      "ইমেইল অ্যাড্রেস কি",
+      "মেইল আইডি"
+    ],
+    "approved_answer": "আমাদের ইমেইল: robinryan889@gmail.com ✉️",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "021",
+    "category": "company_info",
+    "intent": "schedule_call",
+    "patterns": [
+      "call me",
+      "book a meeting",
+      "মিটিং করতে চাই",
+      "কথা বলতে চাই",
+      "কল দেওয়া যাবে"
+    ],
+    "approved_answer": "আপনি এই লিংকের মাধ্যমে সরাসরি সুবিধাজনক সময়ে মিটিং বুক করতে পারেন: https://calendly.com/example 📅",
+    "auto_reply": true,
+    "risk": "medium"
+  },
+ 
+ 
+  
+ 
+  {
+    "id": "033",
+    "category": "company_info",
+    "intent": "tech_stack_query",
+    "patterns": [
+      "what languages do you use",
+      "kon technology use koren",
+      "কী দিয়ে বানান",
+      "টেকনোলজি কি"
+    ],
+    "approved_answer": "আমরা ওয়েবে React, Next.js, WebSockets, Framer Motion, Node.js, Go, Python, Docker, Kafka এবং অ্যাপে React Native, Flutter ব্যবহার করি 💻📱। AI/LLM জগতে Large Language Models, RAG Architecture, AI Agents, fine-tuning ও LLM Ranking নিয়ে কাজ করি 🤖🧠। ওয়েবে DDoS Protection, WAF, OWASP Top 10, CSP, HSTS, OAuth2/JWT Security, HTTPS/TLS এবং অ্যাপে App Store / Play Store Security Guidelines, SSL Pinning, Biometric Auth, Data Encryption (AES-256) ও Obfuscation সহ সম্পূর্ণ ইন্ডাস্ট্রি-স্ট্যান্ডার্ড সিকিউরিটি নিশ্চিত করি 🛡️🔒✨",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  
+
+  {
+    "id": "044",
+    "category": "company_info",
+    "intent": "free_consultation",
+    "patterns": [
+      "free advice",
+      "consultation lagbe",
+      "পরামর্শ পাবো",
+      "পরামর্শ ফ্রিতে দেওয়া যাবে"
+    ],
+    "approved_answer": "অবশ্যই! প্রজেক্ট আইডিয়া নিয়ে যেকোনো ফ্রি কন্সাল্টেশনের জন্য কথা বলতে পারেন। 💡",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "045",
+    "category": "company_info",
+    "intent": "job_inquiry",
+    "patterns": [
+      "hiring naki",
+      "job vacancy",
+      "চাকরি হবে",
+      "জব ভ্যাকেন্সি আছে"
+    ],
+    "approved_answer": "আমাদের ক্যারিয়ার পেইজ বা ইমেইলে সিভি পাঠিয়ে রাখতে পারেন: robinryan889@gmail.com 💼",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "046",
+    "category": "company_info",
+    "intent": "internship_query",
+    "patterns": ["internship ache", "intern neo", "ইন্টার্নশিপ দেওয়া যাবে"],
+    "approved_answer": "আমরা সময়ে সময়ে ইন্টার্নশিপ অপচুনিটি অফার করি। আপনার পোর্টফোলিও আমাদের মেইল করুন। robinryan889@gmail.com 🎓",
+    "auto_reply": true,
+    "risk": "low"
+  },
+  {
+    "id": "047",
+    "category": "company_info",
+    "intent": "partnership_proposal",
+    "patterns": [
+      "business partner",
+      "collab korbe",
+      "পার্টনারশিপ করবেন",
+      "কোল্যাব করা যাবে"
+    ],
+    "approved_answer": "আমি রবিন রাইয়ান ভাইয়ের এআই চ্যাটবট বলতেছি 🤖। এটার অ্যানসার আমি দিতে পারছি না, তাই কিছুক্ষণ ওয়েট করুন—রবিন রাইয়ান ভাই নিজে এসে আপনাকে অ্যানসার করবেন। ধন্যবাদ! ⌛",
+    "auto_reply": true,
+    "risk": "low"
+  }
+]

@@ -1,0 +1,76 @@
+
+  [
+  {
+    "id": "456",
+    "category": "payment",
+    "intent": "payment_installment",
+    "patterns": [
+      "kisti te dewa jabe",
+      "installment",
+      "কিস্তিতে পেমেন্ট",
+      "ভাগে ভাগে টাকা",
+      "ধাপে ধাপে পেমেন্ট"
+    ],
+    "approved_answer": "পেমেন্ট ধাপে ধাপে দেওয়ার বিষয়টি প্রজেক্ট অনুযায়ী ঠিক হয়। অ্যাডমিন আলোচনা করে জানাবে। 💳",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "457",
+    "category": "payment",
+    "intent": "wrong_number_payment",
+    "patterns": [
+      "vul number e taka pathaisi",
+      "wrong bkash number",
+      "ভুল নম্বরে টাকা পাঠিয়েছি",
+      "ভুল একাউন্টে পেমেন্ট"
+    ],
+    "approved_answer": "চিন্তা করবেন না। ট্রানজেকশন আইডি ও স্ক্রিনশট পাঠান, অ্যাডমিন দ্রুত যাচাই করে জানাবে। ভবিষ্যতে শুধু আমাদের অফিশিয়াল নম্বরেই পেমেন্ট করবেন। 🧾",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "458",
+    "category": "payment",
+    "intent": "payment_failed",
+    "patterns": [
+      "payment fail",
+      "gateway kaj kore na",
+      "পেমেন্ট ফেইল হচ্ছে",
+      "গেটওয়ে কাজ করছে না",
+      "পেমেন্ট হচ্ছে না"
+    ],
+    "approved_answer": "ত্রুটির স্ক্রিনশট ও এরর মেসেজ পাঠান, পেমেন্ট গেটওয়ে সেটিং চেক করা হবে। 💳",
+    "auto_reply": true,
+    "risk": "high"
+  },
+  {
+    "id": "459",
+    "category": "payment",
+    "intent": "refund_request_now",
+    "patterns": [
+      "amar taka ferot chai",
+      "refund dite hobe",
+      "আমার টাকা ফেরত চাই",
+      "রিফান্ড চাই"
+    ],
+    "approved_answer": "আপনার অনুরোধ পেয়েছি। কারণ ও ট্রানজেকশন তথ্য জানান, অ্যাডমিন যাচাই করে যোগাযোগ করবে। 💸",
+    "auto_reply": false,
+    "risk": "high"
+  },
+  {
+    "id": "460",
+    "category": "payment",
+    "intent": "hosting_renewal_query",
+    "patterns": [
+      "hosting expire",
+      "domain renew",
+      "হোস্টিং মেয়াদ শেষ",
+      "ডোমেইন রিনিউ কবে",
+      "রিনিউ করতে হবে"
+    ],
+    "approved_answer": "প্রথম ১ বছর ডোমেইন ও হোস্টিং ফ্রি থাকে, এরপর রিনিউয়াল ফি লাগে। আপনার ডোমেইনের নাম জানান, মেয়াদ দেখে জানাচ্ছি। 🌐",
+    "auto_reply": true,
+    "risk": "medium"
+  }
+]
