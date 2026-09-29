@@ -14,7 +14,6 @@ async function shutdown(signal: string) {
     process.exit(0);
   });
 
-  // Force-exit if graceful shutdown hangs.
   setTimeout(() => process.exit(1), 10_000).unref();
 }
 

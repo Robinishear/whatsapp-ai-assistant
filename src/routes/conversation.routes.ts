@@ -6,7 +6,6 @@ import { requireAdminAuth } from "../middleware/requireAdminAuth";
 
 export const conversationRouter = Router();
 
-// All admin/dashboard endpoints require authentication.
 conversationRouter.use(requireAdminAuth);
 
 conversationRouter.get("/", async (_req, res) => {

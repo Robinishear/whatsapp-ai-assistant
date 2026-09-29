@@ -1,10 +1,10 @@
 import { logger } from "../config/logger";
 
 export interface RetryOptions {
-  attempts?: number; // total attempts including the first
+  attempts?: number;
   baseDelayMs?: number;
   maxDelayMs?: number;
-  label?: string; // for log context
+  label?: string; 
   isRetryable?: (err: unknown) => boolean;
 }
 
@@ -12,11 +12,6 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-/**
- * Runs `fn` with exponential backoff + jitter. Bounded by `attempts` and
- * `maxDelayMs` so a flaky downstream (Meta, an AI provider) never turns into
- * an unbounded retry loop or blocks message processing indefinitely.
- */
 export async function withRetry<T>(fn: () => Promise<T>, options: RetryOptions = {}): Promise<T> {
   const {
     attempts = 3,

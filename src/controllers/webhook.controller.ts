@@ -18,15 +18,14 @@ export function verifyWebhook(req: Request, res: Response): void {
   res.sendStatus(403);
 }
 
+// service message.service
 export async function receiveWebhook(req: Request, res: Response): Promise<void> {
-  // Always ack immediately — Meta retries aggressively on non-200 responses.
   res.sendStatus(200);
 
   try {
     const messages = whatsAppProvider.parseInbound(req.body);
 
     for (const message of messages) {
-      // Process sequentially per request to keep ordering simple in v1.
       await processInboundMessage(message);
     }
   } catch (err) {

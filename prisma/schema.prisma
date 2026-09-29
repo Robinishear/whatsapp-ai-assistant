@@ -9,7 +9,7 @@ datasource db {
 
 model Contact {
   id            String         @id @default(cuid())
-  waId          String         @unique // WhatsApp identifier (phone number)
+  waId          String         @unique
   displayName   String?
   status        String         @default("active")
   priority      String         @default("normal")
@@ -22,8 +22,8 @@ model Conversation {
   id        String    @id @default(cuid())
   contact   Contact   @relation(fields: [contactId], references: [id])
   contactId String
-  state     String    @default("open") // open | waiting_approval | closed
-  mode      String    @default("auto") // auto | manual
+  state     String    @default("open") 
+  mode      String    @default("auto") 
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   messages  Message[]
@@ -33,10 +33,10 @@ model Message {
   id             String        @id @default(cuid())
   conversation   Conversation  @relation(fields: [conversationId], references: [id])
   conversationId String
-  direction      String // inbound | outbound
+  direction      String 
   waMessageId    String        @unique
   text           String
-  status         String        @default("received") // received | draft | approved | sent | rejected
+  status         String        @default("received") 
   createdAt      DateTime      @default(now())
   analysis       AIAnalysis?
 }
@@ -46,11 +46,11 @@ model AIAnalysis {
   message    Message  @relation(fields: [messageId], references: [id])
   messageId  String   @unique
   intent     String
-  risk       String // low | medium | high
+  risk       String 
   confidence Float
   provider   String
   model      String?
-  decision   String // AUTO_REPLY | DRAFT_FOR_APPROVAL | ALERT
+  decision   String 
   reason     String
   createdAt  DateTime @default(now())
 }
@@ -58,7 +58,7 @@ model AIAnalysis {
 model Notification {
   id        String   @id @default(cuid())
   type      String
-  status    String   @default("sent") // sent | failed
+  status    String   @default("sent") 
   payload   Json
   createdAt DateTime @default(now())
 }

@@ -12,7 +12,11 @@ interface ResponseRule {
 }
 
 function normalize(text: string): string {
-  return text.toLowerCase().trim().replace(/[^\w\s]/g, "");
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\p{L}\p{M}\p{N}\s]/gu, "")
+    .replace(/\s+/g, " ");
 }
 
 class KnowledgeBase {
@@ -21,14 +25,20 @@ class KnowledgeBase {
   constructor(private readonly dir: string) {
     this.load();
   }
+
   private load(): void {
-    const file = path.join(this.dir, "response-rules.json");
-    if (!fs.existsSync(file)) {
+    if (!fs.existsSync(this.dir)) {
       this.rules = [];
       return;
     }
-    const raw = fs.readFileSync(file, "utf-8");
-    this.rules = JSON.parse(raw) as ResponseRule[];
+    // 
+    const files = fs
+      .readdirSync(this.dir)
+      .filter((f) => /^response-.*\.json$/.test(f));
+    this.rules = files.flatMap((f) => {
+      const raw = fs.readFileSync(path.join(this.dir, f), "utf-8");
+      return JSON.parse(raw) as ResponseRule[];
+    });
   }
 
   /** Reload from disk — useful if knowledge files change without a redeploy. */

@@ -15,7 +15,6 @@ app.use(express.json());
 app.use(
   pinoHttp({
     logger,
-    // Don't log full request bodies by default — may contain message content.
     serializers: { req: (req) => ({ method: req.method, url: req.url }) },
   }),
 );
@@ -27,7 +26,6 @@ app.use("/api/messages", adminApiRateLimit, messageRouter);
 app.use("/api/settings", adminApiRateLimit, settingsRouter);
 app.use("/api/notifications", adminApiRateLimit, notificationsRouter);
 
-// Central error handler — never leak stack traces or internals to clients.
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
   logger.error({ err }, "Unhandled error");
   res.status(500).json({ error: "Internal server error" });
