@@ -1,0 +1,902 @@
+[
+  {
+    "id": "4e0dcc096f579bbd96978b9e0b2232b0b886a078aa684e61",
+    "category": "general_question",
+    "intent": "coding_bujhte_parchi_na",
+    "patterns": [
+      "কোডিং বুঝতেছি না",
+      "কোড বুঝতে পারছি না",
+      "কোডিং আমার মাথায় ঢুকছে না",
+      "প্রোগ্রামিং বুঝি না"
+    ],
+    "approved_answer": "কোডিং না বুঝলে সমস্যা নেই। কোন অংশটা বুঝতে পারছো না সেটা দিলে আমি একদম সহজভাবে ধাপে ধাপে বুঝিয়ে দিতে পারি।"
+  },
+  {
+    "id": "1a5fca07e524f44b5f023ef1fcd14429059aa736cfc30656",
+    "category": "general_question",
+    "intent": "coding_kotha_theke_shuru",
+    "patterns": [
+      "কোডিং কোথা থেকে শুরু করব",
+      "প্রোগ্রামিং শেখা শুরু করব কীভাবে",
+      "কোডিং শেখার শুরু কোথায়",
+      "নতুন হলে কী দিয়ে কোডিং শুরু করব"
+    ],
+    "approved_answer": "শুরুতে একটি সহজ ভাষা যেমন Python দিয়ে বেসিক শেখা ভালো। Variables, condition, loop, function এবং তারপর ছোট ছোট project দিয়ে practice করতে পারো।"
+  },
+  {
+    "id": "dd0f6869ca202fdc53e0a93e6bf75cccae9070040ef432d9",
+    "category": "general_question",
+    "intent": "python_bujhte_na_para",
+    "patterns": [
+      "Python বুঝতেছি না",
+      "Python শেখা কঠিন লাগছে",
+      "Python এর code বুঝি না",
+      "Python কীভাবে বুঝব"
+    ],
+    "approved_answer": "Python বুঝতে হলে একসাথে অনেক কিছু না শিখে ছোট উদাহরণ দিয়ে শুরু করো। চাইলে তোমার code দিলে আমি line by line বুঝিয়ে দিতে পারি।"
+  },
+  {
+    "id": "2ef5d882380b7bd699249f42a04dc4a57f4f4c8cf004844a",
+    "category": "general_question",
+    "intent": "javascript_bujhte_na_para",
+    "patterns": [
+      "JavaScript বুঝি না",
+      "JavaScript শেখা কঠিন",
+      "JS code বুঝতে পারছি না",
+      "JavaScript কীভাবে শিখব"
+    ],
+    "approved_answer": "JavaScript শেখার সময় আগে variables, functions, conditions, loops এবং DOM-এর basic বুঝে নাও। নির্দিষ্ট code দিলে আমি সহজ করে ব্যাখ্যা করতে পারি।"
+  },
+  {
+    "id": "6b756713ec8dd419c4a3141b9844d9dbd134826cf3b7f1fe",
+    "category": "general_question",
+    "intent": "html_bujhte_na_para",
+    "patterns": [
+      "HTML বুঝি না",
+      "HTML শেখা শুরু করব কীভাবে",
+      "HTML tag বুঝতেছি না",
+      "HTML code বুঝতে পারছি না"
+    ],
+    "approved_answer": "HTML হলো webpage-এর structure তৈরির ভাষা। আগে heading, paragraph, link, image, form এবং basic semantic tags শিখলে ভালো ভিত্তি তৈরি হবে।"
+  },
+  {
+    "id": "19b6da9cf5ab86a826c615323929f58edb0ef432ad0b6f51",
+    "category": "general_question",
+    "intent": "css_bujhte_na_para",
+    "patterns": [
+      "CSS বুঝি না",
+      "CSS শেখা কঠিন",
+      "CSS code বুঝতে পারছি না",
+      "CSS কীভাবে শিখব"
+    ],
+    "approved_answer": "CSS শেখার জন্য selector, box model, display, position, flexbox এবং grid দিয়ে শুরু করো। চাইলে তোমার CSS code পাঠাও, আমি বুঝিয়ে দেব।"
+  },
+  {
+    "id": "630b7357b1a2d563dafff11c7c3705ed80dba03fd1ca1a91",
+    "category": "general_question",
+    "intent": "react_bujhte_na_para",
+    "patterns": [
+      "React বুঝি না",
+      "React শেখা কঠিন লাগছে",
+      "React component বুঝতেছি না",
+      "React কীভাবে শিখব"
+    ],
+    "approved_answer": "React শেখার সময় আগে component, props, state, event এবং hooks-এর basic বোঝো। তারপর ছোট project করলে বিষয়গুলো অনেক পরিষ্কার হবে।"
+  },
+  {
+    "id": "8cc2941d6e40a3dbfb54217ef060ac1745ab3d74084aa3f2",
+    "category": "general_question",
+    "intent": "database_bujhte_na_para",
+    "patterns": [
+      "Database বুঝি না",
+      "database কীভাবে শিখব",
+      "SQL বুঝতেছি না",
+      "database concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "Database শেখার জন্য আগে table, row, column, primary key, relationship এবং basic SQL query বুঝে শুরু করো।"
+  },
+  {
+    "id": "795ea79afadb54d974cad369b527936d0b715fb46b9a668d",
+    "category": "general_question",
+    "intent": "api_bujhte_na_para",
+    "patterns": [
+      "API বুঝি না",
+      "API কী বুঝতেছি না",
+      "API কীভাবে কাজ করে",
+      "API শেখা কঠিন"
+    ],
+    "approved_answer": "API হলো বিভিন্ন software বা service-এর মধ্যে data আদান-প্রদানের একটি মাধ্যম। Request, response, endpoint এবং HTTP method বুঝলেই basic ধারণা তৈরি হবে।"
+  },
+  {
+    "id": "86b94e6ec8f9477d0783d7738a7d6a6133dfe20bb12a1b27",
+    "category": "general_question",
+    "intent": "git_bujhte_na_para",
+    "patterns": [
+      "Git বুঝি না",
+      "Git কীভাবে শিখব",
+      "git command বুঝতে পারছি না",
+      "Git শেখা কঠিন"
+    ],
+    "approved_answer": "Git শেখার জন্য আগে init, add, commit, status, log, branch এবং merge-এর basic command বুঝে practice করো।"
+  },
+  {
+    "id": "e4b1641449dc7486c308a5e7831f89c5e088d50655f3a150",
+    "category": "general_question",
+    "intent": "github_bujhte_na_para",
+    "patterns": [
+      "GitHub বুঝি না",
+      "GitHub কীভাবে ব্যবহার করব",
+      "GitHub-এ code দিতে পারছি না",
+      "GitHub শেখা কঠিন"
+    ],
+    "approved_answer": "GitHub-এ repository তৈরি করে Git দিয়ে code push করা যায়। চাইলে তোমার বর্তমান অবস্থাটা বললে step by step দেখিয়ে দিতে পারি।"
+  },
+  {
+    "id": "af07ff521196af11ffcbc459c1c7567204e9805073d0ff23",
+    "category": "general_question",
+    "intent": "error_bujhte_na_para",
+    "patterns": [
+      "error বুঝতেছি না",
+      "এই error কেন আসছে",
+      "error message বুঝি না",
+      "কোডে error দেখাচ্ছে"
+    ],
+    "approved_answer": "Error-এর পুরো message এবং সম্ভব হলে সংশ্লিষ্ট code দিলে কারণটা খুঁজে বের করে সহজভাবে ব্যাখ্যা করা যাবে।"
+  },
+  {
+    "id": "a6ca00cee4840941878525fbdcc6aa2639ebed06d07c4594",
+    "category": "general_question",
+    "intent": "debugging_bujhte_na_para",
+    "patterns": [
+      "debugging বুঝি না",
+      "debug কীভাবে করব",
+      "bug খুঁজে পাই না",
+      "code debug করতে পারছি না"
+    ],
+    "approved_answer": "Debugging মানে সমস্যাটা কোথায় হচ্ছে সেটা ধাপে ধাপে খুঁজে বের করা। Error message, variable value এবং code flow পরীক্ষা করে শুরু করতে পারো।"
+  },
+  {
+    "id": "c8f004a2fe8cc1a4f91c57767d3ea67a019b765911550520",
+    "category": "general_question",
+    "intent": "algorithm_bujhte_na_para",
+    "patterns": [
+      "Algorithm বুঝি না",
+      "algorithm কী",
+      "algorithm শেখা কঠিন",
+      "algorithm কীভাবে বুঝব"
+    ],
+    "approved_answer": "Algorithm হলো কোনো সমস্যা সমাধানের ধাপে ধাপে পদ্ধতি। আগে সমস্যাটা ছোট অংশে ভাগ করে তারপর প্রতিটি ধাপ লিখে practice করো।"
+  },
+  {
+    "id": "808c916de0c03fa5f9b43d867a8023c2d794d4e50cef43bf",
+    "category": "general_question",
+    "intent": "programming_logic_bujhte_na_para",
+    "patterns": [
+      "Programming logic বুঝি না",
+      "logic build করতে পারছি না",
+      "coding logic কীভাবে শিখব",
+      "programming logic দুর্বল"
+    ],
+    "approved_answer": "Programming logic উন্নত করতে ছোট problem solve করো। প্রথমে problem বুঝে input, process এবং output আলাদা করে ভাবার অভ্যাস করো।"
+  },
+  {
+    "id": "a9d4882e9afb144ab5f48f2ddd4fb4b3aa115fad8500aaef",
+    "category": "general_question",
+    "intent": "loop_bujhte_na_para",
+    "patterns": [
+      "loop বুঝি না",
+      "for loop বুঝতেছি না",
+      "while loop বুঝি না",
+      "loop কীভাবে কাজ করে"
+    ],
+    "approved_answer": "Loop একই ধরনের কাজ বারবার করার জন্য ব্যবহার হয়। for এবং while loop-এর ছোট example দিয়ে practice করলে বিষয়টা সহজ হবে।"
+  },
+  {
+    "id": "3ae7b91d85346bdb5d8da1c98ae118b1a8e20bb3fdeaa76b",
+    "category": "general_question",
+    "intent": "function_bujhte_na_para",
+    "patterns": [
+      "Function বুঝি না",
+      "function কীভাবে কাজ করে",
+      "function শেখা কঠিন",
+      "function call বুঝতেছি না"
+    ],
+    "approved_answer": "Function হলো নির্দিষ্ট কাজ করার জন্য code-এর reusable অংশ। Input হিসেবে parameter নিতে পারে এবং প্রয়োজনে result return করতে পারে।"
+  },
+  {
+    "id": "131bcf186f72849f35af776e924dce11f4df359e7dd70bdd",
+    "category": "general_question",
+    "intent": "variable_bujhte_na_para",
+    "patterns": [
+      "Variable বুঝি না",
+      "variable কী",
+      "variable কীভাবে কাজ করে",
+      "variable শেখা কঠিন"
+    ],
+    "approved_answer": "Variable হলো data রাখার একটি নামযুক্ত স্থান। যেমন একটি নামের মধ্যে সংখ্যা, text বা অন্য data রাখা যায়।"
+  },
+  {
+    "id": "522dcefd56198d6d46675e809cb5fb8f607aff42f549cc8c",
+    "category": "general_question",
+    "intent": "array_bujhte_na_para",
+    "patterns": [
+      "Array বুঝি না",
+      "array কীভাবে কাজ করে",
+      "array শেখা কঠিন",
+      "array বুঝতে পারছি না"
+    ],
+    "approved_answer": "Array হলো একাধিক value একটি collection হিসেবে রাখার পদ্ধতি। Index ব্যবহার করে সাধারণত array-এর নির্দিষ্ট element access করা যায়।"
+  },
+  {
+    "id": "433b686d3cf59110fc743268fb786568e597b0f3a646a5dd",
+    "category": "general_question",
+    "intent": "object_bujhte_na_para",
+    "patterns": [
+      "Object বুঝি না",
+      "object কী",
+      "object কীভাবে কাজ করে",
+      "object শেখা কঠিন"
+    ],
+    "approved_answer": "Object সাধারণত related data এবং behavior একসাথে সংগঠিত করতে ব্যবহৃত হয়। Programming language অনুযায়ী এর syntax আলাদা হতে পারে।"
+  },
+  {
+    "id": "9a097af9f9c6320d87433f286ac6d7d5f72c2a5a31b8d448",
+    "category": "general_question",
+    "intent": "oop_bujhte_na_para",
+    "patterns": [
+      "OOP বুঝি না",
+      "Object oriented programming কী",
+      "OOP শেখা কঠিন",
+      "OOP concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "OOP হলো object ও class ভিত্তিক programming approach। Class, object, inheritance, encapsulation এবং polymorphism এর গুরুত্বপূর্ণ ধারণা।"
+  },
+  {
+    "id": "e79f9d970fcbb07c69183e670a2a8e92e53dbebb66dd002f",
+    "category": "general_question",
+    "intent": "framework_bujhte_na_para",
+    "patterns": [
+      "Framework বুঝি না",
+      "framework কী",
+      "framework কেন লাগে",
+      "framework শেখা দরকার কি"
+    ],
+    "approved_answer": "Framework হলো নির্দিষ্ট ধরনের application তৈরি সহজ করার জন্য তৈরি structure ও tools-এর সমষ্টি। কোন framework শিখবে তা তোমার লক্ষ্য ও project-এর ওপর নির্ভর করে।"
+  },
+  {
+    "id": "d2dbecc1393ecc629e7d904fda4776d78a7816d6e3397dbe",
+    "category": "general_question",
+    "intent": "coding_project_kothay_pabo",
+    "patterns": [
+      "coding project কোথায় পাব",
+      "practice করার project চাই",
+      "coding project idea কোথায় পাব",
+      "কী project বানাব"
+    ],
+    "approved_answer": "নিজের level অনুযায়ী ছোট project দিয়ে শুরু করো—যেমন calculator, to-do app, notes app বা simple portfolio।"
+  },
+  {
+    "id": "b46142baf4ac8edeb478982efe2ce1a0f580c56980e10ae7",
+    "category": "general_question",
+    "intent": "coding_practice_kora",
+    "patterns": [
+      "coding practice কীভাবে করব",
+      "কোডিং practice করার নিয়ম",
+      "প্রতিদিন coding কীভাবে practice করব",
+      "coding practice করতে চাই"
+    ],
+    "approved_answer": "প্রতিদিন অল্প সময় হলেও নিজে code লেখার চেষ্টা করো। Tutorial দেখার পাশাপাশি problem solve এবং ছোট project বানানো বেশি কাজে দেয়।"
+  },
+  {
+    "id": "75dc3095baa4df93f43c3807f33cbf4e44238826ae080755",
+    "category": "general_question",
+    "intent": "study_bujhte_na_para",
+    "patterns": [
+      "পড়ালেখা বুঝতেছি না",
+      "পড়া মাথায় ঢুকছে না",
+      "study বুঝতে পারছি না",
+      "পড়া কঠিন লাগছে"
+    ],
+    "approved_answer": "একসাথে অনেক কিছু না পড়ে বিষয়টাকে ছোট অংশে ভাগ করো। সহজ উদাহরণ, নিজের ভাষায় নোট এবং practice question ব্যবহার করলে বুঝতে সুবিধা হয়।"
+  },
+  {
+    "id": "819bbfd9f8b6e37313acd8d6a743eb41f403acc19de43067",
+    "category": "general_question",
+    "intent": "math_bujhte_na_para",
+    "patterns": [
+      "Math বুঝি না",
+      "গণিত বুঝতেছি না",
+      "Math problem পারি না",
+      "গণিত কঠিন লাগছে"
+    ],
+    "approved_answer": "গণিতে আগে concept পরিষ্কার করা জরুরি। যে problem-টা আটকে যাচ্ছে সেটা দিলে ধাপে ধাপে সমাধান দেখিয়ে বোঝানো যায়।"
+  },
+  {
+    "id": "78ac6bd71da03c846c296c95dd62aee58b4b55399b4ecb02",
+    "category": "general_question",
+    "intent": "physics_bujhte_na_para",
+    "patterns": [
+      "Physics বুঝি না",
+      "পদার্থবিজ্ঞান বুঝতে পারছি না",
+      "Physics problem পারি না",
+      "Physics কঠিন লাগছে"
+    ],
+    "approved_answer": "Physics-এ formula মুখস্থ করার আগে concept এবং formula-এর অর্থ বোঝার চেষ্টা করো। Problem দিলে step by step ব্যাখ্যা করা যাবে।"
+  },
+  {
+    "id": "32a3d6689e3a6eccf5b17d663517fee3dd14f9f5eec1964e",
+    "category": "general_question",
+    "intent": "chemistry_bujhte_na_para",
+    "patterns": [
+      "Chemistry বুঝি না",
+      "রসায়ন বুঝতে পারছি না",
+      "Chemistry কঠিন",
+      "Chemistry পড়া বুঝতেছি না"
+    ],
+    "approved_answer": "Chemistry-তে basic concept, symbols, reactions এবং formula-এর অর্থ আগে পরিষ্কার করো। নির্দিষ্ট topic দিলে সহজ ভাষায় ব্যাখ্যা করা যাবে।"
+  },
+  {
+    "id": "10a2b129dc00793d8f82e9c861a5729bf3a1e9c9cbb162f8",
+    "category": "general_question",
+    "intent": "english_bujhte_na_para",
+    "patterns": [
+      "English বুঝি না",
+      "ইংরেজি পড়া বুঝতে পারি না",
+      "English grammar বুঝি না",
+      "ইংরেজি শেখা কঠিন"
+    ],
+    "approved_answer": "ইংরেজি শেখার জন্য vocabulary, basic grammar, reading এবং writing একসাথে practice করা ভালো। যে অংশটা বুঝতে সমস্যা হচ্ছে সেটা পাঠাতে পারো।"
+  },
+  {
+    "id": "2a37d1da385987aa703890a6c8acd180376e4a810fd18f86",
+    "category": "general_question",
+    "intent": "grammar_bujhte_na_para",
+    "patterns": [
+      "Grammar বুঝি না",
+      "ইংরেজি grammar কঠিন",
+      "grammar rule বুঝতেছি না",
+      "grammar কীভাবে শিখব"
+    ],
+    "approved_answer": "Grammar শেখার সময় rule-এর সাথে example practice করো। Tense, subject-verb agreement, article এবং preposition দিয়ে শুরু করতে পারো।"
+  },
+  {
+    "id": "a5107d828a9a6bd7f10369439d5d0f215ded132fa5a2fe0a",
+    "category": "general_question",
+    "intent": "exam_preparation_bujhte_na_para",
+    "patterns": [
+      "Exam-এর পড়া বুঝি না",
+      "পরীক্ষার প্রস্তুতি কীভাবে নেব",
+      "exam preparation করতে পারছি না",
+      "পরীক্ষার জন্য কীভাবে পড়ব"
+    ],
+    "approved_answer": "সিলেবাস ভাগ করে গুরুত্বপূর্ণ topic আগে শেষ করো। তারপর practice question, revision এবং mock test-এর মাধ্যমে প্রস্তুতি নাও।"
+  },
+  {
+    "id": "348c9b510586b2ccf9ec69931ad9bcc005fefe687d58b657",
+    "category": "general_question",
+    "intent": "time_management_study",
+    "patterns": [
+      "পড়ার সময় manage করতে পারি না",
+      "study time management কীভাবে করব",
+      "পড়ার routine বানাতে চাই",
+      "সময় নিয়ে পড়তে পারি না"
+    ],
+    "approved_answer": "দিনের কাজকে ছোট study session-এ ভাগ করো এবং প্রতিটি session-এর নির্দিষ্ট লক্ষ্য রাখো। বিরতিও routine-এর অংশ রাখলে ধারাবাহিকতা বজায় রাখা সহজ হয়।"
+  },
+  {
+    "id": "16dad76038002fe39d59c727748659d6c9c3b7f5fbbbc2c8",
+    "category": "general_question",
+    "intent": "note_banano",
+    "patterns": [
+      "নোট কীভাবে বানাব",
+      "ভালো notes কীভাবে লিখব",
+      "পড়ার note বানাতে পারি না",
+      "study note করার নিয়ম"
+    ],
+    "approved_answer": "নোটে পুরো বই কপি না করে key point, definition, formula এবং নিজের ভাষায় ছোট explanation রাখো।"
+  },
+  {
+    "id": "b83c001af3e68efac4055dd1355db6ef7ab7f833d958a00f",
+    "category": "general_question",
+    "intent": "memory_improve_study",
+    "patterns": [
+      "পড়া মনে থাকে না",
+      "মুখস্থ করতে পারি না",
+      "পড়া কীভাবে মনে রাখব",
+      "study memory বাড়ানোর উপায়"
+    ],
+    "approved_answer": "শুধু বারবার পড়ার বদলে active recall, practice এবং spaced revision ব্যবহার করো। বিষয়টা নিজের ভাষায় explain করাও ভালো practice।"
+  },
+  {
+    "id": "fe111a1f4701144a00ac89e309a07a8f3191b1f0c223f4a7",
+    "category": "general_question",
+    "intent": "focus_na_thaka",
+    "patterns": [
+      "পড়ায় মন বসে না",
+      "study করতে focus করতে পারি না",
+      "পড়ার সময় মন চলে যায়",
+      "concentration থাকে না"
+    ],
+    "approved_answer": "ছোট সময়ের study session দিয়ে শুরু করো, distraction কমাও এবং session-এর আগে নির্দিষ্ট একটি কাজ ঠিক করে নাও।"
+  },
+  {
+    "id": "0bcaefa9c9e5611387a0642a77d3adeddd8b646d0498b434",
+    "category": "general_question",
+    "intent": "assignment_bujhte_na_para",
+    "patterns": [
+      "Assignment বুঝি না",
+      "assignment কীভাবে করব",
+      "আমার assignment বুঝতে পারছি না",
+      "assignment solve করতে পারি না"
+    ],
+    "approved_answer": "Assignment-এর প্রশ্নটা পুরোটা দিলে আগে requirement বুঝে তারপর ধাপে ধাপে কী করতে হবে সেটা ব্যাখ্যা করা যাবে।"
+  },
+  {
+    "id": "7b120d03885dbc2121060a44d50ac81fc81b0df40f21f234",
+    "category": "general_question",
+    "intent": "research_bujhte_na_para",
+    "patterns": [
+      "Research বুঝি না",
+      "research কীভাবে করব",
+      "research শুরু করতে পারছি না",
+      "গবেষণা কীভাবে শুরু করব"
+    ],
+    "approved_answer": "Research শুরুতে topic নির্ধারণ, research question তৈরি, reliable source সংগ্রহ এবং তথ্য বিশ্লেষণের ধাপগুলো বুঝে নাও।"
+  },
+  {
+    "id": "cce4babab6754a0ca6185ee0d0cd9de47e1811fb57688516",
+    "category": "general_question",
+    "intent": "presentation_bujhte_na_para",
+    "patterns": [
+      "Presentation বানাতে পারি না",
+      "presentation কীভাবে করব",
+      "presentation বুঝি না",
+      "slide বানানো কঠিন"
+    ],
+    "approved_answer": "Presentation-এ প্রতিটি slide-এ কম text রেখে মূল point ও পরিষ্কার structure রাখো। শুরুতে introduction, তারপর main points এবং শেষে summary দিতে পারো।"
+  },
+  {
+    "id": "4cd2008243853acb4e7493dc355591fb4762def4c1c13b1b",
+    "category": "general_question",
+    "intent": "computer_bujhte_na_para",
+    "patterns": [
+      "Computer বুঝি না",
+      "কম্পিউটার শেখা কঠিন",
+      "computer basic বুঝতে পারছি না",
+      "কম্পিউটার কীভাবে শিখব"
+    ],
+    "approved_answer": "Computer basics হিসেবে operating system, files and folders, software, hardware এবং basic troubleshooting দিয়ে শুরু করতে পারো।"
+  },
+  {
+    "id": "372a279dbc4fac8e667e935f67ae45c789cdfa8f7281b70d",
+    "category": "general_question",
+    "intent": "internet_bujhte_na_para",
+    "patterns": [
+      "Internet বুঝি না",
+      "ইন্টারনেট কীভাবে কাজ করে",
+      "internet concept বুঝতে পারছি না",
+      "ইন্টারনেট শেখা কঠিন"
+    ],
+    "approved_answer": "Internet হলো connected networks-এর একটি বিশাল ব্যবস্থা। Browser, server, domain, DNS এবং HTTP/HTTPS-এর basic ধারণা দিয়ে শুরু করা যায়।"
+  },
+  {
+    "id": "7eee8541cfb20bdd810a232cd04255cf20b4da8a7916c48a",
+    "category": "general_question",
+    "intent": "browser_bujhte_na_para",
+    "patterns": [
+      "Browser বুঝি না",
+      "browser কীভাবে কাজ করে",
+      "Chrome কীভাবে কাজ করে",
+      "browser concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "Browser website-এর server থেকে data নিয়ে সেটাকে webpage হিসেবে দেখায়। URL, request, response এবং rendering-এর basic ধারণা কাজে লাগে।"
+  },
+  {
+    "id": "8bd80c8329f90187fd496559f44dd40e528f7ad8d8095085",
+    "category": "general_question",
+    "intent": "website_banano_bujhte_na_para",
+    "patterns": [
+      "Website বানানো বুঝি না",
+      "website কীভাবে বানাব",
+      "web development বুঝি না",
+      "website development কঠিন"
+    ],
+    "approved_answer": "Website development-এর জন্য HTML, CSS ও JavaScript-এর basic দিয়ে শুরু করতে পারো। পরে backend ও database প্রয়োজন অনুযায়ী শেখা যায়।"
+  },
+  {
+    "id": "19dc867eb5024d9269dac54d46790ee5991a8c81aa0431f0",
+    "category": "general_question",
+    "intent": "frontend_bujhte_na_para",
+    "patterns": [
+      "Frontend বুঝি না",
+      "frontend development কী",
+      "frontend শেখা কঠিন",
+      "frontend কীভাবে শিখব"
+    ],
+    "approved_answer": "Frontend হলো user যে অংশটা browser-এ দেখে ও ব্যবহার করে। HTML, CSS এবং JavaScript হলো এর মূল ভিত্তি।"
+  },
+  {
+    "id": "066d17a40ed749708b4dd3d3d39abeeed13d4522ad8d4356",
+    "category": "general_question",
+    "intent": "backend_bujhte_na_para",
+    "patterns": [
+      "Backend বুঝি না",
+      "backend development কী",
+      "backend শেখা কঠিন",
+      "backend কীভাবে শিখব"
+    ],
+    "approved_answer": "Backend server-side logic, database এবং API-এর মতো কাজ পরিচালনা করে। Node.js, Python, PHP বা অন্য technology দিয়ে backend শেখা যায়।"
+  },
+  {
+    "id": "a92e78fdefc4649b7d3d0e3de80e79d810f15ca738519010",
+    "category": "general_question",
+    "intent": "full_stack_bujhte_na_para",
+    "patterns": [
+      "Full stack বুঝি না",
+      "full stack development কী",
+      "full stack শেখা কঠিন",
+      "full stack কীভাবে শিখব"
+    ],
+    "approved_answer": "Full stack development-এ frontend, backend এবং সাধারণত database ও deployment-এর কাজও অন্তর্ভুক্ত থাকে।"
+  },
+  {
+    "id": "c7bdfc8131140b6e12c12040d76e0f1ba9f7ee7056cb3126",
+    "category": "general_question",
+    "intent": "mobile_app_development_bujhte_na_para",
+    "patterns": [
+      "Mobile app development বুঝি না",
+      "app বানানো কীভাবে শিখব",
+      "mobile app coding কঠিন",
+      "Android app development বুঝি না"
+    ],
+    "approved_answer": "Mobile app development-এর জন্য Android, iOS বা cross-platform technology বেছে নিতে পারো। প্রথমে একটি platform ও language ধরে basic শেখা সুবিধাজনক।"
+  },
+  {
+    "id": "709bbbdc12644263140ab0fc0b094bde482663799084567f",
+    "category": "general_question",
+    "intent": "software_bujhte_na_para",
+    "patterns": [
+      "Software বুঝি না",
+      "software কী",
+      "software কীভাবে কাজ করে",
+      "software development বুঝতে পারছি না"
+    ],
+    "approved_answer": "Software হলো computer বা device-কে নির্দিষ্ট কাজ করানোর জন্য তৈরি program ও related components-এর সমষ্টি।"
+  },
+  {
+    "id": "f381340cb85c9b909877f4afc87caa838d335b7ed043fac4",
+    "category": "general_question",
+    "intent": "computer_science_bujhte_na_para",
+    "patterns": [
+      "Computer Science বুঝি না",
+      "CSE পড়া কঠিন",
+      "computer science কীভাবে শিখব",
+      "CSE concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "Computer Science অনেক বড় ক্ষেত্র। Programming, data structures, algorithms, databases, operating systems এবং networks-এর মতো বিষয় ধাপে ধাপে শেখা যায়।"
+  },
+  {
+    "id": "cf572313945243e4390ea6be6550851ec66c79da67b48a4f",
+    "category": "general_question",
+    "intent": "data_structure_bujhte_na_para",
+    "patterns": [
+      "Data structure বুঝি না",
+      "data structure কী",
+      "data structure শেখা কঠিন",
+      "data structure কীভাবে শিখব"
+    ],
+    "approved_answer": "Data structure হলো data সংগঠিত ও ব্যবহারের পদ্ধতি। Array, linked list, stack, queue, tree এবং graph দিয়ে ধাপে ধাপে শুরু করতে পারো।"
+  },
+  {
+    "id": "310f61476281c175c8ee453cc884b0aef49051aa6e765f9c",
+    "category": "general_question",
+    "intent": "sql_bujhte_na_para",
+    "patterns": [
+      "SQL বুঝি না",
+      "SQL query বুঝতে পারছি না",
+      "SQL কীভাবে শিখব",
+      "database query কঠিন"
+    ],
+    "approved_answer": "SQL শেখার জন্য SELECT, INSERT, UPDATE, DELETE, WHERE, JOIN, GROUP BY এবং ORDER BY-এর basic query practice করো।"
+  },
+  {
+    "id": "9e26c8c11860bff2686404be1e18240118c952421474f046",
+    "category": "general_question",
+    "intent": "linux_bujhte_na_para",
+    "patterns": [
+      "Linux বুঝি না",
+      "Linux command বুঝতে পারছি না",
+      "Linux কীভাবে শিখব",
+      "Linux শেখা কঠিন"
+    ],
+    "approved_answer": "Linux শেখার সময় terminal, file system, permissions এবং basic commands যেমন ls, cd, cp, mv, mkdir ও rm দিয়ে শুরু করতে পারো।"
+  },
+  {
+    "id": "e8a40f0a366ae45b4ca92fbd73578cea33a0e5f28acd76c0",
+    "category": "general_question",
+    "intent": "command_line_bujhte_na_para",
+    "patterns": [
+      "Command line বুঝি না",
+      "terminal কীভাবে ব্যবহার করব",
+      "command line কঠিন",
+      "terminal command বুঝতে পারছি না"
+    ],
+    "approved_answer": "Command line-এ text command দিয়ে computer-এর কাজ করা হয়। প্রথমে navigation, file management এবং basic commands practice করো।"
+  },
+  {
+    "id": "ae01c05994eac89465738d6a21b334a2e15c9d40f8de76f5",
+    "category": "general_question",
+    "intent": "cloud_bujhte_na_para",
+    "patterns": [
+      "Cloud বুঝি না",
+      "cloud computing কী",
+      "cloud কীভাবে কাজ করে",
+      "cloud শেখা কঠিন"
+    ],
+    "approved_answer": "Cloud computing-এর মাধ্যমে internet-এর মাধ্যমে computing resources ব্যবহার করা যায়। Storage, server, database এবং deployment-এর basic concept দিয়ে শুরু করা যায়।"
+  },
+  {
+    "id": "a4ccc283e37c3bd01a09f54c1a2ab0caa7d80bba62878ee5",
+    "category": "general_question",
+    "intent": "ai_bujhte_na_para",
+    "patterns": [
+      "AI বুঝি না",
+      "Artificial Intelligence কী",
+      "AI কীভাবে কাজ করে",
+      "AI শেখা কঠিন"
+    ],
+    "approved_answer": "AI হলো এমন প্রযুক্তির ক্ষেত্র যেখানে computer system data ও algorithms ব্যবহার করে নির্দিষ্ট ধরনের intelligent task করতে পারে।"
+  },
+  {
+    "id": "6b5482dbb0c5b21b79a7880288884b08b030496a4624eb5e",
+    "category": "general_question",
+    "intent": "machine_learning_bujhte_na_para",
+    "patterns": [
+      "Machine Learning বুঝি না",
+      "ML কী",
+      "machine learning কীভাবে কাজ করে",
+      "ML শেখা কঠিন"
+    ],
+    "approved_answer": "Machine Learning-এ data থেকে pattern শেখানোর জন্য algorithms ব্যবহার করা হয়। আগে Python, statistics এবং basic programming জানা উপকারী।"
+  },
+  {
+    "id": "c60c3e00b64191780b7596eb2ea1dd431ff0e338e67738a0",
+    "category": "general_question",
+    "intent": "data_science_bujhte_na_para",
+    "patterns": [
+      "Data Science বুঝি না",
+      "data science কী",
+      "data science শেখা কঠিন",
+      "data science কীভাবে শিখব"
+    ],
+    "approved_answer": "Data Science-এ data সংগ্রহ, পরিষ্কার, বিশ্লেষণ ও visualization-এর পাশাপাশি statistics এবং programming ব্যবহার করা হয়।"
+  },
+  {
+    "id": "ece06ac1b6227b55b822ab2f3858e64aa5b7dbab4431f7e6",
+    "category": "general_question",
+    "intent": "cyber_security_bujhte_na_para",
+    "patterns": [
+      "Cyber Security বুঝি না",
+      "cyber security কী",
+      "cyber security শেখা কঠিন",
+      "security concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "Cyber Security computer systems, networks এবং data-কে unauthorized access বা বিভিন্ন threat থেকে সুরক্ষিত রাখার ক্ষেত্র।"
+  },
+  {
+    "id": "2990bbec4b3c8716efd27e8e3b3763357ccb504ace9ea36b",
+    "category": "general_question",
+    "intent": "networking_bujhte_na_para",
+    "patterns": [
+      "Networking বুঝি না",
+      "computer network কী",
+      "networking শেখা কঠিন",
+      "network concept বুঝতে পারছি না"
+    ],
+    "approved_answer": "Networking শেখার জন্য IP address, DNS, router, switch, TCP/IP এবং HTTP-এর basic concept দিয়ে শুরু করতে পারো।"
+  },
+  {
+    "id": "5c04d466fda5fae2abc02695866f17f05e167c290d95bc7b",
+    "category": "general_question",
+    "intent": "operating_system_bujhte_na_para",
+    "patterns": [
+      "Operating System বুঝি না",
+      "OS কী",
+      "operating system কীভাবে কাজ করে",
+      "OS concept কঠিন"
+    ],
+    "approved_answer": "Operating System computer-এর hardware ও software resources পরিচালনা করে। Process, memory, file system এবং permissions এর গুরুত্বপূর্ণ অংশ।"
+  },
+  {
+    "id": "32a28988f971cafd2b6c07bee30d17a07d99608f718480bf",
+    "category": "general_question",
+    "intent": "recursion_bujhte_na_para",
+    "patterns": [
+      "Recursion বুঝি না",
+      "recursive function বুঝতেছি না",
+      "recursion কী",
+      "recursion শেখা কঠিন"
+    ],
+    "approved_answer": "Recursion-এ একটি function নিজেরই একটি ছোট version-কে call করে। Base case এবং recursive case বোঝা সবচেয়ে গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "f4d5925636e1670057b20de3163d98038deace676560256b",
+    "category": "general_question",
+    "intent": "conditional_bujhte_na_para",
+    "patterns": [
+      "if else বুঝি না",
+      "condition বুঝতে পারছি না",
+      "conditional statement কী",
+      "if else কীভাবে কাজ করে"
+    ],
+    "approved_answer": "Conditional statement কোনো condition সত্য বা মিথ্যা হওয়ার ওপর ভিত্তি করে আলাদা code চালায়। if, else এবং else if সাধারণভাবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "5f2a6a9fc8cafb760cdc7e4b00d91a7d5441e78c0ad04c84",
+    "category": "general_question",
+    "intent": "syntax_error_bujhte_na_para",
+    "patterns": [
+      "Syntax error বুঝি না",
+      "syntax error কেন আসে",
+      "syntax ভুল বুঝতে পারছি না",
+      "code syntax error দেখাচ্ছে"
+    ],
+    "approved_answer": "Syntax error সাধারণত programming language-এর নিয়ম অনুযায়ী code লেখা না হলে আসে। Error-এর line ও message দেখে ভুলটা খুঁজে বের করা যায়।"
+  },
+  {
+    "id": "456a49148de51f7e4f2df900a3ad2b118ad1433d653caceb",
+    "category": "general_question",
+    "intent": "programming_language_choose",
+    "patterns": [
+      "কোন programming language শিখব",
+      "কোন coding language ভালো",
+      "শুরুতে কোন language শিখব",
+      "কোন programming language আমার জন্য"
+    ],
+    "approved_answer": "তোমার লক্ষ্য অনুযায়ী language বেছে নেওয়া ভালো। Web-এর জন্য JavaScript, beginner-friendly general programming-এর জন্য Python, আর নির্দিষ্ট platform-এর জন্য অন্য language প্রয়োজন হতে পারে।"
+  },
+  {
+    "id": "ba3915d173efb4a147423d7a1ad96e10ca577677b4510507",
+    "category": "general_question",
+    "intent": "coding_career_bujhte_na_para",
+    "patterns": [
+      "Coding দিয়ে career করা যাবে",
+      "programming career কীভাবে শুরু করব",
+      "coding শিখে কী কাজ পাব",
+      "programming career বুঝি না"
+    ],
+    "approved_answer": "Coding দিয়ে software development, web development, mobile development, data, automationসহ বিভিন্ন career path-এ যাওয়া যায়। নিজের আগ্রহ অনুযায়ী একটি path বেছে skill ও project তৈরি করা যায়।"
+  },
+  {
+    "id": "c429e7ee27532689c074e921b0a2d3b48ff0fb9926177282",
+    "category": "general_question",
+    "intent": "coding_learning_routine",
+    "patterns": [
+      "coding শেখার routine চাই",
+      "প্রতিদিন coding কীভাবে শিখব",
+      "coding শেখার daily routine",
+      "programming study plan চাই"
+    ],
+    "approved_answer": "একটি সহজ routine হতে পারে: কিছু সময় concept শেখা, কিছু সময় problem solving, আর কিছু সময় project practice। ধারাবাহিকতা রাখাই গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "bfd0d69b460e074026fe478543e3c3e5fa668ea502157844",
+    "category": "general_question",
+    "intent": "study_plan_bujhte_na_para",
+    "patterns": [
+      "Study plan বুঝি না",
+      "পড়ার plan কীভাবে করব",
+      "study schedule বানাতে পারি না",
+      "পড়াশোনার plan চাই"
+    ],
+    "approved_answer": "সিলেবাস ও available time দেখে বিষয়গুলো ভাগ করো। প্রতিদিনের ছোট লক্ষ্য, revision এবং practice-এর জন্য আলাদা সময় রাখলে plan বাস্তবসম্মত হয়।"
+  },
+  {
+    "id": "6494923b0f19c4932d8688091662fa816e2e10ce0e52bb78",
+    "category": "general_question",
+    "intent": "online_learning_bujhte_na_para",
+    "patterns": [
+      "Online learning বুঝি না",
+      "online course কীভাবে করব",
+      "অনলাইনে পড়াশোনা করতে পারি না",
+      "online class বুঝতে পারছি না"
+    ],
+    "approved_answer": "Online learning-এ নির্দিষ্ট schedule, notes, practice এবং regular revision রাখলে সুবিধা হয়। ভিডিও দেখার পাশাপাশি নিজে practice করাও জরুরি।"
+  },
+  {
+    "id": "07892eeeb3877ec0aba24db57929812a5396f146ef540439",
+    "category": "general_question",
+    "intent": "tutorial_bujhte_na_para",
+    "patterns": [
+      "Tutorial বুঝি না",
+      "coding tutorial বুঝতে পারছি না",
+      "ভিডিও দেখে coding বুঝি না",
+      "tutorial follow করতে পারি না"
+    ],
+    "approved_answer": "Tutorial একবারে পুরোটা অনুসরণ করার বদলে ছোট অংশ দেখে নিজে code লিখে practice করো। আটকে গেলে নির্দিষ্ট অংশটি আলাদা করে বিশ্লেষণ করো।"
+  },
+  {
+    "id": "c99a62e7a7cae9d5fc2a93eea108e4c3d2971988edf653f2",
+    "category": "general_question",
+    "intent": "code_copy_na_kore_shikha",
+    "patterns": [
+      "code copy করে ফেলি",
+      "নিজে code লিখতে পারি না",
+      "tutorial দেখে শুধু copy করি",
+      "coding নিজে করতে পারি না"
+    ],
+    "approved_answer": "প্রথমে example দেখে বুঝে নাও, তারপর না দেখে একই কাজ নিজে লিখে চেষ্টা করো। পরে নিজের মতো পরিবর্তন করলে শেখাটা আরও শক্ত হয়।"
+  },
+  {
+    "id": "e71d66aca0c639603f08cb80136e1dcca570efaf56e51a7b",
+    "category": "general_question",
+    "intent": "project_error_solve",
+    "patterns": [
+      "project-এ অনেক error",
+      "project কাজ করছে না",
+      "coding project আটকে গেছে",
+      "project-এর bug বুঝি না"
+    ],
+    "approved_answer": "Project-টা ছোট অংশে ভাগ করে কোন অংশে সমস্যা হচ্ছে সেটা বের করো। Error message, relevant code এবং expected behavior দিলে troubleshooting সহজ হবে।"
+  },
+  {
+    "id": "03e3c5d98cd054eae2dec05c2079a8ed7da6d1de3b3ab68a",
+    "category": "general_question",
+    "intent": "coding_question_answer",
+    "patterns": [
+      "একটা coding question আছে",
+      "coding নিয়ে প্রশ্ন আছে",
+      "programming question করতে পারি",
+      "কোডিংয়ের একটা প্রশ্ন আছে"
+    ],
+    "approved_answer": "অবশ্যই। তোমার coding question বা code snippet পাঠাও, আমি বিষয়টা বুঝে উত্তর দেওয়ার চেষ্টা করব।"
+  },
+  {
+    "id": "c6e45606fc4b8d30bf9d9b991dba58a23c7346e460145615",
+    "category": "general_question",
+    "intent": "study_question_answer",
+    "patterns": [
+      "পড়ালেখা নিয়ে প্রশ্ন আছে",
+      "study question আছে",
+      "পড়ার একটা প্রশ্ন আছে",
+      "একটা academic question আছে"
+    ],
+    "approved_answer": "অবশ্যই। প্রশ্নটা পাঠাও। বিষয়টা অনুযায়ী সহজভাবে ব্যাখ্যা করে উত্তর দিতে পারি।"
+  },
+  {
+    "id": "ea759b3d58c877366e7a6e2d4a36d0f66f6dfc5ee6be7e59",
+    "category": "general_question",
+    "intent": "concept_explain_request",
+    "patterns": [
+      "একটা concept বুঝিয়ে দাও",
+      "এই concept বুঝি না",
+      "conceptটা সহজ করে বলো",
+      "বিষয়টা বুঝিয়ে দাও"
+    ],
+    "approved_answer": "অবশ্যই। যে concept-টা বুঝতে সমস্যা হচ্ছে সেটা বলো, আমি সহজ ভাষায় exampleসহ বুঝিয়ে দেব।"
+  },
+  {
+    "id": "fd0b7440f4201df03a0db4f2ba116fe102d2b244414c4dac",
+    "category": "general_question",
+    "intent": "anything_bujhte_na_para",
+    "patterns": [
+      "কিছুই বুঝতেছি না",
+      "কোনো কিছু বুঝতে পারছি না",
+      "সবকিছু কঠিন লাগছে",
+      "কীভাবে শুরু করব বুঝি না"
+    ],
+    "approved_answer": "চিন্তা করো না। তুমি কোন বিষয় নিয়ে কাজ করছো সেটা বলো, তারপর সমস্যাটা ছোট ছোট অংশে ভাগ করে একসাথে বুঝে নেওয়া যাবে।"
+  },
+  {
+    "id": "c73f2419a573be44c736e7a322958068b8fc475cfb7d06c9",
+    "category": "general_question",
+    "intent": "help_with_learning",
+    "patterns": [
+      "আমাকে পড়তে help করো",
+      "শেখার ব্যাপারে help চাই",
+      "কিছু শেখার জন্য সাহায্য চাই",
+      "learning help দরকার"
+    ],
+    "approved_answer": "অবশ্যই। তুমি কী শিখতে চাও এবং বর্তমানে কোন জায়গায় আছো সেটা বললে সেই অনুযায়ী সহজভাবে শুরু করা যাবে।"
+  }
+]

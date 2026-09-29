@@ -46,12 +46,10 @@ export async function withRetry<T>(fn: () => Promise<T>, options: RetryOptions =
   throw lastErr;
 }
 
-/** Retryable for network/5xx/429-style failures; not for 4xx client errors. */
 export function isRetryableHttpError(err: unknown): boolean {
   if (err instanceof Error && "status" in err) {
     const status = (err as Error & { status?: number }).status;
     if (status !== undefined) return status >= 500 || status === 429;
   }
-  // Network errors (fetch throws TypeError, AbortError on timeout) are retryable.
   return true;
 }
