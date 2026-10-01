@@ -9,7 +9,9 @@ import { settingsRouter } from "./routes/settings.routes";
 import { notificationsRouter } from "./routes/notifications.routes";
 import { adminApiRateLimit, webhookRateLimit } from "./middleware/rateLimit";
 
+
 export const app = express();
+app.set("trust proxy", 1);
 
 app.use(express.json());
 app.use(

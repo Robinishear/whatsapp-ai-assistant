@@ -1,6 +1,5 @@
 import { prisma } from "../config/prisma";
 import { env } from "../config/env";
-
 const SETTINGS_ROW_ID = "singleton";
 
 export interface ActiveAiSettings {
